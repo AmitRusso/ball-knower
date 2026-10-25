@@ -1,0 +1,63 @@
+/* Ball Knower design tokens — see docs/02-design-system.md */
+
+:root {
+  /* Greens (fairway) */
+  --bk-green-900: #0E2618;
+  --bk-green-800: #123322;
+  --bk-green-700: #173D2A;
+  --bk-green-650: #1A4530;
+  --bk-green-500: #2C6644;
+
+  /* Neutrals (scoreboard) */
+  --bk-cream: #F3EEDF;
+  --bk-cream-200: #E8E1CC;
+  --bk-cream-50: #FBF8EE;
+  --bk-rule: #D9D4C4;
+  --bk-ink: #14201A;
+  --bk-ink-muted: #4F554C;
+
+  /* Accents */
+  --bk-gold: #F2B632;
+  --bk-gold-hover: #FFD36B;
+  --bk-red: #A8321F;
+
+  /* Tiers: background / foreground */
+  --bk-tier-bench-bg: #D9D4C4;   --bk-tier-bench-fg: var(--bk-ink);
+  --bk-tier-role-bg: #A9C4A0;    --bk-tier-role-fg: var(--bk-ink);
+  --bk-tier-starter-bg: #2E6B45; --bk-tier-starter-fg: var(--bk-cream);
+  --bk-tier-allstar-bg: #1E4E8C; --bk-tier-allstar-fg: var(--bk-cream);
+  --bk-tier-knower-bg: #F2B632;  --bk-tier-knower-fg: var(--bk-ink);
+  --bk-tier-ob-bg: #A8321F;      --bk-tier-ob-fg: var(--bk-cream);
+
+  /* Tier arcs on dark backgrounds */
+  --bk-arc-allstar: #7FAEEA;
+  --bk-arc-ob: #E2735E;
+
+  /* Type */
+  --bk-font-display: 'Graduate', Georgia, serif;
+  --bk-font-body: 'Archivo', system-ui, sans-serif;
+  --bk-font-mono: 'Space Mono', ui-monospace, monospace;
+  --bk-tracking-label: 0.1em;
+
+  /* Shape */
+  --bk-radius-chip: 3px;
+  --bk-radius-card: 6px;
+  --bk-radius-pill: 999px;
+  --bk-shadow-hard: 0 6px 0 var(--bk-green-900);
+  --bk-shadow-hard-sm: 0 4px 0 var(--bk-ink);
+
+  /* Layout */
+  --bk-gutter: 24px;
+  --bk-column-max: 430px;
+
+  /* Patterns */
+  --bk-fairway: repeating-linear-gradient(90deg, var(--bk-green-650) 0 28px, var(--bk-green-700) 28px 56px);
+
+  /* Motion */
+  --bk-flight-duration: 1400ms;
+  --bk-flight-ease: cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --bk-flight-duration: 0ms; }
+}

@@ -31,3 +31,7 @@ Thumbs.db
 .vscode/*
 !.vscode/extensions.json
 .idea/
+
+# vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*

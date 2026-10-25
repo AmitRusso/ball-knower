@@ -33,18 +33,21 @@ If code and docs disagree, ask before changing either. When a decision changes, 
 
 ## Commands
 
-Fill these in during Milestone 0 once the project is scaffolded.
-
 ```bash
-pnpm dev            # local dev server
-pnpm check          # svelte-check + tsc
+pnpm dev            # vite dev server (http://localhost:5173)
+pnpm check          # wrangler types --check + svelte-check (tsc)
 pnpm lint           # eslint + prettier --check
-pnpm test           # vitest
-pnpm test:e2e       # playwright
-pnpm db:migrate     # wrangler d1 migrations apply (local)
-pnpm db:seed        # load data/sample-hole.json into local D1
-pnpm deploy         # wrangler pages deploy
+pnpm format         # prettier --write
+pnpm test           # vitest (unit, *.spec.ts / *.test.ts under src/)
+pnpm test:e2e       # playwright (e2e/*.e2e.ts) against build + wrangler pages dev on :4173
+pnpm preview        # wrangler pages dev on the built output (D1/KV bindings available)
+pnpm cf:types       # regenerate worker-configuration.d.ts after editing wrangler.jsonc
+pnpm deploy         # build + wrangler pages deploy (needs `wrangler login`)
 ```
+
+Added in M2: `pnpm db:migrate` (wrangler d1 migrations apply, local, from `db/migrations/`) and `pnpm db:seed` (load `data/sample-hole.json` into local D1).
+
+Notes: SvelteKit 3 — Kit config lives in `vite.config.ts` (no `svelte.config.js`); `#lib/*` is the import alias for `src/lib/*`. Cloudflare config is `wrangler.jsonc` (bindings `DB` → D1, `HOLES` → KV; placeholder IDs until M2). `src/lib/styles/tokens.css` is a verbatim copy of `design/tokens.css` — edit the design file and re-copy; a unit test enforces they match.
 
 ## Hard rules
 
@@ -67,4 +70,4 @@ pnpm deploy         # wrangler pages deploy
 
 ## Current state
 
-Docs, mockups, schema draft and one sample hole exist. No app code yet. Next step: **Milestone 0** in `docs/05-roadmap.md`.
+M0 scaffold done: SvelteKit app with tokens, self-hosted fonts, a styled placeholder home page, CI (check/lint/test). Not yet deployed to Cloudflare Pages. Next step: finish the M0 deploy, then **Milestone 1** in `docs/05-roadmap.md`.

@@ -6,7 +6,7 @@ Every day, everyone gets the same five sports prompts — *"Name a non-QB NFL MV
 
 Inspired by [Krillion](https://krillion.io) (rare-answer trivia) and [Farflung](https://farflung.game) (the same idea on a world map), and by the rarity score in [Immaculate Grid](https://www.sports-reference.com/immaculate-grid/).
 
-> **Status:** pre-development. The design, rules and stack are settled; the code has not been scaffolded yet. See [`docs/05-roadmap.md`](docs/05-roadmap.md).
+> **Status:** Milestone 0 (scaffold) — the SvelteKit app is set up; gameplay starts in M1. See [`docs/05-roadmap.md`](docs/05-roadmap.md).
 
 ---
 
@@ -59,11 +59,11 @@ ball-knower/
 
 ## Getting started
 
-Nothing to install yet. Open `design/mockups/index.html` in a browser to see the screens, then start Claude Code in this folder:
+Requires Node 22+ and pnpm 10.
 
 ```bash
-cd ball-knower
-claude
+pnpm install
+pnpm dev        # http://localhost:5173
 ```
 
-and ask it to begin **Milestone 0** from `docs/05-roadmap.md`. `CLAUDE.md` tells it everything else.
+`CLAUDE.md` lists every command. Open `design/mockups/index.html` in a browser to see the target screens.

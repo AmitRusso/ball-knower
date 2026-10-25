@@ -1,0 +1,22 @@
+# Package Managers
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+bun.lock
+bun.lockb
+
+# Miscellaneous
+/static/
+
+# Generated
+worker-configuration.d.ts
+
+# Verbatim copy of design/tokens.css (checked by tokens.spec.ts)
+src/lib/styles/tokens.css
+
+# Pre-existing reference material, kept as authored
+/design/
+/docs/
+/data/
+/db/
+*.md

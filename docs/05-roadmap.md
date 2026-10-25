@@ -4,12 +4,12 @@ Each milestone ends with something playable or deployable. Tick boxes as you go.
 
 ## M0 — Repo and scaffold
 
-- [ ] `pnpm dlx sv create` → SvelteKit, TypeScript, Prettier, ESLint, Vitest, Playwright
-- [ ] `@sveltejs/adapter-cloudflare`, `wrangler.toml` with D1 + KV bindings (local only for now)
-- [ ] Copy `design/tokens.css` into `src/lib/styles/`, import globally
-- [ ] Self-host the three fonts (subset woff2) in `static/fonts/`
-- [ ] Fill in the **Commands** section of `CLAUDE.md`
-- [ ] GitHub Actions: `check`, `lint`, `test` on every PR
+- [x] `pnpm dlx sv create` → SvelteKit, TypeScript, Prettier, ESLint, Vitest, Playwright
+- [x] `@sveltejs/adapter-cloudflare`, `wrangler.jsonc` with D1 + KV bindings (local only for now)
+- [x] Copy `design/tokens.css` into `src/lib/styles/`, import globally
+- [x] Self-host the three fonts (subset woff2) in `static/fonts/`
+- [x] Fill in the **Commands** section of `CLAUDE.md`
+- [x] GitHub Actions: `check`, `lint`, `test` on every PR
 - [ ] Deploy an empty page to Cloudflare Pages
 
 **Done when:** a styled "BALL KNOWER" page is live on a `*.pages.dev` URL and CI is green.
