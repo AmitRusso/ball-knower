@@ -42,7 +42,7 @@ pnpm test           # vitest (unit, *.spec.ts / *.test.ts under src/)
 pnpm test:e2e       # playwright (e2e/*.e2e.ts) against build + wrangler pages dev on :4173
 pnpm preview        # wrangler pages dev on the built output (D1/KV bindings available)
 pnpm cf:types       # regenerate worker-configuration.d.ts after editing wrangler.jsonc
-pnpm deploy         # build + wrangler pages deploy (needs `wrangler login`)
+pnpm run deploy     # build + wrangler pages deploy (needs `wrangler login`; bare `pnpm deploy` is a pnpm built-in)
 ```
 
 Added in M2: `pnpm db:migrate` (wrangler d1 migrations apply, local, from `db/migrations/`) and `pnpm db:seed` (load `data/sample-hole.json` into local D1).
