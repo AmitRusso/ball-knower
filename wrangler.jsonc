@@ -1,0 +1,22 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "ball-knower",
+	"compatibility_date": "2026-10-25",
+	"compatibility_flags": ["nodejs_als"],
+	"pages_build_output_dir": ".svelte-kit/cloudflare",
+	// Local-only for now (M0). Real IDs get filled in when the remote D1/KV are created in M2.
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "ball-knower",
+			"database_id": "00000000-0000-0000-0000-000000000000",
+			"migrations_dir": "db/migrations"
+		}
+	],
+	"kv_namespaces": [
+		{
+			"binding": "HOLES",
+			"id": "00000000000000000000000000000000"
+		}
+	]
+}

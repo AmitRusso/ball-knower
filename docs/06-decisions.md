@@ -64,3 +64,12 @@ Short records of choices that were debated. Add a new entry when a decision chan
 ### D10 — Sample prompts avoid volatile answer lists (2026-10-25)
 
 Prompts whose answers can change soon (a season in progress, an award not yet given, a tournament just played) are scheduled only after the list is settled. Example: "World Cup winner" was replaced with "Summer Olympics host country" in the sample hole.
+
+### D11 — M0 scaffold details (2026-10-25)
+
+**Chose:**
+- `wrangler.jsonc` over `wrangler.toml` — it's what `sv create` and current Wrangler generate, and it gets a JSON schema for editor checks.
+- Fonts from Fontsource's prebuilt latin + latin-ext woff2 subsets (with `unicode-range`), copied into `static/fonts/`. Graduate ships latin only, which is fine — it's uppercase display text.
+- D1 migrations and `db:*` scripts deferred to M2 (the schema is still a draft and nothing reads the DB yet).
+- Playwright runs locally only for now; CI runs `check`, `lint`, `test` as the roadmap asks.
+- Prettier ignores the pre-existing `docs/`, `design/`, `data/`, `db/` and Markdown so they stay as authored.
