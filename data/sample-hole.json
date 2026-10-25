@@ -1,0 +1,1223 @@
+{
+  "_comment": "Sample hole for Milestone 1. Answer lists are real; priorShare values are ILLUSTRATIVE stand-ins for pageview-based priors. Pools contain plausible wrong answers so auto-correct can't leak correctness.",
+  "holeNo": 214,
+  "date": "2026-10-25",
+  "lengthYds": 500,
+  "secondsPerPrompt": 45,
+  "tiers": [
+    {
+      "id": "BALL_KNOWER",
+      "label": "Ball Knower",
+      "maxShare": 0.01,
+      "yards": 100
+    },
+    {
+      "id": "ALL_STAR",
+      "label": "All-Star",
+      "maxShare": 0.04,
+      "yards": 85
+    },
+    {
+      "id": "STARTER",
+      "label": "Starter",
+      "maxShare": 0.1,
+      "yards": 70
+    },
+    {
+      "id": "ROLE_PLAYER",
+      "label": "Role Player",
+      "maxShare": 0.25,
+      "yards": 55
+    },
+    {
+      "id": "BENCH_WARMER",
+      "label": "Bench Warmer",
+      "maxShare": 1.0,
+      "yards": 40
+    }
+  ],
+  "outOfBounds": {
+    "id": "OUT_OF_BOUNDS",
+    "label": "Out of Bounds",
+    "yards": 0
+  },
+  "prompts": [
+    {
+      "position": 0,
+      "league": "NFL",
+      "poolId": "nfl-players",
+      "text": "Name an NFL MVP who wasn't a quarterback.",
+      "note": "AP NFL MVP award only.",
+      "answers": [
+        {
+          "entityId": "nfl-barry-sanders",
+          "name": "Barry Sanders",
+          "priorShare": 0.1222
+        },
+        {
+          "entityId": "nfl-jim-brown",
+          "name": "Jim Brown",
+          "priorShare": 0.1047
+        },
+        {
+          "entityId": "nfl-walter-payton",
+          "name": "Walter Payton",
+          "priorShare": 0.1047
+        },
+        {
+          "entityId": "nfl-adrian-peterson",
+          "name": "Adrian Peterson",
+          "priorShare": 0.0977
+        },
+        {
+          "entityId": "nfl-lawrence-taylor",
+          "name": "Lawrence Taylor",
+          "priorShare": 0.0873
+        },
+        {
+          "entityId": "nfl-emmitt-smith",
+          "name": "Emmitt Smith",
+          "priorShare": 0.0873
+        },
+        {
+          "entityId": "nfl-o-j-simpson",
+          "name": "O.J. Simpson",
+          "priorShare": 0.0698
+        },
+        {
+          "entityId": "nfl-ladainian-tomlinson",
+          "name": "LaDainian Tomlinson",
+          "priorShare": 0.0698
+        },
+        {
+          "entityId": "nfl-earl-campbell",
+          "name": "Earl Campbell",
+          "priorShare": 0.0419
+        },
+        {
+          "entityId": "nfl-marshall-faulk",
+          "name": "Marshall Faulk",
+          "priorShare": 0.0419
+        },
+        {
+          "entityId": "nfl-marcus-allen",
+          "name": "Marcus Allen",
+          "priorShare": 0.0349
+        },
+        {
+          "entityId": "nfl-terrell-davis",
+          "name": "Terrell Davis",
+          "priorShare": 0.0314
+        },
+        {
+          "entityId": "nfl-thurman-thomas",
+          "name": "Thurman Thomas",
+          "priorShare": 0.0279
+        },
+        {
+          "entityId": "nfl-shaun-alexander",
+          "name": "Shaun Alexander",
+          "priorShare": 0.0244
+        },
+        {
+          "entityId": "nfl-paul-hornung",
+          "name": "Paul Hornung",
+          "priorShare": 0.0209
+        },
+        {
+          "entityId": "nfl-alan-page",
+          "name": "Alan Page",
+          "priorShare": 0.014
+        },
+        {
+          "entityId": "nfl-jim-taylor",
+          "name": "Jim Taylor",
+          "priorShare": 0.0105
+        },
+        {
+          "entityId": "nfl-larry-brown",
+          "name": "Larry Brown",
+          "priorShare": 0.0052
+        },
+        {
+          "entityId": "nfl-mark-moseley",
+          "name": "Mark Moseley",
+          "priorShare": 0.0035
+        }
+      ]
+    },
+    {
+      "position": 1,
+      "league": "NBA",
+      "poolId": "nba-players",
+      "text": "Name a player who averaged a triple-double over a full NBA season.",
+      "note": "Regular season averages.",
+      "answers": [
+        {
+          "entityId": "nba-russell-westbrook",
+          "name": "Russell Westbrook",
+          "priorShare": 0.5469
+        },
+        {
+          "entityId": "nba-nikola-jokic",
+          "name": "Nikola Jokić",
+          "priorShare": 0.3125
+        },
+        {
+          "entityId": "nba-oscar-robertson",
+          "name": "Oscar Robertson",
+          "priorShare": 0.1406
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "league": "NBA",
+      "poolId": "nba-franchises",
+      "text": "Name an NBA franchise with more than 4 championships.",
+      "note": "Relocated franchises count.",
+      "answers": [
+        {
+          "entityId": "nba-boston-celtics",
+          "name": "Boston Celtics",
+          "priorShare": 0.3361
+        },
+        {
+          "entityId": "nba-los-angeles-lakers",
+          "name": "Los Angeles Lakers",
+          "priorShare": 0.3193
+        },
+        {
+          "entityId": "nba-chicago-bulls",
+          "name": "Chicago Bulls",
+          "priorShare": 0.1681
+        },
+        {
+          "entityId": "nba-golden-state-warriors",
+          "name": "Golden State Warriors",
+          "priorShare": 0.1513
+        },
+        {
+          "entityId": "nba-san-antonio-spurs",
+          "name": "San Antonio Spurs",
+          "priorShare": 0.0252
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "league": "ANY",
+      "poolId": "countries",
+      "text": "Name a country that has hosted the Summer Olympics.",
+      "note": "Summer Games only. Youth Olympics don't count.",
+      "answers": [
+        {
+          "entityId": "ctry-united-states",
+          "name": "United States",
+          "priorShare": 0.2841
+        },
+        {
+          "entityId": "ctry-united-kingdom",
+          "name": "United Kingdom",
+          "priorShare": 0.1218
+        },
+        {
+          "entityId": "ctry-france",
+          "name": "France",
+          "priorShare": 0.1136
+        },
+        {
+          "entityId": "ctry-china",
+          "name": "China",
+          "priorShare": 0.0974
+        },
+        {
+          "entityId": "ctry-japan",
+          "name": "Japan",
+          "priorShare": 0.0812
+        },
+        {
+          "entityId": "ctry-greece",
+          "name": "Greece",
+          "priorShare": 0.0731
+        },
+        {
+          "entityId": "ctry-australia",
+          "name": "Australia",
+          "priorShare": 0.0487
+        },
+        {
+          "entityId": "ctry-brazil",
+          "name": "Brazil",
+          "priorShare": 0.0487
+        },
+        {
+          "entityId": "ctry-spain",
+          "name": "Spain",
+          "priorShare": 0.0244
+        },
+        {
+          "entityId": "ctry-germany",
+          "name": "Germany",
+          "priorShare": 0.0244
+        },
+        {
+          "entityId": "ctry-canada",
+          "name": "Canada",
+          "priorShare": 0.0203
+        },
+        {
+          "entityId": "ctry-italy",
+          "name": "Italy",
+          "priorShare": 0.0162
+        },
+        {
+          "entityId": "ctry-soviet-union",
+          "name": "Soviet Union",
+          "priorShare": 0.0122
+        },
+        {
+          "entityId": "ctry-south-korea",
+          "name": "South Korea",
+          "priorShare": 0.0122
+        },
+        {
+          "entityId": "ctry-mexico",
+          "name": "Mexico",
+          "priorShare": 0.0097
+        },
+        {
+          "entityId": "ctry-sweden",
+          "name": "Sweden",
+          "priorShare": 0.0041
+        },
+        {
+          "entityId": "ctry-netherlands",
+          "name": "Netherlands",
+          "priorShare": 0.0032
+        },
+        {
+          "entityId": "ctry-belgium",
+          "name": "Belgium",
+          "priorShare": 0.0024
+        },
+        {
+          "entityId": "ctry-finland",
+          "name": "Finland",
+          "priorShare": 0.0024
+        }
+      ],
+      "reviewNotes": [
+        "Decide whether 'Russia' counts for Moscow 1980 (currently: no, the host was the Soviet Union).",
+        "'England' is accepted as an alias for United Kingdom — confirm."
+      ]
+    },
+    {
+      "position": 4,
+      "league": "MLB",
+      "poolId": "mlb-pitchers",
+      "text": "Name a pitcher with 300 or more career MLB wins.",
+      "note": "Major league wins only.",
+      "answers": [
+        {
+          "entityId": "mlb-nolan-ryan",
+          "name": "Nolan Ryan",
+          "priorShare": 0.2326
+        },
+        {
+          "entityId": "mlb-cy-young",
+          "name": "Cy Young",
+          "priorShare": 0.1453
+        },
+        {
+          "entityId": "mlb-roger-clemens",
+          "name": "Roger Clemens",
+          "priorShare": 0.1047
+        },
+        {
+          "entityId": "mlb-randy-johnson",
+          "name": "Randy Johnson",
+          "priorShare": 0.093
+        },
+        {
+          "entityId": "mlb-greg-maddux",
+          "name": "Greg Maddux",
+          "priorShare": 0.0814
+        },
+        {
+          "entityId": "mlb-walter-johnson",
+          "name": "Walter Johnson",
+          "priorShare": 0.0698
+        },
+        {
+          "entityId": "mlb-tom-seaver",
+          "name": "Tom Seaver",
+          "priorShare": 0.0465
+        },
+        {
+          "entityId": "mlb-christy-mathewson",
+          "name": "Christy Mathewson",
+          "priorShare": 0.0349
+        },
+        {
+          "entityId": "mlb-steve-carlton",
+          "name": "Steve Carlton",
+          "priorShare": 0.0291
+        },
+        {
+          "entityId": "mlb-tom-glavine",
+          "name": "Tom Glavine",
+          "priorShare": 0.0291
+        },
+        {
+          "entityId": "mlb-warren-spahn",
+          "name": "Warren Spahn",
+          "priorShare": 0.0233
+        },
+        {
+          "entityId": "mlb-pete-alexander",
+          "name": "Pete Alexander",
+          "priorShare": 0.0174
+        },
+        {
+          "entityId": "mlb-gaylord-perry",
+          "name": "Gaylord Perry",
+          "priorShare": 0.0174
+        },
+        {
+          "entityId": "mlb-don-sutton",
+          "name": "Don Sutton",
+          "priorShare": 0.0145
+        },
+        {
+          "entityId": "mlb-phil-niekro",
+          "name": "Phil Niekro",
+          "priorShare": 0.0145
+        },
+        {
+          "entityId": "mlb-lefty-grove",
+          "name": "Lefty Grove",
+          "priorShare": 0.0116
+        },
+        {
+          "entityId": "mlb-kid-nichols",
+          "name": "Kid Nichols",
+          "priorShare": 0.0058
+        },
+        {
+          "entityId": "mlb-old-hoss-radbourn",
+          "name": "Old Hoss Radbourn",
+          "priorShare": 0.0058
+        },
+        {
+          "entityId": "mlb-early-wynn",
+          "name": "Early Wynn",
+          "priorShare": 0.0058
+        },
+        {
+          "entityId": "mlb-eddie-plank",
+          "name": "Eddie Plank",
+          "priorShare": 0.0047
+        },
+        {
+          "entityId": "mlb-pud-galvin",
+          "name": "Pud Galvin",
+          "priorShare": 0.0035
+        },
+        {
+          "entityId": "mlb-tim-keefe",
+          "name": "Tim Keefe",
+          "priorShare": 0.0035
+        },
+        {
+          "entityId": "mlb-john-clarkson",
+          "name": "John Clarkson",
+          "priorShare": 0.0029
+        },
+        {
+          "entityId": "mlb-mickey-welch",
+          "name": "Mickey Welch",
+          "priorShare": 0.0029
+        }
+      ]
+    }
+  ],
+  "pools": {
+    "nfl-players": {
+      "name": "NFL players (sample)",
+      "entities": [
+        {
+          "id": "nfl-jim-brown",
+          "name": "Jim Brown",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-paul-hornung",
+          "name": "Paul Hornung",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-jim-taylor",
+          "name": "Jim Taylor",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-alan-page",
+          "name": "Alan Page",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-larry-brown",
+          "name": "Larry Brown",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-o-j-simpson",
+          "name": "O.J. Simpson",
+          "hint": "NFL",
+          "aliases": [
+            "oj simpson",
+            "orenthal james simpson"
+          ]
+        },
+        {
+          "id": "nfl-walter-payton",
+          "name": "Walter Payton",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-earl-campbell",
+          "name": "Earl Campbell",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-mark-moseley",
+          "name": "Mark Moseley",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-marcus-allen",
+          "name": "Marcus Allen",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-lawrence-taylor",
+          "name": "Lawrence Taylor",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-thurman-thomas",
+          "name": "Thurman Thomas",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-emmitt-smith",
+          "name": "Emmitt Smith",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-barry-sanders",
+          "name": "Barry Sanders",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-terrell-davis",
+          "name": "Terrell Davis",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-marshall-faulk",
+          "name": "Marshall Faulk",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-shaun-alexander",
+          "name": "Shaun Alexander",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-ladainian-tomlinson",
+          "name": "LaDainian Tomlinson",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-adrian-peterson",
+          "name": "Adrian Peterson",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-jerry-rice",
+          "name": "Jerry Rice",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-christian-mccaffrey",
+          "name": "Christian McCaffrey",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-derrick-henry",
+          "name": "Derrick Henry",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-saquon-barkley",
+          "name": "Saquon Barkley",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-aaron-donald",
+          "name": "Aaron Donald",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-reggie-white",
+          "name": "Reggie White",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-tom-brady",
+          "name": "Tom Brady",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-peyton-manning",
+          "name": "Peyton Manning",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-patrick-mahomes",
+          "name": "Patrick Mahomes",
+          "hint": "NFL"
+        },
+        {
+          "id": "nfl-eric-dickerson",
+          "name": "Eric Dickerson",
+          "hint": "NFL"
+        }
+      ]
+    },
+    "nba-players": {
+      "name": "NBA players (sample)",
+      "entities": [
+        {
+          "id": "nba-russell-westbrook",
+          "name": "Russell Westbrook",
+          "hint": "NBA"
+        },
+        {
+          "id": "nba-oscar-robertson",
+          "name": "Oscar Robertson",
+          "hint": "NBA",
+          "aliases": [
+            "big o"
+          ]
+        },
+        {
+          "id": "nba-nikola-jokic",
+          "name": "Nikola Jokić",
+          "hint": "NBA"
+        },
+        {
+          "id": "nba-lebron-james",
+          "name": "LeBron James",
+          "hint": "NBA"
+        },
+        {
+          "id": "nba-magic-johnson",
+          "name": "Magic Johnson",
+          "hint": "NBA",
+          "aliases": [
+            "earvin johnson"
+          ]
+        },
+        {
+          "id": "nba-luka-doncic",
+          "name": "Luka Dončić",
+          "hint": "NBA"
+        },
+        {
+          "id": "nba-jason-kidd",
+          "name": "Jason Kidd",
+          "hint": "NBA"
+        },
+        {
+          "id": "nba-james-harden",
+          "name": "James Harden",
+          "hint": "NBA"
+        },
+        {
+          "id": "nba-wilt-chamberlain",
+          "name": "Wilt Chamberlain",
+          "hint": "NBA"
+        }
+      ]
+    },
+    "nba-franchises": {
+      "name": "NBA franchises",
+      "entities": [
+        {
+          "id": "nba-atlanta-hawks",
+          "name": "Atlanta Hawks",
+          "hint": "NBA",
+          "aliases": [
+            "milwaukee hawks",
+            "st louis hawks",
+            "tri cities blackhawks"
+          ]
+        },
+        {
+          "id": "nba-boston-celtics",
+          "name": "Boston Celtics",
+          "hint": "NBA"
+        },
+        {
+          "id": "nba-brooklyn-nets",
+          "name": "Brooklyn Nets",
+          "hint": "NBA",
+          "aliases": [
+            "new jersey nets"
+          ]
+        },
+        {
+          "id": "nba-charlotte-hornets",
+          "name": "Charlotte Hornets",
+          "hint": "NBA",
+          "aliases": [
+            "charlotte bobcats"
+          ]
+        },
+        {
+          "id": "nba-chicago-bulls",
+          "name": "Chicago Bulls",
+          "hint": "NBA"
+        },
+        {
+          "id": "nba-cleveland-cavaliers",
+          "name": "Cleveland Cavaliers",
+          "hint": "NBA",
+          "aliases": [
+            "cavs"
+          ]
+        },
+        {
+          "id": "nba-dallas-mavericks",
+          "name": "Dallas Mavericks",
+          "hint": "NBA",
+          "aliases": [
+            "mavs"
+          ]
+        },
+        {
+          "id": "nba-denver-nuggets",
+          "name": "Denver Nuggets",
+          "hint": "NBA"
+        },
+        {
+          "id": "nba-detroit-pistons",
+          "name": "Detroit Pistons",
+          "hint": "NBA",
+          "aliases": [
+            "fort wayne pistons"
+          ]
+        },
+        {
+          "id": "nba-golden-state-warriors",
+          "name": "Golden State Warriors",
+          "hint": "NBA",
+          "aliases": [
+            "philadelphia warriors",
+            "san francisco warriors",
+            "warriors"
+          ]
+        },
+        {
+          "id": "nba-houston-rockets",
+          "name": "Houston Rockets",
+          "hint": "NBA",
+          "aliases": [
+            "san diego rockets"
+          ]
+        },
+        {
+          "id": "nba-indiana-pacers",
+          "name": "Indiana Pacers",
+          "hint": "NBA"
+        },
+        {
+          "id": "nba-la-clippers",
+          "name": "LA Clippers",
+          "hint": "NBA",
+          "aliases": [
+            "buffalo braves",
+            "los angeles clippers",
+            "san diego clippers"
+          ]
+        },
+        {
+          "id": "nba-los-angeles-lakers",
+          "name": "Los Angeles Lakers",
+          "hint": "NBA",
+          "aliases": [
+            "la lakers",
+            "lakers",
+            "minneapolis lakers"
+          ]
+        },
+        {
+          "id": "nba-memphis-grizzlies",
+          "name": "Memphis Grizzlies",
+          "hint": "NBA",
+          "aliases": [
+            "vancouver grizzlies"
+          ]
+        },
+        {
+          "id": "nba-miami-heat",
+          "name": "Miami Heat",
+          "hint": "NBA"
+        },
+        {
+          "id": "nba-milwaukee-bucks",
+          "name": "Milwaukee Bucks",
+          "hint": "NBA"
+        },
+        {
+          "id": "nba-minnesota-timberwolves",
+          "name": "Minnesota Timberwolves",
+          "hint": "NBA",
+          "aliases": [
+            "wolves"
+          ]
+        },
+        {
+          "id": "nba-new-orleans-pelicans",
+          "name": "New Orleans Pelicans",
+          "hint": "NBA",
+          "aliases": [
+            "new orleans hornets"
+          ]
+        },
+        {
+          "id": "nba-new-york-knicks",
+          "name": "New York Knicks",
+          "hint": "NBA",
+          "aliases": [
+            "knickerbockers"
+          ]
+        },
+        {
+          "id": "nba-oklahoma-city-thunder",
+          "name": "Oklahoma City Thunder",
+          "hint": "NBA",
+          "aliases": [
+            "seattle supersonics",
+            "sonics"
+          ]
+        },
+        {
+          "id": "nba-orlando-magic",
+          "name": "Orlando Magic",
+          "hint": "NBA"
+        },
+        {
+          "id": "nba-philadelphia-76ers",
+          "name": "Philadelphia 76ers",
+          "hint": "NBA",
+          "aliases": [
+            "sixers",
+            "syracuse nationals"
+          ]
+        },
+        {
+          "id": "nba-phoenix-suns",
+          "name": "Phoenix Suns",
+          "hint": "NBA"
+        },
+        {
+          "id": "nba-portland-trail-blazers",
+          "name": "Portland Trail Blazers",
+          "hint": "NBA",
+          "aliases": [
+            "blazers"
+          ]
+        },
+        {
+          "id": "nba-sacramento-kings",
+          "name": "Sacramento Kings",
+          "hint": "NBA",
+          "aliases": [
+            "cincinnati royals",
+            "kansas city kings",
+            "rochester royals"
+          ]
+        },
+        {
+          "id": "nba-san-antonio-spurs",
+          "name": "San Antonio Spurs",
+          "hint": "NBA",
+          "aliases": [
+            "spurs"
+          ]
+        },
+        {
+          "id": "nba-toronto-raptors",
+          "name": "Toronto Raptors",
+          "hint": "NBA"
+        },
+        {
+          "id": "nba-utah-jazz",
+          "name": "Utah Jazz",
+          "hint": "NBA",
+          "aliases": [
+            "new orleans jazz"
+          ]
+        },
+        {
+          "id": "nba-washington-wizards",
+          "name": "Washington Wizards",
+          "hint": "NBA",
+          "aliases": [
+            "baltimore bullets",
+            "washington bullets"
+          ]
+        }
+      ]
+    },
+    "countries": {
+      "name": "Countries (sample)",
+      "entities": [
+        {
+          "id": "ctry-united-states",
+          "name": "United States",
+          "aliases": [
+            "america",
+            "united states of america",
+            "us",
+            "usa"
+          ]
+        },
+        {
+          "id": "ctry-united-kingdom",
+          "name": "United Kingdom",
+          "aliases": [
+            "britain",
+            "england",
+            "great britain",
+            "uk"
+          ]
+        },
+        {
+          "id": "ctry-france",
+          "name": "France"
+        },
+        {
+          "id": "ctry-china",
+          "name": "China"
+        },
+        {
+          "id": "ctry-japan",
+          "name": "Japan"
+        },
+        {
+          "id": "ctry-greece",
+          "name": "Greece"
+        },
+        {
+          "id": "ctry-australia",
+          "name": "Australia"
+        },
+        {
+          "id": "ctry-brazil",
+          "name": "Brazil"
+        },
+        {
+          "id": "ctry-spain",
+          "name": "Spain"
+        },
+        {
+          "id": "ctry-germany",
+          "name": "Germany",
+          "aliases": [
+            "west germany"
+          ]
+        },
+        {
+          "id": "ctry-italy",
+          "name": "Italy"
+        },
+        {
+          "id": "ctry-canada",
+          "name": "Canada"
+        },
+        {
+          "id": "ctry-soviet-union",
+          "name": "Soviet Union",
+          "aliases": [
+            "cccp",
+            "ussr"
+          ]
+        },
+        {
+          "id": "ctry-south-korea",
+          "name": "South Korea",
+          "aliases": [
+            "korea",
+            "republic of korea"
+          ]
+        },
+        {
+          "id": "ctry-mexico",
+          "name": "Mexico"
+        },
+        {
+          "id": "ctry-sweden",
+          "name": "Sweden"
+        },
+        {
+          "id": "ctry-netherlands",
+          "name": "Netherlands",
+          "aliases": [
+            "holland"
+          ]
+        },
+        {
+          "id": "ctry-belgium",
+          "name": "Belgium"
+        },
+        {
+          "id": "ctry-finland",
+          "name": "Finland"
+        },
+        {
+          "id": "ctry-argentina",
+          "name": "Argentina"
+        },
+        {
+          "id": "ctry-portugal",
+          "name": "Portugal"
+        },
+        {
+          "id": "ctry-india",
+          "name": "India"
+        },
+        {
+          "id": "ctry-egypt",
+          "name": "Egypt"
+        },
+        {
+          "id": "ctry-south-africa",
+          "name": "South Africa"
+        },
+        {
+          "id": "ctry-russia",
+          "name": "Russia"
+        },
+        {
+          "id": "ctry-turkey",
+          "name": "Turkey"
+        },
+        {
+          "id": "ctry-qatar",
+          "name": "Qatar"
+        },
+        {
+          "id": "ctry-norway",
+          "name": "Norway"
+        },
+        {
+          "id": "ctry-switzerland",
+          "name": "Switzerland"
+        }
+      ]
+    },
+    "mlb-pitchers": {
+      "name": "MLB pitchers (sample)",
+      "entities": [
+        {
+          "id": "mlb-cy-young",
+          "name": "Cy Young",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-walter-johnson",
+          "name": "Walter Johnson",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-pete-alexander",
+          "name": "Pete Alexander",
+          "hint": "MLB pitcher",
+          "aliases": [
+            "grover alexander",
+            "grover cleveland alexander"
+          ]
+        },
+        {
+          "id": "mlb-christy-mathewson",
+          "name": "Christy Mathewson",
+          "hint": "MLB pitcher",
+          "aliases": [
+            "matty"
+          ]
+        },
+        {
+          "id": "mlb-pud-galvin",
+          "name": "Pud Galvin",
+          "hint": "MLB pitcher",
+          "aliases": [
+            "james galvin",
+            "jim galvin"
+          ]
+        },
+        {
+          "id": "mlb-warren-spahn",
+          "name": "Warren Spahn",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-kid-nichols",
+          "name": "Kid Nichols",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-greg-maddux",
+          "name": "Greg Maddux",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-roger-clemens",
+          "name": "Roger Clemens",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-tim-keefe",
+          "name": "Tim Keefe",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-steve-carlton",
+          "name": "Steve Carlton",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-john-clarkson",
+          "name": "John Clarkson",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-eddie-plank",
+          "name": "Eddie Plank",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-nolan-ryan",
+          "name": "Nolan Ryan",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-don-sutton",
+          "name": "Don Sutton",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-phil-niekro",
+          "name": "Phil Niekro",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-gaylord-perry",
+          "name": "Gaylord Perry",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-tom-seaver",
+          "name": "Tom Seaver",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-old-hoss-radbourn",
+          "name": "Old Hoss Radbourn",
+          "hint": "MLB pitcher",
+          "aliases": [
+            "charles radbourn",
+            "charley radbourn",
+            "hoss radbourn"
+          ]
+        },
+        {
+          "id": "mlb-mickey-welch",
+          "name": "Mickey Welch",
+          "hint": "MLB pitcher",
+          "aliases": [
+            "michael welch",
+            "smiling mickey"
+          ]
+        },
+        {
+          "id": "mlb-tom-glavine",
+          "name": "Tom Glavine",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-randy-johnson",
+          "name": "Randy Johnson",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-lefty-grove",
+          "name": "Lefty Grove",
+          "hint": "MLB pitcher",
+          "aliases": [
+            "robert grove"
+          ]
+        },
+        {
+          "id": "mlb-early-wynn",
+          "name": "Early Wynn",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-justin-verlander",
+          "name": "Justin Verlander",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-clayton-kershaw",
+          "name": "Clayton Kershaw",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-bob-gibson",
+          "name": "Bob Gibson",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-sandy-koufax",
+          "name": "Sandy Koufax",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-max-scherzer",
+          "name": "Max Scherzer",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-pedro-martinez",
+          "name": "Pedro Martinez",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-bert-blyleven",
+          "name": "Bert Blyleven",
+          "hint": "MLB pitcher"
+        },
+        {
+          "id": "mlb-tommy-john",
+          "name": "Tommy John",
+          "hint": "MLB pitcher"
+        }
+      ]
+    }
+  }
+}

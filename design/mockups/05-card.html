@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ball Knower — The card (expandable answers) (mockup)</title>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&amp;family=Graduate&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#F2B632}a:hover{color:#FFD36B}
+summary{list-style:none}
+summary::-webkit-details-marker{display:none}
+.bk-chev{transition:transform .2s}
+details[open] .bk-chev{transform:rotate(180deg)}
+summary:hover{background:#ECE5D2}
+</style>
+<style>body{display:flex;justify-content:center;background:#0E2618;min-height:100vh}</style>
+</head>
+<body>
+<div style="width: 390px; height: 1040px; box-sizing: border-box; display: flex; flex-direction: column; background: #F3EEDF; color: #14201A; font-family: 'Archivo', sans-serif">
+  <div style="padding: 22px 24px 18px; background: repeating-linear-gradient(90deg, #1A4530 0 28px, #173D2A 28px 56px); color: #F3EEDF; display: flex; flex-direction: column; gap: 6px">
+    <div style="display: flex; justify-content: space-between; align-items: center; font-family: 'Space Mono', monospace; font-size: 12px; letter-spacing: 0.1em">
+      <a href="01-home.html" style="font-weight: 700; text-decoration: none; padding: 4px 0">‹ HOME</a>
+      <span>HOLE 214 · OCT 25</span>
+    </div>
+    <p style="margin: 8px 0 0; font-family: 'Space Mono', monospace; font-size: 12px; font-weight: 700; letter-spacing: 0.2em; color: #F2B632">THE CARD</p>
+    <div style="display: flex; align-items: baseline; gap: 10px">
+      <span style="font-family: 'Graduate', serif; font-size: 76px; line-height: 1; color: #F2B632; text-shadow: 4px 4px 0 #0E2618">325</span>
+      <span style="font-family: 'Graduate', serif; font-size: 28px">YDS</span>
+    </div>
+    <p style="margin: 0; font-size: 15px; line-height: 1.4">175 yards short of the pin. Longer than 78% of today's players.</p>
+    <svg viewBox="0 0 342 124" width="100%" role="img" aria-label="Hole map: five shots, one out of bounds, ball resting at 325 of 500 yards" style="margin-top: 6px">
+      <rect x="0" y="64" width="342" height="20" rx="10" fill="#2C6644"></rect>
+      <line x1="0" y1="98" x2="342" y2="98" stroke="#F3EEDF" stroke-width="1.5" stroke-dasharray="2 6"></line>
+      <text x="4" y="118" font-family="Space Mono, monospace" font-size="11" fill="#F3EEDF" fill-opacity="0.8">OB</text>
+      <rect x="10" y="68" width="4" height="12" fill="#F3EEDF"></rect>
+      <path d="M12 74 Q43.4 10 74.8 74" fill="none" stroke="#F2B632" stroke-width="2.5"></path>
+      <path d="M74.8 74 Q87.35 38 99.9 74" fill="none" stroke="#D9D4C4" stroke-width="2.5"></path>
+      <path d="M99.9 74 Q126.6 16 153.3 74" fill="none" stroke="#7FAEEA" stroke-width="2.5"></path>
+      <path d="M153.3 74 Q170 14 186 106" fill="none" stroke="#E2735E" stroke-width="2" stroke-dasharray="4 4"></path>
+      <line x1="181" y1="101" x2="191" y2="111" stroke="#E2735E" stroke-width="2.5"></line>
+      <line x1="191" y1="101" x2="181" y2="111" stroke="#E2735E" stroke-width="2.5"></line>
+      <path d="M153.3 74 Q184.7 10 216.1 74" fill="none" stroke="#F2B632" stroke-width="2.5"></path>
+      <circle cx="216.1" cy="74" r="6" fill="#F3EEDF" stroke="#0E2618" stroke-width="2"></circle>
+      <line x1="326" y1="34" x2="326" y2="74" stroke="#F3EEDF" stroke-width="2"></line>
+      <polygon points="326,34 340,40 326,46" fill="#F2B632"></polygon>
+      <ellipse cx="326" cy="74" rx="6" ry="2.5" fill="#0E2618"></ellipse>
+    </svg>
+  </div>
+
+  <div style="padding: 20px 24px 24px; display: flex; flex-direction: column; gap: 16px; flex: 1">
+    <div style="border: 2px solid #14201A; border-radius: 6px; overflow: hidden">
+      <div style="background: #14201A; color: #F3EEDF; padding: 7px 10px; display: flex; justify-content: space-between; font-family: 'Space Mono', monospace; font-size: 11px; letter-spacing: 0.08em">
+        <span>SHOT · TAP TO SEE ALL ANSWERS</span><span>YDS</span>
+      </div>
+      
+        <details style="border-bottom: 1px solid #D9D4C4">
+          <summary style="display: grid; grid-template-columns: 16px minmax(0, 1fr) auto 32px 14px; align-items: center; gap: 8px; padding: 10px; cursor: pointer">
+            <span style="font-family: 'Space Mono', monospace; font-size: 12px">1</span>
+            <span style="min-width: 0"><span style="display: block; font-size: 12px; color: #4F554C">Non-QB NFL MVP</span><span style="display: block; font-size: 15px; font-weight: 800">Mark Moseley</span></span>
+            <span style="background: #F2B632; color: #14201A; padding: 3px 6px; border-radius: 3px; font-family: 'Space Mono', monospace; font-size: 11px; font-weight: 700; white-space: nowrap">BALL KNOWER</span>
+            <span style="text-align: right; font-family: 'Graduate', serif; font-size: 18px">100</span>
+            <svg class="bk-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#14201A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg>
+          </summary>
+          <div style="padding: 2px 12px 14px 34px; background: #FBF8EE">
+            <p style="margin: 8px 0 8px; font-family: 'Space Mono', monospace; font-size: 11px; font-weight: 700; letter-spacing: 0.08em; color: #4F554C">ALL 19 CORRECT ANSWERS</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 6px"><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Adrian Peterson</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Alan Page</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Barry Sanders</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Earl Campbell</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Emmitt Smith</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Jim Brown</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Jim Taylor</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">LaDainian Tomlinson</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Larry Brown</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Lawrence Taylor</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Marcus Allen</span><span style="padding: 4px 8px; border-radius: 3px; background: #F2B632; border: 1.5px solid #14201A; font-size: 13px; font-weight: 800">Mark Moseley</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Marshall Faulk</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">O.J. Simpson</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Paul Hornung</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Shaun Alexander</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Terrell Davis</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Thurman Thomas</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Walter Payton</span></div>
+          </div>
+        </details>
+        <details style="border-bottom: 1px solid #D9D4C4">
+          <summary style="display: grid; grid-template-columns: 16px minmax(0, 1fr) auto 32px 14px; align-items: center; gap: 8px; padding: 10px; cursor: pointer">
+            <span style="font-family: 'Space Mono', monospace; font-size: 12px">2</span>
+            <span style="min-width: 0"><span style="display: block; font-size: 12px; color: #4F554C">Triple-double season (NBA)</span><span style="display: block; font-size: 15px; font-weight: 800">Russell Westbrook</span></span>
+            <span style="background: #D9D4C4; color: #14201A; padding: 3px 6px; border-radius: 3px; font-family: 'Space Mono', monospace; font-size: 11px; font-weight: 700; white-space: nowrap">BENCH WARMER</span>
+            <span style="text-align: right; font-family: 'Graduate', serif; font-size: 18px">40</span>
+            <svg class="bk-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#14201A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg>
+          </summary>
+          <div style="padding: 2px 12px 14px 34px; background: #FBF8EE">
+            <p style="margin: 8px 0 8px; font-family: 'Space Mono', monospace; font-size: 11px; font-weight: 700; letter-spacing: 0.08em; color: #4F554C">ALL 3 CORRECT ANSWERS</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 6px"><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Nikola Jokić</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Oscar Robertson</span><span style="padding: 4px 8px; border-radius: 3px; background: #F2B632; border: 1.5px solid #14201A; font-size: 13px; font-weight: 800">Russell Westbrook</span></div>
+          </div>
+        </details>
+        <details open style="border-bottom: 1px solid #D9D4C4">
+          <summary style="display: grid; grid-template-columns: 16px minmax(0, 1fr) auto 32px 14px; align-items: center; gap: 8px; padding: 10px; cursor: pointer">
+            <span style="font-family: 'Space Mono', monospace; font-size: 12px">3</span>
+            <span style="min-width: 0"><span style="display: block; font-size: 12px; color: #4F554C">NBA franchise, 5+ titles</span><span style="display: block; font-size: 15px; font-weight: 800">San Antonio Spurs</span></span>
+            <span style="background: #1E4E8C; color: #F3EEDF; padding: 3px 6px; border-radius: 3px; font-family: 'Space Mono', monospace; font-size: 11px; font-weight: 700; white-space: nowrap">ALL-STAR</span>
+            <span style="text-align: right; font-family: 'Graduate', serif; font-size: 18px">85</span>
+            <svg class="bk-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#14201A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg>
+          </summary>
+          <div style="padding: 2px 12px 14px 34px; background: #FBF8EE">
+            <p style="margin: 8px 0 8px; font-family: 'Space Mono', monospace; font-size: 11px; font-weight: 700; letter-spacing: 0.08em; color: #4F554C">ALL 5 CORRECT ANSWERS</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 6px"><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Boston Celtics</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Chicago Bulls</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Golden State Warriors</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Los Angeles Lakers</span><span style="padding: 4px 8px; border-radius: 3px; background: #F2B632; border: 1.5px solid #14201A; font-size: 13px; font-weight: 800">San Antonio Spurs</span></div>
+          </div>
+        </details>
+        <details style="border-bottom: 1px solid #D9D4C4">
+          <summary style="display: grid; grid-template-columns: 16px minmax(0, 1fr) auto 32px 14px; align-items: center; gap: 8px; padding: 10px; cursor: pointer">
+            <span style="font-family: 'Space Mono', monospace; font-size: 12px">4</span>
+            <span style="min-width: 0"><span style="display: block; font-size: 12px; color: #4F554C">Summer Olympics host country</span><span style="display: block; font-size: 15px; font-weight: 800; text-decoration: line-through">Argentina</span></span>
+            <span style="background: #A8321F; color: #F3EEDF; padding: 3px 6px; border-radius: 3px; font-family: 'Space Mono', monospace; font-size: 11px; font-weight: 700; white-space: nowrap">OUT OF BOUNDS</span>
+            <span style="text-align: right; font-family: 'Graduate', serif; font-size: 18px">0</span>
+            <svg class="bk-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#14201A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg>
+          </summary>
+          <div style="padding: 2px 12px 14px 34px; background: #FBF8EE">
+            <p style="margin: 8px 0 8px; font-family: 'Space Mono', monospace; font-size: 11px; font-weight: 700; letter-spacing: 0.08em; color: #4F554C">ALL 19 CORRECT ANSWERS</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 6px"><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Australia</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Belgium</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Brazil</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Canada</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">China</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Finland</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">France</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Germany</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Greece</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Italy</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Japan</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Mexico</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Netherlands</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">South Korea</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Soviet Union</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Spain</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Sweden</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">United Kingdom</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">United States</span></div><p style="margin: 10px 0 0; font-size: 13px; color: #A8321F; font-weight: 600">Argentina has never hosted the Summer Games (Buenos Aires hosted the 2018 Youth Olympics).</p>
+          </div>
+        </details>
+        <details style="border-bottom: 1px solid #D9D4C4">
+          <summary style="display: grid; grid-template-columns: 16px minmax(0, 1fr) auto 32px 14px; align-items: center; gap: 8px; padding: 10px; cursor: pointer">
+            <span style="font-family: 'Space Mono', monospace; font-size: 12px">5</span>
+            <span style="min-width: 0"><span style="display: block; font-size: 12px; color: #4F554C">300-win MLB pitcher</span><span style="display: block; font-size: 15px; font-weight: 800">Mickey Welch</span></span>
+            <span style="background: #F2B632; color: #14201A; padding: 3px 6px; border-radius: 3px; font-family: 'Space Mono', monospace; font-size: 11px; font-weight: 700; white-space: nowrap">BALL KNOWER</span>
+            <span style="text-align: right; font-family: 'Graduate', serif; font-size: 18px">100</span>
+            <svg class="bk-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#14201A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg>
+          </summary>
+          <div style="padding: 2px 12px 14px 34px; background: #FBF8EE">
+            <p style="margin: 8px 0 8px; font-family: 'Space Mono', monospace; font-size: 11px; font-weight: 700; letter-spacing: 0.08em; color: #4F554C">ALL 24 CORRECT ANSWERS</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 6px"><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Christy Mathewson</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Cy Young</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Don Sutton</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Early Wynn</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Eddie Plank</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Gaylord Perry</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Greg Maddux</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">John Clarkson</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Kid Nichols</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Lefty Grove</span><span style="padding: 4px 8px; border-radius: 3px; background: #F2B632; border: 1.5px solid #14201A; font-size: 13px; font-weight: 800">Mickey Welch</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Nolan Ryan</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Old Hoss Radbourn</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Pete Alexander</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Phil Niekro</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Pud Galvin</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Randy Johnson</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Roger Clemens</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Steve Carlton</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Tim Keefe</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Tom Glavine</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Tom Seaver</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Walter Johnson</span><span style="padding: 4px 8px; border-radius: 3px; background: #E8E1CC; font-size: 13px">Warren Spahn</span></div>
+          </div>
+        </details>
+      <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; border-top: 1px solid #14201A">
+        <span style="font-family: 'Space Mono', monospace; font-size: 12px; font-weight: 700; letter-spacing: 0.1em">TOTAL</span>
+        <span style="font-family: 'Graduate', serif; font-size: 22px; color: #173D2A; padding-right: 22px">325</span>
+      </div>
+    </div>
+
+    <div style="background: #E8E1CC; border-radius: 6px; padding: 12px 14px; display: flex; flex-direction: column; gap: 8px">
+      <span style="font-family: 'Space Mono', monospace; font-size: 13px; font-weight: 700">BALL KNOWER #214 · 325 YDS</span>
+      <div style="display: flex; gap: 6px" role="img" aria-label="Shot tiers: Ball Knower, Bench Warmer, All-Star, Out of Bounds, Ball Knower">
+        <span style="width: 22px; height: 22px; border-radius: 3px; background: #F2B632; border: 1.5px solid #14201A"></span>
+        <span style="width: 22px; height: 22px; border-radius: 3px; background: #D9D4C4; border: 1.5px solid #14201A"></span>
+        <span style="width: 22px; height: 22px; border-radius: 3px; background: #1E4E8C; border: 1.5px solid #14201A"></span>
+        <span style="width: 22px; height: 22px; border-radius: 3px; background: #A8321F; border: 1.5px solid #14201A"></span>
+        <span style="width: 22px; height: 22px; border-radius: 3px; background: #F2B632; border: 1.5px solid #14201A"></span>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px">
+      <button type="button" style="min-height: 52px; background: #F2B632; color: #14201A; border: 3px solid #14201A; border-radius: 6px; box-shadow: 0 4px 0 #14201A; font-family: 'Graduate', serif; font-size: 18px; cursor: pointer">SHARE CARD</button>
+      <a href="03-prompt.html" style="display: flex; align-items: center; justify-content: center; min-height: 52px; box-sizing: border-box; border: 2px solid #14201A; border-radius: 6px; color: #14201A; text-decoration: none; font-family: 'Space Mono', monospace; font-size: 13px; font-weight: 700">DRIVING RANGE</a>
+    </div>
+
+    <div style="flex: 1"></div>
+    <p style="margin: 0; text-align: center; font-family: 'Space Mono', monospace; font-size: 12px; color: #4F554C; letter-spacing: 0.06em">NEXT HOLE IN 10:42:07</p>
+  </div>
+</div>
+</body>
+</html>
