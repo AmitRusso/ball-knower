@@ -6,7 +6,7 @@ Every day, everyone gets the same five sports prompts — *"Name a non-QB NFL MV
 
 Inspired by [Krillion](https://krillion.io) (rare-answer trivia) and [Farflung](https://farflung.game) (the same idea on a world map), and by the rarity score in [Immaculate Grid](https://www.sports-reference.com/immaculate-grid/).
 
-> **Status:** Milestone 0 (scaffold) — the SvelteKit app is set up; gameplay starts in M1. See [`docs/05-roadmap.md`](docs/05-roadmap.md).
+> **Status:** Milestone 1 — one sample hole is playable end to end, offline; the server and real rarity come in M2. See [`docs/05-roadmap.md`](docs/05-roadmap.md).
 
 ---
 

@@ -2,11 +2,9 @@
 	"$schema": "./node_modules/wrangler/config-schema.json",
 	"name": "ball-knower",
 	"compatibility_date": "2026-10-25",
-	"compatibility_flags": [
-		"nodejs_als"
-	],
+	"compatibility_flags": ["nodejs_als"],
 	"pages_build_output_dir": ".svelte-kit/cloudflare",
-	// Local-only for now (M0). Real IDs get filled in when the remote D1/KV are created in M2.
+	// Real IDs (deploys need them). Local dev and tests use local D1/KV state in .wrangler/.
 	"d1_databases": [
 		// {
 		// 	"binding": "DB",
@@ -17,15 +15,13 @@
 		{
 			"binding": "ball_knower",
 			"database_name": "ball-knower",
-			"database_id": "ad86e2d3-52f4-498e-be98-f8ac4a879578",
-			"remote": true
+			"database_id": "ad86e2d3-52f4-498e-be98-f8ac4a879578"
 		}
 	],
 	"kv_namespaces": [
 		{
 			"binding": "HOLES",
-			"id": "b0a08664197b48e8a9edb99490af4250",
-			"remote": true
+			"id": "b0a08664197b48e8a9edb99490af4250"
 		}
 	]
 }

@@ -15,7 +15,7 @@ body {
 	margin: 0;
 	min-height: 100vh;
 	min-height: 100dvh;
-	background: var(--bk-green-900);
+	background: var(--bk-green-700) var(--bk-fairway);
 	color: var(--bk-cream);
 	font-family: var(--bk-font-body);
 	line-height: 1.4;
@@ -42,4 +42,127 @@ a:hover {
 		animation-iteration-count: 1 !important;
 		transition-duration: 0.01ms !important;
 	}
+}
+
+/* Game column: mobile-first, centered on desktop with the fairway behind it. */
+.screen {
+	max-width: var(--bk-column-max);
+	min-height: 100vh;
+	min-height: 100dvh;
+	margin: 0 auto;
+	padding: 24px var(--bk-gutter) 28px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.fairway-bg {
+	background: var(--bk-fairway);
+}
+
+.spacer {
+	flex: 1;
+}
+
+.btn-primary {
+	display: block;
+	width: 100%;
+	padding: 14px;
+	background: var(--bk-gold);
+	color: var(--bk-ink);
+	border: 3px solid var(--bk-green-900);
+	border-radius: var(--bk-radius-card);
+	box-shadow: var(--bk-shadow-hard);
+	font-family: var(--bk-font-display);
+	font-size: 28px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.btn-primary:hover {
+	background: var(--bk-gold-hover);
+	color: var(--bk-ink);
+}
+
+.btn-primary:active {
+	transform: translateY(3px);
+	box-shadow: 0 3px 0 var(--bk-green-900);
+}
+
+.btn-primary:disabled {
+	cursor: progress;
+	opacity: 0.8;
+}
+
+.btn-secondary {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 48px;
+	padding: 12px 8px;
+	background: none;
+	color: var(--bk-cream);
+	border: 2px solid currentColor;
+	border-radius: var(--bk-radius-card);
+	font-family: var(--bk-font-mono);
+	font-size: 13px;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.btn-secondary:hover {
+	color: var(--bk-gold);
+}
+
+.btn-secondary:disabled {
+	cursor: not-allowed;
+	opacity: 0.6;
+	color: inherit;
+}
+
+.mono-label {
+	font-family: var(--bk-font-mono);
+	font-size: 12px;
+	letter-spacing: var(--bk-tracking-label);
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+/* Tier colors: background + foreground pairs from tokens.css */
+.tier-bg-bench {
+	background: var(--bk-tier-bench-bg);
+	color: var(--bk-tier-bench-fg);
+}
+.tier-bg-role {
+	background: var(--bk-tier-role-bg);
+	color: var(--bk-tier-role-fg);
+}
+.tier-bg-starter {
+	background: var(--bk-tier-starter-bg);
+	color: var(--bk-tier-starter-fg);
+}
+.tier-bg-allstar {
+	background: var(--bk-tier-allstar-bg);
+	color: var(--bk-tier-allstar-fg);
+}
+.tier-bg-knower {
+	background: var(--bk-tier-knower-bg);
+	color: var(--bk-tier-knower-fg);
+}
+.tier-bg-ob {
+	background: var(--bk-tier-ob-bg);
+	color: var(--bk-tier-ob-fg);
 }

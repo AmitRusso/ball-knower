@@ -32,7 +32,7 @@ Reference screens: `design/mockups/` (open `index.html`). Tokens: `design/tokens
 | Ball Knower | `#F2B632` | ink |
 | Out of Bounds | `#A8321F` | cream |
 
-On dark backgrounds, arcs use lighter variants: All-Star `#7FAEEA`, Out of Bounds `#E2735E`. Tiers also differ in lightness (not hue alone), so they read in grayscale; the tier name is always printed alongside the color.
+On dark backgrounds, arcs use lighter variants: All-Star `#7FAEEA`, Starter `#8CCB9F`, Out of Bounds `#E2735E` (Starter added in M1 — its tier green is invisible on the fairway). Tiers also differ in lightness (not hue alone), so they read in grayscale; the tier name is always printed alongside the color.
 
 ## Typography
 
