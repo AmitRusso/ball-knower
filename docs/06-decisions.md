@@ -83,3 +83,11 @@ Prompts whose answers can change soon (a season in progress, an award not yet gi
 - **Starter arc color `#8CCB9F`** (`--bk-arc-starter`): the Starter tier green is invisible on the fairway.
 - **Share squares:** Ball Knower 🟨, All-Star 🟦, Starter 🟩, Role Player 🟫, Bench Warmer ⬜, Out of Bounds 🟥. Role Player's pale green has no emoji square, so it borrows brown.
 - **Deferred:** the percentile line on the card ("longer than X% of today's players") needs the server (M2); short scorecard labels ("Non-QB NFL MVP") need a `short` field on prompts (M3 pipeline), so the card shows the full prompt text; Driving Range shows as "SOON" (M4).
+
+### D13 — Krillion/Farflung-style progression and reveal (2026-10-26)
+
+**Chose:** the between-prompt and shot-reveal flow from the Krillion and Farflung recordings, translated to golf. Each prompt tees up with a 3-second countdown before the input and clock appear. The result screen has a carry meter whose tier gates light up as the ball passes them, a tier stamp that upgrades with each gate and then slams down with a flash in the tier color, and a one-line flavor for the tier. NEXT SHOT appears only after the reveal settles. Progress pips in the top bar fill in with each shot's tier color.
+**Over:** D3's minimal result screen (answer, tier banner popping in on landing, ball flight).
+**Why:** the reveal is the payoff of every shot. Passing the cheaper tiers before landing on yours makes the rarity visible without numbers, and the countdown gives a beat to read the prompt before the clock runs.
+**Still true from D3:** no pick percentages, no other answers, no most-picked/rarest lists mid-round. The gates show only tier names and yardages, which How to Play already shows.
+**Not adopted:** Krillion's "submit again to confirm" step for auto-corrected answers. Swing still submits the corrected name in one press (D4). Worth revisiting after playtests.

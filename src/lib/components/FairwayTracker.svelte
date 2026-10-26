@@ -31,20 +31,19 @@
 		mode: 'prompt' | 'result' | 'card';
 		/** Result screen: the shot to fly. */
 		flight?: TrackedShot;
-		onlanded?: () => void;
+		/** How far along its arc the flight is, 0–1 (driven by ShotReveal). */
+		progress?: number;
 		label?: string;
 	}
 
-	let { shots, mode, flight, onlanded, label }: Props = $props();
+	let { shots, mode, flight, progress = 1, label }: Props = $props();
 
-	const FLIGHT_MS = 1400;
 	const MARKERS = [100, 200, 300, 400];
 
 	const arcFor = (s: TrackedShot): Arc =>
 		s.tier === 'OUT_OF_BOUNDS' ? obArc(s.start) : shotArc(s.start, s.start + s.yards);
 
-	let progress = $state(0);
-	let landed = $state(false);
+	const landed = $derived(progress >= 1);
 
 	const flightArc = $derived(flight ? arcFor(flight) : null);
 	const restingYds = $derived.by(() => {
@@ -64,33 +63,6 @@
 		label ??
 			`Fairway: ball at ${restingYds} of ${HOLE_LENGTH_YDS} yards after ${shots.length + (flight ? 1 : 0)} shots`
 	);
-
-	$effect(() => {
-		if (!flight) return;
-		const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
-		if (reduce) {
-			progress = 1;
-			landed = true;
-			onlanded?.();
-			return;
-		}
-		progress = 0;
-		landed = false;
-		let frame = 0;
-		const t0 = performance.now();
-		const tick = (now: number) => {
-			const t = Math.min(1, (now - t0) / FLIGHT_MS);
-			progress = 1 - (1 - t) ** 3;
-			if (t < 1) {
-				frame = requestAnimationFrame(tick);
-			} else {
-				landed = true;
-				onlanded?.();
-			}
-		};
-		frame = requestAnimationFrame(tick);
-		return () => cancelAnimationFrame(frame);
-	});
 </script>
 
 <div class="tracker" class:card={mode === 'card'}>

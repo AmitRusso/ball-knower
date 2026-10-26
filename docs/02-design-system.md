@@ -61,14 +61,16 @@ Scale (px): 11 · 12 · 13 · 14 · 15 · 17 · 22 · 26 · 28 · 36–44 (tier 
 
 | Component | Notes |
 |---|---|
-| `TopBar` | `HOLE 214` · `SHOT 3 OF 5` (gold) · timer pill (red) |
+| `TopBar` | `HOLE 214` · `ShotPips` · timer pill (red) |
+| `ShotPips` | Five 12px squares, played shots filled in their tier color, current one 16px with a gold outline; `SHOT 3 OF 5` caption in gold 10px mono below |
 | `FairwayTracker` | SVG. Fairway band, tee, yard markers (100–400), flag + cup at 500, past shots as dashed arcs, current ball. Header: `140 YDS` (gold) / `360 TO PIN`. Shared by prompt, result and card screens. |
 | `PromptCard` | Cream card, league chip (ink bg, gold text), prompt in Archivo 800 ~25px, rule note in muted 13px |
 | `AnswerInput` | 52px tall, 3px gold border, label `YOUR ANSWER` |
 | `AutoCorrectCard` | Single suggestion. Dashed gold border on dark green, check icon, `AUTO-CORRECT` label, canonical name in 17px 800. Hidden when no match. |
 | `PrimaryButton` | Gold, Graduate 26–28px, 3px dark border, hard shadow. Labels: TEE OFF, SWING, NEXT SHOT |
 | `SecondaryButton` | 2px cream (or ink) outline, Space Mono 13px bold |
-| `TierCard` | Trading-card result: YOUR ANSWER label, name, prompt reminder, tier banner + `+85 YDS` |
+| `TierCard` | Trading-card result: YOUR ANSWER label, name, prompt reminder, tier stamp + `+85 YDS` (part of `ShotReveal`) |
+| `CarryMeter` | Dark green strip, `CARRY` label, a 0–100 yd track with dashed gates at each tier's yardage; tier names alternate above/below; a gate lights in its arc color when passed, the landing gate goes solid (part of `ShotReveal`) |
 | `TierChip` | Space Mono 11–12px bold, tier colors |
 | `ScorecardRow` | `<details>`: summary = #, prompt, answer, tier chip, yards, chevron; body = all correct answers as chips, player's answer gold with ink border |
 | `ShareBlock` | `BALL KNOWER #214 · 325 YDS` + five 22px tier squares |
@@ -85,10 +87,12 @@ Each shot is a quadratic Bézier from `x(start)` to `x(end)` on the fairway's ce
 
 ## Motion
 
-- **Ball flight (shot result):** the new arc draws itself (`stroke-dashoffset` 1 → 0 on a `pathLength="1"` path) while the ball follows the same path (`offset-path` / SVG `animateMotion`). ~1.4 s, ease-out. A small shadow ellipse waits at the landing spot.
-- Yard counter ticks up from the old total to the new one during the flight.
-- Tier banner pops in (scale 0.9 → 1, 150 ms) when the ball lands.
-- **`prefers-reduced-motion`:** no flight; show the final arc and ball immediately.
+- **Tee-up (before each prompt):** the prompt card deals in (translate-y 24px → 0, 350 ms); a big gold Graduate count 3 → 2 → 1 (each scales in from 1.6, 300 ms); the input and clock appear at 0.
+- **Ball flight (shot result):** the new arc draws itself (`stroke-dashoffset` 1 → 0 on a `pathLength="1"` path) while the ball follows it; one rAF clock (`src/lib/reveal.ts`) drives the arc, the carry meter and the stamp. Duration `900 + 12 × yards` ms (1.38 s for Bench Warmer, 2.1 s for Ball Knower; 1.2 s for OB), cubic ease-out. A small shadow ellipse waits at the landing spot.
+- **Tier stamp:** striped empty box until the first gate; then the tier name and color switch at each gate passed (120 ms color transition). 150 ms after landing it slams (scale 1.5, −4° → 1, 220 ms, overshoot) and the card flashes a 14px ring in the tier color (450 ms).
+- Yard counters (stamp and tracker header) tick up during the flight.
+- 450 ms after the slam: the flavor line fades in (300 ms), then NEXT SHOT rises in (12px, 200 ms) and takes focus.
+- **`prefers-reduced-motion`:** no flight, no slam; the final arc, gate, stamp, flavor and button appear immediately.
 - No looping animations in the real app (the mockup loops only for demo purposes).
 
 ## Layout
