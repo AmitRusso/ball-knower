@@ -97,9 +97,14 @@ Each shot is a quadratic Bézier from `x(start)` to `x(end)` on the fairway's ce
 
 ## Layout
 
-- Mobile-first, designed at **390 × 844**. Single column, 24px side padding.
-- On desktop: center the 390–430px game column; fairway-stripe background fills the rest.
-- Primary action always at the bottom of the screen within thumb reach.
+- Mobile-first, designed at **390 × 844**. Single column (max 430px), 24px side padding. Below 960px (phones, tablets) the game stays in this centered column.
+- **Desktop (min-width: 960px):** the screen widens to `--bk-wide-max` (1120px) with 48px gutters and splits into a **stage** on the left and a **side panel** (`--bk-panel-width`, 400px) on the right, 40px apart, vertically centered. Fairway stripes fill the rest.
+  - **Home:** masthead (logo 112px) and hero arc on the left; ticket stub, TEE OFF and secondary buttons in the panel.
+  - **Prompt:** the fairway tracker is the stage; prompt card, answer, auto-correct and SWING (right under the answer) are the panel.
+  - **Shot result:** fairway tracker over the carry meter is the stage; trading card, flavor and NEXT SHOT are the panel.
+  - **Card:** the fairway header (total, hole map) is a sticky 400px left column; scorecard, share block and buttons fill the right.
+  - **How to Play:** a 960px sheet with the rules on the left and the ladder beside them.
+- On phones the primary action sits at the bottom of the screen within thumb reach; on desktop it sits directly under the content it acts on.
 - Touch targets ≥ 44px.
 
 ## Accessibility

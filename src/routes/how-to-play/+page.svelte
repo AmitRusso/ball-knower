@@ -247,4 +247,60 @@
 		text-align: center;
 		color: var(--bk-ink-muted);
 	}
+
+	/* Desktop: rules on the left, the ladder beside them. */
+	@media (min-width: 960px) {
+		.paper {
+			max-width: 960px;
+		}
+
+		header {
+			padding: 32px var(--bk-gutter-wide) 28px;
+		}
+
+		h1 {
+			font-size: 44px;
+		}
+
+		main {
+			display: grid;
+			grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+			grid-template-areas:
+				'steps ladder'
+				'sink ladder'
+				'foot foot'
+				'cta cta';
+			column-gap: 48px;
+			align-content: start;
+			padding: 32px var(--bk-gutter-wide) 40px;
+		}
+
+		.steps:first-of-type {
+			grid-area: steps;
+		}
+
+		.ladder {
+			grid-area: ladder;
+			align-self: start;
+		}
+
+		.steps[start] {
+			grid-area: sink;
+		}
+
+		.spacer {
+			display: none;
+		}
+
+		.foot {
+			grid-area: foot;
+			margin-top: 16px;
+		}
+
+		.btn-primary {
+			grid-area: cta;
+			justify-self: center;
+			max-width: var(--bk-panel-width);
+		}
+	}
 </style>

@@ -109,40 +109,45 @@
 		</div>
 
 		{#if game.phase === 'prompt'}
-			<FairwayTracker shots={tracked} mode="prompt" />
-
-			<section class="prompt-card" class:teeing={teeingUp} aria-labelledby="prompt-text">
-				<span class="league">{game.prompt.league}</span>
-				<h1 id="prompt-text">{game.prompt.text}</h1>
-				<p>{game.prompt.note} Spelling is forgiving.</p>
-			</section>
-
-			{#if teeingUp}
-				<div class="tee-up" role="status">
-					<span class="mono-label">TEEING UP · THE CLOCK STARTS IN</span>
-					{#key teeUp}<span class="count">{teeUp}</span>{/key}
+			<div class="board">
+				<div class="stage">
+					<FairwayTracker shots={tracked} mode="prompt" />
 				</div>
-			{:else}
-				<form class="answer" onsubmit={swing}>
-					<label for="answer" class="mono-label">YOUR ANSWER</label>
-					<input
-						bind:this={input}
-						id="answer"
-						type="text"
-						autocomplete="off"
-						autocapitalize="words"
-						spellcheck="false"
-						enterkeyhint="go"
-						aria-describedby="autocorrect answer-help"
-						value={game.play.draft}
-						oninput={(e) => game.setDraft(e.currentTarget.value)}
-					/>
-					<AutoCorrectCard id="autocorrect" entity={game.suggestion} />
-					<p id="answer-help">Swing submits the corrected name. Keep typing to change it.</p>
-					<div class="spacer"></div>
-					<button class="btn-primary" type="submit" disabled={game.swinging}>SWING</button>
-				</form>
-			{/if}
+				<div class="panel">
+					<section class="prompt-card" class:teeing={teeingUp} aria-labelledby="prompt-text">
+						<span class="league">{game.prompt.league}</span>
+						<h1 id="prompt-text">{game.prompt.text}</h1>
+						<p>{game.prompt.note} Spelling is forgiving.</p>
+					</section>
+
+					{#if teeingUp}
+						<div class="tee-up" role="status">
+							<span class="mono-label">TEEING UP · THE CLOCK STARTS IN</span>
+							{#key teeUp}<span class="count">{teeUp}</span>{/key}
+						</div>
+					{:else}
+						<form class="answer" onsubmit={swing}>
+							<label for="answer" class="mono-label">YOUR ANSWER</label>
+							<input
+								bind:this={input}
+								id="answer"
+								type="text"
+								autocomplete="off"
+								autocapitalize="words"
+								spellcheck="false"
+								enterkeyhint="go"
+								aria-describedby="autocorrect answer-help"
+								value={game.play.draft}
+								oninput={(e) => game.setDraft(e.currentTarget.value)}
+							/>
+							<AutoCorrectCard id="autocorrect" entity={game.suggestion} />
+							<p id="answer-help">Swing submits the corrected name. Keep typing to change it.</p>
+							<div class="spacer"></div>
+							<button class="btn-primary" type="submit" disabled={game.swinging}>SWING</button>
+						</form>
+					{/if}
+				</div>
+			</div>
 		{:else if lastShot}
 			{#key game.index}
 				<ShotReveal
@@ -151,17 +156,16 @@
 					past={tracked.slice(0, -1)}
 					promptText={game.prompt.text}
 					{onsettled}
-				/>
+				>
+					{#snippet actions()}
+						{#if settled}
+							<button bind:this={nextButton} class="btn-primary rise" type="button" onclick={next}>
+								{isLast ? 'SEE THE CARD' : 'NEXT SHOT'}
+							</button>
+						{/if}
+					{/snippet}
+				</ShotReveal>
 			{/key}
-
-			<div class="spacer"></div>
-			<div class="next-slot">
-				{#if settled}
-					<button bind:this={nextButton} class="btn-primary rise" type="button" onclick={next}>
-						{isLast ? 'SEE THE CARD' : 'NEXT SHOT'}
-					</button>
-				{/if}
-			</div>
 		{/if}
 	</main>
 {/if}
@@ -281,8 +285,48 @@
 		}
 	}
 
-	.next-slot {
-		min-height: 66px;
+	/* Mobile: one column. Desktop: fairway stage left, prompt + answer panel right. */
+	.board {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+
+	.stage {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+
+	.panel {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+
+	@media (min-width: 960px) {
+		.board {
+			display: grid;
+			grid-template-columns: minmax(0, 1fr) var(--bk-panel-width);
+			column-gap: 40px;
+			align-items: start;
+			align-content: center;
+		}
+
+		/* SWING sits right under the answer, not at the bottom of the window. */
+		.answer .spacer {
+			display: none;
+		}
+
+		.answer .btn-primary {
+			margin-top: 8px;
+		}
+
+		.prompt-card h1 {
+			font-size: 28px;
+		}
 	}
 
 	.rise {

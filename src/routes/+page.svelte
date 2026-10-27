@@ -47,46 +47,50 @@
 		<span>{holeDate(date)}</span>
 	</div>
 
-	<div class="masthead">
-		<p class="kicker">★ THE DAILY DRIVE ★</p>
-		<h1>BALL<br />KNOWER</h1>
-		<div class="rule" aria-hidden="true"></div>
-		<p class="tagline">
-			Five sports prompts. One hole.<br />The rarer your right answer, the farther it flies.
-		</p>
+	<div class="hero-col">
+		<div class="masthead">
+			<p class="kicker">★ THE DAILY DRIVE ★</p>
+			<h1>BALL<br />KNOWER</h1>
+			<div class="rule" aria-hidden="true"></div>
+			<p class="tagline">
+				Five sports prompts. One hole.<br />The rarer your right answer, the farther it flies.
+			</p>
+		</div>
+
+		<svg viewBox="0 0 342 100" width="100%" aria-hidden="true" class="hero">
+			<rect class="fw" x="0" y="64" width="342" height="20" rx="10" />
+			<rect class="cream" x="14" y="68" width="4" height="12" />
+			<path class="trail" d="M16 66 Q171 -6 326 70" />
+			<circle class="ball" cx="171" cy="31" r="6" />
+			<line class="pole" x1="326" y1="30" x2="326" y2="74" />
+			<polygon class="flag" points="326,30 340,36 326,42" />
+			<ellipse class="cup" cx="326" cy="74" rx="6" ry="2.5" />
+			<text x="326" y="98" text-anchor="middle">500</text>
+		</svg>
 	</div>
 
-	<svg viewBox="0 0 342 100" width="100%" aria-hidden="true" class="hero">
-		<rect class="fw" x="0" y="64" width="342" height="20" rx="10" />
-		<rect class="cream" x="14" y="68" width="4" height="12" />
-		<path class="trail" d="M16 66 Q171 -6 326 70" />
-		<circle class="ball" cx="171" cy="31" r="6" />
-		<line class="pole" x1="326" y1="30" x2="326" y2="74" />
-		<polygon class="flag" points="326,30 340,36 326,42" />
-		<ellipse class="cup" cx="326" cy="74" rx="6" ry="2.5" />
-		<text x="326" y="98" text-anchor="middle">500</text>
-	</svg>
+	<div class="actions">
+		<div class="stub">
+			<div><strong>{PROMPTS}</strong><span>PROMPTS</span></div>
+			<div><strong>45s</strong><span>PER SWING</span></div>
+			<div><strong>500</strong><span>YDS TO PIN</span></div>
+		</div>
 
-	<div class="stub">
-		<div><strong>{PROMPTS}</strong><span>PROMPTS</span></div>
-		<div><strong>45s</strong><span>PER SWING</span></div>
-		<div><strong>500</strong><span>YDS TO PIN</span></div>
+		<div class="spacer"></div>
+
+		<a class="btn-primary" href={resolve(done ? '/card' : '/play')}>
+			{done ? 'SEE YOUR CARD' : started ? 'BACK TO THE TEE' : 'TEE OFF'}
+		</a>
+
+		<div class="secondary">
+			<a class="btn-secondary" href={resolve('/how-to-play')}>HOW TO PLAY</a>
+			<button class="btn-secondary" type="button" disabled>DRIVING RANGE · SOON</button>
+		</div>
+
+		{#if stats.played > 0}
+			<p class="stats mono-label">{statsLine}</p>
+		{/if}
 	</div>
-
-	<div class="spacer"></div>
-
-	<a class="btn-primary" href={resolve(done ? '/card' : '/play')}>
-		{done ? 'SEE YOUR CARD' : started ? 'BACK TO THE TEE' : 'TEE OFF'}
-	</a>
-
-	<div class="secondary">
-		<a class="btn-secondary" href={resolve('/how-to-play')}>HOW TO PLAY</a>
-		<button class="btn-secondary" type="button" disabled>DRIVING RANGE · SOON</button>
-	</div>
-
-	{#if stats.played > 0}
-		<p class="stats mono-label">{statsLine}</p>
-	{/if}
 </main>
 
 <style>
@@ -94,6 +98,13 @@
 		gap: 22px;
 		padding-top: 28px;
 		padding-bottom: 32px;
+	}
+
+	/* Mobile: one column. Desktop: masthead + hero on the left, today's card and
+	   the buttons in a panel on the right. */
+	.hero-col,
+	.actions {
+		display: contents;
 	}
 
 	.topline {
@@ -214,5 +225,41 @@
 	.stats {
 		margin: 0;
 		text-align: center;
+	}
+	@media (min-width: 960px) {
+		.home {
+			display: grid;
+			grid-template-columns: minmax(0, 1fr) var(--bk-panel-width);
+			grid-template-rows: auto 1fr;
+			column-gap: 64px;
+		}
+
+		.topline {
+			grid-column: 1 / -1;
+		}
+
+		.hero-col,
+		.actions {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			gap: 22px;
+		}
+
+		.masthead {
+			margin-top: 0;
+		}
+
+		.masthead h1 {
+			font-size: 112px;
+		}
+
+		.tagline {
+			font-size: 20px;
+		}
+
+		.actions .spacer {
+			display: none;
+		}
 	}
 </style>

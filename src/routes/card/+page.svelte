@@ -403,4 +403,45 @@
 		text-align: center;
 		color: var(--bk-ink-muted);
 	}
+
+	/* Desktop: the fairway header (total + hole map) becomes a sticky left
+	   column; the scorecard and share block fill the right. */
+	@media (min-width: 960px) {
+		.paper {
+			max-width: var(--bk-wide-max);
+			display: grid;
+			grid-template-columns: var(--bk-panel-width) minmax(0, 1fr);
+		}
+
+		header {
+			position: sticky;
+			top: 0;
+			align-self: start;
+			min-height: 100vh;
+			min-height: 100dvh;
+			padding: 32px 32px 28px;
+			gap: 10px;
+		}
+
+		.total {
+			font-size: 96px;
+		}
+
+		main {
+			padding: 32px var(--bk-gutter-wide) 40px;
+		}
+
+		summary {
+			grid-template-columns: 20px minmax(0, 1fr) auto 40px 14px;
+			padding: 12px 14px;
+		}
+
+		.q {
+			font-size: 13px;
+		}
+
+		.a {
+			font-size: 17px;
+		}
+	}
 </style>

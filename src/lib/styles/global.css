@@ -166,3 +166,13 @@ a:hover {
 	background: var(--bk-tier-ob-bg);
 	color: var(--bk-tier-ob-fg);
 }
+
+/* Desktop (≥ 960px, docs/02-design-system.md "Layout"): the game widens into a
+   stage (fairway) plus a side panel (prompt, answer, result). */
+@media (min-width: 960px) {
+	.screen {
+		max-width: var(--bk-wide-max);
+		padding: 32px var(--bk-gutter-wide) 40px;
+		gap: 24px;
+	}
+}

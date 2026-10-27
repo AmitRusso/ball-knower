@@ -2,6 +2,7 @@
 	// The shot result, revealed Krillion/Farflung style: the ball carries past
 	// each tier gate while the stamp upgrades, then the stamp slams down, the
 	// card flashes in the tier color and the flavor line appears.
+	import type { Snippet } from 'svelte';
 	import FairwayTracker, { type TrackedShot } from '#lib/components/FairwayTracker.svelte';
 	import type { Shot } from '#lib/play.ts';
 	import {
@@ -25,9 +26,11 @@
 		past: TrackedShot[];
 		promptText: string;
 		onsettled: () => void;
+		/** NEXT SHOT and friends, placed at the end of the panel. */
+		actions?: Snippet;
 	}
 
-	let { shot, start, past, promptText, onsettled }: Props = $props();
+	let { shot, start, past, promptText, onsettled, actions }: Props = $props();
 
 	const OB_CARRY = 30;
 	const isOB = $derived(shot.tier === OUT_OF_BOUNDS.id);
@@ -79,72 +82,109 @@
 	});
 </script>
 
-<div
-	class="trading-card"
-	class:flash={phase !== 'flight'}
-	style:--flash="var(--bk-tier-{TIER_CLASS[shot.tier]}-bg)"
->
-	<div class="frame tier-border-{TIER_CLASS[shot.tier]}">
-		<p class="your">YOUR ANSWER</p>
-		<h1 class:struck={isOB && shot.answer}>
-			{shot.answer || (shot.timedOut ? 'Time ran out' : 'No answer')}
-		</h1>
-		<p class="reminder">{promptText}</p>
-		<div
-			class="stamp {stamp ? `tier-bg-${TIER_CLASS[stamp]}` : 'empty'}"
-			class:slam={phase !== 'flight'}
-			data-testid="stamp"
-		>
-			<div class="tier-name">{stamp ? tierInfo(stamp).label.toUpperCase() : '· · ·'}</div>
-			<div class="yds">+{shownYds} YDS</div>
+<!-- Mobile: one column (card, carry, fairway, flavor, actions). Desktop: the
+     fairway and carry meter form the stage; the card, flavor and actions the panel. -->
+<div class="reveal">
+	<div class="stage">
+		<div class="fairway-slot">
+			<FairwayTracker
+				shots={past}
+				mode="result"
+				{flight}
+				{progress}
+				label="The ball flies {shot.yards} yards, to {start + shot.yards} of {HOLE_LENGTH_YDS}"
+			/>
+		</div>
+		<div class="meter" aria-hidden="true">
+			<svg viewBox="0 0 342 50" width="100%">
+				<text class="caption" x="8" y="8">CARRY</text>
+				<line class="track" x1="8" y1="24" x2="334" y2="24" />
+				{#each GATES as gate, i (gate.id)}
+					{@const x = gx(gate.yards)}
+					{@const lit = !isOB && carry >= gate.yards - 0.5}
+					{@const last = i === GATES.length - 1}
+					<g
+						class="gate tier-{TIER_CLASS[gate.id]}"
+						class:lit
+						class:landed={lit && phase !== 'flight' && gate.id === shot.tier}
+					>
+						<line x1={x} y1="15" x2={x} y2="33" />
+						<text {x} y={i % 2 ? 9 : 45} text-anchor={last ? 'end' : 'middle'} dx={last ? 4 : 0}
+							>{gate.label.toUpperCase()}</text
+						>
+					</g>
+				{/each}
+				<circle class="ball" cx={gx(carry)} cy="24" r="5" />
+				{#if isOB && phase !== 'flight'}
+					<line class="cross" x1={gx(OB_CARRY) - 4} y1="20" x2={gx(OB_CARRY) + 4} y2="28" />
+					<line class="cross" x1={gx(OB_CARRY) + 4} y1="20" x2={gx(OB_CARRY) - 4} y2="28" />
+				{/if}
+			</svg>
 		</div>
 	</div>
-</div>
-
-<div class="meter" aria-hidden="true">
-	<svg viewBox="0 0 342 50" width="100%">
-		<text class="caption" x="8" y="8">CARRY</text>
-		<line class="track" x1="8" y1="24" x2="334" y2="24" />
-		{#each GATES as gate, i (gate.id)}
-			{@const x = gx(gate.yards)}
-			{@const lit = !isOB && carry >= gate.yards - 0.5}
-			{@const last = i === GATES.length - 1}
-			<g
-				class="gate tier-{TIER_CLASS[gate.id]}"
-				class:lit
-				class:landed={lit && phase !== 'flight' && gate.id === shot.tier}
-			>
-				<line x1={x} y1="15" x2={x} y2="33" />
-				<text {x} y={i % 2 ? 9 : 45} text-anchor={last ? 'end' : 'middle'} dx={last ? 4 : 0}
-					>{gate.label.toUpperCase()}</text
+	<div class="panel">
+		<div
+			class="trading-card"
+			class:flash={phase !== 'flight'}
+			style:--flash="var(--bk-tier-{TIER_CLASS[shot.tier]}-bg)"
+		>
+			<div class="frame tier-border-{TIER_CLASS[shot.tier]}">
+				<p class="your">YOUR ANSWER</p>
+				<h1 class:struck={isOB && shot.answer}>
+					{shot.answer || (shot.timedOut ? 'Time ran out' : 'No answer')}
+				</h1>
+				<p class="reminder">{promptText}</p>
+				<div
+					class="stamp {stamp ? `tier-bg-${TIER_CLASS[stamp]}` : 'empty'}"
+					class:slam={phase !== 'flight'}
+					data-testid="stamp"
 				>
-			</g>
-		{/each}
-		<circle class="ball" cx={gx(carry)} cy="24" r="5" />
-		{#if isOB && phase !== 'flight'}
-			<line class="cross" x1={gx(OB_CARRY) - 4} y1="20" x2={gx(OB_CARRY) + 4} y2="28" />
-			<line class="cross" x1={gx(OB_CARRY) + 4} y1="20" x2={gx(OB_CARRY) - 4} y2="28" />
-		{/if}
-	</svg>
+					<div class="tier-name">{stamp ? tierInfo(stamp).label.toUpperCase() : '· · ·'}</div>
+					<div class="yds">+{shownYds} YDS</div>
+				</div>
+			</div>
+		</div>
+		<p class="flavor" class:show={phase === 'settled'}>
+			{flavor(shot.tier, { timedOut: shot.timedOut, blank: !shot.rawText })}
+		</p>
+		{#if actions}<div class="actions">{@render actions()}</div>{/if}
+	</div>
+	<p class="sr-only" aria-live="polite">
+		{#if phase === 'settled'}{tier.label}. Plus {tier.yards} yards. {start + shot.yards} of {HOLE_LENGTH_YDS}.{/if}
+	</p>
 </div>
-
-<FairwayTracker
-	shots={past}
-	mode="result"
-	{flight}
-	{progress}
-	label="The ball flies {shot.yards} yards, to {start + shot.yards} of {HOLE_LENGTH_YDS}"
-/>
-
-<p class="flavor" class:show={phase === 'settled'}>
-	{flavor(shot.tier, { timedOut: shot.timedOut, blank: !shot.rawText })}
-</p>
-
-<p class="sr-only" aria-live="polite">
-	{#if phase === 'settled'}{tier.label}. Plus {tier.yards} yards. {start + shot.yards} of {HOLE_LENGTH_YDS}.{/if}
-</p>
 
 <style>
+	.reveal {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+
+	.stage,
+	.panel {
+		display: contents;
+	}
+
+	.trading-card {
+		order: 1;
+	}
+	.meter {
+		order: 2;
+	}
+	.fairway-slot {
+		order: 3;
+	}
+	.flavor {
+		order: 4;
+	}
+	.actions {
+		order: 5;
+		margin-top: auto;
+		min-height: 66px;
+	}
+
 	.trading-card {
 		margin-top: 4px;
 		padding: 6px;
@@ -361,5 +401,41 @@
 
 	.flavor.show {
 		opacity: 1;
+	}
+
+	@media (min-width: 960px) {
+		.reveal {
+			display: grid;
+			grid-template-columns: minmax(0, 1fr) var(--bk-panel-width);
+			column-gap: 40px;
+			align-items: start;
+		}
+
+		.stage,
+		.panel {
+			display: flex;
+			flex-direction: column;
+			gap: 16px;
+		}
+
+		.panel {
+			align-self: stretch;
+		}
+
+		.reveal > * > * {
+			order: 0;
+		}
+
+		.reveal {
+			align-content: center;
+		}
+
+		.flavor {
+			text-align: left;
+		}
+
+		.actions {
+			margin-top: 8px;
+		}
 	}
 </style>

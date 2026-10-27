@@ -91,3 +91,9 @@ Prompts whose answers can change soon (a season in progress, an award not yet gi
 **Why:** the reveal is the payoff of every shot. Passing the cheaper tiers before landing on yours makes the rarity visible without numbers, and the countdown gives a beat to read the prompt before the clock runs.
 **Still true from D3:** no pick percentages, no other answers, no most-picked/rarest lists mid-round. The gates show only tier names and yardages, which How to Play already shows.
 **Not adopted:** Krillion's "submit again to confirm" step for auto-corrected answers. Swing still submits the corrected name in one press (D4). Worth revisiting after playtests.
+
+### D14 — Desktop gets its own layout (2026-10-27)
+
+**Chose:** at 960px and wider, each screen splits into a stage (the fairway, carry meter, masthead or hole map) and a 400px side panel (prompt, answer, result card, actions), inside a 1120px frame. Below 960px nothing changes. Tokens: `--bk-wide-max`, `--bk-panel-width`, `--bk-gutter-wide`. The breakpoint is written as `min-width: 960px` in each stylesheet, since CSS custom properties can't be used in media queries.
+**Over:** the earlier design-system rule "on desktop, center the 390–430px game column".
+**Why:** on a laptop the phone column left most of the screen empty and squeezed the fairway, which is the part of the game that animates. The split mirrors Farflung's map + side panel. Every element keeps the same DOM order as on mobile (stage/panel wrappers are `display: contents` on phones), so screen-reader and tab order are the same on both.
