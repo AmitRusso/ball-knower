@@ -37,7 +37,7 @@ Hard-code one hole from `data/sample-hole.json`; no server yet.
 - [x] Server-side clock, idempotent swings, rate limiting (per isolate; see D15)
 - [x] KV caching of hole + pools; the first request after 00:00 UTC publishes the next hole (Pages has no Cron Triggers; see D15)
 - [x] Playwright: full round against local D1; test that answers are never in any pre-completion response
-- [ ] Deploy: `pnpm db:migrate:remote`, `pnpm db:seed --remote`, `pnpm run deploy`; two phones play the same hole
+- [x] Deploy: `pnpm db:migrate:remote`, `pnpm db:seed --remote`, `pnpm run deploy`; three separate plays on the deployed hole (2026-10-28): the third pick of Netherlands dropped from Ball Knower to All-Star
 
 **Done when:** two people on different phones play the same hole and see rarity tiers driven by real picks.
 
