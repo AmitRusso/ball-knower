@@ -19,10 +19,11 @@ Ball Knower is the sports version of Krillion/Farflung, with golf as the distanc
 ## Core loop
 
 1. **Tee off** — open today's hole (same five prompts for everyone).
-2. **Prompt** — read it, type an answer, accept the auto-correct, **swing**. 45 seconds.
-3. **Shot result** — see your answer, its tier and the ball flying down the fairway.
-4. Repeat for shots 2–5.
-5. **The card** — total yards, hole map of all five shots, expandable list of every correct answer, share.
+2. **Tee up** — the prompt appears on its own with a 3-second countdown ("the clock starts in 3"); the input and the 45-second clock appear when it hits zero.
+3. **Prompt** — type an answer, accept the auto-correct, **swing**. 45 seconds.
+4. **Shot result** — the ball carries past each tier gate while the tier stamp upgrades, then the stamp lands. NEXT SHOT appears once it has.
+5. Repeat for shots 2–5.
+6. **The card** — total yards, hole map of all five shots, expandable list of every correct answer, share.
 
 ## Rules
 
@@ -60,13 +61,15 @@ Shown as a shot that hooks off the fairway. The ball stays where it was — the 
 
 ## Shot result screen (after each prompt)
 
-Shows **only**:
+The reveal follows Krillion (the answer sinks past labeled depth lines) and Farflung (the tier stamp flickers up, then lands). In order:
 
-- the player's answer (canonical name)
-- the tier banner and yards gained
-- the fairway with the ball's flight animated from its old spot to its new spot, and the running total / yards to the pin
+1. The ball flies. A **carry meter** under the card shows the five tier gates at their yardages (40 Bench Warmer … 100 Ball Knower); each gate lights up as the ball passes it, and the **tier stamp** on the card upgrades to match. The yard counters tick up.
+2. The ball lands on its own tier's gate. Out of Bounds hooks off and passes no gate.
+3. The stamp **slams** down and the card flashes in the tier color.
+4. A one-line **flavor** for the tier fades in ("A deep cut. Pure contact.").
+5. **NEXT SHOT** appears and takes focus. The progress pips at the top fill in with this shot's tier color only now.
 
-It does **not** show pick percentages, the tier ladder, the most-picked or rarest answers, or any other answers — those would spoil nothing on this prompt but would teach players the rarity curve mid-round and slow the pace.
+It still does **not** show pick percentages, the most-picked or rarest answers, or any other answers. The gates show only tier names and yardages, which How to Play already lists.
 
 ## The card (end of round)
 

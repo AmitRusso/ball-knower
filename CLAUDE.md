@@ -47,7 +47,7 @@ pnpm run deploy     # build + wrangler pages deploy (needs `wrangler login`; bar
 
 Added in M2: `pnpm db:migrate` (wrangler d1 migrations apply, local, from `db/migrations/`) and `pnpm db:seed` (load `data/sample-hole.json` into local D1).
 
-Notes: SvelteKit 3 — Kit config lives in `vite.config.ts` (no `svelte.config.js`); `#lib/*` is the import alias for `src/lib/*`. Cloudflare config is `wrangler.jsonc` (bindings `DB` → D1, `HOLES` → KV; placeholder IDs until M2). `src/lib/styles/tokens.css` is a verbatim copy of `design/tokens.css` — edit the design file and re-copy; a unit test enforces they match.
+Notes: SvelteKit 3 — Kit config lives in `vite.config.ts` (no `svelte.config.js`); `#lib/*` is the import alias for `src/lib/*` (there is no `$lib`) and TS modules need the extension: `import { TIERS } from '#lib/scoring.ts'`. Internal links go through `resolve()` from `$app/paths` (lint rule). Cloudflare config is `wrangler.jsonc` with the real D1 (`ball_knower`) and KV (`HOLES`) IDs; don't mark bindings `"remote": true` — `wrangler pages dev` (preview, e2e) then can't start. `src/lib/styles/tokens.css` is a verbatim copy of `design/tokens.css` — edit the design file and re-copy; a unit test enforces they match.
 
 ## Hard rules
 
@@ -70,4 +70,4 @@ Notes: SvelteKit 3 — Kit config lives in `vite.config.ts` (no `svelte.config.j
 
 ## Current state
 
-M0 scaffold done: SvelteKit app with tokens, self-hosted fonts, a styled placeholder home page, CI (check/lint/test). Not yet deployed to Cloudflare Pages. Next step: finish the M0 deploy, then **Milestone 1** in `docs/05-roadmap.md`.
+M0 and M1 done: the full offline round is playable — Home, How to Play, Prompt, Shot Result, Card — off `data/sample-hole.json` through `src/lib/api.ts`, an offline stand-in for the API. Round state is in `src/lib/game.svelte.ts` (localStorage resume + streaks). In M1 the sample hole, answers included, ships to the browser as a lazy chunk on `/play` and `/card` (never on the home page); M2 moves answers behind the server. Next step: **Milestone 2** in `docs/05-roadmap.md`.

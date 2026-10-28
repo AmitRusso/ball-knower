@@ -71,7 +71,7 @@ Every entity in the pool — correct or not. Immutable per version (`max-age=315
 
 ### `POST /api/prompt/:index/start`
 
-Records when the player was served a prompt (enforces the 45 s clock server-side, with ~5 s grace for latency).
+Records when the player was served a prompt (enforces the 45 s clock server-side, with ~5 s grace for latency). The client calls it when the 3-second tee-up countdown ends, which is when the input appears.
 
 ### `POST /api/swing`
 

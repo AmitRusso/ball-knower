@@ -31,6 +31,7 @@
 
   /* Tier arcs on dark backgrounds */
   --bk-arc-allstar: #7FAEEA;
+  --bk-arc-starter: #8CCB9F;
   --bk-arc-ob: #E2735E;
 
   /* Type */
@@ -49,6 +50,10 @@
   /* Layout */
   --bk-gutter: 24px;
   --bk-column-max: 430px;
+  /* Desktop (min-width: 960px): stage + side panel */
+  --bk-wide-max: 1120px;
+  --bk-panel-width: 400px;
+  --bk-gutter-wide: 48px;
 
   /* Patterns */
   --bk-fairway: repeating-linear-gradient(90deg, var(--bk-green-650) 0 28px, var(--bk-green-700) 28px 56px);

@@ -10,7 +10,7 @@ Each milestone ends with something playable or deployable. Tick boxes as you go.
 - [x] Self-host the three fonts (subset woff2) in `static/fonts/`
 - [x] Fill in the **Commands** section of `CLAUDE.md`
 - [x] GitHub Actions: `check`, `lint`, `test` on every PR
-- [ ] Deploy an empty page to Cloudflare Pages
+- [x] Deploy an empty page to Cloudflare Pages
 
 **Done when:** a styled "BALL KNOWER" page is live on a `*.pages.dev` URL and CI is green.
 
@@ -18,14 +18,14 @@ Each milestone ends with something playable or deployable. Tick boxes as you go.
 
 Hard-code one hole from `data/sample-hole.json`; no server yet.
 
-- [ ] Screens from `design/mockups/`: Home, How to Play, Prompt, Shot Result, Card
-- [ ] `FairwayTracker` component (shared) with the geometry from `02-design-system.md`
-- [ ] Ball flight animation + `prefers-reduced-motion`
-- [ ] 45-second timer, auto-swing on timeout
-- [ ] `src/lib/match.ts` (normalize + aliases + fuzzy) with unit tests; `AutoCorrectCard`
-- [ ] `src/lib/scoring.ts` — tiers from the sample priors
-- [ ] Expandable scorecard rows, share text + Web Share API
-- [ ] localStorage: resume mid-round, streak
+- [x] Screens from `design/mockups/`: Home, How to Play, Prompt, Shot Result, Card
+- [x] `FairwayTracker` component (shared) with the geometry from `02-design-system.md`
+- [x] Ball flight animation + `prefers-reduced-motion`
+- [x] 45-second timer, auto-swing on timeout
+- [x] `src/lib/match.ts` (normalize + aliases + fuzzy) with unit tests; `AutoCorrectCard`
+- [x] `src/lib/scoring.ts` — tiers from the sample priors
+- [x] Expandable scorecard rows, share text + Web Share API
+- [x] localStorage: resume mid-round, streak
 
 **Done when:** you can play a full hole on your phone and share the result. Show it to five friends.
 

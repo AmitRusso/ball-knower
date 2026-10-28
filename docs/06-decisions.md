@@ -73,3 +73,27 @@ Prompts whose answers can change soon (a season in progress, an award not yet gi
 - D1 migrations and `db:*` scripts deferred to M2 (the schema is still a draft and nothing reads the DB yet).
 - Playwright runs locally only for now; CI runs `check`, `lint`, `test` as the roadmap asks.
 - Prettier ignores the pre-existing `docs/`, `design/`, `data/`, `db/` and Markdown so they stay as authored.
+
+### D12 — M1 prototype details (2026-10-26)
+
+**Chose:**
+- **Offline API stand-in.** `src/lib/api.ts` has the same function shapes as the M2 endpoints (`getHole`, `getPool`, `swing`, `getAnswers`) but reads `data/sample-hole.json`. M2 swaps the bodies for `fetch`; screens don't change. Tiers come from the prior alone (`blendedShare` with zero picks).
+- **Accepted M1 exception to hard rule 1:** the sample file, answers included, is a lazy JS chunk loaded by `/play` and `/card`. The home page imports only `src/lib/today.ts` (hole number, date), so it never pulls answers. Goes away in M2.
+- **Auto-correct ties break alphabetically**, not by pool order (the sample pools list correct answers first, so pool order would leak) and not by popularity (no popularity data until M3).
+- **Starter arc color `#8CCB9F`** (`--bk-arc-starter`): the Starter tier green is invisible on the fairway.
+- **Share squares:** Ball Knower 🟨, All-Star 🟦, Starter 🟩, Role Player 🟫, Bench Warmer ⬜, Out of Bounds 🟥. Role Player's pale green has no emoji square, so it borrows brown.
+- **Deferred:** the percentile line on the card ("longer than X% of today's players") needs the server (M2); short scorecard labels ("Non-QB NFL MVP") need a `short` field on prompts (M3 pipeline), so the card shows the full prompt text; Driving Range shows as "SOON" (M4).
+
+### D13 — Krillion/Farflung-style progression and reveal (2026-10-26)
+
+**Chose:** the between-prompt and shot-reveal flow from the Krillion and Farflung recordings, translated to golf. Each prompt tees up with a 3-second countdown before the input and clock appear. The result screen has a carry meter whose tier gates light up as the ball passes them, a tier stamp that upgrades with each gate and then slams down with a flash in the tier color, and a one-line flavor for the tier. NEXT SHOT appears only after the reveal settles. Progress pips in the top bar fill in with each shot's tier color.
+**Over:** D3's minimal result screen (answer, tier banner popping in on landing, ball flight).
+**Why:** the reveal is the payoff of every shot. Passing the cheaper tiers before landing on yours makes the rarity visible without numbers, and the countdown gives a beat to read the prompt before the clock runs.
+**Still true from D3:** no pick percentages, no other answers, no most-picked/rarest lists mid-round. The gates show only tier names and yardages, which How to Play already shows.
+**Not adopted:** Krillion's "submit again to confirm" step for auto-corrected answers. Swing still submits the corrected name in one press (D4). Worth revisiting after playtests.
+
+### D14 — Desktop gets its own layout (2026-10-27)
+
+**Chose:** at 960px and wider, each screen splits into a stage (the fairway, carry meter, masthead or hole map) and a 400px side panel (prompt, answer, result card, actions), inside a 1120px frame. Below 960px nothing changes. Tokens: `--bk-wide-max`, `--bk-panel-width`, `--bk-gutter-wide`. The breakpoint is written as `min-width: 960px` in each stylesheet, since CSS custom properties can't be used in media queries.
+**Over:** the earlier design-system rule "on desktop, center the 390–430px game column".
+**Why:** on a laptop the phone column left most of the screen empty and squeezed the fairway, which is the part of the game that animates. The split mirrors Farflung's map + side panel. Every element keeps the same DOM order as on mobile (stage/panel wrappers are `display: contents` on phones), so screen-reader and tab order are the same on both.
