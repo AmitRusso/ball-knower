@@ -56,31 +56,47 @@ test('phones keep the single column', async ({ page }) => {
 	expect(prompt.y).toBeGreaterThan(fairway.y + fairway.height);
 });
 
-test('the card puts the hole map beside the scorecard', async ({ page }) => {
-	const shot = (index: number, answer: string, entityId: string, tier: string, yards: number) => ({
-		index,
-		rawText: answer,
-		entityId,
-		answer,
-		tier,
-		yards,
-		timedOut: false
-	});
-	const play = {
-		holeNo: 214,
-		promptStartedAt: null,
-		showingResult: false,
-		draft: '',
-		shots: [
-			shot(0, 'Mark Moseley', 'nfl-mark-moseley', 'BALL_KNOWER', 100),
-			shot(1, 'Russell Westbrook', 'nba-russell-westbrook', 'BENCH_WARMER', 40),
-			shot(2, 'San Antonio Spurs', 'nba-san-antonio-spurs', 'ALL_STAR', 85),
-			shot(3, 'Argentina', 'ctry-argentina', 'OUT_OF_BOUNDS', 0),
-			shot(4, 'Mickey Welch', 'mlb-mickey-welch', 'BALL_KNOWER', 100)
-		]
-	};
-	await page.addInitScript((p) => localStorage.setItem('bk:play:214', JSON.stringify(p)), play);
+test('the card puts the hole map beside the scorecard', async ({ page, request }) => {
+	// Play the hole through the API (the server must know it's finished before
+	// it sends answers), then hand the round to the page. These picks avoid the
+	// answers other tests assert tiers for.
+	const playerId = crypto.randomUUID();
+	const headers = { 'x-player-id': playerId };
+	const picks = [
+		['nfl-jim-taylor', 'Jim Taylor'],
+		['nba-oscar-robertson', 'Oscar Robertson'],
+		['nba-chicago-bulls', 'Chicago Bulls'],
+		['ctry-argentina', 'Argentina'],
+		['mlb-tim-keefe', 'Tim Keefe']
+	];
+	const shots = [];
+	for (const [index, [entityId, rawText]] of picks.entries()) {
+		await request.post(`/api/prompt/${index}/start`, { headers, data: { holeNo: 214 } });
+		const res = await request.post('/api/swing', {
+			headers,
+			data: { holeNo: 214, index, entityId, rawText }
+		});
+		const r = await res.json();
+		shots.push({
+			index,
+			rawText,
+			entityId,
+			answer: r.canonicalName,
+			tier: r.tier,
+			yards: r.yards,
+			timedOut: false
+		});
+	}
+	const play = { holeNo: 214, promptStartedAt: null, showingResult: false, draft: '', shots };
+	await page.addInitScript(
+		([id, p]) => {
+			localStorage.setItem('bk:player', id);
+			localStorage.setItem('bk:play:214', p);
+		},
+		[playerId, JSON.stringify(play)]
+	);
 	await page.goto('/card');
+	await expect(page.getByText('ALL 19 CORRECT ANSWERS').first()).toBeAttached();
 	const map = await box(page.getByRole('img', { name: /Hole map/ }));
 	const card = await box(page.getByText('SHOT · TAP TO SEE ALL ANSWERS'));
 	expect(card.x).toBeGreaterThan(map.x + map.width);

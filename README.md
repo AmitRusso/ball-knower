@@ -6,7 +6,7 @@ Every day, everyone gets the same five sports prompts — *"Name a non-QB NFL MV
 
 Inspired by [Krillion](https://krillion.io) (rare-answer trivia) and [Farflung](https://farflung.game) (the same idea on a world map), and by the rarity score in [Immaculate Grid](https://www.sports-reference.com/immaculate-grid/).
 
-> **Status:** Milestone 1 — one sample hole is playable end to end, offline; the server and real rarity come in M2. See [`docs/05-roadmap.md`](docs/05-roadmap.md).
+> **Status:** Milestone 2 — one sample hole, served from Cloudflare D1, with rarity tiers driven by real picks. The content pipeline comes in M3. See [`docs/05-roadmap.md`](docs/05-roadmap.md).
 
 ---
 
@@ -31,7 +31,7 @@ Full rules: [`docs/01-game-design.md`](docs/01-game-design.md)
 
 ## Stack
 
-SvelteKit + TypeScript on **Cloudflare** (Pages + Workers + D1 + KV + Cron). Plain CSS, inline SVG animation, self-hosted fonts. Python + Wikidata for the content pipeline. Details and reasoning: [`docs/03-architecture.md`](docs/03-architecture.md).
+SvelteKit + TypeScript on **Cloudflare** (Pages + Functions + D1 + KV). Plain CSS, inline SVG animation, self-hosted fonts. Python + Wikidata for the content pipeline. Details and reasoning: [`docs/03-architecture.md`](docs/03-architecture.md).
 
 **Performance budget:** < 50 KB gzipped JS on first load · usable in < 1.5 s on mobile · swing response < 100 ms.
 
@@ -52,9 +52,12 @@ ball-knower/
 │   ├── tokens.css            ← colors, fonts, tiers as CSS custom properties
 │   └── mockups/              ← the five screens as standalone HTML (open index.html)
 ├── db/
-│   └── schema.sql            ← draft Cloudflare D1 (SQLite) schema
+│   ├── schema.sql            ← Cloudflare D1 (SQLite) schema, for reading
+│   └── migrations/           ← numbered migrations (pnpm db:migrate)
+├── scripts/
+│   └── seed.ts               ← loads data/sample-hole.json into D1 (pnpm db:seed)
 └── data/
-    └── sample-hole.json      ← one full hole (5 prompts + answer lists) for M1
+    └── sample-hole.json      ← one full hole (5 prompts + answer lists), the seed data
 ```
 
 ## Getting started
@@ -63,6 +66,8 @@ Requires Node 22+ and pnpm 10.
 
 ```bash
 pnpm install
+pnpm db:migrate # local D1 in .wrangler/
+pnpm db:seed    # sample hole as today's hole
 pnpm dev        # http://localhost:5173
 ```
 

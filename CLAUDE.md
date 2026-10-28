@@ -45,9 +45,16 @@ pnpm cf:types       # regenerate worker-configuration.d.ts after editing wrangle
 pnpm run deploy     # build + wrangler pages deploy (needs `wrangler login`; bare `pnpm deploy` is a pnpm built-in)
 ```
 
-Added in M2: `pnpm db:migrate` (wrangler d1 migrations apply, local, from `db/migrations/`) and `pnpm db:seed` (load `data/sample-hole.json` into local D1).
+```bash
+pnpm db:migrate          # apply db/migrations/ to local D1
+pnpm db:migrate:remote   # same, on the deployed D1
+pnpm db:seed             # sample-hole.json as today's hole in local D1; WIPES plays + pick counts, clears KV
+pnpm db:seed --remote    # same on the deployed D1 (wipes production plays)
+```
 
-Notes: SvelteKit 3 — Kit config lives in `vite.config.ts` (no `svelte.config.js`); `#lib/*` is the import alias for `src/lib/*` (there is no `$lib`) and TS modules need the extension: `import { TIERS } from '#lib/scoring.ts'`. Internal links go through `resolve()` from `$app/paths` (lint rule). Cloudflare config is `wrangler.jsonc` with the real D1 (`ball_knower`) and KV (`HOLES`) IDs; don't mark bindings `"remote": true` — `wrangler pages dev` (preview, e2e) then can't start. `src/lib/styles/tokens.css` is a verbatim copy of `design/tokens.css` — edit the design file and re-copy; a unit test enforces they match.
+`pnpm test:e2e` migrates and reseeds local D1 itself, and runs with one worker (tiers depend on earlier picks).
+
+Notes: SvelteKit 3 — Kit config lives in `vite.config.ts` (no `svelte.config.js`); server code gets D1/KV from `import { env } from 'cloudflare:workers'` (via `bindings()` in `src/lib/server/env.ts`), not `platform.env`; `#lib/*` is the import alias for `src/lib/*` (there is no `$lib`) and TS modules need the extension: `import { TIERS } from '#lib/scoring.ts'`. Internal links go through `resolve()` from `$app/paths` (lint rule). Cloudflare config is `wrangler.jsonc` with the real D1 (`ball_knower`) and KV (`HOLES`) IDs; don't mark bindings `"remote": true` — `wrangler pages dev` (preview, e2e) then can't start. `src/lib/styles/tokens.css` is a verbatim copy of `design/tokens.css` — edit the design file and re-copy; a unit test enforces they match.
 
 ## Hard rules
 
@@ -70,4 +77,4 @@ Notes: SvelteKit 3 — Kit config lives in `vite.config.ts` (no `svelte.config.j
 
 ## Current state
 
-M0 and M1 done: the full offline round is playable — Home, How to Play, Prompt, Shot Result, Card — off `data/sample-hole.json` through `src/lib/api.ts`, an offline stand-in for the API. Round state is in `src/lib/game.svelte.ts` (localStorage resume + streaks). In M1 the sample hole, answers included, ships to the browser as a lazy chunk on `/play` and `/card` (never on the home page); M2 moves answers behind the server. Next step: **Milestone 2** in `docs/05-roadmap.md`.
+M0–M2 code done: the round runs against the API in `src/routes/api/` (D1 + KV, logic in `src/lib/server/`), with real rarity from pick counts. `src/lib/api.ts` is the fetch client; round state is in `src/lib/game.svelte.ts` (localStorage resume + streaks; the server owns the clock and the scores). Answers never reach the browser before the play is finished. Left for M2: migrate + seed the deployed D1 and play one hole on two phones. Then **Milestone 3** in `docs/05-roadmap.md`.

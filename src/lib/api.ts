@@ -1,85 +1,61 @@
-// M1 stand-in for the HTTP API in docs/03-architecture.md, backed by
-// data/sample-hole.json. M2 replaces each function body with a fetch to the
-// matching endpoint; callers don't change.
-//
-// NOTE: in M1 the whole sample file (answers included) ships to the browser as
-// a lazy chunk. That is the accepted offline-prototype exception to hard rule 1
-// and goes away in M2, when answers stay on the server.
+// Client for the HTTP API in docs/03-architecture.md. Answer lists never come
+// through here before the hole is finished (hard rule 1).
 
-import { blendedShare, OUT_OF_BOUNDS, tierForShare } from './scoring';
-import type { Entity, Hole, Pool, PromptAnswers, SwingRequest, SwingResult } from './types';
+import { playerId } from './storage';
+import type {
+	Hole,
+	Pool,
+	PromptAnswers,
+	StartRequest,
+	StartResult,
+	SwingRequest,
+	SwingResult
+} from './types';
 
-interface SampleHole {
-	holeNo: number;
-	date: string;
-	lengthYds: number;
-	secondsPerPrompt: number;
-	prompts: {
-		position: number;
-		league: string;
-		poolId: string;
-		text: string;
-		note: string;
-		answers: { entityId: string; name: string; priorShare: number }[];
-	}[];
-	pools: Record<string, { name: string; entities: Entity[] }>;
+export class ApiError extends Error {
+	constructor(
+		readonly status: number,
+		message: string
+	) {
+		super(message);
+	}
 }
 
-let cached: Promise<SampleHole> | undefined;
-const sample = () =>
-	(cached ??= import('../../data/sample-hole.json').then((m) => m.default as SampleHole));
+async function call<T>(path: string, init: { method?: string; body?: unknown } = {}): Promise<T> {
+	const headers: Record<string, string> = { 'x-player-id': playerId() };
+	if (init.body !== undefined) headers['content-type'] = 'application/json';
+	const res = await fetch(path, {
+		method: init.method ?? 'GET',
+		headers,
+		body: init.body === undefined ? undefined : JSON.stringify(init.body)
+	});
+	if (!res.ok) {
+		const detail = await res.json().catch(() => null);
+		throw new ApiError(
+			res.status,
+			(detail as { message?: string } | null)?.message ?? res.statusText
+		);
+	}
+	return (await res.json()) as T;
+}
 
 /** GET /api/hole/today */
-export async function getHole(): Promise<Hole> {
-	const h = await sample();
-	return {
-		holeNo: h.holeNo,
-		date: h.date,
-		lengthYds: h.lengthYds,
-		secondsPerPrompt: h.secondsPerPrompt,
-		prompts: h.prompts.map((p) => ({
-			index: p.position,
-			text: p.text,
-			note: p.note,
-			league: p.league,
-			poolId: p.poolId
-		}))
-	};
-}
+export const getHole = () => call<Hole>('/api/hole/today');
 
-/** GET /api/pool/:poolId */
-export async function getPool(poolId: string): Promise<Pool> {
-	const h = await sample();
-	return { poolId, entities: h.pools[poolId]?.entities ?? [] };
-}
+/** GET /api/pool/:poolId — immutable for a given version. */
+export const getPool = (poolId: string, version: number) =>
+	call<Pool>(`/api/pool/${encodeURIComponent(poolId)}?v=${version}`);
 
-/** POST /api/swing — tier comes from the prior alone until M2 has real pick counts. */
-export async function swing(req: SwingRequest): Promise<SwingResult> {
-	const h = await sample();
-	const prompt = h.prompts.find((p) => p.position === req.index);
-	if (!prompt || h.holeNo !== req.holeNo) throw new Error(`No prompt ${req.index}`);
-	const answer = req.entityId ? prompt.answers.find((a) => a.entityId === req.entityId) : undefined;
-	if (!answer) {
-		const entity = h.pools[prompt.poolId]?.entities.find((e) => e.id === req.entityId);
-		return {
-			correct: false,
-			canonicalName: entity?.name ?? req.rawText.trim(),
-			tier: OUT_OF_BOUNDS.id,
-			yards: OUT_OF_BOUNDS.yards
-		};
-	}
-	const tier = tierForShare(blendedShare(0, 0, answer.priorShare));
-	return { correct: true, canonicalName: answer.name, tier: tier.id, yards: tier.yards };
-}
+/** POST /api/prompt/:index/start — starts (or reports) the server-side clock. */
+export const startPrompt = (holeNo: number, index: number) =>
+	call<StartResult>(`/api/prompt/${index}/start`, {
+		method: 'POST',
+		body: { holeNo } satisfies StartRequest
+	});
 
-/** GET /api/hole/:holeNo/answers — callers must only ask once the play is complete. */
-export async function getAnswers(holeNo: number): Promise<PromptAnswers[]> {
-	const h = await sample();
-	if (h.holeNo !== holeNo) throw new Error(`No hole ${holeNo}`);
-	return h.prompts.map((p) => ({
-		index: p.position,
-		answers: p.answers
-			.map(({ entityId, name }) => ({ entityId, name }))
-			.sort((a, b) => a.name.localeCompare(b.name))
-	}));
-}
+/** POST /api/swing */
+export const swing = (req: SwingRequest) =>
+	call<SwingResult>('/api/swing', { method: 'POST', body: req });
+
+/** GET /api/hole/:holeNo/answers — 403 until this player has finished the hole. */
+export const getAnswers = (holeNo: number) => call<PromptAnswers[]>(`/api/hole/${holeNo}/answers`);

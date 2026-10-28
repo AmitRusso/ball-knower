@@ -97,3 +97,16 @@ Prompts whose answers can change soon (a season in progress, an award not yet gi
 **Chose:** at 960px and wider, each screen splits into a stage (the fairway, carry meter, masthead or hole map) and a 400px side panel (prompt, answer, result card, actions), inside a 1120px frame. Below 960px nothing changes. Tokens: `--bk-wide-max`, `--bk-panel-width`, `--bk-gutter-wide`. The breakpoint is written as `min-width: 960px` in each stylesheet, since CSS custom properties can't be used in media queries.
 **Over:** the earlier design-system rule "on desktop, center the 390–430px game column".
 **Why:** on a laptop the phone column left most of the screen empty and squeezed the fairway, which is the part of the game that animates. The split mirrors Farflung's map + side panel. Every element keeps the same DOM order as on mobile (stage/panel wrappers are `display: contents` on phones), so screen-reader and tab order are the same on both.
+
+### D15 — M2 server details (2026-10-28)
+
+**Chose:**
+- **No Cron Trigger: lazy publish.** Cloudflare Pages Functions support neither `triggers` nor the rate-limiting binding (wrangler's Pages config whitelist). Today's hole is cached in KV under its UTC date, so the first `GET /api/hole/today` after 00:00 UTC reads D1, flips `holes.status` (live/past) and writes KV. If no hole is scheduled for a day, the latest earlier one repeats. A separate cron Worker (or moving from Pages to Workers + static assets) can warm the cache later; nothing depends on it.
+- **Rate limiting per isolate.** A fixed one-minute window in memory, per IP and per player. Best effort — isolates don't share it. Add a WAF rate-limiting rule on `/api/*` in production.
+- **Bindings via `cloudflare:workers`.** The SvelteKit 3 Cloudflare adapter no longer passes `platform.env`; server code imports `env` from `cloudflare:workers` (the adapter provides a dev-time stand-in backed by `.wrangler/` state).
+- **The server clock is the clock.** `POST /api/prompt/:i/start` returns `elapsedMs` since the prompt was first served; the client counts down from that, so clock skew and reloads don't matter. Shots must be served in order.
+- **Blank swings go to the server** so the play row completes and the answers unlock.
+- **Pool URLs carry the version** (`/api/pool/:id?v=`), so "immutable" caching is safe; `poolVersion` rides on each prompt in the hole payload.
+- **Seed wipes everything.** `pnpm db:seed` loads `data/sample-hole.json` as today's hole (`--date=` to override), deletes every play and pick count, and clears the HOLES KV namespace. Playwright reseeds before every run and runs with one worker, since tiers depend on earlier picks.
+- **Card without answers.** If the server won't confirm the play is finished (offline, or local storage from a reseeded database), the card still shows the round, with "answers unavailable" in each row.
+- **Deferred:** the percentile line on the card (`hole_totals` is filled on completion; nothing reads it yet).

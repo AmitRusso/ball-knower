@@ -1,5 +1,6 @@
--- Ball Knower — draft Cloudflare D1 (SQLite) schema.
--- See docs/03-architecture.md. Turn into numbered migrations in M2.
+-- Ball Knower — Cloudflare D1 (SQLite) schema. See docs/03-architecture.md.
+-- The full current schema, for reading. Changes go in a new numbered file in
+-- db/migrations/ (applied with `pnpm db:migrate`); keep this file in step.
 
 PRAGMA foreign_keys = ON;
 

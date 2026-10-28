@@ -31,12 +31,13 @@ Hard-code one hole from `data/sample-hole.json`; no server yet.
 
 ## M2 — Server and real rarity
 
-- [ ] D1 migrations from `db/schema.sql`; seed script for the sample hole
-- [ ] `GET /api/hole/today`, `GET /api/pool/:id`, `POST /api/prompt/:i/start`, `POST /api/swing`, `GET /api/hole/:n/answers`
-- [ ] Rarity blend (`K = 200`), tier lock on `shots`
-- [ ] Server-side clock, idempotent swings, rate limiting
-- [ ] KV caching of hole + pools; cron publishes the next hole at 00:00 UTC
-- [ ] Playwright: full round against local D1; test that answers are never in any pre-completion response
+- [x] D1 migrations from `db/schema.sql`; seed script for the sample hole
+- [x] `GET /api/hole/today`, `GET /api/pool/:id`, `POST /api/prompt/:i/start`, `POST /api/swing`, `GET /api/hole/:n/answers`
+- [x] Rarity blend (`K = 200`), tier lock on `shots`
+- [x] Server-side clock, idempotent swings, rate limiting (per isolate; see D15)
+- [x] KV caching of hole + pools; the first request after 00:00 UTC publishes the next hole (Pages has no Cron Triggers; see D15)
+- [x] Playwright: full round against local D1; test that answers are never in any pre-completion response
+- [ ] Deploy: `pnpm db:migrate:remote`, `pnpm db:seed --remote`, `pnpm run deploy`; two phones play the same hole
 
 **Done when:** two people on different phones play the same hole and see rarity tiers driven by real picks.
 
