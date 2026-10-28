@@ -22,8 +22,8 @@ If code and docs disagree, ask before changing either. When a decision changes, 
 ## Stack
 
 - **App:** SvelteKit + TypeScript (strict), `@sveltejs/adapter-cloudflare`
-- **Hosting:** Cloudflare Pages + Workers
-- **Data:** Cloudflare D1 (SQLite), Workers KV for today's hole, Cron Trigger at 00:00 UTC
+- **Hosting:** Cloudflare Pages + Functions
+- **Data:** Cloudflare D1 (SQLite), Workers KV for today's hole; the first request after 00:00 UTC publishes the new hole (Pages has no Cron Triggers, D15)
 - **Styling:** plain CSS with the custom properties in `design/tokens.css`. No Tailwind, no UI kit.
 - **Animation:** inline SVG + CSS / Web Animations API. No animation library.
 - **Fonts:** Graduate, Archivo, Space Mono — self-hosted, subsetted woff2
@@ -77,4 +77,4 @@ Notes: SvelteKit 3 — Kit config lives in `vite.config.ts` (no `svelte.config.j
 
 ## Current state
 
-M0–M2 code done: the round runs against the API in `src/routes/api/` (D1 + KV, logic in `src/lib/server/`), with real rarity from pick counts. `src/lib/api.ts` is the fetch client; round state is in `src/lib/game.svelte.ts` (localStorage resume + streaks; the server owns the clock and the scores). Answers never reach the browser before the play is finished. Left for M2: migrate + seed the deployed D1 and play one hole on two phones. Then **Milestone 3** in `docs/05-roadmap.md`.
+M0–M2 done: the round runs against the API in `src/routes/api/` (D1 + KV, logic in `src/lib/server/`), with real rarity from pick counts. `src/lib/api.ts` is the fetch client; round state is in `src/lib/game.svelte.ts` (localStorage resume + streaks; the server owns the clock and the scores). Answers never reach the browser before the play is finished. Production D1 is migrated and seeded with the sample hole. Next step: **Milestone 3** in `docs/05-roadmap.md`.
