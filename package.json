@@ -16,6 +16,9 @@
 		"test:watch": "vitest",
 		"test:e2e": "playwright test",
 		"cf:types": "wrangler types",
+		"db:migrate": "wrangler d1 migrations apply ball-knower --local",
+		"db:migrate:remote": "wrangler d1 migrations apply ball-knower --remote",
+		"db:seed": "node scripts/seed.ts",
 		"deploy": "pnpm build && wrangler pages deploy"
 	},
 	"devDependencies": {

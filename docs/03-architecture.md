@@ -14,7 +14,7 @@ Goal: web-served, but feels like a native app — tiny first load, instant typin
 | Hosting / API | **Cloudflare Pages + Workers** | Static and API on the same edge network; near-zero cold start |
 | Database | **Cloudflare D1** (SQLite) | Prompts, entities, answers, pick counts, plays |
 | Cache | **Workers KV** | Today's hole payload and entity pools (immutable, long TTL) |
-| Scheduler | **Cron Trigger** `0 0 * * *` | Publishes the next hole at 00:00 UTC, warms KV |
+| Scheduler | Lazy publish on the first request of each UTC day | Pages Functions can't run Cron Triggers (D15). A separate cron Worker can warm KV later if needed |
 | PWA | Web manifest + service worker | Installable; instant shell on repeat visits |
 | Share | Web Share API, clipboard fallback; OG images rendered at the edge (e.g. `workers-og`/Satori) | Shared links show the card |
 | Analytics | Cloudflare Web Analytics | Cookie-free, no consent banner |
@@ -38,7 +38,7 @@ Goal: web-served, but feels like a native app — tiny first load, instant typin
             │                                 │
   finish    │ GET /api/hole/:n/answers        │──► Worker ──► D1 (only if play complete)
             └─────────────────────────────────┘
- 00:00 UTC   Cron ──► Worker: publish next hole, write KV
+ 00:00 UTC   first GET /api/hole/today of the day misses KV ──► publish from D1, write KV
 ```
 
 ## API
@@ -59,7 +59,7 @@ All responses JSON. `playerId` is a client-generated UUID (localStorage), sent a
 }
 ```
 
-No answers. Cached in KV; `Cache-Control: public, max-age=60`.
+No answers. Each prompt also carries `poolVersion`. The hole is the latest non-draft one dated on or before today (UTC), so a gap in the schedule repeats the last hole instead of showing nothing. Cached in KV under `hole:<date>`; `Cache-Control: public, max-age=60`.
 
 ### `GET /api/pool/:poolId`
 
@@ -67,11 +67,20 @@ No answers. Cached in KV; `Cache-Control: public, max-age=60`.
 { "poolId": "nba-franchises", "version": 3, "entities": [ { "id": "nba-sas", "name": "San Antonio Spurs", "hint": "NBA", "aliases": ["spurs", "san antonio"] } ] }
 ```
 
-Every entity in the pool — correct or not. Immutable per version (`max-age=31536000, immutable`). Large pools (all NFL players, ~25k+) are gzipped and lazy-loaded when the prompt that needs them is next; if a pool is too large for comfort, fall back to `GET /api/pool/:poolId/match?q=` with a 120 ms debounce.
+Every entity in the pool — correct or not — ordered by name, never by correctness. Requested as `?v=<poolVersion>`; when `v` matches the current version the response is `max-age=31536000, immutable`, otherwise `max-age=60`. Cached in KV under `pool:<id>:<version>`. Large pools (all NFL players, ~25k+) are gzipped and lazy-loaded when the prompt that needs them is next; if a pool is too large for comfort, fall back to `GET /api/pool/:poolId/match?q=` with a 120 ms debounce.
 
 ### `POST /api/prompt/:index/start`
 
-Records when the player was served a prompt (enforces the 45 s clock server-side, with ~5 s grace for latency). The client calls it when the 3-second tee-up countdown ends, which is when the input appears.
+Records when the player was served a prompt (enforces the 45 s clock server-side, with 5 s grace for latency). The client calls it when the 3-second tee-up countdown ends, which is when the input appears.
+
+```json
+// request
+{ "holeNo": 214 }
+// response
+{ "elapsedMs": 0 }
+```
+
+Calling it again for the same prompt returns the time since the *first* call, so a reload or a second device never restarts the clock; the client counts down from `elapsedMs`. Prompts are served in order: starting prompt *i* before shot *i − 1* is swung is a `409`. New plays can only start on today's hole; a play begun before 00:00 UTC may finish.
 
 ### `POST /api/swing`
 
@@ -82,11 +91,11 @@ Records when the player was served a prompt (enforces the 45 s clock server-side
 { "correct": true, "canonicalName": "San Antonio Spurs", "tier": "ALL_STAR", "yards": 85, "totalYards": 225 }
 ```
 
-Idempotent per `(play, index)`: a second swing for the same shot returns the first result.
+Idempotent per `(play, index)`: a second swing for the same shot returns the first result. A swing for a prompt that was never started is a `409` (the client starts it and retries once). A blank swing (`entityId: null, rawText: ""`) locks the shot as Out of Bounds; with `entityId: null` and some text, the server runs `src/lib/match.ts` over the pool. An `entityId` from another pool is Out of Bounds. The shot update, the pick count and the play's completion run in one D1 batch; the count and completion only apply if the shot row actually changed (`changes() = 1`), so a replay never counts twice.
 
 ### `GET /api/hole/:holeNo/answers`
 
-Returns every correct answer per prompt **only if this player's play for that hole is complete** (or the hole is in the past). Otherwise `403`.
+Returns every correct answer per prompt **only if this player's play for that hole is complete** (or the hole is in the past and no longer the current hole). Otherwise `403`.
 
 ## Rarity scoring
 
@@ -145,7 +154,7 @@ Every correct swing increments one `pick_counts` row. D1 handles moderate traffi
 
 - Answer lists live only server-side until a play is complete (hard rule).
 - Server-side clock per prompt; late swings are Out of Bounds.
-- Rate limit `POST /api/swing` per IP and per `playerId` (Workers rate-limiting binding).
+- Rate limit `POST /api/swing` and `/start` per IP (120/min) and per `playerId` (30/min). Pages has no rate-limiting binding, so this is a per-isolate fixed window (`src/lib/server/ratelimit.ts`); a Cloudflare WAF rate-limiting rule on `/api/*` is the production backstop (D15).
 - A determined player can still look answers up in another tab — that's accepted. It's a casual daily game; the clock is the main deterrent.
 - Never trust client-sent tier/yards; the server computes everything.
 

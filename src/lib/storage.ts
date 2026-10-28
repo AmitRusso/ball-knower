@@ -20,3 +20,20 @@ export function writeJSON(key: string, value: unknown): void {
 
 export const playKey = (holeNo: number) => `bk:play:${holeNo}`;
 export const STATS_KEY = 'bk:stats';
+export const PLAYER_KEY = 'bk:player';
+
+let sessionPlayer: string | undefined;
+
+/** The player's random UUID (no accounts, no cookies). Lives for the session if storage is blocked. */
+export function playerId(): string {
+	try {
+		let id = localStorage.getItem(PLAYER_KEY);
+		if (!id) {
+			id = crypto.randomUUID();
+			localStorage.setItem(PLAYER_KEY, id);
+		}
+		return id;
+	} catch {
+		return (sessionPlayer ??= crypto.randomUUID());
+	}
+}

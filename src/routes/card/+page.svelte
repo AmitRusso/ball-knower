@@ -13,7 +13,7 @@
 	import type { PromptAnswers } from '#lib/types.ts';
 
 	const game = new Game();
-	let answers = $state<PromptAnswers[]>([]);
+	let answers = $state<PromptAnswers[] | null>(null);
 	let ready = $state(false);
 	let now = $state(Date.now());
 	let shareStatus = $state('');
@@ -26,8 +26,10 @@
 				await goto(resolve('/play'), { replaceState: true });
 				return;
 			}
-			// Answer lists only once the play is complete (hard rule 1).
-			answers = await api.getAnswers(game.play.holeNo);
+			// Answer lists only once the play is complete (hard rule 1). If the
+			// server can't confirm that (offline, or it has no record of this
+			// play), the card still shows, just without the lists.
+			answers = await api.getAnswers(game.play.holeNo).catch(() => null);
 			ready = true;
 		})();
 		return () => clearInterval(timer);
@@ -92,7 +94,7 @@
 				</div>
 				{#each shots as shot, i (i)}
 					{@const prompt = game.hole.prompts[shot.index]}
-					{@const list = answers.find((a) => a.index === shot.index)?.answers ?? []}
+					{@const list = answers?.find((a) => a.index === shot.index)?.answers ?? []}
 					<details>
 						<summary>
 							<span class="n">{i + 1}</span>
@@ -109,7 +111,9 @@
 							</svg>
 						</summary>
 						<div class="all">
-							<p class="mono-label">ALL {list.length} CORRECT ANSWERS</p>
+							<p class="mono-label">
+								{answers ? `ALL ${list.length} CORRECT ANSWERS` : 'ANSWERS UNAVAILABLE RIGHT NOW'}
+							</p>
 							<ul>
 								{#each list as a (a.entityId)}
 									<li class:mine={a.entityId === shot.entityId}>{a.name}</li>

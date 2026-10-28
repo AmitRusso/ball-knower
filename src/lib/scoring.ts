@@ -12,6 +12,7 @@ export const TIERS = [
 export const OUT_OF_BOUNDS = { id: 'OUT_OF_BOUNDS', label: 'Out of Bounds', yards: 0 } as const;
 
 export const HOLE_LENGTH_YDS = 500;
+export const SECONDS_PER_PROMPT = 45;
 
 /** Prior strength in pseudo-picks (docs/03-architecture.md, "Rarity scoring"). */
 export const PRIOR_K = 200;

@@ -1,5 +1,5 @@
-// Shared payload types. These mirror the API in docs/03-architecture.md so the
-// M1 offline source (src/lib/api.ts) can be swapped for fetch calls in M2.
+// Shared payload types for the API in docs/03-architecture.md, imported by the
+// endpoints under src/routes/api/ and by the client in src/lib/api.ts.
 
 export type TierId = 'BALL_KNOWER' | 'ALL_STAR' | 'STARTER' | 'ROLE_PLAYER' | 'BENCH_WARMER';
 export type ShotTierId = TierId | 'OUT_OF_BOUNDS';
@@ -14,6 +14,7 @@ export interface Entity {
 
 export interface Pool {
 	poolId: string;
+	version: number;
 	entities: Entity[];
 }
 
@@ -24,6 +25,8 @@ export interface HolePrompt {
 	note: string;
 	league: string;
 	poolId: string;
+	/** Pool version: `GET /api/pool/:poolId?v=` with it is cached as immutable. */
+	poolVersion: number;
 }
 
 export interface Hole {
@@ -46,6 +49,17 @@ export interface SwingResult {
 	canonicalName: string;
 	tier: ShotTierId;
 	yards: number;
+	totalYards: number;
+}
+
+/** POST /api/prompt/:index/start */
+export interface StartRequest {
+	holeNo: number;
+}
+
+export interface StartResult {
+	/** Time since the server first served this prompt; the client clock counts from it. */
+	elapsedMs: number;
 }
 
 export interface PromptAnswers {

@@ -49,11 +49,25 @@ export class Game {
 		await this.#loadMatcher();
 	}
 
-	/** Start the clock for the current prompt (no-op if it's already running). */
-	servePrompt(now = Date.now()): void {
-		if (this.phase !== 'prompt' || this.play.promptStartedAt !== null) return;
+	/**
+	 * Start the clock for the current prompt (no-op if it's already running).
+	 * The server keeps the real clock; if it served this prompt earlier (another
+	 * tab, cleared storage), the local clock catches up to it.
+	 */
+	async servePrompt(now = Date.now()): Promise<void> {
+		const hole = this.hole;
+		if (!hole || this.phase !== 'prompt' || this.play.promptStartedAt !== null) return;
+		const index = this.index;
 		this.play.promptStartedAt = now;
 		this.#save();
+		try {
+			const { elapsedMs } = await api.startPrompt(hole.holeNo, index);
+			if (this.index !== index || this.phase !== 'prompt') return;
+			this.play.promptStartedAt = Math.min(now, Date.now() - elapsedMs);
+			this.#save();
+		} catch {
+			// Offline for a moment: swing() starts the prompt again before scoring.
+		}
 	}
 
 	setDraft(text: string): void {
@@ -69,9 +83,14 @@ export class Game {
 		try {
 			const rawText = this.play.draft.trim();
 			const entityId = rawText ? (this.suggestion?.id ?? null) : null;
-			const result = rawText
-				? await api.swing({ holeNo: hole.holeNo, index: this.index, entityId, rawText })
-				: { canonicalName: '', tier: 'OUT_OF_BOUNDS' as const, yards: 0 };
+			// A blank swing still goes to the server: it locks the shot as Out of Bounds.
+			const req = { holeNo: hole.holeNo, index: this.index, entityId, rawText };
+			const result = await api.swing(req).catch(async (err: unknown) => {
+				// 409: the server never saw this prompt served (the start call was lost).
+				if (!(err instanceof api.ApiError) || err.status !== 409) throw err;
+				await api.startPrompt(hole.holeNo, req.index);
+				return api.swing(req);
+			});
 			const shot: Shot = {
 				index: this.index,
 				rawText,
@@ -102,12 +121,15 @@ export class Game {
 	}
 
 	async #loadMatcher(): Promise<void> {
-		const poolId = this.prompt?.poolId;
-		if (!poolId || this.phase !== 'prompt') return;
+		const prompt = this.prompt;
+		if (!prompt || this.phase !== 'prompt') return;
+		const { poolId, poolVersion } = prompt;
 		this.matcher = null;
 		let pending = this.#pools.get(poolId);
 		if (!pending) {
-			pending = api.getPool(poolId).then((pool) => createMatcher(pool.entities));
+			pending = api.getPool(poolId, poolVersion).then((pool) => createMatcher(pool.entities));
+			// Don't cache a failed fetch: the next prompt (or reload) tries again.
+			pending.catch(() => this.#pools.delete(poolId));
 			this.#pools.set(poolId, pending);
 		}
 		const matcher = await pending;

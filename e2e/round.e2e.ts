@@ -16,6 +16,15 @@ test.use({ reducedMotion: 'reduce', viewport: { width: 390, height: 844 } });
 
 test('plays a full hole and shows the card', async ({ page }) => {
 	test.setTimeout(60_000); // five 3-second tee-ups
+
+	// Hard rule 1: nothing the browser receives before the hole is finished
+	// (pages, scripts, API responses) carries an answer list or a prior.
+	const bodies: Promise<string>[] = [];
+	let finished = false;
+	page.on('response', (res) => {
+		if (!finished) bodies.push(res.text().catch(() => ''));
+	});
+
 	await page.goto('/');
 	await snap(page, '01-home');
 	await page.getByRole('link', { name: 'TEE OFF' }).click();
@@ -54,6 +63,11 @@ test('plays a full hole and shows the card', async ({ page }) => {
 	await page.getByRole('button', { name: 'NEXT SHOT' }).click();
 
 	await swing(page, 'mickey welch', 'Mickey Welch');
+	await expect(page.getByRole('button', { name: 'SEE THE CARD' })).toBeVisible();
+	finished = true;
+	const seen = await Promise.all(bodies);
+	expect(seen.length).toBeGreaterThan(10);
+	for (const body of seen) expect(body).not.toMatch(/"answers"|priorShare|prior_share/);
 	await page.getByRole('button', { name: 'SEE THE CARD' }).click();
 
 	await expect(page).toHaveURL(/\/card$/);
@@ -113,14 +127,36 @@ test.describe('with motion', () => {
 
 	test('the ball carries past the gates before the stamp lands', async ({ page }) => {
 		await page.goto('/play');
-		await swing(page, 'mark mosely', 'Mark Moseley');
+		// Record every stamp the reveal shows: the cheaper tiers flash by too fast to poll.
+		await page.evaluate(() => {
+			const seen: string[] = [];
+			Object.assign(window, { stamps: seen });
+			new MutationObserver(() => {
+				const text = document.querySelector('[data-testid=stamp]')?.textContent ?? '';
+				if (text && seen.at(-1) !== text) seen.push(text);
+			}).observe(document.body, { subtree: true, childList: true, characterData: true });
+		});
+		// Not Mark Moseley: earlier tests' picks have made him less rare.
+		await swing(page, 'larry brown', 'Larry Brown');
 		const next = page.getByRole('button', { name: 'NEXT SHOT' });
 		await expect(next).toHaveCount(0);
 		await expect(page.getByRole('img', { name: 'Shot 1 of 5' })).toBeVisible();
-		await expect(page.getByTestId('stamp')).toContainText('BENCH WARMER');
 		await snap(page, '07-mid-flight');
 		await expect(next).toBeVisible({ timeout: 5000 });
 		await expect(page.getByTestId('stamp')).toContainText('BALL KNOWER');
+		const stamps: string[] = await page.evaluate(
+			() => (window as unknown as { stamps: string[] }).stamps
+		);
+		const tiers = stamps
+			.map((s) => s.replace(/\s*\+\d+ YDS$/, ''))
+			.filter((s) => !s.startsWith('·'));
+		expect([...new Set(tiers)]).toEqual([
+			'BENCH WARMER',
+			'ROLE PLAYER',
+			'STARTER',
+			'ALL-STAR',
+			'BALL KNOWER'
+		]);
 		await expect(next).toBeFocused();
 		await expect(page.getByRole('img', { name: /So far: Ball Knower/ })).toBeVisible();
 		await snap(page, '08-landed');

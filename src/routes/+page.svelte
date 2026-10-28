@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import { onMount } from 'svelte';
+	import { getHole } from '#lib/api.ts';
 	import { holeDate } from '#lib/format.ts';
 	import {
 		currentStreak,
@@ -11,18 +12,27 @@
 		type Stats
 	} from '#lib/play.ts';
 	import { playKey, readJSON, STATS_KEY } from '#lib/storage.ts';
-	import { TODAY } from '#lib/today.ts';
+	import { SECONDS_PER_PROMPT } from '#lib/scoring.ts';
+	import type { Hole } from '#lib/types.ts';
 
-	const { holeNo, date, prompts: PROMPTS } = TODAY;
-
+	// The page is prerendered; today's hole number arrives from the API (no answers in it).
+	let hole = $state<Hole | null>(null);
 	let play = $state<Play | null>(null);
 	let stats = $state<Stats>(EMPTY_STATS);
 
 	onMount(() => {
-		play = readJSON(playKey(holeNo), newPlay(holeNo));
 		stats = readJSON(STATS_KEY, EMPTY_STATS);
+		getHole()
+			.then((h) => {
+				hole = h;
+				play = readJSON(playKey(h.holeNo), newPlay(h.holeNo));
+			})
+			.catch(() => {
+				// Offline or no hole yet: TEE OFF still leads to /play, which retries.
+			});
 	});
 
+	const PROMPTS = $derived(hole?.prompts.length ?? 5);
 	const done = $derived(play !== null && play.shots.length >= PROMPTS);
 	const started = $derived(
 		play !== null && (play.shots.length > 0 || play.promptStartedAt !== null)
@@ -43,8 +53,8 @@
 
 <main class="screen home">
 	<div class="topline mono-label">
-		<span class="gold bold">HOLE NO. {holeNo}</span>
-		<span>{holeDate(date)}</span>
+		<span class="gold bold">HOLE NO. {hole?.holeNo ?? '—'}</span>
+		<span>{hole ? holeDate(hole.date) : ''}</span>
 	</div>
 
 	<div class="hero-col">
@@ -72,7 +82,9 @@
 	<div class="actions">
 		<div class="stub">
 			<div><strong>{PROMPTS}</strong><span>PROMPTS</span></div>
-			<div><strong>45s</strong><span>PER SWING</span></div>
+			<div>
+				<strong>{hole?.secondsPerPrompt ?? SECONDS_PER_PROMPT}s</strong><span>PER SWING</span>
+			</div>
 			<div><strong>500</strong><span>YDS TO PIN</span></div>
 		</div>
 
