@@ -1,0 +1,10 @@
+id: nba-franchises
+name: NBA franchises
+prefix: nbaf
+hint: NBA
+former_names_from: NBA
+# The current franchises; former names (franchises.yaml) become aliases.
+query: |
+  SELECT DISTINCT ?item WHERE {
+    VALUES (?team ?item) { {{franchises.NBA}} }
+  }

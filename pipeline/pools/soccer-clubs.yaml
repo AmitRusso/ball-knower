@@ -1,0 +1,23 @@
+id: soccer-clubs
+name: Football clubs
+prefix: socc
+hint: Club
+# Association football clubs with 45+ Wikipedia editions (~470), plus every answer.
+query: |
+  SELECT DISTINCT ?item WHERE {
+    ?item wdt:P31 wd:Q476028 ; wikibase:sitelinks ?links .
+    FILTER(?links >= 45)
+  }
+names:
+  Q8682: Real Madrid
+  Q7156: Barcelona
+  Q18656: Manchester United
+  Q1130849: Liverpool
+  Q15789: Bayern Munich
+  Q1422: Juventus
+  Q9616: Chelsea
+  Q9617: Arsenal
+  Q483020: Paris Saint-Germain
+  Q50602: Manchester City
+  Q18741: Tottenham Hotspur
+  Q81888: Ajax

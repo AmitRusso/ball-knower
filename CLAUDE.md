@@ -28,7 +28,7 @@ If code and docs disagree, ask before changing either. When a decision changes, 
 - **Animation:** inline SVG + CSS / Web Animations API. No animation library.
 - **Fonts:** Graduate, Archivo, Space Mono — self-hosted, subsetted woff2
 - **Tests:** Vitest (unit), Playwright (full five-shot flow)
-- **Content pipeline:** Python 3.12+ in `pipeline/` (not yet created)
+- **Content pipeline:** Python 3.12+ in `pipeline/` (PyYAML + stdlib; pytest). See `pipeline/README.md`
 - **Package manager:** pnpm
 
 ## Commands
@@ -50,6 +50,18 @@ pnpm db:migrate          # apply db/migrations/ to local D1
 pnpm db:migrate:remote   # same, on the deployed D1
 pnpm db:seed             # sample-hole.json as today's hole in local D1; WIPES plays + pick counts, clears KV
 pnpm db:seed --remote    # same on the deployed D1 (wipes production plays)
+pnpm db:load             # pipeline/out/content.json (scheduled holes + pools) into local D1; never touches plays
+pnpm db:load --remote    # same on the deployed D1; skips holes dated today or earlier unless --force
+```
+
+```bash
+cd pipeline              # venv: python -m venv .venv && .venv/Scripts/python -m pip install -e .[dev]
+python -m bk generate    # templates -> out/candidates.json; rebuilds content/pools/ (HTTP cached in .cache/)
+python -m bk review      # approve/edit/alias/reject; approvals freeze answers in content/reviews.json
+python -m bk status      # counts, and approved prompts whose answers changed upstream
+python -m bk schedule    # assemble holes for the next 30 days -> content/schedule.json
+python -m bk export      # holes from tomorrow -> out/content.json (then `pnpm db:load`)
+python -m pytest -q      # pipeline unit tests (also in CI)
 ```
 
 `pnpm test:e2e` migrates and reseeds local D1 itself, and runs with one worker (tiers depend on earlier picks).
@@ -77,4 +89,6 @@ Notes: SvelteKit 3 — Kit config lives in `vite.config.ts` (no `svelte.config.j
 
 ## Current state
 
-M0–M2 done: the round runs against the API in `src/routes/api/` (D1 + KV, logic in `src/lib/server/`), with real rarity from pick counts. `src/lib/api.ts` is the fetch client; round state is in `src/lib/game.svelte.ts` (localStorage resume + streaks; the server owns the clock and the scores). Answers never reach the browser before the play is finished. Production D1 is migrated and seeded with the sample hole. Next step: **Milestone 3** in `docs/05-roadmap.md`.
+M0–M2 done: the round runs against the API in `src/routes/api/` (D1 + KV, logic in `src/lib/server/`), with real rarity from pick counts. `src/lib/api.ts` is the fetch client; round state is in `src/lib/game.svelte.ts` (localStorage resume + streaks; the server owns the clock and the scores). Answers never reach the browser before the play is finished. Production D1 is migrated and seeded with the sample hole.
+
+M3 done: `pipeline/` generates candidates from Wikidata; 154 prompts are approved and holes 215–244 (2026-10-29 … 2026-11-27) are scheduled and loaded into production D1 with `pnpm db:load --remote`. Before 2026-11-27: generate/review more, then schedule → export → load. Decisions in D16. Next step: **Milestone 4** in `docs/05-roadmap.md`.

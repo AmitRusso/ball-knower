@@ -1,0 +1,12 @@
+id: nba-players
+name: NBA players
+prefix: nbap
+hint: NBA
+# Everyone who played for a current franchise (or a former identity of one)
+# with at least 8 Wikipedia language editions: the well-known wrong answers.
+query: |
+  SELECT DISTINCT ?item WHERE {
+    VALUES (?team ?franchise) { {{franchises.NBA}} }
+    ?item wdt:P54 ?team ; wdt:P31 wd:Q5 ; wikibase:sitelinks ?links .
+    FILTER(?links >= 8)
+  }

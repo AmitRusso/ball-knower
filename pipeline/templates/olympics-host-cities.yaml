@@ -1,0 +1,18 @@
+id: olympics-host-cities
+league: OLYMPICS
+pool: cities
+text: "Name a city that has hosted the {{games.name}}."
+short: "{{games.short}} host city"
+note: "{{games.note}}"
+params:
+  games:
+    - { qid: Q159821, name: "Summer Olympics", short: "Summer Games", note: "Summer Games already held. Co-host and satellite cities don't count." }
+    - { qid: Q82414, name: "Winter Olympics", short: "Winter Games", note: "Winter Games already held. Co-host and satellite cities don't count." }
+needs_review_definition: true
+query: |
+  SELECT DISTINCT ?item ?event WHERE {
+    ?event wdt:P31|wdt:P179|wdt:P3450 wd:{{games.qid}} .
+    ?event wdt:P276 ?item .
+    { ?event wdt:P580 ?start } UNION { ?event wdt:P585 ?start }
+    FILTER(?start <= NOW())
+  }

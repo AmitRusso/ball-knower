@@ -1,0 +1,30 @@
+id: nba-franchise-titles
+league: NBA
+pool: nba-franchises
+text: "Name a current NBA franchise that has won {{level.phrase}}."
+short: "{{level.short}}"
+note: "Titles won under former names and cities count."
+params:
+  level:
+    - { n: 1, phrase: "an NBA championship", short: "NBA champion" }
+    - { n: 2, phrase: "at least 2 NBA championships", short: "2+ NBA championships" }
+    - { n: 3, phrase: "at least 3 NBA championships", short: "3+ NBA championships" }
+    - { n: 5, phrase: "at least 5 NBA championships", short: "5+ NBA championships" }
+answer_filter: "titles >= level.n"
+changes: ["06-01..06-25"]
+expect_events: "80"  # finals with a winner through this season
+# ?event: every final with a winner (coverage check); ?item/?titles only for
+# winners that roll up to a current franchise.
+query: |
+  SELECT ?event ?item ?titles WHERE {
+    ?event wdt:P31|wdt:P179|wdt:P3450 wd:Q842375 .
+    ?event wdt:P1346 ?w .
+    OPTIONAL {
+      VALUES (?w ?item) { {{franchises.NBA}} }
+      { SELECT ?item (COUNT(DISTINCT ?e) AS ?titles) WHERE {
+          VALUES (?w2 ?item) { {{franchises.NBA}} }
+          ?e wdt:P31|wdt:P179|wdt:P3450 wd:Q842375 .
+          ?e wdt:P1346 ?w2 .
+        } GROUP BY ?item }
+    }
+  }

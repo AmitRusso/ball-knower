@@ -24,6 +24,7 @@ __pycache__/
 *.pyc
 .venv/
 pipeline/.cache/
+pipeline/out/
 
 # os / editor
 .DS_Store

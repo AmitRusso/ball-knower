@@ -1,0 +1,349 @@
+{
+ "entities": [
+  {
+   "aliases": [
+    "Milwaukee Hawks",
+    "St. Louis Hawks",
+    "Tri-Cities Blackhawks"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q159893",
+   "name": "Atlanta Hawks",
+   "popularity": 73,
+   "qid": "Q159893"
+  },
+  {
+   "aliases": [
+    "C's",
+    "Celtics",
+    "Celts",
+    "Green and White"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q131371",
+   "name": "Boston Celtics",
+   "popularity": 78,
+   "qid": "Q131371"
+  },
+  {
+   "aliases": [
+    "New Jersey Nets",
+    "New York Nets"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q572134",
+   "name": "Brooklyn Nets",
+   "popularity": 73,
+   "qid": "Q572134"
+  },
+  {
+   "aliases": [
+    "Charlotte Bobcats"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q163480",
+   "name": "Charlotte Hornets",
+   "popularity": 71,
+   "qid": "Q163480"
+  },
+  {
+   "aliases": [
+    "Bulls",
+    "The Bulls"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q128109",
+   "name": "Chicago Bulls",
+   "popularity": 81,
+   "qid": "Q128109"
+  },
+  {
+   "aliases": [
+    "Cavaliers",
+    "Cavs",
+    "Cleveland Cavs"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q162990",
+   "name": "Cleveland Cavaliers",
+   "popularity": 74,
+   "qid": "Q162990"
+  },
+  {
+   "aliases": [
+    "Mavs"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q132893",
+   "name": "Dallas Mavericks",
+   "popularity": 70,
+   "qid": "Q132893"
+  },
+  {
+   "aliases": [
+    "Nugs"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q162954",
+   "name": "Denver Nuggets",
+   "popularity": 71,
+   "qid": "Q162954"
+  },
+  {
+   "aliases": [
+    "Fort Wayne Pistons",
+    "Fort Wayne Zollner Pistons"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q169661",
+   "name": "Detroit Pistons",
+   "popularity": 68,
+   "qid": "Q169661"
+  },
+  {
+   "aliases": [
+    "Dub Nation",
+    "GSW",
+    "Philadelphia Warriors",
+    "San Francisco Warriors",
+    "Warriors"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q157376",
+   "name": "Golden State Warriors",
+   "popularity": 73,
+   "qid": "Q157376"
+  },
+  {
+   "aliases": [
+    "San Diego Rockets"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q161345",
+   "name": "Houston Rockets",
+   "popularity": 68,
+   "qid": "Q161345"
+  },
+  {
+   "aliases": [
+    "Pacers"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q170329",
+   "name": "Indiana Pacers",
+   "popularity": 69,
+   "qid": "Q170329"
+  },
+  {
+   "aliases": [
+    "Buffalo Braves",
+    "L.A. Clippers",
+    "LA Chokers",
+    "San Diego Clippers"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q976396",
+   "name": "Los Angeles Clippers",
+   "popularity": 68,
+   "qid": "Q976396"
+  },
+  {
+   "aliases": [
+    "L.A. Lakers",
+    "LA Lakers",
+    "Lakers",
+    "Minneapolis Lakers",
+    "Purple and Gold",
+    "The Lake Show"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q121783",
+   "name": "Los Angeles Lakers",
+   "popularity": 86,
+   "qid": "Q121783"
+  },
+  {
+   "aliases": [
+    "The Grizz",
+    "Vancouver Grizzlies"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q165529",
+   "name": "Memphis Grizzlies",
+   "popularity": 68,
+   "qid": "Q165529"
+  },
+  {
+   "aliases": [
+    "Heat"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q169138",
+   "name": "Miami Heat",
+   "popularity": 69,
+   "qid": "Q169138"
+  },
+  {
+   "aliases": [],
+   "hint": "NBA",
+   "id": "nbaf-Q169637",
+   "name": "Milwaukee Bucks",
+   "popularity": 69,
+   "qid": "Q169637"
+  },
+  {
+   "aliases": [
+    "T'Wolves",
+    "T-Wolves",
+    "The Wolves",
+    "Twolves",
+    "Wolves"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q170558",
+   "name": "Minnesota Timberwolves",
+   "popularity": 64,
+   "qid": "Q170558"
+  },
+  {
+   "aliases": [
+    "New Orleans Hornets",
+    "New Orleans/Oklahoma City Hornets"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q172339",
+   "name": "New Orleans Pelicans",
+   "popularity": 64,
+   "qid": "Q172339"
+  },
+  {
+   "aliases": [
+    "Knicks",
+    "Minutemen",
+    "NYK",
+    "New York Knickerbockers"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q131364",
+   "name": "New York Knicks",
+   "popularity": 74,
+   "qid": "Q131364"
+  },
+  {
+   "aliases": [
+    "OKC Thunder",
+    "Seattle SuperSonics"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q180950",
+   "name": "Oklahoma City Thunder",
+   "popularity": 64,
+   "qid": "Q180950"
+  },
+  {
+   "aliases": [],
+   "hint": "NBA",
+   "id": "nbaf-Q161337",
+   "name": "Orlando Magic",
+   "popularity": 69,
+   "qid": "Q161337"
+  },
+  {
+   "aliases": [
+    "76ers",
+    "Philly 76ers",
+    "Sixers",
+    "Syracuse Nationals",
+    "The 76ers",
+    "The Sixers"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q138089",
+   "name": "Philadelphia 76ers",
+   "popularity": 69,
+   "qid": "Q138089"
+  },
+  {
+   "aliases": [
+    "PHX Suns"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q164177",
+   "name": "Phoenix Suns",
+   "popularity": 71,
+   "qid": "Q164177"
+  },
+  {
+   "aliases": [
+    "Portland Blazers"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q167253",
+   "name": "Portland Trail Blazers",
+   "popularity": 70,
+   "qid": "Q167253"
+  },
+  {
+   "aliases": [
+    "Cincinnati Royals",
+    "Kansas City Kings",
+    "Kansas City-Omaha Kings",
+    "Rochester Royals"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q166105",
+   "name": "Sacramento Kings",
+   "popularity": 73,
+   "qid": "Q166105"
+  },
+  {
+   "aliases": [
+    "Dallas Chaparrals",
+    "Texas Chaparrals"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q159729",
+   "name": "San Antonio Spurs",
+   "popularity": 74,
+   "qid": "Q159729"
+  },
+  {
+   "aliases": [
+    "Raptors"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q132880",
+   "name": "Toronto Raptors",
+   "popularity": 77,
+   "qid": "Q132880"
+  },
+  {
+   "aliases": [
+    "New Orleans Jazz"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q170649",
+   "name": "Utah Jazz",
+   "popularity": 67,
+   "qid": "Q170649"
+  },
+  {
+   "aliases": [
+    "Baltimore Bullets",
+    "Capital Bullets",
+    "Chicago Packers",
+    "Chicago Zephyrs",
+    "The Wiz",
+    "Washington Bullets"
+   ],
+   "hint": "NBA",
+   "id": "nbaf-Q169165",
+   "name": "Washington Wizards",
+   "popularity": 69,
+   "qid": "Q169165"
+  }
+ ],
+ "id": "nba-franchises",
+ "name": "NBA franchises",
+ "prefix": "nbaf"
+}

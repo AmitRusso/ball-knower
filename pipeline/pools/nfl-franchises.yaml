@@ -1,0 +1,10 @@
+id: nfl-franchises
+name: NFL franchises
+prefix: nflf
+hint: NFL
+former_names_from: NFL
+# The current franchises; former names (franchises.yaml) become aliases.
+query: |
+  SELECT DISTINCT ?item WHERE {
+    VALUES (?team ?item) { {{franchises.NFL}} }
+  }

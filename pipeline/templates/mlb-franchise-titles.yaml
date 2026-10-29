@@ -1,0 +1,30 @@
+id: mlb-franchise-titles
+league: MLB
+pool: mlb-franchises
+text: "Name a current MLB franchise that has won {{level.phrase}}."
+short: "{{level.short}}"
+note: "Titles won under former names and cities count."
+params:
+  level:
+    - { n: 1, phrase: "the World Series", short: "World Series winner" }
+    - { n: 2, phrase: "at least 2 World Series titles", short: "2+ World Series titles" }
+    - { n: 3, phrase: "at least 3 World Series titles", short: "3+ World Series titles" }
+    - { n: 5, phrase: "at least 5 World Series titles", short: "5+ World Series titles" }
+answer_filter: "titles >= level.n"
+changes: ["10-20..11-05"]
+expect_events: "121"  # finals with a winner through this season
+# ?event: every final with a winner (coverage check); ?item/?titles only for
+# winners that roll up to a current franchise.
+query: |
+  SELECT ?event ?item ?titles WHERE {
+    ?event wdt:P31|wdt:P179|wdt:P3450 wd:Q265538 .
+    ?event wdt:P1346 ?w .
+    OPTIONAL {
+      VALUES (?w ?item) { {{franchises.MLB}} }
+      { SELECT ?item (COUNT(DISTINCT ?e) AS ?titles) WHERE {
+          VALUES (?w2 ?item) { {{franchises.MLB}} }
+          ?e wdt:P31|wdt:P179|wdt:P3450 wd:Q265538 .
+          ?e wdt:P1346 ?w2 .
+        } GROUP BY ?item }
+    }
+  }

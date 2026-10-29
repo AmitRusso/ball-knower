@@ -9,7 +9,8 @@ PRAGMA foreign_keys = ON;
 CREATE TABLE pools (
   id           TEXT PRIMARY KEY,            -- 'nba-franchises', 'mlb-players'
   name         TEXT NOT NULL,
-  version      INTEGER NOT NULL DEFAULT 1   -- bump when entities/aliases change
+  version      INTEGER NOT NULL DEFAULT 1,  -- bump when entities/aliases change
+  content_hash TEXT                         -- of entities + aliases, set by scripts/load-content.ts
 );
 
 CREATE TABLE entities (

@@ -1,0 +1,3459 @@
+{
+ "entities": [
+  {
+   "aliases": [
+    "AF",
+    "AFG",
+    "Affghanistan",
+    "Affghanisthan",
+    "Affghaunistan",
+    "Afghania",
+    "Afghanisthan",
+    "Afghaunistan",
+    "Afghaunistaun"
+   ],
+   "hint": null,
+   "id": "ctry-Q889",
+   "name": "Afghanistan",
+   "popularity": 363,
+   "qid": "Q889"
+  },
+  {
+   "aliases": [
+    "AL",
+    "ALB",
+    "People's Republic of Albania",
+    "People's Socialist Republic of Albania",
+    "Republic of Albania",
+    "Republika Popullore e Shqiperise",
+    "Republika e Shqipërisë",
+    "Shqipërisë"
+   ],
+   "hint": null,
+   "id": "ctry-Q222",
+   "name": "Albania",
+   "popularity": 387,
+   "qid": "Q222"
+  },
+  {
+   "aliases": [
+    "ALG",
+    "DZ",
+    "DZA",
+    "Djazaïr",
+    "Dzayer",
+    "People's Democratic Republic of Algeria",
+    "dz"
+   ],
+   "hint": null,
+   "id": "ctry-Q262",
+   "name": "Algeria",
+   "popularity": 374,
+   "qid": "Q262"
+  },
+  {
+   "aliases": [
+    "Egypt, Ancient",
+    "Ta-Kemet",
+    "Ta-Meri",
+    "Ta-Ui"
+   ],
+   "hint": null,
+   "id": "ctry-Q11768",
+   "name": "Ancient Egypt",
+   "popularity": 192,
+   "qid": "Q11768"
+  },
+  {
+   "aliases": [
+    "Roman antiquity",
+    "Roman civilization",
+    "Roman culture",
+    "ancient Roman civilization",
+    "ancient Roman culture"
+   ],
+   "hint": null,
+   "id": "ctry-Q1747689",
+   "name": "Ancient Rome",
+   "popularity": 166,
+   "qid": "Q1747689"
+  },
+  {
+   "aliases": [
+    "AD",
+    "AND",
+    "Principality of Andorra",
+    "Principality of the Valleys of Andorra"
+   ],
+   "hint": null,
+   "id": "ctry-Q228",
+   "name": "Andorra",
+   "popularity": 333,
+   "qid": "Q228"
+  },
+  {
+   "aliases": [
+    "AGO",
+    "ANG",
+    "AO",
+    "Ngola",
+    "Republic of Angola",
+    "ao",
+    "Ꜵ"
+   ],
+   "hint": null,
+   "id": "ctry-Q916",
+   "name": "Angola",
+   "popularity": 323,
+   "qid": "Q916"
+  },
+  {
+   "aliases": [
+    "A&B",
+    "AG",
+    "ANT",
+    "ATG",
+    "Antigua & Barbuda",
+    "Antigua-Barbuda",
+    "Antigua–Barbuda",
+    "ag"
+   ],
+   "hint": null,
+   "id": "ctry-Q781",
+   "name": "Antigua and Barbuda",
+   "popularity": 266,
+   "qid": "Q781"
+  },
+  {
+   "aliases": [
+    "AR",
+    "ARG",
+    "Argentine Republic",
+    "Republic of Argentina",
+    "Republica Argentina"
+   ],
+   "hint": null,
+   "id": "ctry-Q414",
+   "name": "Argentina",
+   "popularity": 372,
+   "qid": "Q414"
+  },
+  {
+   "aliases": [
+    "AM",
+    "ARM",
+    "Hayastan",
+    "Hayastani Hanrapetut’yun",
+    "Republic of Armenia",
+    "Հայաստան"
+   ],
+   "hint": null,
+   "id": "ctry-Q399",
+   "name": "Armenia",
+   "popularity": 354,
+   "qid": "Q399"
+  },
+  {
+   "aliases": [
+    "'Straya",
+    "AU",
+    "AUS",
+    "Aussieland",
+    "Commonwealth of Australia",
+    "Down Under",
+    "New Holland",
+    "New Hollandia",
+    "Nova Hollandia",
+    "Oz",
+    "Stralia",
+    "Straya",
+    "Stria",
+    "The Commonwealth of Australia"
+   ],
+   "hint": null,
+   "id": "ctry-Q408",
+   "name": "Australia",
+   "popularity": 400,
+   "qid": "Q408"
+  },
+  {
+   "aliases": [
+    "AT",
+    "AUT",
+    "Republic of Austria"
+   ],
+   "hint": null,
+   "id": "ctry-Q40",
+   "name": "Austria",
+   "popularity": 372,
+   "qid": "Q40"
+  },
+  {
+   "aliases": [
+    "AZ",
+    "AZE",
+    "Azərbaycan",
+    "Azərbaycan Respublikası",
+    "Republic of Azerbaijan",
+    "az"
+   ],
+   "hint": null,
+   "id": "ctry-Q227",
+   "name": "Azerbaijan",
+   "popularity": 363,
+   "qid": "Q227"
+  },
+  {
+   "aliases": [
+    "BAH",
+    "BH",
+    "BHR",
+    "Bahrein",
+    "Bahrein Islands",
+    "Dawlat al-Bahrain",
+    "ISO 3166-1:BH",
+    "Kingdom of Bahrain",
+    "Mamlakat al-Baḥrayn",
+    "bh"
+   ],
+   "hint": null,
+   "id": "ctry-Q398",
+   "name": "Bahrain",
+   "popularity": 306,
+   "qid": "Q398"
+  },
+  {
+   "aliases": [
+    "BAN",
+    "BD",
+    "BGD",
+    "Bangla Desh",
+    "Country of Bengal",
+    "Land of Bengal",
+    "People's Republic of Bangladesh",
+    "bd"
+   ],
+   "hint": null,
+   "id": "ctry-Q902",
+   "name": "Bangladesh",
+   "popularity": 349,
+   "qid": "Q902"
+  },
+  {
+   "aliases": [
+    "BAR",
+    "BB",
+    "BRB",
+    "Barbadoes",
+    "bb"
+   ],
+   "hint": null,
+   "id": "ctry-Q244",
+   "name": "Barbados",
+   "popularity": 276,
+   "qid": "Q244"
+  },
+  {
+   "aliases": [
+    "BLR",
+    "BY",
+    "Belorussia",
+    "Bielaruś",
+    "Bielorussia",
+    "Byeloruss",
+    "Byelorussia",
+    "Republic of Belarus",
+    "Respublika Belarus'",
+    "Respublika Bielaruś",
+    "White Russia",
+    "White Ruthenia",
+    "by"
+   ],
+   "hint": null,
+   "id": "ctry-Q184",
+   "name": "Belarus",
+   "popularity": 358,
+   "qid": "Q184"
+  },
+  {
+   "aliases": [
+    "BE",
+    "BEL",
+    "Kingdom of Belgium",
+    "be"
+   ],
+   "hint": null,
+   "id": "ctry-Q31",
+   "name": "Belgium",
+   "popularity": 383,
+   "qid": "Q31"
+  },
+  {
+   "aliases": [
+    "BLZ",
+    "BZ",
+    "bz"
+   ],
+   "hint": null,
+   "id": "ctry-Q242",
+   "name": "Belize",
+   "popularity": 281,
+   "qid": "Q242"
+  },
+  {
+   "aliases": [
+    "BEN",
+    "BJ",
+    "Dahomey",
+    "Republic of Benin"
+   ],
+   "hint": null,
+   "id": "ctry-Q962",
+   "name": "Benin",
+   "popularity": 308,
+   "qid": "Q962"
+  },
+  {
+   "aliases": [
+    "BHU",
+    "Kingdom of Bhutan"
+   ],
+   "hint": null,
+   "id": "ctry-Q917",
+   "name": "Bhutan",
+   "popularity": 305,
+   "qid": "Q917"
+  },
+  {
+   "aliases": [
+    "BO",
+    "BOL",
+    "Plurinational State of Bolivia",
+    "Republic of Bolivia",
+    "bo",
+    "bol"
+   ],
+   "hint": null,
+   "id": "ctry-Q750",
+   "name": "Bolivia",
+   "popularity": 313,
+   "qid": "Q750"
+  },
+  {
+   "aliases": [
+    "B&H",
+    "BiH",
+    "Bosnia & Herzegovina",
+    "Bosnia and Hercegovina",
+    "Bosnia-Herzegovina",
+    "ba"
+   ],
+   "hint": null,
+   "id": "ctry-Q225",
+   "name": "Bosnia and Herzegovina",
+   "popularity": 342,
+   "qid": "Q225"
+  },
+  {
+   "aliases": [
+    "BOT",
+    "BW",
+    "BWA",
+    "Lefatshe la Botswana",
+    "Republic of Botswana",
+    "bw"
+   ],
+   "hint": null,
+   "id": "ctry-Q963",
+   "name": "Botswana",
+   "popularity": 315,
+   "qid": "Q963"
+  },
+  {
+   "aliases": [
+    "BR",
+    "BRA",
+    "Brasil",
+    "Federative Republic of Brazil",
+    "br"
+   ],
+   "hint": null,
+   "id": "ctry-Q155",
+   "name": "Brazil",
+   "popularity": 387,
+   "qid": "Q155"
+  },
+  {
+   "aliases": [
+    "BN",
+    "BRN",
+    "BRU",
+    "Brunei Darussalam",
+    "Nation of Brunei, the Abode of Peace",
+    "Negara Brunei Darussalam",
+    "bn"
+   ],
+   "hint": null,
+   "id": "ctry-Q921",
+   "name": "Brunei",
+   "popularity": 298,
+   "qid": "Q921"
+  },
+  {
+   "aliases": [
+    "BG",
+    "BGR",
+    "BUL",
+    "Bulgarian Republic",
+    "Republic of Bulgaria",
+    "bg"
+   ],
+   "hint": null,
+   "id": "ctry-Q219",
+   "name": "Bulgaria",
+   "popularity": 361,
+   "qid": "Q219"
+  },
+  {
+   "aliases": [
+    "BF",
+    "BFA",
+    "Republic of Burkina Faso",
+    "bf"
+   ],
+   "hint": null,
+   "id": "ctry-Q965",
+   "name": "Burkina Faso",
+   "popularity": 309,
+   "qid": "Q965"
+  },
+  {
+   "aliases": [
+    "BDI",
+    "BI",
+    "Gouvernement du Burundi",
+    "Republic of Burundi",
+    "Republika y'Uburundi",
+    "bi"
+   ],
+   "hint": null,
+   "id": "ctry-Q967",
+   "name": "Burundi",
+   "popularity": 303,
+   "qid": "Q967"
+  },
+  {
+   "aliases": [
+    "Byzantium",
+    "Eastern Roman Empire",
+    "Empire of the Greeks",
+    "Greek Empire",
+    "Lower Empire",
+    "Roman Empire",
+    "Romanía"
+   ],
+   "hint": null,
+   "id": "ctry-Q12544",
+   "name": "Byzantine Empire",
+   "popularity": 192,
+   "qid": "Q12544"
+  },
+  {
+   "aliases": [
+    "Camboya",
+    "Campuchia",
+    "KH",
+    "KHM",
+    "KKH",
+    "Kambodzha",
+    "Kamboja",
+    "Kampuchea",
+    "Kingdom of Cambodia",
+    "kh"
+   ],
+   "hint": null,
+   "id": "ctry-Q424",
+   "name": "Cambodia",
+   "popularity": 331,
+   "qid": "Q424"
+  },
+  {
+   "aliases": [
+    "CAM",
+    "CM",
+    "CMR",
+    "Republic of Cameroon"
+   ],
+   "hint": null,
+   "id": "ctry-Q1009",
+   "name": "Cameroon",
+   "popularity": 314,
+   "qid": "Q1009"
+  },
+  {
+   "aliases": [
+    "CA",
+    "CAN"
+   ],
+   "hint": null,
+   "id": "ctry-Q16",
+   "name": "Canada",
+   "popularity": 398,
+   "qid": "Q16"
+  },
+  {
+   "aliases": [
+    "CPV",
+    "CV",
+    "Cabo Verde",
+    "Cape Verde Islands",
+    "Republic of Cabo Verde",
+    "Republic of Cape Verde"
+   ],
+   "hint": null,
+   "id": "ctry-Q1011",
+   "name": "Cape Verde",
+   "popularity": 291,
+   "qid": "Q1011"
+  },
+  {
+   "aliases": [
+    "CAF",
+    "CAR",
+    "CF",
+    "Central Africa",
+    "cf"
+   ],
+   "hint": null,
+   "id": "ctry-Q929",
+   "name": "Central African Republic",
+   "popularity": 301,
+   "qid": "Q929"
+  },
+  {
+   "aliases": [
+    "CHA",
+    "GUM",
+    "Republic of Chad",
+    "TCD",
+    "TD",
+    "td"
+   ],
+   "hint": null,
+   "id": "ctry-Q657",
+   "name": "Chad",
+   "popularity": 318,
+   "qid": "Q657"
+  },
+  {
+   "aliases": [
+    "CHI",
+    "CHL",
+    "CL",
+    "Republic of Chile",
+    "República de Chile",
+    "cl"
+   ],
+   "hint": null,
+   "id": "ctry-Q298",
+   "name": "Chile",
+   "popularity": 381,
+   "qid": "Q298"
+  },
+  {
+   "aliases": [
+    "China PR",
+    "Communist China",
+    "P.R.C.",
+    "PR China",
+    "PRC",
+    "People's Republic of China",
+    "Red China",
+    "The PRC",
+    "Zhongguo",
+    "cn",
+    "the People's Republic of China"
+   ],
+   "hint": null,
+   "id": "ctry-Q148",
+   "name": "China",
+   "popularity": 401,
+   "qid": "Q148"
+  },
+  {
+   "aliases": [
+    "CO",
+    "COL",
+    "Colombiá",
+    "Republic of Colombia",
+    "The Republic of Colombia"
+   ],
+   "hint": null,
+   "id": "ctry-Q739",
+   "name": "Colombia",
+   "popularity": 367,
+   "qid": "Q739"
+  },
+  {
+   "aliases": [
+    "COM",
+    "Juzur al-Qamar",
+    "Juzur al-Qumur",
+    "KM",
+    "Massiwa ya komori",
+    "Udzima wa Komori",
+    "Union des Comores",
+    "Union of the Comoros",
+    "al-Ittiḥād al-Qumurī",
+    "km",
+    "ouvoimoja wakomori",
+    "the Comoros"
+   ],
+   "hint": null,
+   "id": "ctry-Q970",
+   "name": "Comoros",
+   "popularity": 284,
+   "qid": "Q970"
+  },
+  {
+   "aliases": [
+    "CR",
+    "CRC",
+    "CRI",
+    "Republic of Costa Rica",
+    "cr"
+   ],
+   "hint": null,
+   "id": "ctry-Q800",
+   "name": "Costa Rica",
+   "popularity": 302,
+   "qid": "Q800"
+  },
+  {
+   "aliases": [
+    "CRO",
+    "HR",
+    "HRV",
+    "RH",
+    "Republic of Croatia"
+   ],
+   "hint": null,
+   "id": "ctry-Q224",
+   "name": "Croatia",
+   "popularity": 356,
+   "qid": "Q224"
+  },
+  {
+   "aliases": [
+    "CU",
+    "CUB",
+    "Republic of Cuba",
+    "cu"
+   ],
+   "hint": null,
+   "id": "ctry-Q241",
+   "name": "Cuba",
+   "popularity": 312,
+   "qid": "Q241"
+  },
+  {
+   "aliases": [
+    "CY",
+    "CYP",
+    "Greek Administration of Southern Cyprus",
+    "Greek Cypriot State",
+    "Republic of Cyprus"
+   ],
+   "hint": null,
+   "id": "ctry-Q229",
+   "name": "Cyprus",
+   "popularity": 326,
+   "qid": "Q229"
+  },
+  {
+   "aliases": [
+    "CZ",
+    "CZE",
+    "CZR",
+    "Czechia",
+    "the Czech Republic",
+    "Česká republika"
+   ],
+   "hint": null,
+   "id": "ctry-Q213",
+   "name": "Czech Republic",
+   "popularity": 355,
+   "qid": "Q213"
+  },
+  {
+   "aliases": [
+    "Czecho-Slovakia",
+    "Federation of Czechoslovakia",
+    "People's Republic of Czechoslovakia",
+    "TCH",
+    "cs",
+    "Československo"
+   ],
+   "hint": null,
+   "id": "ctry-Q33946",
+   "name": "Czechoslovakia",
+   "popularity": 168,
+   "qid": "Q33946"
+  },
+  {
+   "aliases": [
+    "CD",
+    "COD",
+    "Congo",
+    "Congo-Kinshasa",
+    "D.R.C.",
+    "DR Congo",
+    "DR Kongo",
+    "DRC",
+    "Dem. Rep. Congo",
+    "Dem. Republic of Congo",
+    "Dem. Republic of the Congo",
+    "Democratic Republic of Congo",
+    "Kongo-Kinshasa",
+    "Zaire",
+    "cd"
+   ],
+   "hint": null,
+   "id": "ctry-Q974",
+   "name": "Democratic Republic of the Congo",
+   "popularity": 334,
+   "qid": "Q974"
+  },
+  {
+   "aliases": [
+    "DEK",
+    "DEN",
+    "DK",
+    "DNK",
+    "Danemark",
+    "Dania",
+    "Danmark",
+    "Denmark proper",
+    "TAN",
+    "dk",
+    "metropolitan Denmark"
+   ],
+   "hint": null,
+   "id": "ctry-Q35",
+   "name": "Denmark",
+   "popularity": 369,
+   "qid": "Q35"
+  },
+  {
+   "aliases": [
+    "DJ",
+    "DJI",
+    "Gabuuti",
+    "Jabuuti",
+    "Jībūtī",
+    "Republic of Djibouti",
+    "dj"
+   ],
+   "hint": null,
+   "id": "ctry-Q977",
+   "name": "Djibouti",
+   "popularity": 300,
+   "qid": "Q977"
+  },
+  {
+   "aliases": [
+    "Commonwealth of Dominica",
+    "DM",
+    "DMA",
+    "DOM",
+    "Island of Dominica",
+    "The Commonwealth of Dominica",
+    "Wai'tu kubuli",
+    "Wai‘tu kubuli",
+    "dm"
+   ],
+   "hint": null,
+   "id": "ctry-Q784",
+   "name": "Dominica",
+   "popularity": 265,
+   "qid": "Q784"
+  },
+  {
+   "aliases": [
+    "DO",
+    "DOM",
+    "DR",
+    "DomRep",
+    "Dominicana",
+    "RD",
+    "Republica Dominicana",
+    "República Dominicana"
+   ],
+   "hint": null,
+   "id": "ctry-Q786",
+   "name": "Dominican Republic",
+   "popularity": 280,
+   "qid": "Q786"
+  },
+  {
+   "aliases": [
+    "Communist Germany",
+    "DDR",
+    "Deutsche Demokratische Republik",
+    "GDR",
+    "German Democratic Republic",
+    "Socialist Germany"
+   ],
+   "hint": null,
+   "id": "ctry-Q16957",
+   "name": "East Germany",
+   "popularity": 158,
+   "qid": "Q16957"
+  },
+  {
+   "aliases": [
+    "EC",
+    "ECU",
+    "Republic of Ecuador",
+    "Republic of Equator",
+    "Republic of the Equator",
+    "República del Ecuador",
+    "The Ecuadorian State",
+    "ec",
+    "ecu"
+   ],
+   "hint": null,
+   "id": "ctry-Q736",
+   "name": "Ecuador",
+   "popularity": 317,
+   "qid": "Q736"
+  },
+  {
+   "aliases": [
+    "Arab Rep. Egypt",
+    "Arab Republic of Egypt",
+    "EG",
+    "EGY",
+    "Misr",
+    "Rep. Egypt",
+    "Republic of Egypt",
+    "eg"
+   ],
+   "hint": null,
+   "id": "ctry-Q79",
+   "name": "Egypt",
+   "popularity": 392,
+   "qid": "Q79"
+  },
+  {
+   "aliases": [
+    "ESA",
+    "Republic of El Salvador",
+    "SLV",
+    "SV",
+    "Salvador",
+    "sv"
+   ],
+   "hint": null,
+   "id": "ctry-Q792",
+   "name": "El Salvador",
+   "popularity": 288,
+   "qid": "Q792"
+  },
+  {
+   "aliases": [
+    "ENG",
+    "England, UK",
+    "England, United Kingdom"
+   ],
+   "hint": null,
+   "id": "ctry-Q21",
+   "name": "England",
+   "popularity": 327,
+   "qid": "Q21"
+  },
+  {
+   "aliases": [
+    "GEQ",
+    "GNQ",
+    "GQ",
+    "Republic of Equatorial Guinea",
+    "gq"
+   ],
+   "hint": null,
+   "id": "ctry-Q983",
+   "name": "Equatorial Guinea",
+   "popularity": 284,
+   "qid": "Q983"
+  },
+  {
+   "aliases": [
+    "ER",
+    "ERI",
+    "Ertrā",
+    "IRI",
+    "Iritriyā",
+    "State of Eritrea",
+    "er"
+   ],
+   "hint": null,
+   "id": "ctry-Q986",
+   "name": "Eritrea",
+   "popularity": 308,
+   "qid": "Q986"
+  },
+  {
+   "aliases": [
+    "EE",
+    "EST",
+    "Eesti",
+    "Eesti Vabariik",
+    "Estland",
+    "Republic of Estonia",
+    "ee"
+   ],
+   "hint": null,
+   "id": "ctry-Q191",
+   "name": "Estonia",
+   "popularity": 354,
+   "qid": "Q191"
+  },
+  {
+   "aliases": [
+    "Kingdom of Eswatini",
+    "Kingdom of Swaziland",
+    "SWZ",
+    "SZ",
+    "Swaziland",
+    "Umbuso weSwatini",
+    "sz"
+   ],
+   "hint": null,
+   "id": "ctry-Q1050",
+   "name": "Eswatini",
+   "popularity": 287,
+   "qid": "Q1050"
+  },
+  {
+   "aliases": [
+    "ET",
+    "ETH",
+    "Federal Democratic Republic of Ethiopia",
+    "et"
+   ],
+   "hint": null,
+   "id": "ctry-Q115",
+   "name": "Ethiopia",
+   "popularity": 347,
+   "qid": "Q115"
+  },
+  {
+   "aliases": [
+    "FSM",
+    "Fed. Sts. Micronesia",
+    "Fed. Sts. of Micronesia",
+    "Federated States of Micronesia, FSM",
+    "Micronesia",
+    "fm"
+   ],
+   "hint": null,
+   "id": "ctry-Q702",
+   "name": "Federated States of Micronesia",
+   "popularity": 222,
+   "qid": "Q702"
+  },
+  {
+   "aliases": [
+    "FIJ",
+    "FJ",
+    "Fijī",
+    "Fijī Gaṇarājya",
+    "Matanitu Tugalala o Viti",
+    "Republic of Fiji",
+    "Republic of the Fiji Islands",
+    "Viti",
+    "fj"
+   ],
+   "hint": null,
+   "id": "ctry-Q712",
+   "name": "Fiji",
+   "popularity": 280,
+   "qid": "Q712"
+  },
+  {
+   "aliases": [
+    "FI",
+    "FIN",
+    "Finnia",
+    "Land of Thousand Lakes",
+    "Republic of Finland",
+    "Republiken Finland",
+    "Suomen tasavalta",
+    "Suomi",
+    "fi"
+   ],
+   "hint": null,
+   "id": "ctry-Q33",
+   "name": "Finland",
+   "popularity": 403,
+   "qid": "Q33"
+  },
+  {
+   "aliases": [
+    "FR",
+    "FRA",
+    "Francia",
+    "French Republic",
+    "République française",
+    "fr"
+   ],
+   "hint": null,
+   "id": "ctry-Q142",
+   "name": "France",
+   "popularity": 428,
+   "qid": "Q142"
+  },
+  {
+   "aliases": [
+    "GAB",
+    "Gabonese Republic",
+    "Republique Gabonaise",
+    "République Gabonaise",
+    "ga"
+   ],
+   "hint": null,
+   "id": "ctry-Q1000",
+   "name": "Gabon",
+   "popularity": 296,
+   "qid": "Q1000"
+  },
+  {
+   "aliases": [
+    "GE",
+    "GEO",
+    "Republic of Georgia",
+    "Sakartvelo"
+   ],
+   "hint": null,
+   "id": "ctry-Q230",
+   "name": "Georgia",
+   "popularity": 349,
+   "qid": "Q230"
+  },
+  {
+   "aliases": [
+    "BRD",
+    "DE",
+    "DEU",
+    "FRG",
+    "Federal Republic of Germany",
+    "GER",
+    "de"
+   ],
+   "hint": null,
+   "id": "ctry-Q183",
+   "name": "Germany",
+   "popularity": 405,
+   "qid": "Q183"
+  },
+  {
+   "aliases": [
+    "GH",
+    "GHA",
+    "Republic of Ghana",
+    "gh"
+   ],
+   "hint": null,
+   "id": "ctry-Q117",
+   "name": "Ghana",
+   "popularity": 326,
+   "qid": "Q117"
+  },
+  {
+   "aliases": [
+    "Ellada",
+    "GR",
+    "GRC",
+    "GRE",
+    "Greek Republic",
+    "Hellas",
+    "Hellas, Greece",
+    "Hellenic Republic",
+    "el",
+    "gr"
+   ],
+   "hint": null,
+   "id": "ctry-Q41",
+   "name": "Greece",
+   "popularity": 378,
+   "qid": "Q41"
+  },
+  {
+   "aliases": [
+    "GD",
+    "GRD",
+    "GRN",
+    "gd"
+   ],
+   "hint": null,
+   "id": "ctry-Q769",
+   "name": "Grenada",
+   "popularity": 252,
+   "qid": "Q769"
+  },
+  {
+   "aliases": [
+    "GT",
+    "GTM",
+    "Republic of Guatemala",
+    "República de Guatemala",
+    "gt"
+   ],
+   "hint": null,
+   "id": "ctry-Q774",
+   "name": "Guatemala",
+   "popularity": 282,
+   "qid": "Q774"
+  },
+  {
+   "aliases": [
+    "GIN",
+    "GN",
+    "GUI",
+    "Guinea-Conakry",
+    "Republic of Guinea",
+    "gn"
+   ],
+   "hint": null,
+   "id": "ctry-Q1006",
+   "name": "Guinea",
+   "popularity": 301,
+   "qid": "Q1006"
+  },
+  {
+   "aliases": [
+    "GBS",
+    "GNB",
+    "GW",
+    "Republic of Guinea-Bissau",
+    "gw"
+   ],
+   "hint": null,
+   "id": "ctry-Q1007",
+   "name": "Guinea-Bissau",
+   "popularity": 299,
+   "qid": "Q1007"
+  },
+  {
+   "aliases": [
+    "Co-operative Republic of Guyana",
+    "GUY",
+    "GY",
+    "Republic of Guyana",
+    "gy"
+   ],
+   "hint": null,
+   "id": "ctry-Q734",
+   "name": "Guyana",
+   "popularity": 287,
+   "qid": "Q734"
+  },
+  {
+   "aliases": [
+    "Ayiti",
+    "HAI",
+    "HT",
+    "HTI",
+    "Haitian Republic",
+    "Hayti",
+    "Republic of Haiti",
+    "ht"
+   ],
+   "hint": null,
+   "id": "ctry-Q790",
+   "name": "Haiti",
+   "popularity": 292,
+   "qid": "Q790"
+  },
+  {
+   "aliases": [
+    "First Reich",
+    "HRE",
+    "Holy Roman Empire of the German Nation",
+    "Old Empire",
+    "Reich",
+    "Roman-German Empire"
+   ],
+   "hint": null,
+   "id": "ctry-Q12548",
+   "name": "Holy Roman Empire",
+   "popularity": 181,
+   "qid": "Q12548"
+  },
+  {
+   "aliases": [
+    "HN",
+    "HND",
+    "HON",
+    "Honduran Republic",
+    "Republic of Honduras",
+    "hn"
+   ],
+   "hint": null,
+   "id": "ctry-Q783",
+   "name": "Honduras",
+   "popularity": 300,
+   "qid": "Q783"
+  },
+  {
+   "aliases": [
+    "HU",
+    "HUN"
+   ],
+   "hint": null,
+   "id": "ctry-Q28",
+   "name": "Hungary",
+   "popularity": 358,
+   "qid": "Q28"
+  },
+  {
+   "aliases": [
+    "IS",
+    "ISL",
+    "Icelandic republic",
+    "Isl.",
+    "Republic of Iceland",
+    "Ysland"
+   ],
+   "hint": null,
+   "id": "ctry-Q189",
+   "name": "Iceland",
+   "popularity": 355,
+   "qid": "Q189"
+  },
+  {
+   "aliases": [
+    "Al Hind",
+    "Bharat",
+    "Bharat Ganarajya",
+    "Bharata",
+    "Bharatvarsh",
+    "Hindoostan",
+    "Hindustan",
+    "IN",
+    "IND",
+    "Indostan",
+    "Republic of India",
+    "Tenjiku",
+    "Tianzhu",
+    "in",
+    "印度共和国",
+    "印度共和國"
+   ],
+   "hint": null,
+   "id": "ctry-Q668",
+   "name": "India",
+   "popularity": 404,
+   "qid": "Q668"
+  },
+  {
+   "aliases": [
+    "ID",
+    "IDN",
+    "INA",
+    "Republic of Indonesia",
+    "Republik Indonesia",
+    "id",
+    "印尼"
+   ],
+   "hint": null,
+   "id": "ctry-Q252",
+   "name": "Indonesia",
+   "popularity": 366,
+   "qid": "Q252"
+  },
+  {
+   "aliases": [
+    "IR",
+    "IRI",
+    "IRN",
+    "Islamic Rep. Iran",
+    "Islamic Republic of Iran",
+    "ir"
+   ],
+   "hint": null,
+   "id": "ctry-Q794",
+   "name": "Iran",
+   "popularity": 376,
+   "qid": "Q794"
+  },
+  {
+   "aliases": [
+    "IQ",
+    "IRQ",
+    "Republic of Iraq",
+    "iq"
+   ],
+   "hint": null,
+   "id": "ctry-Q796",
+   "name": "Iraq",
+   "popularity": 350,
+   "qid": "Q796"
+  },
+  {
+   "aliases": [
+    "Hibernia",
+    "IE",
+    "IR",
+    "IRL",
+    "Irish Republic",
+    "Irlanda",
+    "Irlandia",
+    "Republic of Ireland",
+    "Southern Ireland",
+    "Éire"
+   ],
+   "hint": null,
+   "id": "ctry-Q27",
+   "name": "Ireland",
+   "popularity": 342,
+   "qid": "Q27"
+  },
+  {
+   "aliases": [
+    "IL",
+    "ISR",
+    "State of Israel",
+    "Yisrael",
+    "il"
+   ],
+   "hint": null,
+   "id": "ctry-Q801",
+   "name": "Israel",
+   "popularity": 380,
+   "qid": "Q801"
+  },
+  {
+   "aliases": [
+    "IT",
+    "ITA",
+    "Italia",
+    "Italian Republic",
+    "Republic of Italy"
+   ],
+   "hint": null,
+   "id": "ctry-Q38",
+   "name": "Italy",
+   "popularity": 409,
+   "qid": "Q38"
+  },
+  {
+   "aliases": [
+    "CI",
+    "CIV",
+    "Cote Ivoire",
+    "Cote d'Ivoire",
+    "Cote d'lvoire",
+    "Cote-d'Ivoire",
+    "Côte d'Ivoire",
+    "Côte d’Ivoire",
+    "Côte-d'Ivoire",
+    "Republic of Cote d'Ivoire",
+    "Republic of Côte d'Ivoire",
+    "Republic of Ivory Coast",
+    "Republic of the Ivory Coast",
+    "The Ivory Coast",
+    "ci"
+   ],
+   "hint": null,
+   "id": "ctry-Q1008",
+   "name": "Ivory Coast",
+   "popularity": 313,
+   "qid": "Q1008"
+  },
+  {
+   "aliases": [
+    "Commonwealth of Jamaica",
+    "JA",
+    "JAM",
+    "JM"
+   ],
+   "hint": null,
+   "id": "ctry-Q766",
+   "name": "Jamaica",
+   "popularity": 282,
+   "qid": "Q766"
+  },
+  {
+   "aliases": [
+    "Iapan",
+    "Iapon",
+    "JA",
+    "JAP",
+    "JP",
+    "JPN",
+    "Ja",
+    "Jap",
+    "Land of Rising Sun",
+    "Land of the Rising Sun",
+    "Nihon",
+    "Nihon-koku",
+    "Nippon",
+    "Nippon-koku",
+    "State of Japan",
+    "jp",
+    "日本国",
+    "日本國"
+   ],
+   "hint": null,
+   "id": "ctry-Q17",
+   "name": "Japan",
+   "popularity": 419,
+   "qid": "Q17"
+  },
+  {
+   "aliases": [
+    "Giordania",
+    "HKJ",
+    "Hashemite Kingdom of Jordan",
+    "ISO 3166-1:JO",
+    "JO",
+    "JOR",
+    "Kingdom of Jordan",
+    "State of Jordan",
+    "Yarden"
+   ],
+   "hint": null,
+   "id": "ctry-Q810",
+   "name": "Jordan",
+   "popularity": 314,
+   "qid": "Q810"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "ctry-Q4212235",
+   "name": "Kangar Union",
+   "popularity": 10,
+   "qid": "Q4212235"
+  },
+  {
+   "aliases": [
+    "KAZ",
+    "KZ",
+    "Qazaqstan",
+    "Republic of Kazakhstan",
+    "Republic of Qazaqstan",
+    "kz"
+   ],
+   "hint": null,
+   "id": "ctry-Q232",
+   "name": "Kazakhstan",
+   "popularity": 350,
+   "qid": "Q232"
+  },
+  {
+   "aliases": [
+    "KE",
+    "KEN",
+    "Republic of Kenya",
+    "ke"
+   ],
+   "hint": null,
+   "id": "ctry-Q114",
+   "name": "Kenya",
+   "popularity": 338,
+   "qid": "Q114"
+  },
+  {
+   "aliases": [
+    "Danish Commonwealth",
+    "Danish Realm",
+    "Danmarkar Ríki",
+    "Danmarkip Naalagaaffik",
+    "Danmarks Rige",
+    "Denmark",
+    "Kongeriget Danmark",
+    "Kongsríki Danmarkar",
+    "Kunngeqarfik Danmarki",
+    "Realm of Denmark"
+   ],
+   "hint": null,
+   "id": "ctry-Q756617",
+   "name": "Kingdom of Denmark",
+   "popularity": 56,
+   "qid": "Q756617"
+  },
+  {
+   "aliases": [
+    "Kingdom of Rumania",
+    "Regatul Romaniei",
+    "Romanian Kingdom",
+    "Rumanian Kingdom"
+   ],
+   "hint": null,
+   "id": "ctry-Q203493",
+   "name": "Kingdom of Romania",
+   "popularity": 64,
+   "qid": "Q203493"
+  },
+  {
+   "aliases": [
+    "Kingdom of Netherlands",
+    "Koninkrijk der Nederlanden",
+    "NED",
+    "NL",
+    "Nederlanden",
+    "Netherlands",
+    "Reino Hulandes",
+    "the Netherlands"
+   ],
+   "hint": null,
+   "id": "ctry-Q29999",
+   "name": "Kingdom of the Netherlands",
+   "popularity": 108,
+   "qid": "Q29999"
+  },
+  {
+   "aliases": [
+    "KI",
+    "KIR",
+    "Republic of Kiribati",
+    "ki"
+   ],
+   "hint": null,
+   "id": "ctry-Q710",
+   "name": "Kiribati",
+   "popularity": 250,
+   "qid": "Q710"
+  },
+  {
+   "aliases": [
+    "KOS",
+    "KV",
+    "Kosova",
+    "RKS",
+    "Republic of Kosovo",
+    "XK",
+    "XKX"
+   ],
+   "hint": null,
+   "id": "ctry-Q1246",
+   "name": "Kosovo",
+   "popularity": 283,
+   "qid": "Q1246"
+  },
+  {
+   "aliases": [
+    "KUW",
+    "KW",
+    "KWT",
+    "State of Kuwait",
+    "kw"
+   ],
+   "hint": null,
+   "id": "ctry-Q817",
+   "name": "Kuwait",
+   "popularity": 306,
+   "qid": "Q817"
+  },
+  {
+   "aliases": [
+    "KG",
+    "KGZ",
+    "Kyrgyz Republic",
+    "kg"
+   ],
+   "hint": null,
+   "id": "ctry-Q813",
+   "name": "Kyrgyzstan",
+   "popularity": 320,
+   "qid": "Q813"
+  },
+  {
+   "aliases": [
+    "LA",
+    "LAO",
+    "Lao PDR",
+    "Lao People's Democratic Republic",
+    "la"
+   ],
+   "hint": null,
+   "id": "ctry-Q819",
+   "name": "Laos",
+   "popularity": 316,
+   "qid": "Q819"
+  },
+  {
+   "aliases": [
+    "LAT",
+    "LV",
+    "LVA",
+    "Latveja",
+    "Latvejas Republika",
+    "Latvian Republic",
+    "Latvija",
+    "Latvijas Republika",
+    "Leţmо̄",
+    "Leţmо̄ Vabāmо̄",
+    "Republic of Latvia",
+    "lv"
+   ],
+   "hint": null,
+   "id": "ctry-Q211",
+   "name": "Latvia",
+   "popularity": 336,
+   "qid": "Q211"
+  },
+  {
+   "aliases": [
+    "LB",
+    "LBN",
+    "Lebanese Republic",
+    "Lubnan",
+    "Republic of Lebanon",
+    "State of Lebanon",
+    "lb"
+   ],
+   "hint": null,
+   "id": "ctry-Q822",
+   "name": "Lebanon",
+   "popularity": 329,
+   "qid": "Q822"
+  },
+  {
+   "aliases": [
+    "Kingdom of Lesotho",
+    "LES",
+    "The Mountain Kingdom",
+    "ls"
+   ],
+   "hint": null,
+   "id": "ctry-Q1013",
+   "name": "Lesotho",
+   "popularity": 281,
+   "qid": "Q1013"
+  },
+  {
+   "aliases": [
+    "LBR",
+    "LR",
+    "Liber",
+    "Republic of Liberia",
+    "lr"
+   ],
+   "hint": null,
+   "id": "ctry-Q1014",
+   "name": "Liberia",
+   "popularity": 292,
+   "qid": "Q1014"
+  },
+  {
+   "aliases": [
+    "LBA",
+    "LBY",
+    "LY",
+    "State of Libya",
+    "ly"
+   ],
+   "hint": null,
+   "id": "ctry-Q1016",
+   "name": "Libya",
+   "popularity": 334,
+   "qid": "Q1016"
+  },
+  {
+   "aliases": [
+    "FL",
+    "LI",
+    "LIE",
+    "Principality of Liechtenstein",
+    "li"
+   ],
+   "hint": null,
+   "id": "ctry-Q347",
+   "name": "Liechtenstein",
+   "popularity": 316,
+   "qid": "Q347"
+  },
+  {
+   "aliases": [
+    "LR",
+    "LT",
+    "LTU",
+    "Lietuvos Respublika",
+    "Republic of Lithuania",
+    "🇱🇹"
+   ],
+   "hint": null,
+   "id": "ctry-Q37",
+   "name": "Lithuania",
+   "popularity": 352,
+   "qid": "Q37"
+  },
+  {
+   "aliases": [
+    "Grand Duchy of Luxembourg",
+    "LU",
+    "LUX",
+    "Luxemburg"
+   ],
+   "hint": null,
+   "id": "ctry-Q32",
+   "name": "Luxembourg",
+   "popularity": 335,
+   "qid": "Q32"
+  },
+  {
+   "aliases": [
+    "MAD",
+    "MDG",
+    "MG",
+    "Malagascar",
+    "Malagaskar",
+    "Republic of Madagascar",
+    "mg"
+   ],
+   "hint": null,
+   "id": "ctry-Q1019",
+   "name": "Madagascar",
+   "popularity": 321,
+   "qid": "Q1019"
+  },
+  {
+   "aliases": [
+    "MAW",
+    "MW",
+    "MWI",
+    "Republic of Malawi",
+    "mw"
+   ],
+   "hint": null,
+   "id": "ctry-Q1020",
+   "name": "Malawi",
+   "popularity": 298,
+   "qid": "Q1020"
+  },
+  {
+   "aliases": [
+    "Federation of Malaysia",
+    "MAS",
+    "MY",
+    "MYS",
+    "Malaysia Federation",
+    "my"
+   ],
+   "hint": null,
+   "id": "ctry-Q833",
+   "name": "Malaysia",
+   "popularity": 340,
+   "qid": "Q833"
+  },
+  {
+   "aliases": [
+    "MDV",
+    "Republic of Maldives",
+    "mv"
+   ],
+   "hint": null,
+   "id": "ctry-Q826",
+   "name": "Maldives",
+   "popularity": 290,
+   "qid": "Q826"
+  },
+  {
+   "aliases": [
+    "ML",
+    "MLI",
+    "Republic of Mali",
+    "ml"
+   ],
+   "hint": null,
+   "id": "ctry-Q912",
+   "name": "Mali",
+   "popularity": 312,
+   "qid": "Q912"
+  },
+  {
+   "aliases": [
+    "MLT",
+    "MT",
+    "Republic of Malta"
+   ],
+   "hint": null,
+   "id": "ctry-Q233",
+   "name": "Malta",
+   "popularity": 327,
+   "qid": "Q233"
+  },
+  {
+   "aliases": [
+    "MH",
+    "MHL",
+    "Republic of the Marshall Islands",
+    "mh"
+   ],
+   "hint": null,
+   "id": "ctry-Q709",
+   "name": "Marshall Islands",
+   "popularity": 237,
+   "qid": "Q709"
+  },
+  {
+   "aliases": [
+    "Agawej",
+    "Gannaar",
+    "Gànnaar",
+    "Islamic Republic of Mauritania",
+    "MR",
+    "MRT",
+    "MTN",
+    "Mauretania",
+    "Moritani",
+    "Muritanya",
+    "Murutaane",
+    "mr"
+   ],
+   "hint": null,
+   "id": "ctry-Q1025",
+   "name": "Mauritania",
+   "popularity": 306,
+   "qid": "Q1025"
+  },
+  {
+   "aliases": [
+    "MRI",
+    "MU",
+    "Maurice",
+    "Moris",
+    "Republic of Mauritius"
+   ],
+   "hint": null,
+   "id": "ctry-Q1027",
+   "name": "Mauritius",
+   "popularity": 284,
+   "qid": "Q1027"
+  },
+  {
+   "aliases": [
+    "MEX",
+    "MX",
+    "MXN",
+    "Mexican Republic",
+    "Mexican United States",
+    "US of M",
+    "United Mexican States",
+    "United States of Mexico",
+    "mx"
+   ],
+   "hint": null,
+   "id": "ctry-Q96",
+   "name": "Mexico",
+   "popularity": 401,
+   "qid": "Q96"
+  },
+  {
+   "aliases": [
+    "MD",
+    "MDA",
+    "Moldavia",
+    "Republic of Moldova",
+    "Republica Moldova"
+   ],
+   "hint": null,
+   "id": "ctry-Q217",
+   "name": "Moldova",
+   "popularity": 331,
+   "qid": "Q217"
+  },
+  {
+   "aliases": [
+    "Fort-Hercule",
+    "MC",
+    "MCO",
+    "MON",
+    "Mùnegu",
+    "Principality and Diocese of Monaco",
+    "Principality of Monaco",
+    "Principato di Monaco",
+    "Principatu de Mu̍negu",
+    "Principauté de Monaco",
+    "Prinçipatu de Mùnegu",
+    "mc"
+   ],
+   "hint": null,
+   "id": "ctry-Q235",
+   "name": "Monaco",
+   "popularity": 321,
+   "qid": "Q235"
+  },
+  {
+   "aliases": [
+    "MN",
+    "MNG",
+    "Mongol State",
+    "State of Mongolia"
+   ],
+   "hint": null,
+   "id": "ctry-Q711",
+   "name": "Mongolia",
+   "popularity": 322,
+   "qid": "Q711"
+  },
+  {
+   "aliases": [
+    "ME",
+    "MNE",
+    "Republic of Montenegro"
+   ],
+   "hint": null,
+   "id": "ctry-Q236",
+   "name": "Montenegro",
+   "popularity": 323,
+   "qid": "Q236"
+  },
+  {
+   "aliases": [
+    "Kingdom of Morocco",
+    "Lmaġrib",
+    "MA",
+    "MAR",
+    "Maroc",
+    "Marocco",
+    "al-Maġrib",
+    "ma"
+   ],
+   "hint": null,
+   "id": "ctry-Q1028",
+   "name": "Morocco",
+   "popularity": 335,
+   "qid": "Q1028"
+  },
+  {
+   "aliases": [
+    "MOZ",
+    "MZ",
+    "Moçambique",
+    "Republic of Mozambique",
+    "República de Moçambique",
+    "mz"
+   ],
+   "hint": null,
+   "id": "ctry-Q1029",
+   "name": "Mozambique",
+   "popularity": 302,
+   "qid": "Q1029"
+  },
+  {
+   "aliases": [
+    "BUR",
+    "Birma",
+    "Birmania",
+    "Burma",
+    "MM",
+    "MMR",
+    "MYA",
+    "Republic of the Union of Myanmar",
+    "Union of Burma"
+   ],
+   "hint": null,
+   "id": "ctry-Q836",
+   "name": "Myanmar",
+   "popularity": 318,
+   "qid": "Q836"
+  },
+  {
+   "aliases": [
+    "NA",
+    "NAM",
+    "Republic of Namibia",
+    "na"
+   ],
+   "hint": null,
+   "id": "ctry-Q1030",
+   "name": "Namibia",
+   "popularity": 316,
+   "qid": "Q1030"
+  },
+  {
+   "aliases": [
+    "Naoero",
+    "Pleasant Island",
+    "Republic of Naoero",
+    "Republic of Nauru"
+   ],
+   "hint": null,
+   "id": "ctry-Q697",
+   "name": "Nauru",
+   "popularity": 265,
+   "qid": "Q697"
+  },
+  {
+   "aliases": [
+    "German Reich",
+    "Greater German Reich",
+    "Hitler's Third Reich",
+    "Nazi-Germany",
+    "Third Reich",
+    "Thousand-Year Reich"
+   ],
+   "hint": null,
+   "id": "ctry-Q7318",
+   "name": "Nazi Germany",
+   "popularity": 181,
+   "qid": "Q7318"
+  },
+  {
+   "aliases": [
+    "Bal-bo",
+    "Bal-po'i yul",
+    "Bal-yul",
+    "Balbo",
+    "Balpo",
+    "Balpo-yul",
+    "Federal Democratic Republic of Nepal",
+    "NEP",
+    "NP",
+    "NPL",
+    "Naipala",
+    "Naipál",
+    "Naipála",
+    "Ne-pel",
+    "Necbal",
+    "Nehpal",
+    "Nei-pal",
+    "Nekbal",
+    "Nekpal",
+    "Nepall",
+    "Nepaul",
+    "Nepál",
+    "Nercerri",
+    "Ni-po-lo",
+    "Ni-po-louo",
+    "Niepal",
+    "Nipal",
+    "Népaal",
+    "Népál",
+    "Pa-eul-pou",
+    "Pa-le-pou",
+    "Pa-lo-pou",
+    "Pai-pou",
+    "Palpa",
+    "Palpou",
+    "Paï-pou"
+   ],
+   "hint": null,
+   "id": "ctry-Q837",
+   "name": "Nepal",
+   "popularity": 324,
+   "qid": "Q837"
+  },
+  {
+   "aliases": [
+    "Holland",
+    "NED",
+    "NL",
+    "NLD",
+    "Nederland",
+    "Nederlanden",
+    "de Nederlanden",
+    "the Netherlands"
+   ],
+   "hint": null,
+   "id": "ctry-Q55",
+   "name": "Netherlands",
+   "popularity": 375,
+   "qid": "Q55"
+  },
+  {
+   "aliases": [
+    "Aotearoa",
+    "Aotearoa New Zealand",
+    "Dominion of New Zealand",
+    "NZ",
+    "NZL",
+    "Niu Tīreni",
+    "nz"
+   ],
+   "hint": null,
+   "id": "ctry-Q664",
+   "name": "New Zealand",
+   "popularity": 351,
+   "qid": "Q664"
+  },
+  {
+   "aliases": [
+    "NCA",
+    "NI",
+    "NIC",
+    "Republic of Nicaragua",
+    "ni"
+   ],
+   "hint": null,
+   "id": "ctry-Q811",
+   "name": "Nicaragua",
+   "popularity": 283,
+   "qid": "Q811"
+  },
+  {
+   "aliases": [
+    "Republic Niger",
+    "Republic of Niger",
+    "Republic of the Niger",
+    "The Niger",
+    "ne"
+   ],
+   "hint": null,
+   "id": "ctry-Q1032",
+   "name": "Niger",
+   "popularity": 302,
+   "qid": "Q1032"
+  },
+  {
+   "aliases": [
+    "FRN",
+    "Federal Republic of Nigeria",
+    "NG",
+    "NGA",
+    "NGR",
+    "Naija",
+    "RFN"
+   ],
+   "hint": null,
+   "id": "ctry-Q1033",
+   "name": "Nigeria",
+   "popularity": 349,
+   "qid": "Q1033"
+  },
+  {
+   "aliases": [
+    "DPR Korea",
+    "DPRK",
+    "Democratic People's Republic of Korea",
+    "KP",
+    "N. Korea",
+    "NK",
+    "PRK",
+    "kp"
+   ],
+   "hint": null,
+   "id": "ctry-Q423",
+   "name": "North Korea",
+   "popularity": 313,
+   "qid": "Q423"
+  },
+  {
+   "aliases": [
+    "FYR Macedonia",
+    "Former Yugoslav Republic of Macedonia",
+    "MK",
+    "MKD",
+    "Macedonia",
+    "Makedonia",
+    "NM",
+    "Republic of Macedonia",
+    "Republic of North Macedonia"
+   ],
+   "hint": null,
+   "id": "ctry-Q221",
+   "name": "North Macedonia",
+   "popularity": 327,
+   "qid": "Q221"
+  },
+  {
+   "aliases": [
+    "N. Ireland",
+    "NI",
+    "NIR",
+    "North Ireland",
+    "The North",
+    "The Six Counties",
+    "Tuaisceart Éireann",
+    "UKN"
+   ],
+   "hint": null,
+   "id": "ctry-Q26",
+   "name": "Northern Ireland",
+   "popularity": 230,
+   "qid": "Q26"
+  },
+  {
+   "aliases": [
+    "Kingdom of Norway",
+    "NO",
+    "NOR"
+   ],
+   "hint": null,
+   "id": "ctry-Q20",
+   "name": "Norway",
+   "popularity": 394,
+   "qid": "Q20"
+  },
+  {
+   "aliases": [
+    "OM",
+    "OMN",
+    "Sultanate of Oman",
+    "Uman",
+    "om",
+    "omn"
+   ],
+   "hint": null,
+   "id": "ctry-Q842",
+   "name": "Oman",
+   "popularity": 297,
+   "qid": "Q842"
+  },
+  {
+   "aliases": [
+    "Ottoman State",
+    "Sublime Ottoman State",
+    "Turkish Empire"
+   ],
+   "hint": null,
+   "id": "ctry-Q12560",
+   "name": "Ottoman Empire",
+   "popularity": 211,
+   "qid": "Q12560"
+  },
+  {
+   "aliases": [
+    "Hồi Quốc",
+    "Islamic Republic of Pakistan",
+    "PAK",
+    "PK",
+    "Republic of Pakistan",
+    "Tây Hồi",
+    "pk"
+   ],
+   "hint": null,
+   "id": "ctry-Q843",
+   "name": "Pakistan",
+   "popularity": 356,
+   "qid": "Q843"
+  },
+  {
+   "aliases": [
+    "Belau",
+    "Peeloo",
+    "Pelew",
+    "Pelew islands",
+    "Pellew",
+    "Republic of Belau",
+    "Republic of Palau",
+    "pw"
+   ],
+   "hint": null,
+   "id": "ctry-Q695",
+   "name": "Palau",
+   "popularity": 257,
+   "qid": "Q695"
+  },
+  {
+   "aliases": [
+    "PSE",
+    "State of Palestine"
+   ],
+   "hint": null,
+   "id": "ctry-Q219060",
+   "name": "Palestine",
+   "popularity": 225,
+   "qid": "Q219060"
+  },
+  {
+   "aliases": [
+    "PA",
+    "PAN",
+    "Republic of Panama",
+    "pa"
+   ],
+   "hint": null,
+   "id": "ctry-Q804",
+   "name": "Panama",
+   "popularity": 303,
+   "qid": "Q804"
+  },
+  {
+   "aliases": [
+    "Independent State of Papua New Guinea",
+    "PNG",
+    "pg"
+   ],
+   "hint": null,
+   "id": "ctry-Q691",
+   "name": "Papua New Guinea",
+   "popularity": 285,
+   "qid": "Q691"
+  },
+  {
+   "aliases": [
+    "Heart of South America",
+    "PAR",
+    "PRY",
+    "PY",
+    "Republic of Paraguay",
+    "pry",
+    "py"
+   ],
+   "hint": null,
+   "id": "ctry-Q733",
+   "name": "Paraguay",
+   "popularity": 312,
+   "qid": "Q733"
+  },
+  {
+   "aliases": [
+    "PE",
+    "PER",
+    "Republic of Peru",
+    "Republica del Peru",
+    "República del Perú",
+    "pe",
+    "per"
+   ],
+   "hint": null,
+   "id": "ctry-Q419",
+   "name": "Peru",
+   "popularity": 333,
+   "qid": "Q419"
+  },
+  {
+   "aliases": [
+    "PH",
+    "PHI",
+    "PHL",
+    "Philippine Islands",
+    "RP",
+    "Republic of the Philippines",
+    "The Philippines",
+    "ph"
+   ],
+   "hint": null,
+   "id": "ctry-Q928",
+   "name": "Philippines",
+   "popularity": 334,
+   "qid": "Q928"
+  },
+  {
+   "aliases": [
+    "PL",
+    "POL",
+    "Polonia",
+    "Republic of Poland"
+   ],
+   "hint": null,
+   "id": "ctry-Q36",
+   "name": "Poland",
+   "popularity": 391,
+   "qid": "Q36"
+  },
+  {
+   "aliases": [
+    "Commonwealth of Poland",
+    "First Republic of Poland",
+    "Poland",
+    "Poland-Lithuania",
+    "Poland–Lithuania",
+    "Polish-Lithuanian Commonwealth",
+    "Republic of Both Nations"
+   ],
+   "hint": null,
+   "id": "ctry-Q172107",
+   "name": "Polish–Lithuanian Commonwealth",
+   "popularity": 104,
+   "qid": "Q172107"
+  },
+  {
+   "aliases": [
+    "POR",
+    "PRT",
+    "PT",
+    "Portuguese Republic",
+    "República Portuguesa",
+    "🇵🇹"
+   ],
+   "hint": null,
+   "id": "ctry-Q45",
+   "name": "Portugal",
+   "popularity": 372,
+   "qid": "Q45"
+  },
+  {
+   "aliases": [
+    "QA",
+    "QAT",
+    "State of Qatar",
+    "qa",
+    "qat"
+   ],
+   "hint": null,
+   "id": "ctry-Q846",
+   "name": "Qatar",
+   "popularity": 291,
+   "qid": "Q846"
+  },
+  {
+   "aliases": [
+    "Ch'ing China",
+    "Ch'ing Empire",
+    "Ch'ing dynasty",
+    "Chinese-Tartar empire",
+    "Empire of the Great Qing",
+    "Great Ching dynasty",
+    "Great Pure dynasty",
+    "Great Qing",
+    "Great Qing Empire",
+    "Great Qing state",
+    "Great Tsing dynasty",
+    "Manchu China",
+    "Manchu Tartar dynasty",
+    "Manchu dynasty",
+    "Manchu empire",
+    "Qing China",
+    "Qing Empire",
+    "Ta Tsing Empire",
+    "Ta-tsing dynasty",
+    "Tai Ching Ti Kuo",
+    "Tai-tsing dynasty",
+    "Tartar Chinese Empire",
+    "Tartar-Manchu dynasty",
+    "Tsing dynasty"
+   ],
+   "hint": null,
+   "id": "ctry-Q8733",
+   "name": "Qing dynasty",
+   "popularity": 154,
+   "qid": "Q8733"
+  },
+  {
+   "aliases": [
+    "CG",
+    "CGO",
+    "COG",
+    "Congo",
+    "Congo Republic",
+    "Congo-Brazzaville",
+    "Rep. Congo",
+    "Republic of Congo",
+    "Republique du Congo",
+    "République du Congo",
+    "cg"
+   ],
+   "hint": null,
+   "id": "ctry-Q971",
+   "name": "Republic of the Congo",
+   "popularity": 300,
+   "qid": "Q971"
+  },
+  {
+   "aliases": [
+    "Imperium Romanum",
+    "Roman period",
+    "Romanum imperium",
+    "imperium romanum"
+   ],
+   "hint": null,
+   "id": "ctry-Q2277",
+   "name": "Roman Empire",
+   "popularity": 209,
+   "qid": "Q2277"
+  },
+  {
+   "aliases": [
+    "RO",
+    "ROU",
+    "Ro",
+    "România",
+    "Roumania",
+    "Rumania"
+   ],
+   "hint": null,
+   "id": "ctry-Q218",
+   "name": "Romania",
+   "popularity": 349,
+   "qid": "Q218"
+  },
+  {
+   "aliases": [
+    "RF",
+    "RU",
+    "RUS",
+    "Russian Federation",
+    "ru",
+    "РФ"
+   ],
+   "hint": null,
+   "id": "ctry-Q159",
+   "name": "Russia",
+   "popularity": 421,
+   "qid": "Q159"
+  },
+  {
+   "aliases": [
+    "Empire of Russia",
+    "Imperial Russia",
+    "Moscovy",
+    "Moscovy or Russia",
+    "Rossia",
+    "Rusia",
+    "Russia",
+    "Russia or Moscovy",
+    "Tsarist Russia"
+   ],
+   "hint": null,
+   "id": "ctry-Q34266",
+   "name": "Russian Empire",
+   "popularity": 156,
+   "qid": "Q34266"
+  },
+  {
+   "aliases": [
+    "RW",
+    "RWA",
+    "Republic of Rwanda",
+    "The Land of a Thousand Hills"
+   ],
+   "hint": null,
+   "id": "ctry-Q1037",
+   "name": "Rwanda",
+   "popularity": 303,
+   "qid": "Q1037"
+  },
+  {
+   "aliases": [
+    "Federation of Saint Kitts and Nevis",
+    "KN",
+    "KNA",
+    "Kitts & Nevis",
+    "Kitts and Nevis",
+    "SKN",
+    "Saint Christopher and Nevis",
+    "St Kitts & Nevis",
+    "St Kitts and Nevis",
+    "St. Kitts & Nevis",
+    "St. Kitts and Nevis"
+   ],
+   "hint": null,
+   "id": "ctry-Q763",
+   "name": "Saint Kitts and Nevis",
+   "popularity": 239,
+   "qid": "Q763"
+  },
+  {
+   "aliases": [
+    "Hewanorra",
+    "Iyonola",
+    "LC",
+    "LCA",
+    "St Lucia",
+    "St. Lucia",
+    "lc",
+    "lca"
+   ],
+   "hint": null,
+   "id": "ctry-Q760",
+   "name": "Saint Lucia",
+   "popularity": 235,
+   "qid": "Q760"
+  },
+  {
+   "aliases": [
+    "Saint Vincent",
+    "St Vincent",
+    "St Vincent and the Grenadines",
+    "St. Vincent",
+    "St. Vincent and the Grenadines",
+    "VC",
+    "VCT",
+    "vc",
+    "vct"
+   ],
+   "hint": null,
+   "id": "ctry-Q757",
+   "name": "Saint Vincent and the Grenadines",
+   "popularity": 238,
+   "qid": "Q757"
+  },
+  {
+   "aliases": [
+    "Independent State of Samoa",
+    "SAM",
+    "Western Samoa",
+    "ws"
+   ],
+   "hint": null,
+   "id": "ctry-Q683",
+   "name": "Samoa",
+   "popularity": 261,
+   "qid": "Q683"
+  },
+  {
+   "aliases": [
+    "Most Serene Republic of San Marino",
+    "SM",
+    "SMR",
+    "sm"
+   ],
+   "hint": null,
+   "id": "ctry-Q238",
+   "name": "San Marino",
+   "popularity": 314,
+   "qid": "Q238"
+  },
+  {
+   "aliases": [
+    "KSA",
+    "Kingdom of Saudi Arabia",
+    "SA",
+    "SAU",
+    "Saudi",
+    "sa"
+   ],
+   "hint": null,
+   "id": "ctry-Q851",
+   "name": "Saudi Arabia",
+   "popularity": 350,
+   "qid": "Q851"
+  },
+  {
+   "aliases": [
+    "Alba",
+    "Caledonia",
+    "SC",
+    "SCT",
+    "Scot",
+    "Scotland, United Kingdom",
+    "UK-SC",
+    "UK-SCT"
+   ],
+   "hint": null,
+   "id": "ctry-Q22",
+   "name": "Scotland",
+   "popularity": 278,
+   "qid": "Q22"
+  },
+  {
+   "aliases": [
+    "Republic of Senegal",
+    "SEN",
+    "SN",
+    "sn"
+   ],
+   "hint": null,
+   "id": "ctry-Q1041",
+   "name": "Senegal",
+   "popularity": 309,
+   "qid": "Q1041"
+  },
+  {
+   "aliases": [
+    "RS",
+    "Republic of Serbia"
+   ],
+   "hint": null,
+   "id": "ctry-Q403",
+   "name": "Serbia",
+   "popularity": 352,
+   "qid": "Q403"
+  },
+  {
+   "aliases": [
+    "Republic of Seychelles",
+    "SC",
+    "SEY",
+    "SYC",
+    "sc"
+   ],
+   "hint": null,
+   "id": "ctry-Q1042",
+   "name": "Seychelles",
+   "popularity": 278,
+   "qid": "Q1042"
+  },
+  {
+   "aliases": [
+    "Republic of Sierra Leone",
+    "SLE",
+    "sl"
+   ],
+   "hint": null,
+   "id": "ctry-Q1044",
+   "name": "Sierra Leone",
+   "popularity": 294,
+   "qid": "Q1044"
+  },
+  {
+   "aliases": [
+    "Garden City",
+    "Lion City",
+    "Republic of Singapore",
+    "S'pore",
+    "SG",
+    "SGP",
+    "SIN",
+    "Singapore City",
+    "sg"
+   ],
+   "hint": null,
+   "id": "ctry-Q334",
+   "name": "Singapore",
+   "popularity": 333,
+   "qid": "Q334"
+  },
+  {
+   "aliases": [
+    "SK",
+    "SR",
+    "SVK",
+    "Slovak Republic"
+   ],
+   "hint": null,
+   "id": "ctry-Q214",
+   "name": "Slovakia",
+   "popularity": 341,
+   "qid": "Q214"
+  },
+  {
+   "aliases": [
+    "Republic of Slovenia",
+    "Republika Slovenija",
+    "SI",
+    "SLO",
+    "SVN",
+    "Slovenija",
+    "si",
+    "slo",
+    "svn"
+   ],
+   "hint": null,
+   "id": "ctry-Q215",
+   "name": "Slovenia",
+   "popularity": 331,
+   "qid": "Q215"
+  },
+  {
+   "aliases": [
+    "SOL",
+    "sb",
+    "the Solomon Islands"
+   ],
+   "hint": null,
+   "id": "ctry-Q685",
+   "name": "Solomon Islands",
+   "popularity": 245,
+   "qid": "Q685"
+  },
+  {
+   "aliases": [
+    "Federal Republic of Somalia"
+   ],
+   "hint": null,
+   "id": "ctry-Q1045",
+   "name": "Somalia",
+   "popularity": 326,
+   "qid": "Q1045"
+  },
+  {
+   "aliases": [
+    "R.S.A.",
+    "RSA",
+    "Republic of South Africa",
+    "SA",
+    "ZA",
+    "ZAF",
+    "za",
+    "zaf"
+   ],
+   "hint": null,
+   "id": "ctry-Q258",
+   "name": "South Africa",
+   "popularity": 368,
+   "qid": "Q258"
+  },
+  {
+   "aliases": [
+    "Choson",
+    "Daehan Minguk",
+    "Daehanminguk",
+    "Hanguk",
+    "KOR",
+    "KR",
+    "Korea Republic",
+    "ROK",
+    "Rep. Korea",
+    "Republic of Korea",
+    "S. Korea",
+    "SK",
+    "Silla",
+    "kr",
+    "sk"
+   ],
+   "hint": null,
+   "id": "ctry-Q884",
+   "name": "South Korea",
+   "popularity": 356,
+   "qid": "Q884"
+  },
+  {
+   "aliases": [
+    "Republic of South Sudan",
+    "SS",
+    "SSD",
+    "Southern Sudan",
+    "ss"
+   ],
+   "hint": null,
+   "id": "ctry-Q958",
+   "name": "South Sudan",
+   "popularity": 283,
+   "qid": "Q958"
+  },
+  {
+   "aliases": [
+    "CCCP",
+    "SU",
+    "U.S.S.R.",
+    "URSS",
+    "USSR",
+    "Union of Soviet Socialist Republics",
+    "the Soviet Union",
+    "the Soviets",
+    "the USSR",
+    "СССР"
+   ],
+   "hint": null,
+   "id": "ctry-Q15180",
+   "name": "Soviet Union",
+   "popularity": 282,
+   "qid": "Q15180"
+  },
+  {
+   "aliases": [
+    "ES",
+    "ESP",
+    "Kingdom of Spain"
+   ],
+   "hint": null,
+   "id": "ctry-Q29",
+   "name": "Spain",
+   "popularity": 396,
+   "qid": "Q29"
+  },
+  {
+   "aliases": [
+    "Ceylan",
+    "Ceylon",
+    "LK",
+    "LKA",
+    "Lanka, Sri",
+    "SRI",
+    "Serendib",
+    "Srilanka",
+    "Taprobane",
+    "ce",
+    "lk",
+    "lke",
+    "sri",
+    "錫蘭"
+   ],
+   "hint": null,
+   "id": "ctry-Q854",
+   "name": "Sri Lanka",
+   "popularity": 309,
+   "qid": "Q854"
+  },
+  {
+   "aliases": [
+    "North Sudan",
+    "Republic of Sudan",
+    "Republic of the Sudan",
+    "SUD",
+    "Soudan",
+    "al-Sudan",
+    "as-Sudan",
+    "as-Sūdān",
+    "sd",
+    "the Sudan"
+   ],
+   "hint": null,
+   "id": "ctry-Q1049",
+   "name": "Sudan",
+   "popularity": 334,
+   "qid": "Q1049"
+  },
+  {
+   "aliases": [
+    "Dutch Guiana",
+    "Republic of Surinam",
+    "Republic of Suriname",
+    "SR",
+    "SUR",
+    "Surinam",
+    "Surrinam",
+    "sr"
+   ],
+   "hint": null,
+   "id": "ctry-Q730",
+   "name": "Suriname",
+   "popularity": 288,
+   "qid": "Q730"
+  },
+  {
+   "aliases": [
+    "Kingdom of Sweden",
+    "SE",
+    "SWE",
+    "Swedish Kingdom",
+    "se"
+   ],
+   "hint": null,
+   "id": "ctry-Q34",
+   "name": "Sweden",
+   "popularity": 370,
+   "qid": "Q34"
+  },
+  {
+   "aliases": [
+    "CH",
+    "CHE",
+    "Confoederatio Helvetica",
+    "SUI",
+    "Schweizerische Eidgenossenschaft",
+    "Swiss",
+    "Swiss Confederation"
+   ],
+   "hint": null,
+   "id": "ctry-Q39",
+   "name": "Switzerland",
+   "popularity": 387,
+   "qid": "Q39"
+  },
+  {
+   "aliases": [
+    "SY",
+    "SYR",
+    "Syrian Arab Republic",
+    "Sūriyā",
+    "sy",
+    "syr"
+   ],
+   "hint": null,
+   "id": "ctry-Q858",
+   "name": "Syria",
+   "popularity": 337,
+   "qid": "Q858"
+  },
+  {
+   "aliases": [
+    "ST",
+    "STP",
+    "Sao Tome & Principe",
+    "Sao Tome and Principe",
+    "São Tomé og Príncipe",
+    "st"
+   ],
+   "hint": null,
+   "id": "ctry-Q1039",
+   "name": "São Tomé and Príncipe",
+   "popularity": 274,
+   "qid": "Q1039"
+  },
+  {
+   "aliases": [
+    "China, Republic of",
+    "Chinese Republic",
+    "Chinese Taipei",
+    "Chunghwa Minkuo",
+    "Chunghwa Minkwo",
+    "Free China",
+    "Nationalist China",
+    "ROC",
+    "Republic of China",
+    "TW",
+    "TWN",
+    "Taiwan ROC",
+    "The ROC"
+   ],
+   "hint": null,
+   "id": "ctry-Q865",
+   "name": "Taiwan",
+   "popularity": 314,
+   "qid": "Q865"
+  },
+  {
+   "aliases": [
+    "Republic of Tajikistan",
+    "TJ",
+    "TJK",
+    "tj"
+   ],
+   "hint": null,
+   "id": "ctry-Q863",
+   "name": "Tajikistan",
+   "popularity": 307,
+   "qid": "Q863"
+  },
+  {
+   "aliases": [
+    "TZ",
+    "TZA",
+    "Tanzania, United Republic of",
+    "United Republic of Tanzania",
+    "tz",
+    "tza"
+   ],
+   "hint": null,
+   "id": "ctry-Q924",
+   "name": "Tanzania",
+   "popularity": 320,
+   "qid": "Q924"
+  },
+  {
+   "aliases": [
+    "Kingdom of Siam",
+    "Kingdom of Thailand",
+    "Prathet Thai",
+    "Ratcha-anachak Thai",
+    "Siam",
+    "TH",
+    "THA",
+    "Thai",
+    "The Kingdom of Siam",
+    "The Kingdom of Thailand",
+    "th"
+   ],
+   "hint": null,
+   "id": "ctry-Q869",
+   "name": "Thailand",
+   "popularity": 356,
+   "qid": "Q869"
+  },
+  {
+   "aliases": [
+    "BAH",
+    "BHS",
+    "BS",
+    "Bahama Islands",
+    "Bahamas",
+    "Bahamas, The",
+    "Commonwealth of The Bahamas",
+    "Commonwealth of the Bahamas",
+    "bs"
+   ],
+   "hint": null,
+   "id": "ctry-Q778",
+   "name": "The Bahamas",
+   "popularity": 280,
+   "qid": "Q778"
+  },
+  {
+   "aliases": [
+    "GAM",
+    "GM",
+    "GMB",
+    "Gambia",
+    "Islamic Republic of the Gambia",
+    "Republic of the Gambia"
+   ],
+   "hint": null,
+   "id": "ctry-Q1005",
+   "name": "The Gambia",
+   "popularity": 300,
+   "qid": "Q1005"
+  },
+  {
+   "aliases": [
+    "Democratic Republic of Timor-Leste",
+    "East Timor",
+    "TL",
+    "Timor Leste"
+   ],
+   "hint": null,
+   "id": "ctry-Q574",
+   "name": "Timor-Leste",
+   "popularity": 291,
+   "qid": "Q574"
+  },
+  {
+   "aliases": [
+    "TG",
+    "TGO",
+    "TOG",
+    "Togolese Republic",
+    "tg"
+   ],
+   "hint": null,
+   "id": "ctry-Q945",
+   "name": "Togo",
+   "popularity": 302,
+   "qid": "Q945"
+  },
+  {
+   "aliases": [
+    "Friendly Islands",
+    "Kingdom of Tonga",
+    "TGA",
+    "TO",
+    "TON",
+    "Tonga Islands",
+    "to"
+   ],
+   "hint": null,
+   "id": "ctry-Q678",
+   "name": "Tonga",
+   "popularity": 261,
+   "qid": "Q678"
+  },
+  {
+   "aliases": [
+    "Republic of Trinidad and Tobago",
+    "TRI",
+    "TT",
+    "TTO",
+    "Trinidad & Tobago",
+    "tt"
+   ],
+   "hint": null,
+   "id": "ctry-Q754",
+   "name": "Trinidad and Tobago",
+   "popularity": 251,
+   "qid": "Q754"
+  },
+  {
+   "aliases": [
+    "Republic of Tunisia",
+    "TN",
+    "TUN",
+    "Tunisian Republic",
+    "tn"
+   ],
+   "hint": null,
+   "id": "ctry-Q948",
+   "name": "Tunisia",
+   "popularity": 328,
+   "qid": "Q948"
+  },
+  {
+   "aliases": [
+    "Republic of Turkey",
+    "Republic of Türkiye",
+    "TR",
+    "TUR",
+    "Türkiye"
+   ],
+   "hint": null,
+   "id": "ctry-Q43",
+   "name": "Turkey",
+   "popularity": 428,
+   "qid": "Q43"
+  },
+  {
+   "aliases": [
+    "TKM",
+    "TM",
+    "Turkmenia",
+    "tm"
+   ],
+   "hint": null,
+   "id": "ctry-Q874",
+   "name": "Turkmenistan",
+   "popularity": 299,
+   "qid": "Q874"
+  },
+  {
+   "aliases": [
+    "Ellice Islands",
+    "TUV",
+    "tv"
+   ],
+   "hint": null,
+   "id": "ctry-Q672",
+   "name": "Tuvalu",
+   "popularity": 252,
+   "qid": "Q672"
+  },
+  {
+   "aliases": [
+    "+256",
+    "Ouganda",
+    "Pearl of Africa",
+    "Republic of Uganda",
+    "The Republic of Uganda",
+    "UG",
+    "UGA",
+    "Ugandah",
+    "ug"
+   ],
+   "hint": null,
+   "id": "ctry-Q1036",
+   "name": "Uganda",
+   "popularity": 312,
+   "qid": "Q1036"
+  },
+  {
+   "aliases": [
+    "UA",
+    "UKR",
+    "Ukr.",
+    "Ukraina",
+    "Ukrainia",
+    "Ukraïna"
+   ],
+   "hint": null,
+   "id": "ctry-Q212",
+   "name": "Ukraine",
+   "popularity": 389,
+   "qid": "Q212"
+  },
+  {
+   "aliases": [
+    "AE",
+    "ARE",
+    "Emirates",
+    "U.A.E.",
+    "UAE",
+    "ae",
+    "the Emirates",
+    "the U.A.E.",
+    "the UAE",
+    "the United Arab Emirates"
+   ],
+   "hint": null,
+   "id": "ctry-Q878",
+   "name": "United Arab Emirates",
+   "popularity": 320,
+   "qid": "Q878"
+  },
+  {
+   "aliases": [
+    "Britain",
+    "G B",
+    "G. B.",
+    "G. B. R.",
+    "G.B.",
+    "G.B.R.",
+    "GB",
+    "GBR",
+    "Great Britain",
+    "Great Britain and Northern Ireland",
+    "U K",
+    "U. K.",
+    "U.K.",
+    "UK",
+    "the UK",
+    "the United Kingdom",
+    "Британия"
+   ],
+   "hint": null,
+   "id": "ctry-Q145",
+   "name": "United Kingdom",
+   "popularity": 396,
+   "qid": "Q145"
+  },
+  {
+   "aliases": [
+    "'Murica",
+    "EUA",
+    "Merica",
+    "Murica",
+    "U. S.",
+    "U. S. A.",
+    "U.S.",
+    "U.S. of America",
+    "U.S.A.",
+    "US",
+    "US of A",
+    "US of America",
+    "USA",
+    "United States of America",
+    "the States",
+    "the U.S.",
+    "the U.S. of A",
+    "the U.S. of America",
+    "the U.S.A.",
+    "the US",
+    "the US of A",
+    "the US of America",
+    "the USA",
+    "the United States",
+    "the United States of America"
+   ],
+   "hint": null,
+   "id": "ctry-Q30",
+   "name": "United States",
+   "popularity": 427,
+   "qid": "Q30"
+  },
+  {
+   "aliases": [
+    "Eastern Republic of Uruguay",
+    "Oriental Republic of Uruguay",
+    "URU",
+    "URY",
+    "UY",
+    "uy"
+   ],
+   "hint": null,
+   "id": "ctry-Q77",
+   "name": "Uruguay",
+   "popularity": 324,
+   "qid": "Q77"
+  },
+  {
+   "aliases": [
+    "Republic of Uzbekistan",
+    "UZ",
+    "UZB"
+   ],
+   "hint": null,
+   "id": "ctry-Q265",
+   "name": "Uzbekistan",
+   "popularity": 310,
+   "qid": "Q265"
+  },
+  {
+   "aliases": [
+    "Republic of Vanuatu",
+    "VAN",
+    "VU",
+    "van",
+    "vu",
+    "vut"
+   ],
+   "hint": null,
+   "id": "ctry-Q686",
+   "name": "Vanuatu",
+   "popularity": 263,
+   "qid": "Q686"
+  },
+  {
+   "aliases": [
+    "Città del Vaticano",
+    "Civitas Vaticana",
+    "Holy See",
+    "Papal State",
+    "State of Vatican City",
+    "Stato della Città del Vaticano",
+    "Status Civitatis Vaticanae",
+    "The Vatican",
+    "VA",
+    "VAT",
+    "Vatican",
+    "Vatican City State",
+    "va",
+    "vat"
+   ],
+   "hint": null,
+   "id": "ctry-Q237",
+   "name": "Vatican City",
+   "popularity": 343,
+   "qid": "Q237"
+  },
+  {
+   "aliases": [
+    "BR Venezuela",
+    "Bolivarian Republic of Venezuela",
+    "Republic of Venezuela",
+    "VE",
+    "VEN",
+    "Vzla"
+   ],
+   "hint": null,
+   "id": "ctry-Q717",
+   "name": "Venezuela",
+   "popularity": 345,
+   "qid": "Q717"
+  },
+  {
+   "aliases": [
+    "Cộng hòa Xã hội chủ nghĩa Việt Nam",
+    "SRV",
+    "Socialist Republic of Viet Nam",
+    "Socialist Republic of Vietnam",
+    "VIE",
+    "VN",
+    "VNM",
+    "Viet Nam",
+    "Việt Nam"
+   ],
+   "hint": null,
+   "id": "ctry-Q881",
+   "name": "Vietnam",
+   "popularity": 369,
+   "qid": "Q881"
+  },
+  {
+   "aliases": [
+    "CYM",
+    "Principality of Wales",
+    "WAL",
+    "WLS"
+   ],
+   "hint": null,
+   "id": "ctry-Q25",
+   "name": "Wales",
+   "popularity": 261,
+   "qid": "Q25"
+  },
+  {
+   "aliases": [
+    "Rep. Yemen",
+    "Republic of Yemen",
+    "YE",
+    "YEM",
+    "ye"
+   ],
+   "hint": null,
+   "id": "ctry-Q805",
+   "name": "Yemen",
+   "popularity": 316,
+   "qid": "Q805"
+  },
+  {
+   "aliases": [
+    "YU"
+   ],
+   "hint": null,
+   "id": "ctry-Q36704",
+   "name": "Yugoslavia",
+   "popularity": 182,
+   "qid": "Q36704"
+  },
+  {
+   "aliases": [
+    "Republic of Zambia",
+    "ZAM",
+    "ZED",
+    "ZM",
+    "ZMB",
+    "Zed",
+    "zm"
+   ],
+   "hint": null,
+   "id": "ctry-Q953",
+   "name": "Zambia",
+   "popularity": 309,
+   "qid": "Q953"
+  },
+  {
+   "aliases": [
+    "Republic of Zimbabwe",
+    "Rhodesia",
+    "Southern Rhodesia",
+    "ZIM",
+    "ZW",
+    "ZWE",
+    "Zimbabwe Rhodesia",
+    "🇿🇼"
+   ],
+   "hint": null,
+   "id": "ctry-Q954",
+   "name": "Zimbabwe",
+   "popularity": 320,
+   "qid": "Q954"
+  }
+ ],
+ "id": "countries",
+ "name": "Countries",
+ "prefix": "ctry"
+}

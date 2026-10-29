@@ -1,0 +1,8 @@
+id: cities
+name: Cities
+prefix: city
+# Every national capital, plus every answer (host cities).
+query: |
+  SELECT DISTINCT ?item WHERE {
+    ?country wdt:P31 wd:Q3624078 ; wdt:P36 ?item .
+  }

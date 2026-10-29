@@ -1,0 +1,5996 @@
+{
+ "entities": [
+  {
+   "aliases": [
+    "FCH",
+    "Heidenheim"
+   ],
+   "hint": "Club",
+   "id": "socc-Q162251",
+   "name": "1. FC Heidenheim 1846",
+   "popularity": 54,
+   "qid": "Q162251"
+  },
+  {
+   "aliases": [
+    "1. FCK",
+    "FCK",
+    "Kaiserslautern"
+   ],
+   "hint": "Club",
+   "id": "socc-Q8466",
+   "name": "1. FC Kaiserslautern",
+   "popularity": 66,
+   "qid": "Q8466"
+  },
+  {
+   "aliases": [
+    "1. FC Cologne",
+    "1. Fußball-Club Köln 01/07 e. V.",
+    "F.C. Koln",
+    "F.C. Köln",
+    "FC Koln",
+    "FC Köln",
+    "FCKoln"
+   ],
+   "hint": "Club",
+   "id": "socc-Q104770",
+   "name": "1. FC Köln",
+   "popularity": 76,
+   "qid": "Q104770"
+  },
+  {
+   "aliases": [
+    "1. FC Nurnberg",
+    "1. FCN"
+   ],
+   "hint": "Club",
+   "id": "socc-Q15786",
+   "name": "1. FC Nürnberg",
+   "popularity": 65,
+   "qid": "Q15786"
+  },
+  {
+   "aliases": [
+    "1. Fußballclub Union Berlin",
+    "Berlin FC",
+    "Die Eisernen",
+    "FC Berlin",
+    "FC Union Berlin",
+    "The Iron Ones",
+    "Union Berlin"
+   ],
+   "hint": "Club",
+   "id": "socc-Q141971",
+   "name": "1. FC Union Berlin",
+   "popularity": 68,
+   "qid": "Q141971"
+  },
+  {
+   "aliases": [
+    "Die Nullfünfer",
+    "FSV Mainz",
+    "Mainz",
+    "Mainz 05",
+    "The Zero-Fivers"
+   ],
+   "hint": "Club",
+   "id": "socc-Q105254",
+   "name": "1. FSV Mainz 05",
+   "popularity": 67,
+   "qid": "Q105254"
+  },
+  {
+   "aliases": [
+    "AC Ajaccio",
+    "Athletic Club Ajaccio"
+   ],
+   "hint": "Club",
+   "id": "socc-Q270051",
+   "name": "A.C. Ajaccio",
+   "popularity": 46,
+   "qid": "Q270051"
+  },
+  {
+   "aliases": [
+    "Associazione Calcistica Perugia Calcio"
+   ],
+   "hint": "Club",
+   "id": "socc-Q16344",
+   "name": "A.C. Perugia Calcio",
+   "popularity": 47,
+   "qid": "Q16344"
+  },
+  {
+   "aliases": [
+    "AS Nancy",
+    "Association sportive Nancy-Lorraine"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19523",
+   "name": "A.S. Nancy-Lorraine",
+   "popularity": 48,
+   "qid": "Q19523"
+  },
+  {
+   "aliases": [
+    "AGF Aarhus",
+    "AGF Arhus",
+    "AGF Århus",
+    "Aarhus GF",
+    "Aarhus Gymnastik Forening",
+    "Århus GF"
+   ],
+   "hint": "Club",
+   "id": "socc-Q301431",
+   "name": "Aarhus Gymnastikforening",
+   "popularity": 47,
+   "qid": "Q301431"
+  },
+  {
+   "aliases": [
+    "AFC",
+    "Aberdeen",
+    "Aberdeen FC",
+    "Aberdeen Football Club",
+    "The Dons"
+   ],
+   "hint": "Club",
+   "id": "socc-Q187326",
+   "name": "Aberdeen F.C.",
+   "popularity": 62,
+   "qid": "Q187326"
+  },
+  {
+   "aliases": [
+    "A.C. ChievoVerona",
+    "Associazione Calcio ChievoVerona",
+    "Chievo",
+    "Chievo Verona",
+    "ChievoVerona"
+   ],
+   "hint": "Club",
+   "id": "socc-Q2037",
+   "name": "AC ChievoVerona",
+   "popularity": 57,
+   "qid": "Q2037"
+  },
+  {
+   "aliases": [
+    "A.C. Milan",
+    "A.C.M.",
+    "A.C.Milan",
+    "ACM",
+    "ACMilan",
+    "Association Football Milan",
+    "Associazione Calcio Milan",
+    "Milan"
+   ],
+   "hint": "Club",
+   "id": "socc-Q1543",
+   "name": "AC Milan",
+   "popularity": 127,
+   "qid": "Q1543"
+  },
+  {
+   "aliases": [
+    "A C Monza Brianza 1912",
+    "A. C. Monza Brianza 1912",
+    "A.C. Monza",
+    "A.C. Monza Brianza",
+    "A.C. Monza Brianza 1912",
+    "A.C.M.",
+    "AC Monza Brianza 1912",
+    "ACM",
+    "ACMonza",
+    "Associazione Calcio Monza",
+    "Associazione Calcio Monza Brianza 1912",
+    "Biancorossi",
+    "Monza",
+    "Monza Calcio",
+    "S.S. Monza",
+    "S.S. Monza 1912 Srl",
+    "Società Sportiva Monza 1912",
+    "Società Sportiva Monza 1912 Srl"
+   ],
+   "hint": "Club",
+   "id": "socc-Q289482",
+   "name": "AC Monza",
+   "popularity": 53,
+   "qid": "Q289482"
+  },
+  {
+   "aliases": [
+    "AC Omonia Nicosia",
+    "Athletic Club Omonoia Nicosia"
+   ],
+   "hint": "Club",
+   "id": "socc-Q240783",
+   "name": "AC Omonia",
+   "popularity": 50,
+   "qid": "Q240783"
+  },
+  {
+   "aliases": [
+    "A.C. Sparta Prague",
+    "A.C.S.",
+    "ACS",
+    "ACSparta",
+    "Athletic Club Sparta Prague",
+    "Sparta Prague",
+    "SpartaPrague"
+   ],
+   "hint": "Club",
+   "id": "socc-Q193481",
+   "name": "AC Sparta Prague",
+   "popularity": 56,
+   "qid": "Q193481"
+  },
+  {
+   "aliases": [
+    "A.C. Fiorentina",
+    "A.C.F. Fiorentina",
+    "A.C.F.Fiorentina",
+    "AC Fiorentina",
+    "Associazione Calcio Fiorentina",
+    "Fiorentina",
+    "Florentia Viola"
+   ],
+   "hint": "Club",
+   "id": "socc-Q2052",
+   "name": "ACF Fiorentina",
+   "popularity": 97,
+   "qid": "Q2052"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q24904",
+   "name": "ADO Den Haag",
+   "popularity": 51,
+   "qid": "Q24904"
+  },
+  {
+   "aliases": [
+    "A.F.C. Bournemouth",
+    "AFCB",
+    "Boscombe",
+    "Boscombe F.C.",
+    "Boscombe FC",
+    "Boscombe Football Club",
+    "Bournemouth",
+    "Bournemouth and Boscombe Athletic",
+    "Bournemouth and Boscombe Athletic F.C.",
+    "Bournemouth and Boscombe Athletic FC",
+    "The Cherries"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19568",
+   "name": "AFC Bournemouth",
+   "popularity": 79,
+   "qid": "Q19568"
+  },
+  {
+   "aliases": [
+    "AIK Solna",
+    "AIK Stockholm"
+   ],
+   "hint": "Club",
+   "id": "socc-Q221602",
+   "name": "AIK Fotboll",
+   "popularity": 50,
+   "qid": "Q221602"
+  },
+  {
+   "aliases": [
+    "AJA",
+    "Association de la Jeunesse Auxerroise",
+    "Association de la Jeunesse auxerroise",
+    "Auxerre",
+    "Les Icaunais"
+   ],
+   "hint": "Club",
+   "id": "socc-Q182876",
+   "name": "AJ Auxerre",
+   "popularity": 56,
+   "qid": "Q182876"
+  },
+  {
+   "aliases": [
+    "AFC Ajax",
+    "Ajax Amsterdam",
+    "Amsterdamsche Football Club Ajax"
+   ],
+   "hint": "Club",
+   "id": "socc-Q81888",
+   "name": "Ajax",
+   "popularity": 107,
+   "qid": "Q81888"
+  },
+  {
+   "aliases": [
+    "Al Ahli Football Club",
+    "Al Ahli Jeddah",
+    "Al Ahli Jeddah FC",
+    "Al Ahli Saudi",
+    "Al Ahli Saudi FC",
+    "Al Ahli Sports Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q44441",
+   "name": "Al Ahli FC",
+   "popularity": 51,
+   "qid": "Q44441"
+  },
+  {
+   "aliases": [
+    "Al Ahly",
+    "Al Ahly S.C.",
+    "Al Ahly Sporting Club",
+    "Al-Ahly",
+    "Al-Ahly S.C.",
+    "Al-Ahly SC",
+    "Al-Ahly Sporting Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q223566",
+   "name": "Al Ahly SC",
+   "popularity": 65,
+   "qid": "Q223566"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q812720",
+   "name": "Al Ain FC",
+   "popularity": 46,
+   "qid": "Q812720"
+  },
+  {
+   "aliases": [
+    "Al Hilal",
+    "Al Hilal SC",
+    "Al Hilal Saudi Club",
+    "Al-Hilal",
+    "Al-Hilal SC",
+    "Al-Hilal SFC",
+    "Al-Hilal Saudi Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q73965",
+   "name": "Al Hilal SFC",
+   "popularity": 65,
+   "qid": "Q73965"
+  },
+  {
+   "aliases": [
+    "Al-Ittihad",
+    "Al-Ittihad Club Saudi Arabia",
+    "Al-Ittihad Football Club",
+    "Al-Ittihad Jeddah",
+    "Ittihad FC"
+   ],
+   "hint": "Club",
+   "id": "socc-Q309480",
+   "name": "Al Ittihad FC",
+   "popularity": 55,
+   "qid": "Q309480"
+  },
+  {
+   "aliases": [
+    "Al-Sadd S.C."
+   ],
+   "hint": "Club",
+   "id": "socc-Q283545",
+   "name": "Al Sadd Sports Club",
+   "popularity": 51,
+   "qid": "Q283545"
+  },
+  {
+   "aliases": [
+    "Al Nassr",
+    "Al Nassr FC",
+    "Al Nassr Football Club",
+    "Al-Nassr F.C."
+   ],
+   "hint": "Club",
+   "id": "socc-Q482764",
+   "name": "Al-Nassr",
+   "popularity": 72,
+   "qid": "Q482764"
+  },
+  {
+   "aliases": [
+    "Albacete Balompié, S.A.D."
+   ],
+   "hint": "Club",
+   "id": "socc-Q576285",
+   "name": "Albacete Balompié",
+   "popularity": 46,
+   "qid": "Q576285"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q153535",
+   "name": "Alemannia Aachen",
+   "popularity": 48,
+   "qid": "Q153535"
+  },
+  {
+   "aliases": [
+    "Amiens Sporting Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q866884",
+   "name": "Amiens SC",
+   "popularity": 47,
+   "qid": "Q866884"
+  },
+  {
+   "aliases": [
+    "Angers",
+    "Angers Sporting Club de l'Ouest",
+    "SCO",
+    "SCO of Angers"
+   ],
+   "hint": "Club",
+   "id": "socc-Q845137",
+   "name": "Angers SCO",
+   "popularity": 51,
+   "qid": "Q845137"
+  },
+  {
+   "aliases": [
+    "Asociacion Atletica Argentinos Juniors"
+   ],
+   "hint": "Club",
+   "id": "socc-Q220621",
+   "name": "Argentinos Juniors",
+   "popularity": 47,
+   "qid": "Q220621"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q105844",
+   "name": "Arminia Bielefeld",
+   "popularity": 55,
+   "qid": "Q105844"
+  },
+  {
+   "aliases": [
+    "S.P.A.L.",
+    "S.P.A.L. Ferrara",
+    "SPAL",
+    "SPAL Ferrara",
+    "Società Polisportiva Ars et Labor"
+   ],
+   "hint": "Club",
+   "id": "socc-Q13385",
+   "name": "Ars et Labor Ferrara Calcio",
+   "popularity": 52,
+   "qid": "Q13385"
+  },
+  {
+   "aliases": [
+    "A.F.C.",
+    "AFC",
+    "Arsenal F.C.",
+    "Arsenal FC",
+    "Arsenal Football Club",
+    "Arsenal London",
+    "The Ars",
+    "The Arsenal",
+    "The Arsenal F.C.",
+    "The Arsenal FC"
+   ],
+   "hint": "Club",
+   "id": "socc-Q9617",
+   "name": "Arsenal",
+   "popularity": 125,
+   "qid": "Q9617"
+  },
+  {
+   "aliases": [
+    "A.S. Monaco",
+    "A.S. Monaco F.C.",
+    "A.S.M.F.C.",
+    "AS Monaco",
+    "AS Monaco F.C.",
+    "AS Monaco Football Club",
+    "ASMFC",
+    "ASMonaco",
+    "Monaco"
+   ],
+   "hint": "Club",
+   "id": "socc-Q180305",
+   "name": "AS Monaco FC",
+   "popularity": 85,
+   "qid": "Q180305"
+  },
+  {
+   "aliases": [
+    "A.S.D. Reggio Calabria",
+    "La Fenice Amaranto",
+    "Reggina 1914",
+    "Reggina 1918",
+    "Reggina Calcio",
+    "Reggina FC",
+    "Reggina Football Club",
+    "Urbs Reggina 1914"
+   ],
+   "hint": "Club",
+   "id": "socc-Q8476",
+   "name": "AS Reggina 1914",
+   "popularity": 45,
+   "qid": "Q8476"
+  },
+  {
+   "aliases": [
+    "A.S. Roma",
+    "A.S. Rome",
+    "A.S.R",
+    "A.S.R 1927",
+    "A.S.Roma",
+    "A.S.Rome",
+    "ASR",
+    "ASR 1927",
+    "ASRoma",
+    "Associazione Sportiva Roma",
+    "La Roma",
+    "Rome Sport Association",
+    "The Wolfs"
+   ],
+   "hint": "Club",
+   "id": "socc-Q2739",
+   "name": "AS Roma",
+   "popularity": 105,
+   "qid": "Q2739"
+  },
+  {
+   "aliases": [
+    "A.S. Saint Etienne",
+    "A.S. Saint Étienne",
+    "A.S. Saint-Etienne",
+    "A.S. Saint-Étienne",
+    "AS Saint Etienne",
+    "AS Saint-Etienne",
+    "ASSE",
+    "Saint-Etienne",
+    "Saint-Étienne"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19521",
+   "name": "AS Saint-Étienne",
+   "popularity": 67,
+   "qid": "Q19521"
+  },
+  {
+   "aliases": [
+    "Ascoli Calcio",
+    "Ascoli Calcio 1898",
+    "Ascoli Calcio 1898 F.C.",
+    "Ascoli Football Club",
+    "Ascoli Picchio"
+   ],
+   "hint": "Club",
+   "id": "socc-Q6630",
+   "name": "Ascoli Calcio 1898 FC",
+   "popularity": 46,
+   "qid": "Q6630"
+  },
+  {
+   "aliases": [
+    "AVFC",
+    "Aston Villa",
+    "Aston Villa FC",
+    "Aston Villa Football Club",
+    "The Villa",
+    "The Villans",
+    "Villa"
+   ],
+   "hint": "Club",
+   "id": "socc-Q18711",
+   "name": "Aston Villa F.C.",
+   "popularity": 103,
+   "qid": "Q18711"
+  },
+  {
+   "aliases": [
+    "Atalanta",
+    "Atalanta B.C.",
+    "Atalanta Bergamasca Calcio",
+    "Atalanta Bergamo",
+    "AtalantaB.C.",
+    "AtalantaBC"
+   ],
+   "hint": "Club",
+   "id": "socc-Q1886",
+   "name": "Atalanta BC",
+   "popularity": 89,
+   "qid": "Q1886"
+  },
+  {
+   "aliases": [
+    "Athletic",
+    "Athletic Bilbao",
+    "Athletic Club de Bilbao"
+   ],
+   "hint": "Club",
+   "id": "socc-Q8687",
+   "name": "Athletic Club",
+   "popularity": 88,
+   "qid": "Q8687"
+  },
+  {
+   "aliases": [
+    "ATM",
+    "ATM Football Club",
+    "Atl. de Madrid",
+    "Atleti de Madrid",
+    "Atletico",
+    "Atletico de Madrid",
+    "Atletico of Madrid",
+    "Atlético",
+    "AtléticoDeMadrid",
+    "Club Atlético de Madrid",
+    "Club Atlético de Madrid, SAD",
+    "El Atleti",
+    "The Atletico"
+   ],
+   "hint": "Club",
+   "id": "socc-Q8701",
+   "name": "Atlético Madrid",
+   "popularity": 109,
+   "qid": "Q8701"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q332605",
+   "name": "Atlético Nacional",
+   "popularity": 46,
+   "qid": "Q332605"
+  },
+  {
+   "aliases": [
+    "AZ",
+    "AZ '67",
+    "Alkmaar Zaanstreek",
+    "The Cheese Farmers"
+   ],
+   "hint": "Club",
+   "id": "socc-Q191264",
+   "name": "AZ Alkmaar",
+   "popularity": 66,
+   "qid": "Q191264"
+  },
+  {
+   "aliases": [
+    "B36"
+   ],
+   "hint": "Club",
+   "id": "socc-Q330978",
+   "name": "B36 Tórshavn",
+   "popularity": 45,
+   "qid": "Q330978"
+  },
+  {
+   "aliases": [
+    "BFC",
+    "Barnsley",
+    "Barnsley FC",
+    "Barnsley Football Club",
+    "Barnsley St. Peter's",
+    "The Reds",
+    "The Tykes"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19442",
+   "name": "Barnsley F.C.",
+   "popularity": 57,
+   "qid": "Q19442"
+  },
+  {
+   "aliases": [
+    "Bayer",
+    "Bayer 04 Football",
+    "Bayer 04 Leverkusen Fußball GmbH",
+    "Bayer 04 Leverkusen Fußball GmbH Soccer",
+    "Bayer Leverkusen",
+    "Die Werkself",
+    "Leverkusen",
+    "The Company XI"
+   ],
+   "hint": "Club",
+   "id": "socc-Q104761",
+   "name": "Bayer 04 Leverkusen",
+   "popularity": 89,
+   "qid": "Q104761"
+  },
+  {
+   "aliases": [
+    "Bavaria Munich",
+    "Bayern",
+    "Bayern Muenchen",
+    "Bayern Munchen",
+    "Bayern München",
+    "Bayern of Munich",
+    "Die Bayernf",
+    "F.C. Bayern Munich",
+    "FC Bavaria Munich",
+    "FC Bayern Muenchen",
+    "FC Bayern Munchen",
+    "FC Bayern Munich",
+    "FC Bayern München",
+    "FC Hollywood",
+    "FCB Munich",
+    "FCBM",
+    "FCBM 1900",
+    "Munich"
+   ],
+   "hint": "Club",
+   "id": "socc-Q15789",
+   "name": "Bayern Munich",
+   "popularity": 125,
+   "qid": "Q15789"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q223727",
+   "name": "Beitar Jerusalem F.C.",
+   "popularity": 48,
+   "qid": "Q223727"
+  },
+  {
+   "aliases": [
+    "Benevento FC",
+    "Benevento Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q652516",
+   "name": "Benevento Calcio",
+   "popularity": 48,
+   "qid": "Q652516"
+  },
+  {
+   "aliases": [
+    "B.J.K.",
+    "BJK",
+    "Besiktas",
+    "Besiktas J.K.",
+    "Besiktas JK",
+    "Besiktas Jimnastik Kulubu",
+    "Beşiktaş",
+    "Beşiktaş JK",
+    "Beşiktaş Jimnastik Kulübü"
+   ],
+   "hint": "Club",
+   "id": "socc-Q172567",
+   "name": "Beşiktaş J.K.",
+   "popularity": 86,
+   "qid": "Q172567"
+  },
+  {
+   "aliases": [
+    "BCFC",
+    "Birmingham",
+    "Birmingham City",
+    "Birmingham City FC",
+    "Birmingham City Football Club",
+    "Blues",
+    "City"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19444",
+   "name": "Birmingham City F.C.",
+   "popularity": 75,
+   "qid": "Q19444"
+  },
+  {
+   "aliases": [
+    "BRFC",
+    "Blackburn",
+    "Blackburn Rovers",
+    "Blackburn Rovers FC",
+    "Blackburn Rovers Football Club",
+    "Rovers"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19446",
+   "name": "Blackburn Rovers F.C.",
+   "popularity": 78,
+   "qid": "Q19446"
+  },
+  {
+   "aliases": [
+    "BFC",
+    "Blackpool",
+    "Blackpool FC",
+    "Blackpool Football Club",
+    "The Pool",
+    "The Seasiders",
+    "The Tangerines"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19449",
+   "name": "Blackpool F.C.",
+   "popularity": 58,
+   "qid": "Q19449"
+  },
+  {
+   "aliases": [
+    "Boavista FC"
+   ],
+   "hint": "Club",
+   "id": "socc-Q219703",
+   "name": "Boavista F.C.",
+   "popularity": 47,
+   "qid": "Q219703"
+  },
+  {
+   "aliases": [
+    "Bohs"
+   ],
+   "hint": "Club",
+   "id": "socc-Q212708",
+   "name": "Bohemian F.C.",
+   "popularity": 45,
+   "qid": "Q212708"
+  },
+  {
+   "aliases": [
+    "BFC1909",
+    "Bologna",
+    "Bologna FC 1909",
+    "Bologna Football Club",
+    "Bologna Football Club 1909",
+    "BolognaFC1909"
+   ],
+   "hint": "Club",
+   "id": "socc-Q1893",
+   "name": "Bologna F.C. 1909",
+   "popularity": 88,
+   "qid": "Q1893"
+  },
+  {
+   "aliases": [
+    "BWFC",
+    "Bolton",
+    "Bolton Wanderers",
+    "Bolton Wanderers FC",
+    "Bolton Wanderers Football Club",
+    "The Trotters",
+    "Wanderers"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19451",
+   "name": "Bolton Wanderers F.C.",
+   "popularity": 71,
+   "qid": "Q19451"
+  },
+  {
+   "aliases": [
+    "BVB",
+    "Die Borussen",
+    "Die Schwarzgelben",
+    "Dortmund",
+    "The Black and Yellows"
+   ],
+   "hint": "Club",
+   "id": "socc-Q41420",
+   "name": "Borussia Dortmund",
+   "popularity": 99,
+   "qid": "Q41420"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q101959",
+   "name": "Borussia Mönchengladbach",
+   "popularity": 85,
+   "qid": "Q101959"
+  },
+  {
+   "aliases": [
+    "Botafogo de Futebol e Regatas"
+   ],
+   "hint": "Club",
+   "id": "socc-Q80958",
+   "name": "Botafogo F.R.",
+   "popularity": 62,
+   "qid": "Q80958"
+  },
+  {
+   "aliases": [
+    "BCAFC",
+    "Bradford",
+    "Bradford City",
+    "Bradford City AFC",
+    "Bradford City Association Football Club",
+    "City",
+    "The Bantams",
+    "The Citizens",
+    "The Paraders"
+   ],
+   "hint": "Club",
+   "id": "socc-Q48879",
+   "name": "Bradford City A.F.C.",
+   "popularity": 47,
+   "qid": "Q48879"
+  },
+  {
+   "aliases": [
+    "BFC",
+    "Brentford",
+    "Brentford FC",
+    "Brentford Football Club",
+    "The Bees"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19571",
+   "name": "Brentford F.C.",
+   "popularity": 68,
+   "qid": "Q19571"
+  },
+  {
+   "aliases": [
+    "B.S.F.C.",
+    "BSFC",
+    "Brescia F.C.",
+    "Brescia FC",
+    "Brescia Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q6651",
+   "name": "Brescia Calcio",
+   "popularity": 54,
+   "qid": "Q6651"
+  },
+  {
+   "aliases": [
+    "Albion",
+    "BHA",
+    "BHAFC",
+    "Brighton",
+    "Brighton & Hove",
+    "Brighton & Hove Albion",
+    "Brighton & Hove Albion FC",
+    "Brighton & Hove Albion Football Club",
+    "Brighton F.C.",
+    "Brighton FC",
+    "Brighton and Hove",
+    "Brighton and Hove Albion",
+    "Brighton and Hove Albion F.C.",
+    "Brighton and Hove Albion FC",
+    "Brighton and Hove Albion Football Club",
+    "The Seagulls"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19453",
+   "name": "Brighton & Hove Albion F.C.",
+   "popularity": 75,
+   "qid": "Q19453"
+  },
+  {
+   "aliases": [
+    "BCFC",
+    "Bristol City",
+    "Bristol City FC",
+    "Bristol City Football Club",
+    "City",
+    "The Robins"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19456",
+   "name": "Bristol City F.C.",
+   "popularity": 51,
+   "qid": "Q19456"
+  },
+  {
+   "aliases": [
+    "BIF",
+    "Brondby IF",
+    "Brondby Idraetsforening",
+    "Brøndbyernes Idrætsforening"
+   ],
+   "hint": "Club",
+   "id": "socc-Q211906",
+   "name": "Brøndby IF",
+   "popularity": 53,
+   "qid": "Q211906"
+  },
+  {
+   "aliases": [
+    "B.S.C. Y.B.",
+    "B.S.C. Young Boys",
+    "B.S.C.Y.B.",
+    "BSC YB",
+    "BSCYB",
+    "Berner Sport Club Young Boys",
+    "Young Boys"
+   ],
+   "hint": "Club",
+   "id": "socc-Q190526",
+   "name": "BSC Young Boys",
+   "popularity": 58,
+   "qid": "Q190526"
+  },
+  {
+   "aliases": [
+    "BFC",
+    "Burnley",
+    "Burnley FC",
+    "Burnley Football Club",
+    "The Clarets"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19458",
+   "name": "Burnley F.C.",
+   "popularity": 79,
+   "qid": "Q19458"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q203573",
+   "name": "Bursaspor",
+   "popularity": 53,
+   "qid": "Q203573"
+  },
+  {
+   "aliases": [
+    "CD Guadalajara",
+    "Chivas del Guadalajara",
+    "Club Deportivo Guadalajara",
+    "Las Chivas, Campeonísimo"
+   ],
+   "hint": "Club",
+   "id": "socc-Q503321",
+   "name": "C.D. Guadalajara",
+   "popularity": 50,
+   "qid": "Q503321"
+  },
+  {
+   "aliases": [
+    "CD Nacional",
+    "Clube Desportivo Nacional",
+    "Nacional",
+    "Nacional da Madeira"
+   ],
+   "hint": "Club",
+   "id": "socc-Q216459",
+   "name": "C.D. Nacional",
+   "popularity": 47,
+   "qid": "Q216459"
+  },
+  {
+   "aliases": [
+    "CD Tenerife",
+    "Club Deportivo Tenerife, S.A.D."
+   ],
+   "hint": "Club",
+   "id": "socc-Q216661",
+   "name": "C.D. Tenerife",
+   "popularity": 59,
+   "qid": "Q216661"
+  },
+  {
+   "aliases": [
+    "Belenenses"
+   ],
+   "hint": "Club",
+   "id": "socc-Q216510",
+   "name": "C.F. Os Belenenses",
+   "popularity": 45,
+   "qid": "Q216510"
+  },
+  {
+   "aliases": [
+    "C.S. Maritimo",
+    "CS Maritimo",
+    "CS Marítimo",
+    "Maritimo",
+    "Marítimo"
+   ],
+   "hint": "Club",
+   "id": "socc-Q216503",
+   "name": "C.S. Marítimo",
+   "popularity": 46,
+   "qid": "Q216503"
+  },
+  {
+   "aliases": [
+    "Cagliari"
+   ],
+   "hint": "Club",
+   "id": "socc-Q1900",
+   "name": "Cagliari Calcio",
+   "popularity": 78,
+   "qid": "Q1900"
+  },
+  {
+   "aliases": [
+    "CCFC",
+    "Cardiff",
+    "Cardiff City",
+    "Cardiff City FC",
+    "Cardiff City Football Club",
+    "City",
+    "The Bluebirds"
+   ],
+   "hint": "Club",
+   "id": "socc-Q18662",
+   "name": "Cardiff City F.C.",
+   "popularity": 71,
+   "qid": "Q18662"
+  },
+  {
+   "aliases": [
+    "Catania",
+    "Catania F.C.",
+    "Catania Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q2018",
+   "name": "Catania FC",
+   "popularity": 56,
+   "qid": "Q2018"
+  },
+  {
+   "aliases": [
+    "CD Leganes",
+    "CD Leganes Football",
+    "CD Leganes Soccer",
+    "Club Deportivo Leganés, S.A.D.",
+    "Leganes Football",
+    "Leganes Soccer Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q856119",
+   "name": "CD Leganés",
+   "popularity": 54,
+   "qid": "Q856119"
+  },
+  {
+   "aliases": [
+    "CFC",
+    "Celtic",
+    "Celtic Football Club",
+    "Celtic plc",
+    "The Bhoys",
+    "The Celtic Football Club",
+    "The Celts",
+    "The Hoops"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19593",
+   "name": "Celtic F.C.",
+   "popularity": 81,
+   "qid": "Q19593"
+  },
+  {
+   "aliases": [
+    "Cercle Brugge",
+    "Cercle Brugge KSV"
+   ],
+   "hint": "Club",
+   "id": "socc-Q364698",
+   "name": "Cercle Brugge K.S.V.",
+   "popularity": 46,
+   "qid": "Q364698"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q855809",
+   "name": "Cerezo Osaka",
+   "popularity": 47,
+   "qid": "Q855809"
+  },
+  {
+   "aliases": [
+    "CF Montreal",
+    "CF of Montreal",
+    "CFM",
+    "CFM Montreal",
+    "CFMTL",
+    "Club de Foot Montréal",
+    "Club of Football Montreal",
+    "Impact Montreal",
+    "Montreal Football Club",
+    "Montreal Impact"
+   ],
+   "hint": "Club",
+   "id": "socc-Q167615",
+   "name": "CF Montréal",
+   "popularity": 46,
+   "qid": "Q167615"
+  },
+  {
+   "aliases": [
+    "Tuzas locas"
+   ],
+   "hint": "Club",
+   "id": "socc-Q736937",
+   "name": "CF Pachuca",
+   "popularity": 47,
+   "qid": "Q736937"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q205998",
+   "name": "CFR Cluj",
+   "popularity": 51,
+   "qid": "Q205998"
+  },
+  {
+   "aliases": [
+    "Athletic",
+    "CAFC",
+    "Charlton",
+    "Charlton Athletic",
+    "Charlton Athletic FC",
+    "Charlton Athletic Football Club",
+    "The Addicks"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19462",
+   "name": "Charlton Athletic F.C.",
+   "popularity": 58,
+   "qid": "Q19462"
+  },
+  {
+   "aliases": [
+    "América",
+    "C.F. América",
+    "Club de Fútbol América",
+    "Club de Fútbol América S.A. de C.V."
+   ],
+   "hint": "Club",
+   "id": "socc-Q459090",
+   "name": "Club América",
+   "popularity": 59,
+   "qid": "Q459090"
+  },
+  {
+   "aliases": [
+    "Athletico Paranaense",
+    "Club Atlético Paranaense"
+   ],
+   "hint": "Club",
+   "id": "socc-Q506832",
+   "name": "Club Athletico Paranaense",
+   "popularity": 53,
+   "qid": "Q506832"
+  },
+  {
+   "aliases": [
+    "CA Independiente",
+    "Independiente",
+    "Independiente de Avellaneda"
+   ],
+   "hint": "Club",
+   "id": "socc-Q214978",
+   "name": "Club Atlético Independiente",
+   "popularity": 58,
+   "qid": "Q214978"
+  },
+  {
+   "aliases": [
+    "CA Osasuna"
+   ],
+   "hint": "Club",
+   "id": "socc-Q10286",
+   "name": "Club Atlético Osasuna",
+   "popularity": 68,
+   "qid": "Q10286"
+  },
+  {
+   "aliases": [
+    "CA Peñarol",
+    "Club Atletico Peñarol",
+    "Peñarol",
+    "Peñarol Montevideo",
+    "Peñarol de Montevideo"
+   ],
+   "hint": "Club",
+   "id": "socc-Q16320",
+   "name": "Club Atlético Peñarol",
+   "popularity": 62,
+   "qid": "Q16320"
+  },
+  {
+   "aliases": [
+    "C.A. River Plate",
+    "C.A.R.P.",
+    "CA River Plate",
+    "CARP",
+    "River",
+    "River Plate",
+    "RiverPlate"
+   ],
+   "hint": "Club",
+   "id": "socc-Q15799",
+   "name": "Club Atlético River Plate",
+   "popularity": 78,
+   "qid": "Q15799"
+  },
+  {
+   "aliases": [
+    "Club Atletico Velez Sarsfield",
+    "Velez Sarsfield"
+   ],
+   "hint": "Club",
+   "id": "socc-Q215163",
+   "name": "Club Atlético Vélez Sarsfield",
+   "popularity": 51,
+   "qid": "Q215163"
+  },
+  {
+   "aliases": [
+    "Club Bruges",
+    "Club Bruges KV",
+    "Club Brugge",
+    "Club Brugge KV"
+   ],
+   "hint": "Club",
+   "id": "socc-Q190916",
+   "name": "Club Brugge K.V.",
+   "popularity": 69,
+   "qid": "Q190916"
+  },
+  {
+   "aliases": [
+    "Albiazúles",
+    "C.F. Monterrey",
+    "CF Monterrey",
+    "Club de Fútbol Monterrey Rayados, A.C.",
+    "Pingüinos",
+    "Rayados",
+    "Rayados de Monterrey"
+   ],
+   "hint": "Club",
+   "id": "socc-Q768253",
+   "name": "Club de Fútbol Monterrey",
+   "popularity": 47,
+   "qid": "Q768253"
+  },
+  {
+   "aliases": [
+    "G.E.L.P.",
+    "GELP",
+    "Gimnasia y Esgrima LP",
+    "Gimnasia y Esgrima La Plata",
+    "GyE La Plata"
+   ],
+   "hint": "Club",
+   "id": "socc-Q18640",
+   "name": "Club de Gimnasia y Esgrima La Plata",
+   "popularity": 70,
+   "qid": "Q18640"
+  },
+  {
+   "aliases": [
+    "CD Numancia",
+    "Club Deportivo Numancia de Soria, S.A.D."
+   ],
+   "hint": "Club",
+   "id": "socc-Q12158",
+   "name": "Club Deportivo Numancia de Soria",
+   "popularity": 45,
+   "qid": "Q12158"
+  },
+  {
+   "aliases": [
+    "C. Nacional de F.",
+    "C.N. de F.",
+    "Club Nacional",
+    "Club Nacional de F.",
+    "Nacional",
+    "Nacional Montevideo",
+    "Nacional de Football",
+    "Nacional of Montevideo",
+    "National Club of Football"
+   ],
+   "hint": "Club",
+   "id": "socc-Q499616",
+   "name": "Club Nacional de Football",
+   "popularity": 75,
+   "qid": "Q499616"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q604589",
+   "name": "Club Olimpia",
+   "popularity": 49,
+   "qid": "Q604589"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q207373",
+   "name": "Club Social y Deportivo Colo-Colo",
+   "popularity": 92,
+   "qid": "Q207373"
+  },
+  {
+   "aliases": [
+    "Atletico Mineiro",
+    "Atletico-MG",
+    "Atlético Mineiro",
+    "Atlético-MG",
+    "CA Mineiro",
+    "Clube Atletico Mineiro",
+    "Galo"
+   ],
+   "hint": "Club",
+   "id": "socc-Q270995",
+   "name": "Clube Atlético Mineiro",
+   "popularity": 59,
+   "qid": "Q270995"
+  },
+  {
+   "aliases": [
+    "C.R. Flamengo",
+    "CR Flamengo",
+    "Flamengo",
+    "Flamengo Rio de Janeiro"
+   ],
+   "hint": "Club",
+   "id": "socc-Q17479",
+   "name": "Clube de Regatas do Flamengo",
+   "popularity": 91,
+   "qid": "Q17479"
+  },
+  {
+   "aliases": [
+    "Calcio Como",
+    "Como",
+    "Como Calcio",
+    "F.C. Como"
+   ],
+   "hint": "Club",
+   "id": "socc-Q1120838",
+   "name": "Como 1907",
+   "popularity": 57,
+   "qid": "Q1120838"
+  },
+  {
+   "aliases": [
+    "Coritiba Foot Ball Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q478317",
+   "name": "Coritiba F.C.",
+   "popularity": 126,
+   "qid": "Q478317"
+  },
+  {
+   "aliases": [
+    "CCFC",
+    "City",
+    "Coventry",
+    "Coventry City",
+    "Coventry City FC",
+    "Coventry City Football Club",
+    "Sky Blues"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19580",
+   "name": "Coventry City F.C.",
+   "popularity": 59,
+   "qid": "Q19580"
+  },
+  {
+   "aliases": [
+    "C.R. Vasco da Gama",
+    "CRVG",
+    "Club de Regatas Vasco da Gama",
+    "Vasco",
+    "Vasco da Gama"
+   ],
+   "hint": "Club",
+   "id": "socc-Q5014111",
+   "name": "CR Vasco da Gama",
+   "popularity": 52,
+   "qid": "Q5014111"
+  },
+  {
+   "aliases": [
+    "C.D. Cruz Azul",
+    "C.F. Cruz Azul",
+    "Club Deportivo Cruz Azul",
+    "Club de Futbol Cruz Azul",
+    "Cruz Azul F.C.",
+    "Cruz Azul Fútbol Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q845859",
+   "name": "Cruz Azul",
+   "popularity": 47,
+   "qid": "Q845859"
+  },
+  {
+   "aliases": [
+    "Cruzeiro Esporte Clube"
+   ],
+   "hint": "Club",
+   "id": "socc-Q188277",
+   "name": "Cruzeiro E.C.",
+   "popularity": 57,
+   "qid": "Q188277"
+  },
+  {
+   "aliases": [
+    "CPFC",
+    "Crystal Palace",
+    "Crystal Palace FC",
+    "Crystal Palace Football Club",
+    "Palace",
+    "The Eagles",
+    "The Glaziers"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19467",
+   "name": "Crystal Palace F.C.",
+   "popularity": 84,
+   "qid": "Q19467"
+  },
+  {
+   "aliases": [
+    "Cadiz CF",
+    "Cadiz Club de Fútbol"
+   ],
+   "hint": "Club",
+   "id": "socc-Q460448",
+   "name": "Cádiz Club de Fútbol",
+   "popularity": 57,
+   "qid": "Q460448"
+  },
+  {
+   "aliases": [
+    "Cordoba CF",
+    "Cordoba Club de Futbol",
+    "Córdoba Club de Fútbol, S.A.D."
+   ],
+   "hint": "Club",
+   "id": "socc-Q10499",
+   "name": "Córdoba CF",
+   "popularity": 48,
+   "qid": "Q10499"
+  },
+  {
+   "aliases": [
+    "Black-and-Red",
+    "DC United",
+    "DCU",
+    "United",
+    "United D.C."
+   ],
+   "hint": "Club",
+   "id": "socc-Q238593",
+   "name": "D.C. United",
+   "popularity": 53,
+   "qid": "Q238593"
+  },
+  {
+   "aliases": [
+    "DVSC"
+   ],
+   "hint": "Club",
+   "id": "socc-Q205732",
+   "name": "Debreceni VSC",
+   "popularity": 46,
+   "qid": "Q205732"
+  },
+  {
+   "aliases": [
+    "Pescara",
+    "Pescara Calcio"
+   ],
+   "hint": "Club",
+   "id": "socc-Q2710",
+   "name": "Delfino Pescara 1936",
+   "popularity": 53,
+   "qid": "Q2710"
+  },
+  {
+   "aliases": [
+    "Alaves",
+    "Alaves Football",
+    "Alaves Soccer",
+    "Alavés",
+    "Deportivo Alaves",
+    "Deportivo Alaves Soccer"
+   ],
+   "hint": "Club",
+   "id": "socc-Q223620",
+   "name": "Deportivo Alavés",
+   "popularity": 62,
+   "qid": "Q223620"
+  },
+  {
+   "aliases": [
+    "Asociación Deportivo Cali"
+   ],
+   "hint": "Club",
+   "id": "socc-Q663400",
+   "name": "Deportivo Cali",
+   "popularity": 59,
+   "qid": "Q663400"
+  },
+  {
+   "aliases": [
+    "Club Deportivo de la Sala Calvet, Turcos",
+    "Depor",
+    "Deportivo",
+    "Dépor",
+    "R.C. Deportivo de La Coruña",
+    "Real Club Deportivo de A Coruña",
+    "Real Club Deportivo de La Coruña",
+    "Real Club Deportivo de La Coruña S.A.D."
+   ],
+   "hint": "Club",
+   "id": "socc-Q8760",
+   "name": "Deportivo de A Coruña",
+   "popularity": 70,
+   "qid": "Q8760"
+  },
+  {
+   "aliases": [
+    "County",
+    "DCFC",
+    "Derby",
+    "Derby County",
+    "Derby County FC",
+    "The Rams"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19470",
+   "name": "Derby County F.C.",
+   "popularity": 65,
+   "qid": "Q19470"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q25497952",
+   "name": "DFK Dainava",
+   "popularity": 73,
+   "qid": "Q25497952"
+  },
+  {
+   "aliases": [
+    "Dijon",
+    "Dijon Football Côte d'Or"
+   ],
+   "hint": "Club",
+   "id": "socc-Q503317",
+   "name": "Dijon FCO",
+   "popularity": 49,
+   "qid": "Q503317"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q622430",
+   "name": "Djurgårdens IF Fotboll",
+   "popularity": 52,
+   "qid": "Q622430"
+  },
+  {
+   "aliases": [
+    "DFC",
+    "Dundalk",
+    "Dundalk FC",
+    "Dundalk Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q338557",
+   "name": "Dundalk F.C.",
+   "popularity": 46,
+   "qid": "Q338557"
+  },
+  {
+   "aliases": [
+    "DFC",
+    "Dundee",
+    "Dundee FC",
+    "Dundee Football Club",
+    "The Dee"
+   ],
+   "hint": "Club",
+   "id": "socc-Q335483",
+   "name": "Dundee F.C.",
+   "popularity": 47,
+   "qid": "Q335483"
+  },
+  {
+   "aliases": [
+    "DUFC",
+    "Dundee Hibernian",
+    "Dundee United",
+    "Dundee United FC",
+    "Dundee United Football Club",
+    "The Tangerines",
+    "The Terrors",
+    "United"
+   ],
+   "hint": "Club",
+   "id": "socc-Q192873",
+   "name": "Dundee United F.C.",
+   "popularity": 55,
+   "qid": "Q192873"
+  },
+  {
+   "aliases": [
+    "SG Dynamo Dresden"
+   ],
+   "hint": "Club",
+   "id": "socc-Q141931",
+   "name": "Dynamo Dresden",
+   "popularity": 49,
+   "qid": "Q141931"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q154053",
+   "name": "Eintracht Braunschweig",
+   "popularity": 51,
+   "qid": "Q154053"
+  },
+  {
+   "aliases": [
+    "Die Adler",
+    "Eintracht",
+    "Eintracht Frankfurt e. V.",
+    "Frankfurt",
+    "The Eagles"
+   ],
+   "hint": "Club",
+   "id": "socc-Q38245",
+   "name": "Eintracht Frankfurt",
+   "popularity": 103,
+   "qid": "Q38245"
+  },
+  {
+   "aliases": [
+    "Elche Club de Fútbol, S.A.D."
+   ],
+   "hint": "Club",
+   "id": "socc-Q10512",
+   "name": "Elche CF",
+   "popularity": 59,
+   "qid": "Q10512"
+  },
+  {
+   "aliases": [
+    "E.F.C.",
+    "EFC",
+    "Empoli",
+    "Empoli F.C.",
+    "Empoli Football Club",
+    "EmpoliFC"
+   ],
+   "hint": "Club",
+   "id": "socc-Q6703",
+   "name": "Empoli FC",
+   "popularity": 64,
+   "qid": "Q6703"
+  },
+  {
+   "aliases": [
+    "EA Guingamp",
+    "EAG",
+    "Guingamp"
+   ],
+   "hint": "Club",
+   "id": "socc-Q459148",
+   "name": "En Avant de Guingamp",
+   "popularity": 50,
+   "qid": "Q459148"
+  },
+  {
+   "aliases": [
+    "ES Troyes",
+    "ESTAC",
+    "Troyes AC"
+   ],
+   "hint": "Club",
+   "id": "socc-Q501693",
+   "name": "ES Troyes AC",
+   "popularity": 46,
+   "qid": "Q501693"
+  },
+  {
+   "aliases": [
+    "Esteghlal FC",
+    "Esteghlal Football Club",
+    "EsteghlalFC",
+    "FC Esteghlal"
+   ],
+   "hint": "Club",
+   "id": "socc-Q455971",
+   "name": "Esteghlal F.C.",
+   "popularity": 50,
+   "qid": "Q455971"
+  },
+  {
+   "aliases": [
+    "Club Estudiantes de La Plata",
+    "Estudiantes LP"
+   ],
+   "hint": "Club",
+   "id": "socc-Q214940",
+   "name": "Estudiantes de La Plata",
+   "popularity": 52,
+   "qid": "Q214940"
+  },
+  {
+   "aliases": [
+    "EFC",
+    "Everton",
+    "Everton FC",
+    "Everton Football Club",
+    "The Blues",
+    "The Toffees"
+   ],
+   "hint": "Club",
+   "id": "socc-Q5794",
+   "name": "Everton F.C.",
+   "popularity": 104,
+   "qid": "Q5794"
+  },
+  {
+   "aliases": [
+    "SBV Excelsior",
+    "SBV Excelsior Rotterdam"
+   ],
+   "hint": "Club",
+   "id": "socc-Q370712",
+   "name": "Excelsior Rotterdam",
+   "popularity": 45,
+   "qid": "Q370712"
+  },
+  {
+   "aliases": [
+    "F.C. København",
+    "FC Copenhagen",
+    "FC København",
+    "FCK",
+    "Football Club Copenhagen"
+   ],
+   "hint": "Club",
+   "id": "socc-Q188430",
+   "name": "F.C. Copenhagen",
+   "popularity": 65,
+   "qid": "Q188430"
+  },
+  {
+   "aliases": [
+    "Crotone",
+    "Crotone Calcio",
+    "FC Crotone",
+    "Football Club Crotone"
+   ],
+   "hint": "Club",
+   "id": "socc-Q6690",
+   "name": "F.C. Crotone",
+   "popularity": 54,
+   "qid": "Q6690"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q142005",
+   "name": "F.C. Hansa Rostock",
+   "popularity": 53,
+   "qid": "Q142005"
+  },
+  {
+   "aliases": [
+    "FC Lorient",
+    "Football Club Lorient-Bretagne Sud"
+   ],
+   "hint": "Club",
+   "id": "socc-Q48911",
+   "name": "F.C. Lorient",
+   "popularity": 58,
+   "qid": "Q48911"
+  },
+  {
+   "aliases": [
+    "Paços de Ferreira"
+   ],
+   "hint": "Club",
+   "id": "socc-Q371136",
+   "name": "F.C. Paços de Ferreira",
+   "popularity": 46,
+   "qid": "Q371136"
+  },
+  {
+   "aliases": [
+    "Football Club Pro Vercelli 1892",
+    "Football Club Pro Vercelli 1892 S.r.l",
+    "Pro Vercelli",
+    "U.S. Pro Vercelli Calcio",
+    "Unione sportiva pro Vercelli calcio"
+   ],
+   "hint": "Club",
+   "id": "socc-Q8455",
+   "name": "F.C. Pro Vercelli 1892",
+   "popularity": 46,
+   "qid": "Q8455"
+  },
+  {
+   "aliases": [
+    "F91 Diddeleng"
+   ],
+   "hint": "Club",
+   "id": "socc-Q221752",
+   "name": "F91 Dudelange",
+   "popularity": 50,
+   "qid": "Q221752"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q16478096",
+   "name": "FA Šiauliai",
+   "popularity": 73,
+   "qid": "Q16478096"
+  },
+  {
+   "aliases": [
+    "FC Terek Grozny"
+   ],
+   "hint": "Club",
+   "id": "socc-Q240444",
+   "name": "FC Akhmat Grozny",
+   "popularity": 50,
+   "qid": "Q240444"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q332702",
+   "name": "FC Ararat Yerevan",
+   "popularity": 45,
+   "qid": "Q332702"
+  },
+  {
+   "aliases": [
+    "Astana Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q779698",
+   "name": "FC Astana",
+   "popularity": 49,
+   "qid": "Q779698"
+  },
+  {
+   "aliases": [
+    "Augsburg",
+    "Die Fuggerstädter",
+    "FC Augsburg Football Team",
+    "FC Augsburg Soccer Team",
+    "Fußball-Club Augsburg",
+    "Fußball-Club Augsburg 1907 e. V"
+   ],
+   "hint": "Club",
+   "id": "socc-Q15755",
+   "name": "FC Augsburg",
+   "popularity": 75,
+   "qid": "Q15755"
+  },
+  {
+   "aliases": [
+    "Barcelona \"B\"",
+    "Barcelona B",
+    "CF Barcelona Atletico",
+    "CF Barcelona Atlético",
+    "F.C. Barcelona \"B\"",
+    "Futbol Club Barcelona Atletic",
+    "Futbol Club Barcelona Atlètic",
+    "Fútbol Club Barcelona \"B\""
+   ],
+   "hint": "Club",
+   "id": "socc-Q10467",
+   "name": "FC Barcelona Atlètic",
+   "popularity": 48,
+   "qid": "Q10467"
+  },
+  {
+   "aliases": [
+    "F.C.B.",
+    "FC Basel 1893",
+    "FCB",
+    "FCB 1893",
+    "FCB1893",
+    "Football Club Basel",
+    "Football Club Basel 1893"
+   ],
+   "hint": "Club",
+   "id": "socc-Q189671",
+   "name": "FC Basel",
+   "popularity": 68,
+   "qid": "Q189671"
+  },
+  {
+   "aliases": [
+    "BATE",
+    "BATE Borisov",
+    "Borisov",
+    "FC BATE",
+    "Football Club BATE"
+   ],
+   "hint": "Club",
+   "id": "socc-Q191101",
+   "name": "FC BATE Borisov",
+   "popularity": 55,
+   "qid": "Q191101"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q44296",
+   "name": "FC Chornomorets Odesa",
+   "popularity": 48,
+   "qid": "Q44296"
+  },
+  {
+   "aliases": [
+    "FC Dinamo București"
+   ],
+   "hint": "Club",
+   "id": "socc-Q204237",
+   "name": "FC Dinamo Bucharest",
+   "popularity": 51,
+   "qid": "Q204237"
+  },
+  {
+   "aliases": [
+    "Dinamo",
+    "Dinamo Minsk",
+    "FC Dinamo-Minsk",
+    "Football Club Dinamo Minsk"
+   ],
+   "hint": "Club",
+   "id": "socc-Q211477",
+   "name": "FC Dinamo Minsk",
+   "popularity": 54,
+   "qid": "Q211477"
+  },
+  {
+   "aliases": [
+    "Dinamo Moscow",
+    "FC Dinamo-Moskva"
+   ],
+   "hint": "Club",
+   "id": "socc-Q17497",
+   "name": "FC Dinamo Moscow",
+   "popularity": 68,
+   "qid": "Q17497"
+  },
+  {
+   "aliases": [
+    "Dinamo Tbilisi"
+   ],
+   "hint": "Club",
+   "id": "socc-Q201006",
+   "name": "FC Dinamo Tbilisi",
+   "popularity": 57,
+   "qid": "Q201006"
+  },
+  {
+   "aliases": [
+    "Dynamo Kyiv",
+    "Football Club Dynamo Kyiv"
+   ],
+   "hint": "Club",
+   "id": "socc-Q179075",
+   "name": "FC Dynamo Kyiv",
+   "popularity": 85,
+   "qid": "Q179075"
+  },
+  {
+   "aliases": [
+    "Dziugas Telsiai",
+    "Džiugas Telšiai",
+    "FC Dziugas Telsiai",
+    "FK Džiugas Telšiai"
+   ],
+   "hint": "Club",
+   "id": "socc-Q12654311",
+   "name": "FC Džiugas",
+   "popularity": 73,
+   "qid": "Q12654311"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q107818",
+   "name": "FC Energie Cottbus",
+   "popularity": 49,
+   "qid": "Q107818"
+  },
+  {
+   "aliases": [
+    "FC Flora"
+   ],
+   "hint": "Club",
+   "id": "socc-Q222861",
+   "name": "FC Flora Tallinn",
+   "popularity": 49,
+   "qid": "Q222861"
+  },
+  {
+   "aliases": [
+    "Bordeaux FC",
+    "Bordeaux Girondins F.C.",
+    "F.C. Girondins de Bordeaux",
+    "Football Club des Girondins de Bordeaux"
+   ],
+   "hint": "Club",
+   "id": "socc-Q172476",
+   "name": "FC Girondins de Bordeaux",
+   "popularity": 73,
+   "qid": "Q172476"
+  },
+  {
+   "aliases": [
+    "Football Club Groningen"
+   ],
+   "hint": "Club",
+   "id": "socc-Q24711",
+   "name": "FC Groningen",
+   "popularity": 58,
+   "qid": "Q24711"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q12654265",
+   "name": "FC Hegelmann",
+   "popularity": 74,
+   "qid": "Q12654265"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q170117",
+   "name": "FC Ingolstadt 04",
+   "popularity": 45,
+   "qid": "Q170117"
+  },
+  {
+   "aliases": [
+    "Football Club Kairat Almaty",
+    "Kairat",
+    "Kairat Almaty",
+    "Qairat",
+    "Qairat Almaty"
+   ],
+   "hint": "Club",
+   "id": "socc-Q420594",
+   "name": "FC Kairat",
+   "popularity": 50,
+   "qid": "Q420594"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q220854",
+   "name": "FC Krasnodar",
+   "popularity": 63,
+   "qid": "Q220854"
+  },
+  {
+   "aliases": [
+    "PFC Krylia Sovetov"
+   ],
+   "hint": "Club",
+   "id": "socc-Q274778",
+   "name": "FC Krylia Sovetov Samara",
+   "popularity": 49,
+   "qid": "Q274778"
+  },
+  {
+   "aliases": [
+    "Lokomotiv Moscow"
+   ],
+   "hint": "Club",
+   "id": "socc-Q29115",
+   "name": "FC Lokomotiv Moscow",
+   "popularity": 70,
+   "qid": "Q29115"
+  },
+  {
+   "aliases": [
+    "F.C. Lugano",
+    "Football Club Lugano",
+    "Lugano Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q633521",
+   "name": "FC Lugano",
+   "popularity": 50,
+   "qid": "Q633521"
+  },
+  {
+   "aliases": [
+    "F.C. Luzern",
+    "Fussball Club Luzern"
+   ],
+   "hint": "Club",
+   "id": "socc-Q223262",
+   "name": "FC Luzern",
+   "popularity": 46,
+   "qid": "Q223262"
+  },
+  {
+   "aliases": [
+    "F.C. Metz",
+    "FCM",
+    "FcMetz",
+    "Football Club of Metz",
+    "Metz Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q221525",
+   "name": "FC Metz",
+   "popularity": 59,
+   "qid": "Q221525"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q618520",
+   "name": "FC Midtjylland",
+   "popularity": 54,
+   "qid": "Q618520"
+  },
+  {
+   "aliases": [
+    "F.C. Nantes",
+    "F.C.Nantes",
+    "FCNantes",
+    "Football Club of Nantes"
+   ],
+   "hint": "Club",
+   "id": "socc-Q192071",
+   "name": "FC Nantes",
+   "popularity": 64,
+   "qid": "Q192071"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q210025",
+   "name": "FC Nordsjælland",
+   "popularity": 46,
+   "qid": "Q210025"
+  },
+  {
+   "aliases": [
+    "F.C. Porto",
+    "F.C.P.",
+    "F.C.Porto",
+    "FCP",
+    "FCPorto",
+    "Futebol Clube do Porto",
+    "Porto"
+   ],
+   "hint": "Club",
+   "id": "socc-Q128446",
+   "name": "FC Porto",
+   "popularity": 94,
+   "qid": "Q128446"
+  },
+  {
+   "aliases": [
+    "Football Club Pyunik"
+   ],
+   "hint": "Club",
+   "id": "socc-Q244317",
+   "name": "FC Pyunik",
+   "popularity": 51,
+   "qid": "Q244317"
+  },
+  {
+   "aliases": [
+    "FCRBS",
+    "Football Club Red Bull Salzburg",
+    "Red Bull",
+    "Red Bull Salzburg",
+    "Salzburg"
+   ],
+   "hint": "Club",
+   "id": "socc-Q994811",
+   "name": "FC Red Bull Salzburg",
+   "popularity": 64,
+   "qid": "Q994811"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q182930",
+   "name": "FC Rostov",
+   "popularity": 59,
+   "qid": "Q182930"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q221766",
+   "name": "FC Santa Coloma",
+   "popularity": 46,
+   "qid": "Q221766"
+  },
+  {
+   "aliases": [
+    "Shakhtar",
+    "Shakhtar Donetsk"
+   ],
+   "hint": "Club",
+   "id": "socc-Q172969",
+   "name": "FC Shakhtar Donetsk",
+   "popularity": 72,
+   "qid": "Q172969"
+  },
+  {
+   "aliases": [
+    "FC Shakhtyor"
+   ],
+   "hint": "Club",
+   "id": "socc-Q531866",
+   "name": "FC Shakhtyor Salihorsk",
+   "popularity": 45,
+   "qid": "Q531866"
+  },
+  {
+   "aliases": [
+    "FC Sheriff",
+    "Fotbal Club Sheriff",
+    "Sheriff",
+    "Sheriff Tiraspol"
+   ],
+   "hint": "Club",
+   "id": "socc-Q210768",
+   "name": "FC Sheriff Tiraspol",
+   "popularity": 55,
+   "qid": "Q210768"
+  },
+  {
+   "aliases": [
+    "F.C. Sion",
+    "FCSion",
+    "Football Club Sion",
+    "Football Club of Sion"
+   ],
+   "hint": "Club",
+   "id": "socc-Q321061",
+   "name": "FC Sion",
+   "popularity": 49,
+   "qid": "Q321061"
+  },
+  {
+   "aliases": [
+    "F.C. Sochaux-Montbeliard",
+    "FC Sochaux-Montbeliard",
+    "FCSM"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19512",
+   "name": "FC Sochaux-Montbéliard",
+   "popularity": 49,
+   "qid": "Q19512"
+  },
+  {
+   "aliases": [
+    "F.C. St. Gallen",
+    "F.C. St. Gallen 1879",
+    "FC St. Gallen 1879",
+    "Fussballclub St. Gallen 1879"
+   ],
+   "hint": "Club",
+   "id": "socc-Q659212",
+   "name": "FC St. Gallen",
+   "popularity": 51,
+   "qid": "Q659212"
+  },
+  {
+   "aliases": [
+    "Die Kiezkicker",
+    "FCSP",
+    "Football Club St. Pauli",
+    "St. Pauli"
+   ],
+   "hint": "Club",
+   "id": "socc-Q6463",
+   "name": "FC St. Pauli",
+   "popularity": 62,
+   "qid": "Q6463"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q464775",
+   "name": "FC Thun",
+   "popularity": 46,
+   "qid": "Q464775"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q324338",
+   "name": "FC Torpedo Moscow",
+   "popularity": 46,
+   "qid": "Q324338"
+  },
+  {
+   "aliases": [
+    "Football Club Twente",
+    "Twente Enschede"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19603",
+   "name": "FC Twente",
+   "popularity": 72,
+   "qid": "Q19603"
+  },
+  {
+   "aliases": [
+    "FC Ural Sverdlovsk Oblast",
+    "Football Club Ural Sverdlovsk Oblast",
+    "Ural Yekaterinburg"
+   ],
+   "hint": "Club",
+   "id": "socc-Q889348",
+   "name": "FC Ural Yekaterinburg",
+   "popularity": 48,
+   "qid": "Q889348"
+  },
+  {
+   "aliases": [
+    "Football Club Utrecht"
+   ],
+   "hint": "Club",
+   "id": "socc-Q24680",
+   "name": "FC Utrecht",
+   "popularity": 54,
+   "qid": "Q24680"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q216773",
+   "name": "FC Vaduz",
+   "popularity": 52,
+   "qid": "Q216773"
+  },
+  {
+   "aliases": [
+    "Viktoria Plzen"
+   ],
+   "hint": "Club",
+   "id": "socc-Q206838",
+   "name": "FC Viktoria Plzeň",
+   "popularity": 54,
+   "qid": "Q206838"
+  },
+  {
+   "aliases": [
+    "FC Zenit",
+    "Football Club Zenit",
+    "VC Zenit Saint Petersburg",
+    "Zenit Saint Petersburg"
+   ],
+   "hint": "Club",
+   "id": "socc-Q29108",
+   "name": "FC Zenit Saint Petersburg",
+   "popularity": 83,
+   "qid": "Q29108"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q754307",
+   "name": "FC Zorya Luhansk",
+   "popularity": 45,
+   "qid": "Q754307"
+  },
+  {
+   "aliases": [
+    "F.C. Zurich",
+    "F.C. Zürich",
+    "FC Zurich"
+   ],
+   "hint": "Club",
+   "id": "socc-Q206692",
+   "name": "FC Zürich",
+   "popularity": 58,
+   "qid": "Q206692"
+  },
+  {
+   "aliases": [
+    "Fotbal Club FCSB",
+    "Steaua",
+    "Steaua Bucureşti"
+   ],
+   "hint": "Club",
+   "id": "socc-Q179658",
+   "name": "FCSB",
+   "popularity": 70,
+   "qid": "Q179658"
+  },
+  {
+   "aliases": [
+    "Fenerbahce",
+    "Fenerbahce S.K.",
+    "Fenerbahce SK",
+    "Fenerbahce Spor Kulubu",
+    "Fenerbahce Sports Club",
+    "Fenerbahçe SK Football",
+    "Fenerbahçe Spor Kulübü",
+    "Fenerbahçe Sports Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q6601875",
+   "name": "Fenerbahçe Istanbul",
+   "popularity": 92,
+   "qid": "Q6601875"
+  },
+  {
+   "aliases": [
+    "FTC",
+    "Ferencvarosi TC",
+    "Ferencvarosi Torna Club",
+    "Ferencvárosi Torna Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q208396",
+   "name": "Ferencvárosi TC",
+   "popularity": 59,
+   "qid": "Q208396"
+  },
+  {
+   "aliases": [
+    "Feyenoord",
+    "FeyenoordRotterdam"
+   ],
+   "hint": "Club",
+   "id": "socc-Q134241",
+   "name": "Feyenoord Rotterdam",
+   "popularity": 85,
+   "qid": "Q134241"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q223264",
+   "name": "FK AS Trenčín",
+   "popularity": 46,
+   "qid": "Q223264"
+  },
+  {
+   "aliases": [
+    "Aras Klaipėda",
+    "Atlantas",
+    "Atlantas Klaipėda",
+    "Football Club Atlantas",
+    "PSK Aras Klaipėda"
+   ],
+   "hint": "Club",
+   "id": "socc-Q756236",
+   "name": "FK Atlantas",
+   "popularity": 58,
+   "qid": "Q756236"
+  },
+  {
+   "aliases": [
+    "Austria Vienna",
+    "Fußballklub Austria Wien"
+   ],
+   "hint": "Club",
+   "id": "socc-Q131209",
+   "name": "FK Austria Wien",
+   "popularity": 58,
+   "qid": "Q131209"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q806459",
+   "name": "FK Banga Gargždai",
+   "popularity": 76,
+   "qid": "Q806459"
+  },
+  {
+   "aliases": [
+    "Bodø/Glimt"
+   ],
+   "hint": "Club",
+   "id": "socc-Q478167",
+   "name": "FK Bodø/Glimt",
+   "popularity": 50,
+   "qid": "Q478167"
+  },
+  {
+   "aliases": [
+    "Crvena zvezda",
+    "F.C. Red Star",
+    "F.K. Crvena zvezda",
+    "FC Red Star",
+    "FC Red Star Belgrade",
+    "Red Star Belgrade",
+    "Red Star of Belgrade"
+   ],
+   "hint": "Club",
+   "id": "socc-Q173009",
+   "name": "FK Crvena zvezda",
+   "popularity": 73,
+   "qid": "Q173009"
+  },
+  {
+   "aliases": [
+    "FK Lietava",
+    "FK Lietava Jonava",
+    "Jonava",
+    "Lietava"
+   ],
+   "hint": "Club",
+   "id": "socc-Q2480155",
+   "name": "FK Jonava",
+   "popularity": 68,
+   "qid": "Q2480155"
+  },
+  {
+   "aliases": [
+    "FK Spyris",
+    "FK Spyris Kaunas",
+    "Kauno Žalgiris",
+    "Spyris Kaunas"
+   ],
+   "hint": "Club",
+   "id": "socc-Q12654411",
+   "name": "FK Kauno Žalgiris",
+   "popularity": 80,
+   "qid": "Q12654411"
+  },
+  {
+   "aliases": [
+    "FC Nevezis Kedainiai",
+    "FK Nevezis Kedainiai"
+   ],
+   "hint": "Club",
+   "id": "socc-Q1630613",
+   "name": "FK Nevėžis",
+   "popularity": 65,
+   "qid": "Q1630613"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q12654379",
+   "name": "FK Palanga",
+   "popularity": 56,
+   "qid": "Q12654379"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q23894576",
+   "name": "FK Panevėžys",
+   "popularity": 81,
+   "qid": "Q23894576"
+  },
+  {
+   "aliases": [
+    "Partizan",
+    "Partizan Belgrade"
+   ],
+   "hint": "Club",
+   "id": "socc-Q188656",
+   "name": "FK Partizan",
+   "popularity": 65,
+   "qid": "Q188656"
+  },
+  {
+   "aliases": [
+    "FK Trakai"
+   ],
+   "hint": "Club",
+   "id": "socc-Q14657783",
+   "name": "FK Riteriai",
+   "popularity": 78,
+   "qid": "Q14657783"
+  },
+  {
+   "aliases": [
+    "Fudbalski klub Sarajevo"
+   ],
+   "hint": "Club",
+   "id": "socc-Q239663",
+   "name": "FK Sarajevo",
+   "popularity": 49,
+   "qid": "Q239663"
+  },
+  {
+   "aliases": [
+    "Futbolo Klubas Sūduva Marijampolė"
+   ],
+   "hint": "Club",
+   "id": "socc-Q757104",
+   "name": "FK Sūduva",
+   "popularity": 80,
+   "qid": "Q757104"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q117206645",
+   "name": "FK Transinvest",
+   "popularity": 54,
+   "qid": "Q117206645"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q335190",
+   "name": "FK Vardar",
+   "popularity": 47,
+   "qid": "Q335190"
+  },
+  {
+   "aliases": [
+    "FK Vojvodina Novi Sad",
+    "Fudbalski klub Vojvodina"
+   ],
+   "hint": "Club",
+   "id": "socc-Q207501",
+   "name": "FK Vojvodina",
+   "popularity": 49,
+   "qid": "Q207501"
+  },
+  {
+   "aliases": [
+    "Zalgiris Vilnius",
+    "Žalgiris",
+    "Žalgiris Vilnius"
+   ],
+   "hint": "Club",
+   "id": "socc-Q500988",
+   "name": "FK Žalgiris",
+   "popularity": 82,
+   "qid": "Q500988"
+  },
+  {
+   "aliases": [
+    "Nogometni Klub Željezničar Sarajevo"
+   ],
+   "hint": "Club",
+   "id": "socc-Q219929",
+   "name": "FK Željezničar Sarajevo",
+   "popularity": 45,
+   "qid": "Q219929"
+  },
+  {
+   "aliases": [
+    "Fluminense FC",
+    "Fluminense Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q80987",
+   "name": "Fluminense F.C.",
+   "popularity": 71,
+   "qid": "Q80987"
+  },
+  {
+   "aliases": [
+    "Fortaleza",
+    "Fortaleza Esporte Clube"
+   ],
+   "hint": "Club",
+   "id": "socc-Q188841",
+   "name": "Fortaleza E.C.",
+   "popularity": 54,
+   "qid": "Q188841"
+  },
+  {
+   "aliases": [
+    "Die Fortuna",
+    "F95",
+    "Fortuna",
+    "Fortuna 95",
+    "Fortuna Dusseldorf"
+   ],
+   "hint": "Club",
+   "id": "socc-Q151747",
+   "name": "Fortuna Düsseldorf",
+   "popularity": 60,
+   "qid": "Q151747"
+  },
+  {
+   "aliases": [
+    "Frosinone 1928",
+    "Frosinone FC",
+    "Frosinone Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q845043",
+   "name": "Frosinone Calcio",
+   "popularity": 54,
+   "qid": "Q845043"
+  },
+  {
+   "aliases": [
+    "FFC",
+    "Fulham",
+    "Fulham FC",
+    "Fulham Football Club",
+    "The Cottagers"
+   ],
+   "hint": "Club",
+   "id": "socc-Q18708",
+   "name": "Fulham F.C.",
+   "popularity": 84,
+   "qid": "Q18708"
+  },
+  {
+   "aliases": [
+    "GS",
+    "Galatasaray",
+    "Galatasaray AŞ",
+    "Galatasaray Spor Kulübü",
+    "Galatasaray Sports Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q495299",
+   "name": "Galatasaray S.K.",
+   "popularity": 92,
+   "qid": "Q495299"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q738423",
+   "name": "Gamba Osaka",
+   "popularity": 52,
+   "qid": "Q738423"
+  },
+  {
+   "aliases": [
+    "Genoa",
+    "Genoa C.F.C.",
+    "Genoa Cricket and Football Club s.p.a"
+   ],
+   "hint": "Club",
+   "id": "socc-Q2074",
+   "name": "Genoa CFC",
+   "popularity": 87,
+   "qid": "Q2074"
+  },
+  {
+   "aliases": [
+    "Getafe",
+    "Getafe C.F.",
+    "Getafe Club de Futbol",
+    "Getafe Club de Fútbol",
+    "Getafe Club de Fútbol Team",
+    "Getafe Club of Football",
+    "Getafe Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q8806",
+   "name": "Getafe CF",
+   "popularity": 67,
+   "qid": "Q8806"
+  },
+  {
+   "aliases": [
+    "Girona",
+    "Girona FC Club",
+    "Girona Futbol Club",
+    "Girona Futbol Club, S.A.D.",
+    "Girona Soccer Team"
+   ],
+   "hint": "Club",
+   "id": "socc-Q11945",
+   "name": "Girona FC",
+   "popularity": 64,
+   "qid": "Q11945"
+  },
+  {
+   "aliases": [
+    "Croatia Zagreb",
+    "Dinamo Zagreb",
+    "GNK Dinamo",
+    "Građanski nogometni klub Dinamo Zagreb",
+    "NK Dinamo Zagreb"
+   ],
+   "hint": "Club",
+   "id": "socc-Q172803",
+   "name": "GNK Dinamo Zagreb",
+   "popularity": 69,
+   "qid": "Q172803"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q749589",
+   "name": "Go Ahead Eagles",
+   "popularity": 46,
+   "qid": "Q749589"
+  },
+  {
+   "aliases": [
+    "Granada C.F.",
+    "Granada Club de Futbol",
+    "Granada Club de Fútbol"
+   ],
+   "hint": "Club",
+   "id": "socc-Q8812",
+   "name": "Granada CF",
+   "popularity": 67,
+   "qid": "Q8812"
+  },
+  {
+   "aliases": [
+    "GC",
+    "Grasshopper Club Zurich",
+    "Grasshoppers",
+    "Grasshoppers Zurich",
+    "Grasshoppers Zürich"
+   ],
+   "hint": "Club",
+   "id": "socc-Q201360",
+   "name": "Grasshopper Club Zürich",
+   "popularity": 56,
+   "qid": "Q201360"
+  },
+  {
+   "aliases": [
+    "G.F.B.P.A.",
+    "GFBPA",
+    "Gremio",
+    "Gremio F.B.P.A.",
+    "Gremio FBPA",
+    "Gremio Foot-Ball Porto Alegrense",
+    "Gremio Porto Alegre",
+    "Grêmio F.B.P.A.",
+    "Grêmio Foot-Ball Porto Alegrense",
+    "Grêmio Football Porto Alegrense"
+   ],
+   "hint": "Club",
+   "id": "socc-Q221695",
+   "name": "Grêmio FBPA",
+   "popularity": 60,
+   "qid": "Q221695"
+  },
+  {
+   "aliases": [
+    "Guangzhou Evergrande",
+    "Guangzhou Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q130521",
+   "name": "Guangzhou F.C.",
+   "popularity": 49,
+   "qid": "Q130521"
+  },
+  {
+   "aliases": [
+    "Gornik Zabrze"
+   ],
+   "hint": "Club",
+   "id": "socc-Q134255",
+   "name": "Górnik Zabrze",
+   "popularity": 63,
+   "qid": "Q134255"
+  },
+  {
+   "aliases": [
+    "H.S.V.",
+    "HSV",
+    "Hamburg",
+    "Hamburg SV",
+    "Hamburg Sport Club",
+    "Hamburger",
+    "Hamburger S.V.",
+    "Hamburger Sport-Verein",
+    "HamburgerSV"
+   ],
+   "hint": "Club",
+   "id": "socc-Q51974",
+   "name": "Hamburger SV",
+   "popularity": 77,
+   "qid": "Q51974"
+  },
+  {
+   "aliases": [
+    "Bajen",
+    "Hammarby IF"
+   ],
+   "hint": "Club",
+   "id": "socc-Q460724",
+   "name": "Hammarby Fotboll",
+   "popularity": 49,
+   "qid": "Q460724"
+  },
+  {
+   "aliases": [
+    "H96",
+    "Hannoveraner",
+    "Hannoverscher Sport-Verein von 1896 e.V."
+   ],
+   "hint": "Club",
+   "id": "socc-Q33748",
+   "name": "Hannover 96",
+   "popularity": 69,
+   "qid": "Q33748"
+  },
+  {
+   "aliases": [
+    "Hapoel Tel Aviv Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q206585",
+   "name": "Hapoel Tel Aviv F.C.",
+   "popularity": 47,
+   "qid": "Q206585"
+  },
+  {
+   "aliases": [
+    "Heart of Midlothian Football Club",
+    "Hearts"
+   ],
+   "hint": "Club",
+   "id": "socc-Q202093",
+   "name": "Heart of Midlothian F.C.",
+   "popularity": 56,
+   "qid": "Q202093"
+  },
+  {
+   "aliases": [
+    "H.V.F.C.",
+    "HVFC",
+    "Hellas",
+    "Hellas Verona",
+    "Hellas Verona F.C.",
+    "Hellas Verona Football Club",
+    "HellasVerona",
+    "Verona"
+   ],
+   "hint": "Club",
+   "id": "socc-Q8639",
+   "name": "Hellas Verona FC",
+   "popularity": 69,
+   "qid": "Q8639"
+  },
+  {
+   "aliases": [
+    "HJK Helsingfors",
+    "HJK Helsinki"
+   ],
+   "hint": "Club",
+   "id": "socc-Q208584",
+   "name": "Helsingin Jalkapalloklubi",
+   "popularity": 52,
+   "qid": "Q208584"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q11961",
+   "name": "Heracles Almelo",
+   "popularity": 46,
+   "qid": "Q11961"
+  },
+  {
+   "aliases": [
+    "Hertha",
+    "Hertha Berlin",
+    "Hertha Berliner Sport-Club",
+    "Hertha, Berliner Sport-Club e. V"
+   ],
+   "hint": "Club",
+   "id": "socc-Q102720",
+   "name": "Hertha BSC",
+   "popularity": 73,
+   "qid": "Q102720"
+  },
+  {
+   "aliases": [
+    "HFC",
+    "Hibees",
+    "Hibernian",
+    "Hibernian FC",
+    "Hibernian Football Club",
+    "Hibs"
+   ],
+   "hint": "Club",
+   "id": "socc-Q192597",
+   "name": "Hibernian F.C.",
+   "popularity": 54,
+   "qid": "Q192597"
+  },
+  {
+   "aliases": [
+    "HNK Hajduk",
+    "Hajduk",
+    "Hajduk Split"
+   ],
+   "hint": "Club",
+   "id": "socc-Q181216",
+   "name": "HNK Hajduk Split",
+   "popularity": 61,
+   "qid": "Q181216"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q318969",
+   "name": "HNK Rijeka",
+   "popularity": 51,
+   "qid": "Q318969"
+  },
+  {
+   "aliases": [
+    "Die Störche",
+    "The Storks"
+   ],
+   "hint": "Club",
+   "id": "socc-Q157828",
+   "name": "Holstein Kiel",
+   "popularity": 48,
+   "qid": "Q157828"
+  },
+  {
+   "aliases": [
+    "HTAFC",
+    "HTFC",
+    "Huddersfield",
+    "Huddersfield Town",
+    "Huddersfield Town AFC",
+    "Huddersfield Town FC",
+    "Huddersfield Town Football Club",
+    "The Terriers",
+    "Town"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19473",
+   "name": "Huddersfield Town A.F.C.",
+   "popularity": 61,
+   "qid": "Q19473"
+  },
+  {
+   "aliases": [
+    "City",
+    "HCAFC",
+    "Hull",
+    "Hull City",
+    "Hull City AFC",
+    "Hull City Association Football Club",
+    "The Tigers"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19477",
+   "name": "Hull City A.F.C.",
+   "popularity": 69,
+   "qid": "Q19477"
+  },
+  {
+   "aliases": [
+    "Hercules CF"
+   ],
+   "hint": "Club",
+   "id": "socc-Q11963",
+   "name": "Hércules CF",
+   "popularity": 48,
+   "qid": "Q11963"
+  },
+  {
+   "aliases": [
+    "IFE"
+   ],
+   "hint": "Club",
+   "id": "socc-Q211753",
+   "name": "IF Elfsborg",
+   "popularity": 49,
+   "qid": "Q211753"
+  },
+  {
+   "aliases": [
+    "Blåvitt",
+    "IFK Göteborg Fotboll",
+    "Änglarna"
+   ],
+   "hint": "Club",
+   "id": "socc-Q201567",
+   "name": "IFK Göteborg",
+   "popularity": 56,
+   "qid": "Q201567"
+  },
+  {
+   "aliases": [
+    "Club Internacional de Fútbol Miami",
+    "Inter Miami",
+    "Inter Miami FC",
+    "Internacional de Miami",
+    "Internacional of Miami",
+    "Miami FC",
+    "Miami Football Club",
+    "Miami Soccer club",
+    "The Herons",
+    "Vice City"
+   ],
+   "hint": "Club",
+   "id": "socc-Q16844931",
+   "name": "Inter Miami CF",
+   "popularity": 64,
+   "qid": "Q16844931"
+  },
+  {
+   "aliases": [
+    "F.C. Inter",
+    "F.C. Inter Milan",
+    "F.C.I.M.",
+    "FC Inter",
+    "FC Internazionale Milano",
+    "FCIM",
+    "FCInter",
+    "Football Club Inter",
+    "Football Club Inter Milan",
+    "Football Club Internazionale Milano",
+    "I M",
+    "IM",
+    "Inter",
+    "Inter Club",
+    "Inter FC",
+    "Inter Football Club",
+    "Inter Milano",
+    "Inter of Milan",
+    "Inter soccer club",
+    "Internazionale",
+    "Internazionale Milano",
+    "The Inter"
+   ],
+   "hint": "Club",
+   "id": "socc-Q631",
+   "name": "Inter Milan",
+   "popularity": 124,
+   "qid": "Q631"
+  },
+  {
+   "aliases": [
+    "ITFC",
+    "Ipswich",
+    "Ipswich Town",
+    "Ipswich Town FC",
+    "Ipswich Town Football Club",
+    "The Blues",
+    "The Tractor Boys",
+    "Town"
+   ],
+   "hint": "Club",
+   "id": "socc-Q9653",
+   "name": "Ipswich Town F.C.",
+   "popularity": 68,
+   "qid": "Q9653"
+  },
+  {
+   "aliases": [
+    "Başakşehir F.K.",
+    "ibfk",
+    "İBFK",
+    "İstanbul Başakşehir"
+   ],
+   "hint": "Club",
+   "id": "socc-Q857938",
+   "name": "İstanbul Başakşehir F.K.",
+   "popularity": 57,
+   "qid": "Q857938"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q189170",
+   "name": "Jagiellonia Białystok",
+   "popularity": 61,
+   "qid": "Q189170"
+  },
+  {
+   "aliases": [
+    "Chonbuk Dinos",
+    "Chonbuk Dinos FC",
+    "Chonbuk Hyundai Dinos",
+    "Chonbuk Hyundai Dinos FC",
+    "Chonbuk Hyundai Motors FC",
+    "Jeonbuk Dinos",
+    "Jeonbuk Dinos FC",
+    "Jeonbuk Hyundai Dinos",
+    "Jeonbuk Hyundai Dinos FC",
+    "Jeonbuk Hyundai Motors",
+    "Jeonbuk Hyundai Motors Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q483152",
+   "name": "Jeonbuk Hyundai Motors FC",
+   "popularity": 59,
+   "qid": "Q483152"
+  },
+  {
+   "aliases": [
+    "J.F.C.",
+    "JFC",
+    "Juve",
+    "Juventus F.C.",
+    "Juventus FC",
+    "Juventus Football Club",
+    "Juventus Turin",
+    "Juventus of Turin",
+    "JuventusF.C.",
+    "JuventusFC",
+    "JuventusFootballClub"
+   ],
+   "hint": "Club",
+   "id": "socc-Q1422",
+   "name": "Juventus",
+   "popularity": 133,
+   "qid": "Q1422"
+  },
+  {
+   "aliases": [
+    "KF Tirana",
+    "Tirana F.C.",
+    "Tirana FC",
+    "Tirana Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q210170",
+   "name": "K.F. Tirana",
+   "popularity": 46,
+   "qid": "Q210170"
+  },
+  {
+   "aliases": [
+    "KRC Genk",
+    "Koninklijke Racing Club Genk"
+   ],
+   "hint": "Club",
+   "id": "socc-Q216032",
+   "name": "K.R.C. Genk",
+   "popularity": 58,
+   "qid": "Q216032"
+  },
+  {
+   "aliases": [
+    "Gent",
+    "Ghent",
+    "K.A.A. Gent",
+    "Koninklijke Atletiek Associatie Gent"
+   ],
+   "hint": "Club",
+   "id": "socc-Q18232",
+   "name": "KAA Gent",
+   "popularity": 59,
+   "qid": "Q18232"
+  },
+  {
+   "aliases": [
+    "Chiefs",
+    "Kaizer Chiefs",
+    "Kaizer Chiefs FC",
+    "Kaizer Chiefs Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q247731",
+   "name": "Kaizer Chiefs F.C.",
+   "popularity": 49,
+   "qid": "Q247731"
+  },
+  {
+   "aliases": [
+    "KSC"
+   ],
+   "hint": "Club",
+   "id": "socc-Q105853",
+   "name": "Karlsruher SC",
+   "popularity": 57,
+   "qid": "Q105853"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q16932",
+   "name": "Kashima Antlers",
+   "popularity": 47,
+   "qid": "Q16932"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q874016",
+   "name": "Kawasaki Frontale",
+   "popularity": 45,
+   "qid": "Q874016"
+  },
+  {
+   "aliases": [
+    "Kayseri Spor Kulübü"
+   ],
+   "hint": "Club",
+   "id": "socc-Q608122",
+   "name": "Kayserispor",
+   "popularity": 45,
+   "qid": "Q608122"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q73996",
+   "name": "KF Skënderbeu",
+   "popularity": 45,
+   "qid": "Q73996"
+  },
+  {
+   "aliases": [
+    "KFC",
+    "Killie",
+    "Kilmarnock",
+    "Kilmarnock FC",
+    "Kilmarnock Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q210961",
+   "name": "Kilmarnock F.C.",
+   "popularity": 49,
+   "qid": "Q210961"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q513840",
+   "name": "Konyaspor",
+   "popularity": 48,
+   "qid": "Q513840"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q734785",
+   "name": "KS Lechia Gdańsk",
+   "popularity": 48,
+   "qid": "Q734785"
+  },
+  {
+   "aliases": [
+    "K.V. Mechelen",
+    "Y.R. K.V. Mechelen",
+    "YR KV Mechelen"
+   ],
+   "hint": "Club",
+   "id": "socc-Q113000",
+   "name": "KV Mechelen",
+   "popularity": 49,
+   "qid": "Q113000"
+  },
+  {
+   "aliases": [
+    "KI Klaksvik",
+    "Klaksvikar Itrottarfelag",
+    "Klaksvíkar Ítróttarfelag",
+    "KÍ Klaksvik"
+   ],
+   "hint": "Club",
+   "id": "socc-Q723457",
+   "name": "KÍ Klaksvík",
+   "popularity": 45,
+   "qid": "Q723457"
+  },
+  {
+   "aliases": [
+    "Galaxy",
+    "L.A. Galaxy",
+    "Los Angeles Galaxy"
+   ],
+   "hint": "Club",
+   "id": "socc-Q204357",
+   "name": "LA Galaxy",
+   "popularity": 62,
+   "qid": "Q204357"
+  },
+  {
+   "aliases": [
+    "L.A.S.K. Linz",
+    "LASK",
+    "Linzer ASK",
+    "Linzer Athletik-Sport-Klub"
+   ],
+   "hint": "Club",
+   "id": "socc-Q392310",
+   "name": "LASK Linz",
+   "popularity": 50,
+   "qid": "Q392310"
+  },
+  {
+   "aliases": [
+    "HAC",
+    "Le Havre",
+    "Le Havre Athletic Club",
+    "Les Ciel et Marine"
+   ],
+   "hint": "Club",
+   "id": "socc-Q328658",
+   "name": "Le Havre AC",
+   "popularity": 50,
+   "qid": "Q328658"
+  },
+  {
+   "aliases": [
+    "Le MUC",
+    "Le Mans FC",
+    "Le Mans Football Club",
+    "Le Mans U.C. 72"
+   ],
+   "hint": "Club",
+   "id": "socc-Q210864",
+   "name": "Le Mans F.C.",
+   "popularity": 45,
+   "qid": "Q210864"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q52942",
+   "name": "Lech Poznań",
+   "popularity": 64,
+   "qid": "Q52942"
+  },
+  {
+   "aliases": [
+    "L.U.F.C.",
+    "LUFC",
+    "Leeds",
+    "Leeds United",
+    "Leeds United A.F.C.",
+    "Leeds United AFC",
+    "Leeds United Association Football Club",
+    "Leeds United FC",
+    "Leeds United Football Club",
+    "Leeds Utd",
+    "LeedsUnited",
+    "The Peacocks",
+    "United"
+   ],
+   "hint": "Club",
+   "id": "socc-Q1128631",
+   "name": "Leeds United F.C.",
+   "popularity": 86,
+   "qid": "Q1128631"
+  },
+  {
+   "aliases": [
+    "City",
+    "L.C.F.C.",
+    "LCFC",
+    "Leicester",
+    "Leicester City",
+    "Leicester City FC",
+    "Leicester City Football Club",
+    "Leicester Fosse",
+    "Leicester Fosse FC",
+    "Leicester Fosse Football Club",
+    "The Foxes"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19481",
+   "name": "Leicester City F.C.",
+   "popularity": 96,
+   "qid": "Q19481"
+  },
+  {
+   "aliases": [
+    "Levante",
+    "Levante FC",
+    "Levante Football Club",
+    "Levante Sports Union",
+    "Levante U.D.",
+    "Levante UD Football",
+    "Levante Union Deportiva",
+    "Levante Unión Deportiva"
+   ],
+   "hint": "Club",
+   "id": "socc-Q8823",
+   "name": "Levante UD",
+   "popularity": 69,
+   "qid": "Q8823"
+  },
+  {
+   "aliases": [
+    "LOSC",
+    "Lille",
+    "Lille Olympique Sporting Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19516",
+   "name": "Lille OSC",
+   "popularity": 73,
+   "qid": "Q19516"
+  },
+  {
+   "aliases": [
+    "Kanarifugla",
+    "LSK",
+    "Lillestrøm",
+    "Lillestrøm S.K.",
+    "Lillestrøm Sportsklubb"
+   ],
+   "hint": "Club",
+   "id": "socc-Q214374",
+   "name": "Lillestrøm SK",
+   "popularity": 45,
+   "qid": "Q214374"
+  },
+  {
+   "aliases": [
+    "Lincoln F.C.",
+    "Lincoln Red Imps",
+    "Lincoln Red Imps FC",
+    "Lincoln Red Imps Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q3241301",
+   "name": "Lincoln Red Imps F.C.",
+   "popularity": 45,
+   "qid": "Q3241301"
+  },
+  {
+   "aliases": [
+    "FC Liverpool",
+    "L.F.C.",
+    "LFC",
+    "Liverpool F.C.",
+    "Liverpool FC",
+    "Liverpool Football Club",
+    "LiverpoolF.C.",
+    "LiverpoolFC"
+   ],
+   "hint": "Club",
+   "id": "socc-Q1130849",
+   "name": "Liverpool",
+   "popularity": 133,
+   "qid": "Q1130849"
+  },
+  {
+   "aliases": [
+    "LA FC",
+    "LA Football Club",
+    "LAFC",
+    "Los Angeles Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q18380286",
+   "name": "Los Angeles FC",
+   "popularity": 47,
+   "qid": "Q18380286"
+  },
+  {
+   "aliases": [
+    "L.R. Vicenza",
+    "LR Vicenza Virtus",
+    "Lanerossi Vicenza",
+    "Lanerossi Vicenza Virtus",
+    "Vicenza"
+   ],
+   "hint": "Club",
+   "id": "socc-Q56542463",
+   "name": "LR Vicenza",
+   "popularity": 45,
+   "qid": "Q56542463"
+  },
+  {
+   "aliases": [
+    "LTFC",
+    "Luton",
+    "Luton Town",
+    "Luton Town FC",
+    "Luton Town Football Club",
+    "The Hatters",
+    "Town"
+   ],
+   "hint": "Club",
+   "id": "socc-Q18520",
+   "name": "Luton Town F.C.",
+   "popularity": 56,
+   "qid": "Q18520"
+  },
+  {
+   "aliases": [
+    "Maccabi Haifa Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q2129100",
+   "name": "Maccabi Haifa F.C.",
+   "popularity": 48,
+   "qid": "Q2129100"
+  },
+  {
+   "aliases": [
+    "Maccabi",
+    "Maccabi TA",
+    "Maccabi TA FC",
+    "Maccabi Tel Aviv",
+    "Maccabi Tel Aviv FC",
+    "Maccabi Tel-Aviv Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q223728",
+   "name": "Maccabi Tel Aviv F.C.",
+   "popularity": 54,
+   "qid": "Q223728"
+  },
+  {
+   "aliases": [
+    "MFF",
+    "Malmo F.F.",
+    "Malmo FF",
+    "Malmo Fotbollforening",
+    "Malmö F.F.",
+    "Malmö Fotbollförening"
+   ],
+   "hint": "Club",
+   "id": "socc-Q204881",
+   "name": "Malmö FF",
+   "popularity": 67,
+   "qid": "Q204881"
+  },
+  {
+   "aliases": [
+    "Mamelodi Sundowns",
+    "Mamelodi Sundowns Football Club",
+    "Sundowns"
+   ],
+   "hint": "Club",
+   "id": "socc-Q784965",
+   "name": "Mamelodi Sundowns F.C.",
+   "popularity": 49,
+   "qid": "Q784965"
+  },
+  {
+   "aliases": [
+    "Citizens",
+    "City",
+    "MCFC",
+    "Man City",
+    "Manchester City F.C.",
+    "Manchester City F.C. Soccer",
+    "Manchester City FC",
+    "Manchester City Football Club",
+    "Sky Blues",
+    "The Blues",
+    "The Citizens",
+    "The Sky Blues"
+   ],
+   "hint": "Club",
+   "id": "socc-Q50602",
+   "name": "Manchester City",
+   "popularity": 118,
+   "qid": "Q50602"
+  },
+  {
+   "aliases": [
+    "MUFC",
+    "Man U",
+    "Man United",
+    "Man Utd",
+    "Manchester United F.C.",
+    "Manchester United FC",
+    "Manchester United Football Club",
+    "Red Devils"
+   ],
+   "hint": "Club",
+   "id": "socc-Q18656",
+   "name": "Manchester United",
+   "popularity": 148,
+   "qid": "Q18656"
+  },
+  {
+   "aliases": [
+    "MFC",
+    "Middlesbrough",
+    "Middlesbrough FC",
+    "Middlesbrough Football Club",
+    "The Boro"
+   ],
+   "hint": "Club",
+   "id": "socc-Q18661",
+   "name": "Middlesbrough F.C.",
+   "popularity": 70,
+   "qid": "Q18661"
+  },
+  {
+   "aliases": [
+    "MFC",
+    "Millwall",
+    "Millwall FC",
+    "Millwall Football Club",
+    "The Lions"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19487",
+   "name": "Millwall F.C.",
+   "popularity": 52,
+   "qid": "Q19487"
+  },
+  {
+   "aliases": [
+    "MFK",
+    "Molde F.K.",
+    "Molde Fotballklubb"
+   ],
+   "hint": "Club",
+   "id": "socc-Q208552",
+   "name": "Molde FK",
+   "popularity": 57,
+   "qid": "Q208552"
+  },
+  {
+   "aliases": [
+    "MLSC",
+    "MPSC",
+    "MPSCL",
+    "Montpellier HSC",
+    "Montpellier Herault Sport Club",
+    "SOM"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19513",
+   "name": "Montpellier Hérault Sport Club",
+   "popularity": 57,
+   "qid": "Q19513"
+  },
+  {
+   "aliases": [
+    "MFC",
+    "Motherwell",
+    "Motherwell FC",
+    "Motherwell Football Club",
+    "Well"
+   ],
+   "hint": "Club",
+   "id": "socc-Q216523",
+   "name": "Motherwell F.C.",
+   "popularity": 50,
+   "qid": "Q216523"
+  },
+  {
+   "aliases": [
+    "Meidericher Spielverein Duisburg 02 e.V"
+   ],
+   "hint": "Club",
+   "id": "socc-Q154293",
+   "name": "MSV Duisburg",
+   "popularity": 51,
+   "qid": "Q154293"
+  },
+  {
+   "aliases": [
+    "M.C.F.",
+    "MCF",
+    "Malaga C.F.",
+    "Malaga CF",
+    "Malaga Football Club",
+    "Málaga C.F.",
+    "Málaga Club of Football",
+    "MálagaCF"
+   ],
+   "hint": "Club",
+   "id": "socc-Q8857",
+   "name": "Málaga CF",
+   "popularity": 66,
+   "qid": "Q8857"
+  },
+  {
+   "aliases": [
+    "ŠK Žilina"
+   ],
+   "hint": "Club",
+   "id": "socc-Q209640",
+   "name": "MŠK Žilina",
+   "popularity": 48,
+   "qid": "Q209640"
+  },
+  {
+   "aliases": [
+    "NEC",
+    "NEC Nijmegen",
+    "Nijmegen Eendracht Combinatie"
+   ],
+   "hint": "Club",
+   "id": "socc-Q318348",
+   "name": "N.E.C.",
+   "popularity": 47,
+   "qid": "Q318348"
+  },
+  {
+   "aliases": [
+    "Nea Salamina",
+    "Nea Salamina Famagusta FC",
+    "Nea Salamis"
+   ],
+   "hint": "Club",
+   "id": "socc-Q714581",
+   "name": "Nea Salamis Famagusta FC",
+   "popularity": 89,
+   "qid": "Q714581"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q218074",
+   "name": "Neftchi Baku PFC",
+   "popularity": 53,
+   "qid": "Q218074"
+  },
+  {
+   "aliases": [
+    "NE Revolution",
+    "NE Revs",
+    "NER",
+    "New England Revs",
+    "Revolution",
+    "Revolution Soccer",
+    "Revs",
+    "the Revs"
+   ],
+   "hint": "Club",
+   "id": "socc-Q309095",
+   "name": "New England Revolution",
+   "popularity": 46,
+   "qid": "Q309095"
+  },
+  {
+   "aliases": [
+    "NYCFC",
+    "New York City Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q13361030",
+   "name": "New York City FC",
+   "popularity": 47,
+   "qid": "Q13361030"
+  },
+  {
+   "aliases": [
+    "NUFC",
+    "Newcastle",
+    "Newcastle United",
+    "Newcastle United FC",
+    "Newcastle United Football Club",
+    "The Magpies"
+   ],
+   "hint": "Club",
+   "id": "socc-Q18716",
+   "name": "Newcastle United F.C.",
+   "popularity": 97,
+   "qid": "Q18716"
+  },
+  {
+   "aliases": [
+    "Newells Old Boys",
+    "Newell’s Old Boys"
+   ],
+   "hint": "Club",
+   "id": "socc-Q221882",
+   "name": "Newell's Old Boys",
+   "popularity": 53,
+   "qid": "Q221882"
+  },
+  {
+   "aliases": [
+    "Celje",
+    "Nogometni Klub Celje"
+   ],
+   "hint": "Club",
+   "id": "socc-Q31533",
+   "name": "NK Celje",
+   "popularity": 45,
+   "qid": "Q31533"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q959086",
+   "name": "NK Lokomotiva",
+   "popularity": 49,
+   "qid": "Q959086"
+  },
+  {
+   "aliases": [
+    "Nogometni Klub Maribor"
+   ],
+   "hint": "Club",
+   "id": "socc-Q210530",
+   "name": "NK Maribor",
+   "popularity": 53,
+   "qid": "Q210530"
+  },
+  {
+   "aliases": [
+    "Olimpija Ljubljana"
+   ],
+   "hint": "Club",
+   "id": "socc-Q31932",
+   "name": "NK Olimpija Ljubljana",
+   "popularity": 46,
+   "qid": "Q31932"
+  },
+  {
+   "aliases": [
+    "Nogometni klub Osijek"
+   ],
+   "hint": "Club",
+   "id": "socc-Q738876",
+   "name": "NK Osijek",
+   "popularity": 48,
+   "qid": "Q738876"
+  },
+  {
+   "aliases": [
+    "City",
+    "NCFC",
+    "Norwich",
+    "Norwich City",
+    "Norwich City FC",
+    "Norwich City Football Club",
+    "The Canaries"
+   ],
+   "hint": "Club",
+   "id": "socc-Q18721",
+   "name": "Norwich City F.C.",
+   "popularity": 71,
+   "qid": "Q18721"
+  },
+  {
+   "aliases": [
+    "Forest",
+    "NFFC",
+    "Nottingham Forest",
+    "Nottingham Forest FC",
+    "Nottingham Forest Football Club",
+    "Nottm Forest",
+    "The Reds",
+    "Tricky Trees"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19490",
+   "name": "Nottingham Forest F.C.",
+   "popularity": 80,
+   "qid": "Q19490"
+  },
+  {
+   "aliases": [
+    "Nimes",
+    "Nimes Olympique",
+    "Nîmes"
+   ],
+   "hint": "Club",
+   "id": "socc-Q730809",
+   "name": "Nîmes Olympique",
+   "popularity": 61,
+   "qid": "Q730809"
+  },
+  {
+   "aliases": [
+    "Olympique Gymnaste Club Nice Côte d'Azur"
+   ],
+   "hint": "Club",
+   "id": "socc-Q185163",
+   "name": "OGC Nice",
+   "popularity": 67,
+   "qid": "Q185163"
+  },
+  {
+   "aliases": [
+    "Athletic",
+    "Latics",
+    "OAAFC",
+    "Oldham",
+    "Oldham Athletic",
+    "Oldham Athletic AFC"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19601",
+   "name": "Oldham Athletic A.F.C.",
+   "popularity": 46,
+   "qid": "Q19601"
+  },
+  {
+   "aliases": [
+    "Marseille",
+    "O Marseille",
+    "OM",
+    "Olympic Marseille",
+    "Olympic of Marseille",
+    "Olympique Marseille"
+   ],
+   "hint": "Club",
+   "id": "socc-Q132885",
+   "name": "Olympique de Marseille",
+   "popularity": 85,
+   "qid": "Q132885"
+  },
+  {
+   "aliases": [
+    "Lyon",
+    "O. Lyon",
+    "O. Lyonnais",
+    "O.L.",
+    "OL"
+   ],
+   "hint": "Club",
+   "id": "socc-Q704",
+   "name": "Olympique Lyonnais",
+   "popularity": 81,
+   "qid": "Q704"
+  },
+  {
+   "aliases": [
+    "Palermo FC",
+    "Palermo Football Club",
+    "Palermo Società Sportiva Dilettantistica",
+    "S.S.D. Palermo",
+    "Societa di Calcio Palermo",
+    "Società di Calcio Palermo",
+    "U.S. Città di Palermo",
+    "US Palermo"
+   ],
+   "hint": "Club",
+   "id": "socc-Q2674",
+   "name": "Palermo F.C.",
+   "popularity": 105,
+   "qid": "Q2674"
+  },
+  {
+   "aliases": [
+    "Panathinaikos Athlitikos Omilos"
+   ],
+   "hint": "Club",
+   "id": "socc-Q4122219",
+   "name": "Panathinaikos F.C.",
+   "popularity": 70,
+   "qid": "Q4122219"
+  },
+  {
+   "aliases": [
+    "PSG",
+    "PSGFC",
+    "Paris",
+    "Paris SG",
+    "Paris Saint Germain",
+    "Paris Saint-Germain F.C.",
+    "Paris Saint-Germain FC",
+    "Paris Saint-Germain Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q483020",
+   "name": "Paris Saint-Germain",
+   "popularity": 103,
+   "qid": "Q483020"
+  },
+  {
+   "aliases": [
+    "AC Parma",
+    "Crociati",
+    "Parma",
+    "Parma A.C.",
+    "Parma Associazione Calcio",
+    "Parma Associazione Sportiva",
+    "Parma F.C.",
+    "Parma FC",
+    "Parma Foot Ball Club",
+    "Parma Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q2693",
+   "name": "Parma Calcio 1913",
+   "popularity": 83,
+   "qid": "Q2693"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q845772",
+   "name": "Partizani Tirana",
+   "popularity": 46,
+   "qid": "Q845772"
+  },
+  {
+   "aliases": [
+    "FC Zwolle",
+    "PEC",
+    "PEC Zwolle '82"
+   ],
+   "hint": "Club",
+   "id": "socc-Q269151",
+   "name": "PEC Zwolle",
+   "popularity": 45,
+   "qid": "Q269151"
+  },
+  {
+   "aliases": [
+    "FC Persepolis",
+    "Persepolis",
+    "Persepolis FC",
+    "Persepolis Football Club",
+    "PersepolisFC"
+   ],
+   "hint": "Club",
+   "id": "socc-Q242260",
+   "name": "Persepolis F.C.",
+   "popularity": 87,
+   "qid": "Q242260"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q176371",
+   "name": "PFC CSKA Moscow",
+   "popularity": 76,
+   "qid": "Q176371"
+  },
+  {
+   "aliases": [
+    "CSKA Sofia"
+   ],
+   "hint": "Club",
+   "id": "socc-Q136433",
+   "name": "PFC CSKA Sofia",
+   "popularity": 50,
+   "qid": "Q136433"
+  },
+  {
+   "aliases": [
+    "Levski",
+    "PFC Levski"
+   ],
+   "hint": "Club",
+   "id": "socc-Q144190",
+   "name": "PFC Levski Sofia",
+   "popularity": 49,
+   "qid": "Q144190"
+  },
+  {
+   "aliases": [
+    "Ludogorets",
+    "Ludogorets Razgrad",
+    "P.F.C. Ludogorets 1945",
+    "PFC Ludogorets Razgrad"
+   ],
+   "hint": "Club",
+   "id": "socc-Q1339086",
+   "name": "PFC Ludogorets 1945",
+   "popularity": 55,
+   "qid": "Q1339086"
+  },
+  {
+   "aliases": [
+    "Gliwicki Klub Sportowy Piast Gliwice"
+   ],
+   "hint": "Club",
+   "id": "socc-Q668112",
+   "name": "Piast Gliwice",
+   "popularity": 45,
+   "qid": "Q668112"
+  },
+  {
+   "aliases": [
+    "FC Portland Timbers",
+    "Football Club Portland Timbers",
+    "Portland Timbers FC",
+    "Portland Timbers Football Club",
+    "Portland Timbers Soccer",
+    "Portland Timbers Soccer Club",
+    "Soccer Club Portland Timbers",
+    "Soccer Club of Portland Timbers",
+    "The Timbers",
+    "Timbers"
+   ],
+   "hint": "Club",
+   "id": "socc-Q1031200",
+   "name": "Portland Timbers",
+   "popularity": 45,
+   "qid": "Q1031200"
+  },
+  {
+   "aliases": [
+    "PFC",
+    "Pompey",
+    "Portsmouth",
+    "Portsmouth FC",
+    "Portsmouth Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19604",
+   "name": "Portsmouth F.C.",
+   "popularity": 61,
+   "qid": "Q19604"
+  },
+  {
+   "aliases": [
+    "PNEFC",
+    "Preston",
+    "Preston North End",
+    "Preston North End FC",
+    "Preston North End Football Club",
+    "The Lilywhites"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19612",
+   "name": "Preston North End F.C.",
+   "popularity": 54,
+   "qid": "Q19612"
+  },
+  {
+   "aliases": [
+    "Eindhoven Football Club",
+    "PSV",
+    "Philips Sport Vereniging"
+   ],
+   "hint": "Club",
+   "id": "socc-Q11938",
+   "name": "PSV Eindhoven",
+   "popularity": 84,
+   "qid": "Q11938"
+  },
+  {
+   "aliases": [
+    "FC Qarabagh",
+    "FK Qarabağ",
+    "Qarabagh",
+    "Qarabagh FC",
+    "Qarabagh Football Club",
+    "Qarabağ",
+    "Qarabağ Futbol Klubu",
+    "The Barcelona of the Caucasus",
+    "The Horsemen"
+   ],
+   "hint": "Club",
+   "id": "socc-Q723476",
+   "name": "Qarabağ FK",
+   "popularity": 59,
+   "qid": "Q723476"
+  },
+  {
+   "aliases": [
+    "QPRFC",
+    "Queens Park Rangers",
+    "Queens Park Rangers FC",
+    "Queens Park Rangers Football Club",
+    "The Hoops",
+    "The Rs"
+   ],
+   "hint": "Club",
+   "id": "socc-Q18723",
+   "name": "Queens Park Rangers F.C.",
+   "popularity": 70,
+   "qid": "Q18723"
+  },
+  {
+   "aliases": [
+    "Lens",
+    "RC Lens",
+    "Racing Club de Lens"
+   ],
+   "hint": "Club",
+   "id": "socc-Q191843",
+   "name": "R.C. Lens",
+   "popularity": 60,
+   "qid": "Q191843"
+  },
+  {
+   "aliases": [
+    "Anderlecht",
+    "RSC Anderlecht",
+    "RSCA",
+    "Royal Sporting Club Anderlecht"
+   ],
+   "hint": "Club",
+   "id": "socc-Q187528",
+   "name": "R.S.C. Anderlecht",
+   "popularity": 71,
+   "qid": "Q187528"
+  },
+  {
+   "aliases": [
+    "Racing Avellaneda",
+    "Racing Club Avellaneda",
+    "Racing Club de Avellaneda"
+   ],
+   "hint": "Club",
+   "id": "socc-Q276533",
+   "name": "Racing Club",
+   "popularity": 55,
+   "qid": "Q276533"
+  },
+  {
+   "aliases": [
+    "Racing Club de Santander",
+    "Racing Santander",
+    "Real Racing Club",
+    "Real Racing Club de Santander",
+    "Real Racing Club de Santander, S.A.D.",
+    "Real Santander SD"
+   ],
+   "hint": "Club",
+   "id": "socc-Q12236",
+   "name": "Racing de Santander",
+   "popularity": 60,
+   "qid": "Q12236"
+  },
+  {
+   "aliases": [
+    "Glasgow Rangers",
+    "RFC",
+    "Rangers",
+    "Rangers FC",
+    "Rangers Football Club",
+    "The Gers"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19597",
+   "name": "Rangers F.C.",
+   "popularity": 80,
+   "qid": "Q19597"
+  },
+  {
+   "aliases": [
+    "Rayo",
+    "Rayo Football",
+    "Rayo Vallecano de Madrid",
+    "Rayo Vellecano Football",
+    "Rayo Vellecano Soccer Club",
+    "Vallecano"
+   ],
+   "hint": "Club",
+   "id": "socc-Q10300",
+   "name": "Rayo Vallecano",
+   "popularity": 70,
+   "qid": "Q10300"
+  },
+  {
+   "aliases": [
+    "Die Roten Bullen",
+    "RasenBallsport Leipzig e.V.",
+    "The Red Bulls"
+   ],
+   "hint": "Club",
+   "id": "socc-Q702455",
+   "name": "RB Leipzig",
+   "popularity": 73,
+   "qid": "Q702455"
+  },
+  {
+   "aliases": [
+    "Celta",
+    "Celta Vigo",
+    "R.C. Celta de Vigo",
+    "RC Celta",
+    "RCCV",
+    "Real Club Celta",
+    "Real Club Celta S.A.D."
+   ],
+   "hint": "Club",
+   "id": "socc-Q8749",
+   "name": "RC Celta de Vigo",
+   "popularity": 72,
+   "qid": "Q8749"
+  },
+  {
+   "aliases": [
+    "RCSA",
+    "Racing",
+    "Racing Club de Strasbourg",
+    "Racing Club de Strasbourg Alsace",
+    "Racing Strasbourg",
+    "Strasbourg"
+   ],
+   "hint": "Club",
+   "id": "socc-Q126334",
+   "name": "RC Strasbourg Alsace",
+   "popularity": 59,
+   "qid": "Q126334"
+  },
+  {
+   "aliases": [
+    "Espanyol",
+    "Espanyol Barcelona",
+    "Espanyol of Barcelona",
+    "R.C.D. Espanyol",
+    "R.C.D. Espanyol de Barcelona",
+    "R.C.D. Espanyol of Barcelona",
+    "RCD Espanyol",
+    "RCD Espanyol of Barcelona",
+    "RCDE"
+   ],
+   "hint": "Club",
+   "id": "socc-Q8780",
+   "name": "RCD Espanyol de Barcelona",
+   "popularity": 82,
+   "qid": "Q8780"
+  },
+  {
+   "aliases": [
+    "Mallorca",
+    "R.C.D. Mallorca",
+    "Real Club Deportivo Mallorca"
+   ],
+   "hint": "Club",
+   "id": "socc-Q8835",
+   "name": "RCD Mallorca",
+   "popularity": 70,
+   "qid": "Q8835"
+  },
+  {
+   "aliases": [
+    "RFC",
+    "Reading",
+    "Reading FC",
+    "Reading Football Club",
+    "The Royals"
+   ],
+   "hint": "Club",
+   "id": "socc-Q18729",
+   "name": "Reading F.C.",
+   "popularity": 68,
+   "qid": "Q18729"
+  },
+  {
+   "aliases": [
+    "Beticos, verdiblancos",
+    "Betis",
+    "Real Betis",
+    "Real Betis Balompié S.A.D.",
+    "Real Betis Soccer",
+    "Real Betis football",
+    "balompédicos"
+   ],
+   "hint": "Club",
+   "id": "socc-Q8723",
+   "name": "Real Betis Balompié",
+   "popularity": 77,
+   "qid": "Q8723"
+  },
+  {
+   "aliases": [
+    "Madrid FC",
+    "Madrid Football Club",
+    "RMCF",
+    "Real FC",
+    "Real Football Club",
+    "Real Madrid C.F.",
+    "Real Madrid Club de Fútbol",
+    "Real Madrid Club of Football",
+    "Real Madrid Football Club",
+    "Royal Madrid",
+    "Royal Madrid Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q8682",
+   "name": "Real Madrid",
+   "popularity": 153,
+   "qid": "Q8682"
+  },
+  {
+   "aliases": [
+    "Real Oviedo S.A.D."
+   ],
+   "hint": "Club",
+   "id": "socc-Q271574",
+   "name": "Real Oviedo",
+   "popularity": 53,
+   "qid": "Q271574"
+  },
+  {
+   "aliases": [
+    "Donostia Football Club",
+    "Real Sociedad de Futbol",
+    "Real Sociedad de Fútbol",
+    "Real Sociedad de Fútbol, S.A.D.",
+    "San Sebastian Foot-Ball Club",
+    "San Sebastián Foot-Ball Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q10315",
+   "name": "Real Sociedad",
+   "popularity": 80,
+   "qid": "Q10315"
+  },
+  {
+   "aliases": [
+    "Real Valladolid Club",
+    "Real Valladolid Club de Fútbol, S.A.D",
+    "Real Valladolid Football",
+    "Real Valladolid Soccer",
+    "Valladolid"
+   ],
+   "hint": "Club",
+   "id": "socc-Q10319",
+   "name": "Real Valladolid",
+   "popularity": 65,
+   "qid": "Q10319"
+  },
+  {
+   "aliases": [
+    "R. Zaragoza",
+    "Real Zaragoza S.A.D.",
+    "Real Zaragoza SAD"
+   ],
+   "hint": "Club",
+   "id": "socc-Q10308",
+   "name": "Real Zaragoza",
+   "popularity": 66,
+   "qid": "Q10308"
+  },
+  {
+   "aliases": [
+    "R.C.D. Huelva"
+   ],
+   "hint": "Club",
+   "id": "socc-Q12249",
+   "name": "Recreativo de Huelva",
+   "popularity": 45,
+   "qid": "Q12249"
+  },
+  {
+   "aliases": [
+    "MetroStars",
+    "NY Red Bulls",
+    "NY/NJ MetroStars",
+    "NYRB",
+    "New York Red Bulls",
+    "New York/New Jersey MetroStars",
+    "RBNY",
+    "Red Bull NY",
+    "Red Bulls"
+   ],
+   "hint": "Club",
+   "id": "socc-Q204220",
+   "name": "Red Bull New York",
+   "popularity": 55,
+   "qid": "Q204220"
+  },
+  {
+   "aliases": [
+    "Rooms Katholieke Combinatie Waalwijk"
+   ],
+   "hint": "Club",
+   "id": "socc-Q24699",
+   "name": "RKC Waalwijk",
+   "popularity": 45,
+   "qid": "Q24699"
+  },
+  {
+   "aliases": [
+    "Rosenborg"
+   ],
+   "hint": "Club",
+   "id": "socc-Q186785",
+   "name": "Rosenborg BK",
+   "popularity": 62,
+   "qid": "Q186785"
+  },
+  {
+   "aliases": [
+    "Antwerp F.C.",
+    "Antwerp FC",
+    "Royal Antwerp",
+    "Royal Antwerp FC"
+   ],
+   "hint": "Club",
+   "id": "socc-Q732002",
+   "name": "Royal Antwerp F.C.",
+   "popularity": 48,
+   "qid": "Q732002"
+  },
+  {
+   "aliases": [
+    "R. Union Saint-Gilloise",
+    "R. Union St.-Gilloise",
+    "Royale Union St.-Gilloise",
+    "Union Saint-Gilloise",
+    "Union St.-Gilloise"
+   ],
+   "hint": "Club",
+   "id": "socc-Q196160",
+   "name": "Royale Union Saint-Gilloise",
+   "popularity": 45,
+   "qid": "Q196160"
+  },
+  {
+   "aliases": [
+    "FC Rubin Kazan"
+   ],
+   "hint": "Club",
+   "id": "socc-Q170040",
+   "name": "Rubin Kazan",
+   "popularity": 70,
+   "qid": "Q170040"
+  },
+  {
+   "aliases": [
+    "Ruch Chorzow"
+   ],
+   "hint": "Club",
+   "id": "socc-Q301726",
+   "name": "Ruch Chorzów",
+   "popularity": 46,
+   "qid": "Q301726"
+  },
+  {
+   "aliases": [
+    "SC Braga",
+    "Sp. Braga",
+    "Sporting Braga",
+    "Sporting Clube de Braga",
+    "Sporting de Braga"
+   ],
+   "hint": "Club",
+   "id": "socc-Q75684",
+   "name": "S.C. Braga",
+   "popularity": 67,
+   "qid": "Q75684"
+  },
+  {
+   "aliases": [
+    "Corinthians",
+    "Corinthians Paulista",
+    "SCCP",
+    "Sport Club Corinthians Paulista"
+   ],
+   "hint": "Club",
+   "id": "socc-Q35933",
+   "name": "S.C. Corinthians Paulista",
+   "popularity": 104,
+   "qid": "Q35933"
+  },
+  {
+   "aliases": [
+    "Internacional",
+    "Internacional Porto Alegre",
+    "S.C.I",
+    "S.C.I 1909",
+    "SC Internacional",
+    "SC Internacional Porto Alegre",
+    "SCI",
+    "SCI 1909",
+    "Sport Club Internacional"
+   ],
+   "hint": "Club",
+   "id": "socc-Q80845",
+   "name": "S.C. Internacional",
+   "popularity": 61,
+   "qid": "Q80845"
+  },
+  {
+   "aliases": [
+    "Benfica",
+    "SL Benfica",
+    "SLB",
+    "Sport Lisboa e Benfica"
+   ],
+   "hint": "Club",
+   "id": "socc-Q131499",
+   "name": "S.L. Benfica",
+   "popularity": 92,
+   "qid": "Q131499"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q630279",
+   "name": "Sanfrecce Hiroshima",
+   "popularity": 45,
+   "qid": "Q630279"
+  },
+  {
+   "aliases": [
+    "Santos FC",
+    "Santos Futebol Clube"
+   ],
+   "hint": "Club",
+   "id": "socc-Q80955",
+   "name": "Santos F.C.",
+   "popularity": 75,
+   "qid": "Q80955"
+  },
+  {
+   "aliases": [
+    "SBV Vitesse Arnhem",
+    "Stichting Betaald Voetbal Vitesse",
+    "Vitesse",
+    "Vitesse Arnhem"
+   ],
+   "hint": "Club",
+   "id": "socc-Q219233",
+   "name": "SBV Vitesse",
+   "popularity": 55,
+   "qid": "Q219233"
+  },
+  {
+   "aliases": [
+    "Bastia",
+    "Sporting Club Bastiais",
+    "Sporting Club de Bastia"
+   ],
+   "hint": "Club",
+   "id": "socc-Q208399",
+   "name": "SC Bastia",
+   "popularity": 49,
+   "qid": "Q208399"
+  },
+  {
+   "aliases": [
+    "Die Breisgau-Brasilianer",
+    "S.C. Freiburg",
+    "Sport Club Freiburg",
+    "Sport-Club Freiburg e.V.",
+    "The Breisgau Brazilians"
+   ],
+   "hint": "Club",
+   "id": "socc-Q106394",
+   "name": "SC Freiburg",
+   "popularity": 73,
+   "qid": "Q106394"
+  },
+  {
+   "aliases": [
+    "Sportclub Heerenveen"
+   ],
+   "hint": "Club",
+   "id": "socc-Q200321",
+   "name": "SC Heerenveen",
+   "popularity": 55,
+   "qid": "Q200321"
+  },
+  {
+   "aliases": [
+    "Die Ostwestfalen",
+    "Paderborn 07",
+    "SCP 07",
+    "Sport-Club Paderborn 07 e.V."
+   ],
+   "hint": "Club",
+   "id": "socc-Q160532",
+   "name": "SC Paderborn 07",
+   "popularity": 56,
+   "qid": "Q160532"
+  },
+  {
+   "aliases": [
+    "F.C. Schalke 04",
+    "FC Gelsenkirchen-Schalke 04",
+    "FC Schalke 04",
+    "S04",
+    "Schalke 0",
+    "Schalke04"
+   ],
+   "hint": "Club",
+   "id": "socc-Q32494",
+   "name": "Schalke 04",
+   "popularity": 88,
+   "qid": "Q32494"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q929753",
+   "name": "SD Compostela",
+   "popularity": 64,
+   "qid": "Q929753"
+  },
+  {
+   "aliases": [
+    "Eibar Football Club",
+    "Eibar Soccer Team",
+    "SD Eibar Club",
+    "SD Eibar Soccer",
+    "Sociedad Deportiva Eibar, S.A.D."
+   ],
+   "hint": "Club",
+   "id": "socc-Q770740",
+   "name": "SD Eibar",
+   "popularity": 58,
+   "qid": "Q770740"
+  },
+  {
+   "aliases": [
+    "Seattle Sounders",
+    "Seattle Sounders Football Club",
+    "Sounders FC",
+    "Sounders Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q632511",
+   "name": "Seattle Sounders FC",
+   "popularity": 49,
+   "qid": "Q632511"
+  },
+  {
+   "aliases": [
+    "Servette",
+    "Servette F.C.",
+    "Servette Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q219235",
+   "name": "Servette FC",
+   "popularity": 46,
+   "qid": "Q219235"
+  },
+  {
+   "aliases": [
+    "S.F.C.",
+    "SFC",
+    "Sevilla",
+    "Sevilla F.C.",
+    "Sevilla Football Club",
+    "Sevilla Futbol Club",
+    "Sevilla Fútbol Club",
+    "SevillaF.C.",
+    "SevillaFC"
+   ],
+   "hint": "Club",
+   "id": "socc-Q10329",
+   "name": "Sevilla FC",
+   "popularity": 87,
+   "qid": "Q10329"
+  },
+  {
+   "aliases": [
+    "Shamrock Rovers Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q203976",
+   "name": "Shamrock Rovers F.C.",
+   "popularity": 56,
+   "qid": "Q203976"
+  },
+  {
+   "aliases": [
+    "SUFC",
+    "Sheff Utd",
+    "Sheff. Utd.",
+    "Sheffield United",
+    "Sheffield United FC",
+    "Sheffield United Football Club",
+    "The Blades",
+    "United"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19607",
+   "name": "Sheffield United F.C.",
+   "popularity": 68,
+   "qid": "Q19607"
+  },
+  {
+   "aliases": [
+    "SWFC",
+    "Sheff Wed",
+    "Sheffield Wednesday",
+    "Sheffield Wednesday FC",
+    "Sheffield Wednesday Football Club",
+    "The Owls",
+    "Wednesday"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19498",
+   "name": "Sheffield Wednesday F.C.",
+   "popularity": 54,
+   "qid": "Q19498"
+  },
+  {
+   "aliases": [
+    "A.C. Siena",
+    "AC Siena",
+    "ACR Siena 1904",
+    "Associazione Calcio Siena",
+    "Robur Siena",
+    "Siena 1904",
+    "Siena F.C.",
+    "Siena Football Club",
+    "Siena Robur 1904"
+   ],
+   "hint": "Club",
+   "id": "socc-Q2756",
+   "name": "Siena FC",
+   "popularity": 51,
+   "qid": "Q2756"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q372599",
+   "name": "Sivasspor",
+   "popularity": 48,
+   "qid": "Q372599"
+  },
+  {
+   "aliases": [
+    "Brann Bergen",
+    "Brann, SK",
+    "Sportsklubben Brann"
+   ],
+   "hint": "Club",
+   "id": "socc-Q205685",
+   "name": "SK Brann",
+   "popularity": 52,
+   "qid": "Q205685"
+  },
+  {
+   "aliases": [
+    "Rapid Vienna",
+    "Rapid Wien",
+    "Sportklub Rapid Wien"
+   ],
+   "hint": "Club",
+   "id": "socc-Q131215",
+   "name": "SK Rapid Wien",
+   "popularity": 61,
+   "qid": "Q131215"
+  },
+  {
+   "aliases": [
+    "S.K. Slavia Prague",
+    "Slavia Prague",
+    "Slavia Prague FC",
+    "Slavia Prague Football",
+    "Slavia Praha",
+    "SlaviaPrague"
+   ],
+   "hint": "Club",
+   "id": "socc-Q194393",
+   "name": "SK Slavia Prague",
+   "popularity": 57,
+   "qid": "Q194393"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q124007617",
+   "name": "SK Sturm Graz",
+   "popularity": 52,
+   "qid": "Q124007617"
+  },
+  {
+   "aliases": [
+    "Huesca Football Club",
+    "SD Huesca Football",
+    "SD Huesca Soccer",
+    "Sociedad Deportiva Huesca, S.A.D."
+   ],
+   "hint": "Club",
+   "id": "socc-Q11971",
+   "name": "Sociedad Deportiva Huesca",
+   "popularity": 49,
+   "qid": "Q11971"
+  },
+  {
+   "aliases": [
+    "SE Palmeiras"
+   ],
+   "hint": "Club",
+   "id": "socc-Q80964",
+   "name": "Sociedade Esportiva Palmeiras",
+   "popularity": 76,
+   "qid": "Q80964"
+  },
+  {
+   "aliases": [
+    "S.F.C.",
+    "SFC",
+    "Southampton",
+    "Southampton FC",
+    "Southampton Football Club",
+    "SouthamptonFC"
+   ],
+   "hint": "Club",
+   "id": "socc-Q18732",
+   "name": "Southampton F.C.",
+   "popularity": 84,
+   "qid": "Q18732"
+  },
+  {
+   "aliases": [
+    "Sparta"
+   ],
+   "hint": "Club",
+   "id": "socc-Q209895",
+   "name": "Sparta Rotterdam",
+   "popularity": 55,
+   "qid": "Q209895"
+  },
+  {
+   "aliases": [
+    "FC Spartak Moscow"
+   ],
+   "hint": "Club",
+   "id": "socc-Q29112",
+   "name": "Spartak Moscow",
+   "popularity": 71,
+   "qid": "Q29112"
+  },
+  {
+   "aliases": [
+    "A.C. Spezia",
+    "AC Spezia",
+    "Foot-Ball Club Spezia",
+    "Spezia Calcio 1906"
+   ],
+   "hint": "Club",
+   "id": "socc-Q8615",
+   "name": "Spezia Calcio",
+   "popularity": 57,
+   "qid": "Q8615"
+  },
+  {
+   "aliases": [
+    "SCP",
+    "Sporting Club Portugal",
+    "Sporting Lisbon",
+    "Sporting Portugal"
+   ],
+   "hint": "Club",
+   "id": "socc-Q75729",
+   "name": "Sporting CP",
+   "popularity": 82,
+   "qid": "Q75729"
+  },
+  {
+   "aliases": [
+    "Los Rojiblancos",
+    "Real Sporting",
+    "Real Sporting de Gijon",
+    "Real Sporting de Gijon, S.A.D.",
+    "Real Sporting de Gijón",
+    "Real Sporting de Gijón, S.A.D.",
+    "Rojiblancos",
+    "Sporting",
+    "Sporting Gijon",
+    "Sporting Gijón",
+    "Sporting de Gijon"
+   ],
+   "hint": "Club",
+   "id": "socc-Q12278",
+   "name": "Sporting de Gijón",
+   "popularity": 64,
+   "qid": "Q12278"
+  },
+  {
+   "aliases": [
+    "Greuther",
+    "Greuther Furth",
+    "Greuther Fürth",
+    "SGF"
+   ],
+   "hint": "Club",
+   "id": "socc-Q153539",
+   "name": "SpVgg Greuther Fürth",
+   "popularity": 53,
+   "qid": "Q153539"
+  },
+  {
+   "aliases": [
+    "Lazio Calcio",
+    "Lazio Sport Society",
+    "Lazio Sports Society",
+    "S.S. Lazio",
+    "S.S.L.",
+    "S.S.Lazio",
+    "SSL",
+    "SSLazio",
+    "Societa Sportiva Lazio",
+    "Società Sportiva Lazio",
+    "Sport Society Lazio",
+    "Sports Society Lazio"
+   ],
+   "hint": "Club",
+   "id": "socc-Q2609",
+   "name": "SS Lazio",
+   "popularity": 100,
+   "qid": "Q2609"
+  },
+  {
+   "aliases": [
+    "A.S. Bari",
+    "AS Bari",
+    "Bari Calcio",
+    "F.C. Bari",
+    "FC Bari",
+    "Football Club Bari",
+    "S.S.C. Bari",
+    "Società Sportiva Calcio Bari"
+   ],
+   "hint": "Club",
+   "id": "socc-Q6641",
+   "name": "SSC Bari",
+   "popularity": 49,
+   "qid": "Q6641"
+  },
+  {
+   "aliases": [
+    "Napoli",
+    "S.S.C. Napoli",
+    "S.S.C.N.",
+    "SSC Naples",
+    "SSCN",
+    "Societa Sportiva Calcio Napoli",
+    "Società Sportiva Calcio Napoli"
+   ],
+   "hint": "Club",
+   "id": "socc-Q2641",
+   "name": "SSC Napoli",
+   "popularity": 118,
+   "qid": "Q2641"
+  },
+  {
+   "aliases": [
+    "Saint Mirren Football Club",
+    "St Mirren",
+    "St Mirren F.C.",
+    "St Mirren FC",
+    "St. Mirren",
+    "St. Mirren FC",
+    "St. Mirren Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q319136",
+   "name": "St. Mirren F.C.",
+   "popularity": 47,
+   "qid": "Q319136"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q218372",
+   "name": "Stade Brestois 29",
+   "popularity": 55,
+   "qid": "Q218372"
+  },
+  {
+   "aliases": [
+    "Stade Reims",
+    "club creado por coquelin"
+   ],
+   "hint": "Club",
+   "id": "socc-Q208228",
+   "name": "Stade de Reims",
+   "popularity": 59,
+   "qid": "Q208228"
+  },
+  {
+   "aliases": [
+    "S.M. Caen",
+    "SM Caen",
+    "Stade Malherbe de Caen"
+   ],
+   "hint": "Club",
+   "id": "socc-Q193377",
+   "name": "Stade Malherbe Caen",
+   "popularity": 48,
+   "qid": "Q193377"
+  },
+  {
+   "aliases": [
+    "Rennais",
+    "Rennes",
+    "SRFC",
+    "Stade Rennais",
+    "Stade Rennais FC",
+    "Stade Rennais Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19509",
+   "name": "Stade Rennais F.C.",
+   "popularity": 61,
+   "qid": "Q19509"
+  },
+  {
+   "aliases": [
+    "Royal Standard Club de Liege",
+    "Royal Standard Club de Liège",
+    "Standard Liege"
+   ],
+   "hint": "Club",
+   "id": "socc-Q190561",
+   "name": "Standard Liège",
+   "popularity": 65,
+   "qid": "Q190561"
+  },
+  {
+   "aliases": [
+    "City",
+    "SCFC",
+    "Stoke",
+    "Stoke City",
+    "Stoke City FC",
+    "Stoke City Football Club",
+    "The Potters"
+   ],
+   "hint": "Club",
+   "id": "socc-Q18736",
+   "name": "Stoke City F.C.",
+   "popularity": 74,
+   "qid": "Q18736"
+  },
+  {
+   "aliases": [
+    "SAFC",
+    "Sunderland",
+    "Sunderland AFC",
+    "Sunderland Association Football Club",
+    "The Black Cats"
+   ],
+   "hint": "Club",
+   "id": "socc-Q18739",
+   "name": "Sunderland A.F.C.",
+   "popularity": 81,
+   "qid": "Q18739"
+  },
+  {
+   "aliases": [
+    "Austria Salzburg",
+    "SV Salzburg"
+   ],
+   "hint": "Club",
+   "id": "socc-Q22866",
+   "name": "SV Austria Salzburg",
+   "popularity": 47,
+   "qid": "Q22866"
+  },
+  {
+   "aliases": [
+    "S.V. Darmstadt 98"
+   ],
+   "hint": "Club",
+   "id": "socc-Q479351",
+   "name": "SV Darmstadt 98",
+   "popularity": 51,
+   "qid": "Q479351"
+  },
+  {
+   "aliases": [
+    "Die Grün-Weißen",
+    "Die Werderaner",
+    "The Green-Whites",
+    "Werder",
+    "Werder Bremen"
+   ],
+   "hint": "Club",
+   "id": "socc-Q51976",
+   "name": "SV Werder Bremen",
+   "popularity": 83,
+   "qid": "Q51976"
+  },
+  {
+   "aliases": [
+    "City",
+    "SCAFC",
+    "Swansea",
+    "Swansea City",
+    "Swansea City AFC",
+    "Swansea City Association Football Club",
+    "The Jacks",
+    "The Swans"
+   ],
+   "hint": "Club",
+   "id": "socc-Q18659",
+   "name": "Swansea City A.F.C.",
+   "popularity": 80,
+   "qid": "Q18659"
+  },
+  {
+   "aliases": [
+    "STFC",
+    "Swindon",
+    "Swindon Town",
+    "Swindon Town FC",
+    "Swindon Town Football Club",
+    "The Robins",
+    "Town"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19634",
+   "name": "Swindon Town F.C.",
+   "popularity": 46,
+   "qid": "Q19634"
+  },
+  {
+   "aliases": [
+    "SFC",
+    "Sydney F.C.",
+    "Sydney Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q330143",
+   "name": "Sydney FC",
+   "popularity": 53,
+   "qid": "Q330143"
+  },
+  {
+   "aliases": [
+    "São Paulo Futebol Clube"
+   ],
+   "hint": "Club",
+   "id": "socc-Q38568",
+   "name": "São Paulo FC",
+   "popularity": 95,
+   "qid": "Q38568"
+  },
+  {
+   "aliases": [
+    "TNS",
+    "TNSFC",
+    "The New Saints",
+    "The New Saints FC",
+    "The Saints"
+   ],
+   "hint": "Club",
+   "id": "socc-Q390183",
+   "name": "The New Saints F.C.",
+   "popularity": 48,
+   "qid": "Q390183"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q849823",
+   "name": "Tigres UANL",
+   "popularity": 46,
+   "qid": "Q849823"
+  },
+  {
+   "aliases": [
+    "Torino",
+    "Torino F.C.",
+    "Torino Football Club",
+    "TorinoF.C.",
+    "TorinoFC",
+    "Turin F.C.",
+    "Turin FC",
+    "Turin Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q2768",
+   "name": "Torino FC",
+   "popularity": 84,
+   "qid": "Q2768"
+  },
+  {
+   "aliases": [
+    "Hotspur",
+    "Spurs",
+    "THFC",
+    "The Lilywhites",
+    "Tottenham",
+    "Tottenham Hotspur F.C.",
+    "Tottenham Hotspur FC",
+    "Tottenham Hotspur Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q18741",
+   "name": "Tottenham Hotspur",
+   "popularity": 102,
+   "qid": "Q18741"
+  },
+  {
+   "aliases": [
+    "TFC",
+    "Toulouse",
+    "Toulouse F.C.",
+    "Toulouse Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19518",
+   "name": "Toulouse FC",
+   "popularity": 56,
+   "qid": "Q19518"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q192641",
+   "name": "Trabzonspor",
+   "popularity": 62,
+   "qid": "Q192641"
+  },
+  {
+   "aliases": [
+    "1899 Hoffenheim",
+    "1899 Hoffenheim II",
+    "Die Kraichgauer",
+    "Hoffenheim",
+    "TSG Hoffenheim",
+    "TSG Hoffenheim II"
+   ],
+   "hint": "Club",
+   "id": "socc-Q22707",
+   "name": "TSG 1899 Hoffenheim",
+   "popularity": 75,
+   "qid": "Q22707"
+  },
+  {
+   "aliases": [
+    "1860 Munich"
+   ],
+   "hint": "Club",
+   "id": "socc-Q131603",
+   "name": "TSV 1860 München",
+   "popularity": 58,
+   "qid": "Q131603"
+  },
+  {
+   "aliases": [
+    "Samp",
+    "Sampdoria Football Union",
+    "Sampdoria of Genoa",
+    "UC Sampdoria",
+    "UCS",
+    "UCS 1946"
+   ],
+   "hint": "Club",
+   "id": "socc-Q1457",
+   "name": "U.C. Sampdoria",
+   "popularity": 84,
+   "qid": "Q1457"
+  },
+  {
+   "aliases": [
+    "Salernitana FC",
+    "Salernitana Football Club",
+    "Salernitana Sports Union 1919",
+    "USS1919",
+    "Unione Sportiva Salernitana 1919 S.r.l."
+   ],
+   "hint": "Club",
+   "id": "socc-Q847587",
+   "name": "U.S. Salernitana 1919",
+   "popularity": 48,
+   "qid": "Q847587"
+  },
+  {
+   "aliases": [
+    "Las Palmas",
+    "Unión Deportiva Las Palmas"
+   ],
+   "hint": "Club",
+   "id": "socc-Q11979",
+   "name": "UD Las Palmas",
+   "popularity": 60,
+   "qid": "Q11979"
+  },
+  {
+   "aliases": [
+    "First Bianconeri of Italy",
+    "Udinese FC",
+    "Udinese Football",
+    "Udinese Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q2798",
+   "name": "Udinese Calcio",
+   "popularity": 79,
+   "qid": "Q2798"
+  },
+  {
+   "aliases": [
+    "U.D. Almeria",
+    "U.D. Almería"
+   ],
+   "hint": "Club",
+   "id": "socc-Q10407",
+   "name": "Unión Deportiva Almería",
+   "popularity": 60,
+   "qid": "Q10407"
+  },
+  {
+   "aliases": [
+    "Urawa Reds"
+   ],
+   "hint": "Club",
+   "id": "socc-Q218883",
+   "name": "Urawa Red Diamonds",
+   "popularity": 49,
+   "qid": "Q218883"
+  },
+  {
+   "aliases": [
+    "Unione Sportiva Cremonese"
+   ],
+   "hint": "Club",
+   "id": "socc-Q759482",
+   "name": "US Cremonese",
+   "popularity": 47,
+   "qid": "Q759482"
+  },
+  {
+   "aliases": [
+    "Lecce",
+    "Lecce Sports Union",
+    "U.S. Lecce",
+    "U.S.L.",
+    "U.S.Lecce",
+    "USLecce",
+    "Unione Sportiva Lecce"
+   ],
+   "hint": "Club",
+   "id": "socc-Q13391",
+   "name": "US Lecce",
+   "popularity": 60,
+   "qid": "Q13391"
+  },
+  {
+   "aliases": [
+    "U.S. Livorno",
+    "U.S. Livorno 1915",
+    "U.S.L 1915",
+    "US Livorno",
+    "USL 1915",
+    "Unione Sportiva Livorno 1915"
+   ],
+   "hint": "Club",
+   "id": "socc-Q6767",
+   "name": "US Livorno 1915",
+   "popularity": 52,
+   "qid": "Q6767"
+  },
+  {
+   "aliases": [
+    "Sassuolo",
+    "Sassuolo Calcio",
+    "U.S. Sassuolo Calcio",
+    "Unione Sportiva Sassuolo Calcio"
+   ],
+   "hint": "Club",
+   "id": "socc-Q8603",
+   "name": "US Sassuolo Calcio",
+   "popularity": 70,
+   "qid": "Q8603"
+  },
+  {
+   "aliases": [
+    "V.C.F.",
+    "VCF",
+    "Valencia",
+    "Valencia C.F.",
+    "Valencia Club de Futbol",
+    "Valencia Club de Fútbol",
+    "Valencia Club de Fútbol team",
+    "Valencia Club of Football",
+    "Valencia Football Club",
+    "ValenciaC.F.",
+    "ValenciaCF"
+   ],
+   "hint": "Club",
+   "id": "socc-Q10333",
+   "name": "Valencia CF",
+   "popularity": 93,
+   "qid": "Q10333"
+  },
+  {
+   "aliases": [
+    "Valletta Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q331589",
+   "name": "Valletta F.C.",
+   "popularity": 46,
+   "qid": "Q331589"
+  },
+  {
+   "aliases": [
+    "Arancioneroverdi",
+    "VFC",
+    "Venezia FC",
+    "Venezia Football Club",
+    "VeneziaMestre",
+    "VeneziaMestre FC",
+    "Venice FC",
+    "Venice Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q501245",
+   "name": "Venezia F.C.",
+   "popularity": 55,
+   "qid": "Q501245"
+  },
+  {
+   "aliases": [
+    "Die Schwaben",
+    "The Swabians"
+   ],
+   "hint": "Club",
+   "id": "socc-Q4512",
+   "name": "VfB Stuttgart",
+   "popularity": 87,
+   "qid": "Q4512"
+  },
+  {
+   "aliases": [
+    "Die Unabsteigbaren",
+    "The Unrelegatables",
+    "VfL Bochum 1848"
+   ],
+   "hint": "Club",
+   "id": "socc-Q105861",
+   "name": "VfL Bochum",
+   "popularity": 59,
+   "qid": "Q105861"
+  },
+  {
+   "aliases": [
+    "Die Wölfe",
+    "The Wolves",
+    "Wolfsburg"
+   ],
+   "hint": "Club",
+   "id": "socc-Q101859",
+   "name": "VfL Wolfsburg",
+   "popularity": 81,
+   "qid": "Q101859"
+  },
+  {
+   "aliases": [
+    "MOL Vidi",
+    "MOL Vidi FC",
+    "MOL Vidi Football Club",
+    "Videoton FC",
+    "Vidi",
+    "Vidi FC"
+   ],
+   "hint": "Club",
+   "id": "socc-Q326811",
+   "name": "Videoton FC Fehérvár",
+   "popularity": 47,
+   "qid": "Q326811"
+  },
+  {
+   "aliases": [
+    "Viking Fotballklubb"
+   ],
+   "hint": "Club",
+   "id": "socc-Q211177",
+   "name": "Viking FK",
+   "popularity": 47,
+   "qid": "Q211177"
+  },
+  {
+   "aliases": [
+    "VCF",
+    "Villarreal",
+    "Villarreal 1923",
+    "Villarreal C.F.",
+    "Villarreal CF 1923",
+    "Villarreal Club Football",
+    "Villarreal Club de Futbol",
+    "Villarreal Club de Fútbol 1923",
+    "Villarreal Club de Fútbol, S.A.D.",
+    "Villarreal Club of Football"
+   ],
+   "hint": "Club",
+   "id": "socc-Q12297",
+   "name": "Villarreal CF",
+   "popularity": 81,
+   "qid": "Q12297"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q844271",
+   "name": "Vissel Kobe",
+   "popularity": 50,
+   "qid": "Q844271"
+  },
+  {
+   "aliases": [
+    "Vitoria F.C.",
+    "Vitoria Futebol Clube",
+    "Vitoria de Setubal",
+    "Vitória Futebol Clube",
+    "Vitória de Setúbal"
+   ],
+   "hint": "Club",
+   "id": "socc-Q208585",
+   "name": "Vitória F.C.",
+   "popularity": 47,
+   "qid": "Q208585"
+  },
+  {
+   "aliases": [
+    "Vitoria Guimaraes SC",
+    "Vitoria S.C.",
+    "Vitoria SC",
+    "Vitoria de Guimaraes",
+    "Vitória Guimarães SC",
+    "Vitória SC",
+    "Vitória de Guimarães"
+   ],
+   "hint": "Club",
+   "id": "socc-Q223450",
+   "name": "Vitória S.C.",
+   "popularity": 49,
+   "qid": "Q223450"
+  },
+  {
+   "aliases": [
+    "The Hornets",
+    "W.F.C.",
+    "WFC",
+    "Watford",
+    "Watford FC",
+    "Watford Football Club",
+    "WatfordFC",
+    "WatfordFootballClub"
+   ],
+   "hint": "Club",
+   "id": "socc-Q2714",
+   "name": "Watford F.C.",
+   "popularity": 75,
+   "qid": "Q2714"
+  },
+  {
+   "aliases": [
+    "The Albion",
+    "The Baggies",
+    "The Throstles",
+    "WBAFC",
+    "West Brom",
+    "West Bromwich Albion",
+    "West Bromwich Albion FC",
+    "West Bromwich Albion Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q18744",
+   "name": "West Bromwich Albion F.C.",
+   "popularity": 83,
+   "qid": "Q18744"
+  },
+  {
+   "aliases": [
+    "The Hammers",
+    "The Irons",
+    "United",
+    "WHU",
+    "WHUFC",
+    "West Ham",
+    "West Ham United",
+    "West Ham United FC",
+    "West Ham United Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q18747",
+   "name": "West Ham United F.C.",
+   "popularity": 86,
+   "qid": "Q18747"
+  },
+  {
+   "aliases": [
+    "Athletic",
+    "The Latics",
+    "WAFC",
+    "Wigan",
+    "Wigan Athletic",
+    "Wigan Athletic FC",
+    "Wigan Athletic Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q18750",
+   "name": "Wigan Athletic F.C.",
+   "popularity": 69,
+   "qid": "Q18750"
+  },
+  {
+   "aliases": [
+    "Willem II Tilburg"
+   ],
+   "hint": "Club",
+   "id": "socc-Q332664",
+   "name": "Willem II",
+   "popularity": 47,
+   "qid": "Q332664"
+  },
+  {
+   "aliases": [
+    "Wisla Krakow"
+   ],
+   "hint": "Club",
+   "id": "socc-Q190943",
+   "name": "Wisła Kraków",
+   "popularity": 53,
+   "qid": "Q190943"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q694484",
+   "name": "Wolfsberger AC",
+   "popularity": 45,
+   "qid": "Q694484"
+  },
+  {
+   "aliases": [
+    "WWFC",
+    "Wanderers",
+    "Wolverhampton",
+    "Wolverhampton FC Wolves",
+    "Wolverhampton Wanderers",
+    "Wolverhampton Wanderers FC",
+    "Wolverhampton Wanderers Football Club",
+    "Wolverhampton Wolves",
+    "Wolverhampton Wolves FC",
+    "Wolves"
+   ],
+   "hint": "Club",
+   "id": "socc-Q19500",
+   "name": "Wolverhampton Wanderers F.C.",
+   "popularity": 85,
+   "qid": "Q19500"
+  },
+  {
+   "aliases": [
+    "The Dragons",
+    "WAFC",
+    "WFC",
+    "Wrexham",
+    "Wrexham AFC",
+    "Wrexham Association Football Club",
+    "Wrexham FC",
+    "Wrexham Football Club"
+   ],
+   "hint": "Club",
+   "id": "socc-Q18529",
+   "name": "Wrexham A.F.C.",
+   "popularity": 47,
+   "qid": "Q18529"
+  },
+  {
+   "aliases": [
+    "Yokohama Marinos"
+   ],
+   "hint": "Club",
+   "id": "socc-Q854932",
+   "name": "Yokohama F. Marinos",
+   "popularity": 48,
+   "qid": "Q854932"
+  },
+  {
+   "aliases": [
+    "WKS Śląsk Wrocław"
+   ],
+   "hint": "Club",
+   "id": "socc-Q328655",
+   "name": "Śląsk Wrocław",
+   "popularity": 48,
+   "qid": "Q328655"
+  },
+  {
+   "aliases": [],
+   "hint": "Club",
+   "id": "socc-Q192253",
+   "name": "ŠK Slovan Bratislava",
+   "popularity": 56,
+   "qid": "Q192253"
+  }
+ ],
+ "id": "soccer-clubs",
+ "name": "Football clubs",
+ "prefix": "socc"
+}

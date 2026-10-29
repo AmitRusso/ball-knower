@@ -1,0 +1,11 @@
+id: soccer-players
+name: Footballers
+prefix: socp
+hint: Soccer
+# Well-known players of Europe's biggest clubs, plus every answer.
+query: |
+  SELECT DISTINCT ?item WHERE {
+    VALUES (?club ?c) { {{franchises.SOCCER}} }
+    ?item wdt:P54 ?club ; wdt:P31 wd:Q5 ; wikibase:sitelinks ?links .
+    FILTER(?links >= 25)
+  }

@@ -1,0 +1,12 @@
+id: nhl-players
+name: NHL players
+prefix: nhlp
+hint: NHL
+# Everyone who played for a current franchise (or a former identity of one)
+# with at least 10 Wikipedia language editions: the well-known wrong answers.
+query: |
+  SELECT DISTINCT ?item WHERE {
+    VALUES (?team ?franchise) { {{franchises.NHL}} }
+    ?item wdt:P54 ?team ; wdt:P31 wd:Q5 ; wikibase:sitelinks ?links .
+    FILTER(?links >= 10)
+  }

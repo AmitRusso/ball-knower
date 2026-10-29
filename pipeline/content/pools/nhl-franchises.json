@@ -1,0 +1,339 @@
+{
+ "entities": [
+  {
+   "aliases": [
+    "Mighty Ducks of Anaheim"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q192751",
+   "name": "Anaheim Ducks",
+   "popularity": 50,
+   "qid": "Q192751"
+  },
+  {
+   "aliases": [
+    "Bruins"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q194121",
+   "name": "Boston Bruins",
+   "popularity": 49,
+   "qid": "Q194121"
+  },
+  {
+   "aliases": [],
+   "hint": "NHL",
+   "id": "nhlf-Q131206",
+   "name": "Buffalo Sabres",
+   "popularity": 47,
+   "qid": "Q131206"
+  },
+  {
+   "aliases": [
+    "Atlanta Flames",
+    "Flames"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q194126",
+   "name": "Calgary Flames",
+   "popularity": 49,
+   "qid": "Q194126"
+  },
+  {
+   "aliases": [
+    "Hartford Whalers"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q201857",
+   "name": "Carolina Hurricanes",
+   "popularity": 48,
+   "qid": "Q201857"
+  },
+  {
+   "aliases": [
+    "Chicago Black Hawks",
+    "Chicago Stadium Corporation",
+    "Hawks"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q209636",
+   "name": "Chicago Blackhawks",
+   "popularity": 46,
+   "qid": "Q209636"
+  },
+  {
+   "aliases": [
+    "Avs",
+    "Quebec Nordiques"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q206297",
+   "name": "Colorado Avalanche",
+   "popularity": 45,
+   "qid": "Q206297"
+  },
+  {
+   "aliases": [
+    "Jackets"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q207507",
+   "name": "Columbus Blue Jackets",
+   "popularity": 47,
+   "qid": "Q207507"
+  },
+  {
+   "aliases": [
+    "Minnesota North Stars"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q208652",
+   "name": "Dallas Stars",
+   "popularity": 44,
+   "qid": "Q208652"
+  },
+  {
+   "aliases": [
+    "Detroit Cougars",
+    "Detroit Falcons"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q194116",
+   "name": "Detroit Red Wings",
+   "popularity": 49,
+   "qid": "Q194116"
+  },
+  {
+   "aliases": [
+    "Alberta Oilers",
+    "Oilers"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q205973",
+   "name": "Edmonton Oilers",
+   "popularity": 48,
+   "qid": "Q205973"
+  },
+  {
+   "aliases": [],
+   "hint": "NHL",
+   "id": "nhlf-Q204623",
+   "name": "Florida Panthers",
+   "popularity": 47,
+   "qid": "Q204623"
+  },
+  {
+   "aliases": [
+    "LA Kings"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q203008",
+   "name": "Los Angeles Kings",
+   "popularity": 47,
+   "qid": "Q203008"
+  },
+  {
+   "aliases": [
+    "Wild"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q206357",
+   "name": "Minnesota Wild",
+   "popularity": 46,
+   "qid": "Q206357"
+  },
+  {
+   "aliases": [
+    "Canadiens de Montreal",
+    "Canadiens de Montréal",
+    "Club de hockey Canadien, inc.",
+    "Habs",
+    "le Club de hockey Canadien"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q188143",
+   "name": "Montreal Canadiens",
+   "popularity": 54,
+   "qid": "Q188143"
+  },
+  {
+   "aliases": [],
+   "hint": "NHL",
+   "id": "nhlf-Q207980",
+   "name": "Nashville Predators",
+   "popularity": 44,
+   "qid": "Q207980"
+  },
+  {
+   "aliases": [
+    "Colorado Rockies",
+    "Devils",
+    "Kansas City Scouts",
+    "NJ Devils",
+    "The Devils"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q192081",
+   "name": "New Jersey Devils",
+   "popularity": 47,
+   "qid": "Q192081"
+  },
+  {
+   "aliases": [],
+   "hint": "NHL",
+   "id": "nhlf-Q194369",
+   "name": "New York Islanders",
+   "popularity": 46,
+   "qid": "Q194369"
+  },
+  {
+   "aliases": [],
+   "hint": "NHL",
+   "id": "nhlf-Q188984",
+   "name": "New York Rangers",
+   "popularity": 50,
+   "qid": "Q188984"
+  },
+  {
+   "aliases": [],
+   "hint": "NHL",
+   "id": "nhlf-Q203013",
+   "name": "Ottawa Senators",
+   "popularity": 47,
+   "qid": "Q203013"
+  },
+  {
+   "aliases": [
+    "Flyers",
+    "Philly Flyers"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q192083",
+   "name": "Philadelphia Flyers",
+   "popularity": 51,
+   "qid": "Q192083"
+  },
+  {
+   "aliases": [
+    "Pens",
+    "Pittsburgh Pens"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q193643",
+   "name": "Pittsburgh Penguins",
+   "popularity": 48,
+   "qid": "Q193643"
+  },
+  {
+   "aliases": [
+    "SJ Sharks"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q206381",
+   "name": "San Jose Sharks",
+   "popularity": 46,
+   "qid": "Q206381"
+  },
+  {
+   "aliases": [
+    "Seattle NHL team"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q59422166",
+   "name": "Seattle Kraken",
+   "popularity": 33,
+   "qid": "Q59422166"
+  },
+  {
+   "aliases": [
+    "Blues",
+    "Saint Louis Blues"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q207735",
+   "name": "St. Louis Blues",
+   "popularity": 44,
+   "qid": "Q207735"
+  },
+  {
+   "aliases": [
+    "Bolts",
+    "Lightning",
+    "The Tampa Bay Lightning"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q201864",
+   "name": "Tampa Bay Lightning",
+   "popularity": 49,
+   "qid": "Q201864"
+  },
+  {
+   "aliases": [
+    "Maple Leafs",
+    "The Toronto Maple Leafs",
+    "Toronto St. Patricks"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q203384",
+   "name": "Toronto Maple Leafs",
+   "popularity": 50,
+   "qid": "Q203384"
+  },
+  {
+   "aliases": [
+    "Utah Hockey Club"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q125520712",
+   "name": "Utah Mammoth",
+   "popularity": 28,
+   "qid": "Q125520712"
+  },
+  {
+   "aliases": [],
+   "hint": "NHL",
+   "id": "nhlf-Q192890",
+   "name": "Vancouver Canucks",
+   "popularity": 53,
+   "qid": "Q192890"
+  },
+  {
+   "aliases": [
+    "Golden Knights",
+    "LV Golden Knights",
+    "LV Knights",
+    "Las Vegas Golden Knights"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q24725640",
+   "name": "Vegas Golden Knights",
+   "popularity": 36,
+   "qid": "Q24725640"
+  },
+  {
+   "aliases": [
+    "Capitals",
+    "Caps",
+    "Washington Caps"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q204627",
+   "name": "Washington Capitals",
+   "popularity": 49,
+   "qid": "Q204627"
+  },
+  {
+   "aliases": [
+    "Atlanta Thrashers"
+   ],
+   "hint": "NHL",
+   "id": "nhlf-Q472741",
+   "name": "Winnipeg Jets",
+   "popularity": 42,
+   "qid": "Q472741"
+  }
+ ],
+ "id": "nhl-franchises",
+ "name": "NHL franchises",
+ "prefix": "nhlf"
+}

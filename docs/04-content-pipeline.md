@@ -12,7 +12,7 @@ templates ──► query open data ──► candidate prompts ──► filter
                  datasets)               + priors)               overlap, league)   week at a time)
 ```
 
-Lives in `pipeline/` (Python 3.12+), run locally or from a scheduled GitHub Action. Output is SQL / JSON loaded into D1 with `wrangler d1 execute`.
+Lives in `pipeline/` (Python 3.12+), run locally (`pipeline/README.md`). Output is JSON (`python -m bk export`), loaded into D1 by `pnpm db:load`, which normalizes aliases with the app's own `normalize()` (D16).
 
 ## Templates
 
@@ -86,7 +86,7 @@ From the approved pool, pick 5 prompts per day:
 
 ## Review
 
-A small CLI (`pipeline/review.py`) shows each candidate with its full answer list, priors and the pool it draws auto-correct from. Approve, edit text, add aliases, or reject. Approving a week (35 prompts) should take ~15 minutes.
+A small CLI (`python -m bk review`) shows each candidate with its full answer list, priors and the pool it draws auto-correct from. Approve, edit text, add aliases, or reject. Approving a week (35 prompts) should take ~15 minutes.
 
 Things a human catches that filters don't:
 - awkward phrasing

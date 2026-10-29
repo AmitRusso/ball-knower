@@ -1,0 +1,14 @@
+id: soccer-champions-league-clubs
+league: SOCCER
+pool: soccer-clubs
+text: "Name a club that has won the European Cup / UEFA Champions League."
+short: "European champions"
+note: "Men's competition, 1956 to today."
+changes: ["05-20..06-05"]
+expect_events: "71"  # finals 1956–2026
+query: |
+  SELECT ?item ?event WHERE {
+    ?event wdt:P31|wdt:P179|wdt:P3450 wd:Q18756 .
+    ?event wdt:P1346 ?item .
+    ?item wdt:P31 wd:Q476028 .
+  }

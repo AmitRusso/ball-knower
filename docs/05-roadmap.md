@@ -43,11 +43,12 @@ Hard-code one hole from `data/sample-hole.json`; no server yet.
 
 ## M3 — Content pipeline
 
-- [ ] `pipeline/` Python project; Wikidata client; pageviews client
-- [ ] 10+ templates across NFL, NBA, MLB, NHL, soccer, Olympics
-- [ ] Filters from `04-content-pipeline.md`; review CLI
-- [ ] Export approved prompts → D1; schedule 30 days ahead
-- [ ] Entity pools with aliases for each league
+- [x] `pipeline/` Python project; Wikidata client; pageviews client
+- [x] 10+ templates across NFL, NBA, MLB, NHL, soccer, Olympics (16; see D16 for Wikidata's gaps)
+- [x] Filters from `04-content-pipeline.md`; review CLI
+- [x] Export approved prompts → D1 (`pnpm db:load`); schedule 30 days ahead (`bk schedule`)
+- [x] Entity pools with aliases for each league
+- [x] Review and approve a month of prompts; schedule, export, `pnpm db:load --remote` (154 approved; holes 215–244, 2026-10-29 … 2026-11-27, loaded 2026-10-29)
 
 **Done when:** a month of holes is approved and scheduled.
 

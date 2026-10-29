@@ -1,0 +1,19 @@
+id: nhl-award-winners
+league: NHL
+pool: nhl-players
+text: "Name {{award.text}}."
+short: "{{award.short}}"
+note: "{{award.note}}"
+params:
+  award:
+    - { qid: Q678383, text: "a Hart Trophy winner", short: "Hart Trophy", note: "The NHL's regular-season MVP award.", years: 102 }
+    - { qid: Q176834, text: "a Conn Smythe Trophy winner", short: "Conn Smythe", note: "Playoff MVP, awarded since 1965.", years: 61 }
+    - { qid: Q221401, text: "a Vezina Trophy winner", short: "Vezina Trophy", note: "Goaltending award. Shared winners count.", years: 99 }
+    - { qid: Q752423, text: "a Norris Trophy winner", short: "Norris Trophy", note: "Best defenseman, awarded since 1954.", years: 72 }
+    - { qid: Q705707, text: "an Art Ross Trophy winner", short: "Art Ross Trophy", note: "Regular-season points leader, since 1948.", years: 78 }
+changes: ["04-10..06-30"]
+expect_events: "{{award.years}}"  # award statements through 2025–26 (none in 2004–05)
+query: |
+  SELECT ?item ?event WHERE {
+    ?item p:P166 ?event . ?event ps:P166 wd:{{award.qid}} .
+  }
