@@ -1,0 +1,362 @@
+{
+ "entities": [
+  {
+   "aliases": [
+    "Chicago Cardinals",
+    "Morgan Athletic Club",
+    "Phoenix Cardinals",
+    "Racine Cardinals",
+    "St. Louis Cardinals"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q224164",
+   "name": "Arizona Cardinals",
+   "popularity": 43,
+   "qid": "Q224164"
+  },
+  {
+   "aliases": [
+    "Falcons"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q272059",
+   "name": "Atlanta Falcons",
+   "popularity": 46,
+   "qid": "Q272059"
+  },
+  {
+   "aliases": [],
+   "hint": "NFL",
+   "id": "nflf-Q276539",
+   "name": "Baltimore Ravens",
+   "popularity": 43,
+   "qid": "Q276539"
+  },
+  {
+   "aliases": [],
+   "hint": "NFL",
+   "id": "nflf-Q221626",
+   "name": "Buffalo Bills",
+   "popularity": 43,
+   "qid": "Q221626"
+  },
+  {
+   "aliases": [],
+   "hint": "NFL",
+   "id": "nflf-Q330120",
+   "name": "Carolina Panthers",
+   "popularity": 42,
+   "qid": "Q330120"
+  },
+  {
+   "aliases": [
+    "Bears",
+    "Da Bears",
+    "Los Kundes",
+    "Monsters of the Midway."
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q205033",
+   "name": "Chicago Bears",
+   "popularity": 47,
+   "qid": "Q205033"
+  },
+  {
+   "aliases": [],
+   "hint": "NFL",
+   "id": "nflf-Q223511",
+   "name": "Cincinnati Bengals",
+   "popularity": 45,
+   "qid": "Q223511"
+  },
+  {
+   "aliases": [
+    "Browns"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q223527",
+   "name": "Cleveland Browns",
+   "popularity": 43,
+   "qid": "Q223527"
+  },
+  {
+   "aliases": [
+    "Cowboys"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q204862",
+   "name": "Dallas Cowboys",
+   "popularity": 45,
+   "qid": "Q204862"
+  },
+  {
+   "aliases": [
+    "Broncos"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q223507",
+   "name": "Denver Broncos",
+   "popularity": 44,
+   "qid": "Q223507"
+  },
+  {
+   "aliases": [
+    "Portsmouth Spartans"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q271880",
+   "name": "Detroit Lions",
+   "popularity": 44,
+   "qid": "Q271880"
+  },
+  {
+   "aliases": [
+    "GNB",
+    "Green Bay",
+    "Packers"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q213837",
+   "name": "Green Bay Packers",
+   "popularity": 47,
+   "qid": "Q213837"
+  },
+  {
+   "aliases": [
+    "Texans"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q223514",
+   "name": "Houston Texans",
+   "popularity": 43,
+   "qid": "Q223514"
+  },
+  {
+   "aliases": [
+    "Baltimore Colts",
+    "Indianapolis"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q193753",
+   "name": "Indianapolis Colts",
+   "popularity": 44,
+   "qid": "Q193753"
+  },
+  {
+   "aliases": [
+    "Jaguars"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q272223",
+   "name": "Jacksonville Jaguars",
+   "popularity": 43,
+   "qid": "Q272223"
+  },
+  {
+   "aliases": [
+    "Chiefs",
+    "Dallas Texans",
+    "KC Chiefs"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q223522",
+   "name": "Kansas City Chiefs",
+   "popularity": 48,
+   "qid": "Q223522"
+  },
+  {
+   "aliases": [
+    "Los Angeles Raiders",
+    "Oakland Raiders",
+    "Raiders"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q324523",
+   "name": "Las Vegas Raiders",
+   "popularity": 45,
+   "qid": "Q324523"
+  },
+  {
+   "aliases": [
+    "Chargers",
+    "LA Chargers",
+    "San Diego Chargers"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q272220",
+   "name": "Los Angeles Chargers",
+   "popularity": 44,
+   "qid": "Q272220"
+  },
+  {
+   "aliases": [
+    "Cleveland Rams",
+    "L.A. Rams",
+    "Los Angles Rams",
+    "St. Louis Rams"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q337377",
+   "name": "Los Angeles Rams",
+   "popularity": 45,
+   "qid": "Q337377"
+  },
+  {
+   "aliases": [
+    "Dolphins",
+    "Miami"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q223243",
+   "name": "Miami Dolphins",
+   "popularity": 42,
+   "qid": "Q223243"
+  },
+  {
+   "aliases": [
+    "Vikes",
+    "Vikings"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q221150",
+   "name": "Minnesota Vikings",
+   "popularity": 44,
+   "qid": "Q221150"
+  },
+  {
+   "aliases": [
+    "Boston Patriots",
+    "Patriots",
+    "Pats",
+    "The New England Patriots"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q193390",
+   "name": "New England Patriots",
+   "popularity": 50,
+   "qid": "Q193390"
+  },
+  {
+   "aliases": [
+    "Saints"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q172435",
+   "name": "New Orleans Saints",
+   "popularity": 44,
+   "qid": "Q172435"
+  },
+  {
+   "aliases": [
+    "Giants",
+    "NY Giants",
+    "NYG"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q190618",
+   "name": "New York Giants",
+   "popularity": 47,
+   "qid": "Q190618"
+  },
+  {
+   "aliases": [
+    "Jets",
+    "New York Titans",
+    "Titans of New York"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q219602",
+   "name": "New York Jets",
+   "popularity": 42,
+   "qid": "Q219602"
+  },
+  {
+   "aliases": [
+    "Eagles",
+    "The Birds"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q219714",
+   "name": "Philadelphia Eagles",
+   "popularity": 46,
+   "qid": "Q219714"
+  },
+  {
+   "aliases": [
+    "Pittsburgh Pirates",
+    "Rooneymen",
+    "Steelers"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q191477",
+   "name": "Pittsburgh Steelers",
+   "popularity": 46,
+   "qid": "Q191477"
+  },
+  {
+   "aliases": [
+    "49ers",
+    "Forty Niners Football Co. LLC",
+    "Forty Niners Football Company LLC"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q337758",
+   "name": "San Francisco 49ers",
+   "popularity": 45,
+   "qid": "Q337758"
+  },
+  {
+   "aliases": [],
+   "hint": "NFL",
+   "id": "nflf-Q221878",
+   "name": "Seattle Seahawks",
+   "popularity": 46,
+   "qid": "Q221878"
+  },
+  {
+   "aliases": [
+    "Buccaneers",
+    "Bucs",
+    "TB Buccaneers",
+    "Tampa Bay Bucs",
+    "Tampa Bay Bucs Football",
+    "Tampa Bucs"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q320476",
+   "name": "Tampa Bay Buccaneers",
+   "popularity": 43,
+   "qid": "Q320476"
+  },
+  {
+   "aliases": [
+    "Houston Oilers",
+    "Tennessee Oilers",
+    "Titans"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q320484",
+   "name": "Tennessee Titans",
+   "popularity": 44,
+   "qid": "Q320484"
+  },
+  {
+   "aliases": [
+    "Boston Braves",
+    "Boston Redskins",
+    "Commanders",
+    "Redskins",
+    "Washington Football Team",
+    "Washington Redskins"
+   ],
+   "hint": "NFL",
+   "id": "nflf-Q212654",
+   "name": "Washington Commanders",
+   "popularity": 46,
+   "qid": "Q212654"
+  }
+ ],
+ "id": "nfl-franchises",
+ "name": "NFL franchises",
+ "prefix": "nflf"
+}

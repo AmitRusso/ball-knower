@@ -1,0 +1,29 @@
+id: nhl-franchise-titles
+league: NHL
+pool: nhl-franchises
+text: "Name a current NHL franchise that has won {{level.phrase}}."
+short: "{{level.short}}"
+note: "Titles won under former names and cities count."
+params:
+  level:
+    - { n: 1, phrase: "the Stanley Cup", short: "Stanley Cup winner" }
+    - { n: 2, phrase: "at least 2 Stanley Cups", short: "2+ Stanley Cups" }
+    - { n: 3, phrase: "at least 3 Stanley Cups", short: "3+ Stanley Cups" }
+    - { n: 5, phrase: "at least 5 Stanley Cups", short: "5+ Stanley Cups" }
+answer_filter: "titles >= level.n"
+changes: ["06-01..06-30"]
+# ?event: every final with a winner (coverage check); ?item/?titles only for
+# winners that roll up to a current franchise.
+query: |
+  SELECT ?event ?item ?titles WHERE {
+    ?event wdt:P31|wdt:P179|wdt:P3450 wd:Q211872 .
+    ?event wdt:P1346 ?w .
+    OPTIONAL {
+      VALUES (?w ?item) { {{franchises.NHL}} }
+      { SELECT ?item (COUNT(DISTINCT ?e) AS ?titles) WHERE {
+          VALUES (?w2 ?item) { {{franchises.NHL}} }
+          ?e wdt:P31|wdt:P179|wdt:P3450 wd:Q211872 .
+          ?e wdt:P1346 ?w2 .
+        } GROUP BY ?item }
+    }
+  }

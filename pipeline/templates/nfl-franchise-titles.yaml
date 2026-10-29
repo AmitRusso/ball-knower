@@ -1,0 +1,30 @@
+id: nfl-franchise-titles
+league: NFL
+pool: nfl-franchises
+text: "Name a current NFL franchise that has won {{level.phrase}}."
+short: "{{level.short}}"
+note: "Titles won under former names and cities count."
+params:
+  level:
+    - { n: 1, phrase: "the Super Bowl", short: "Super Bowl winner" }
+    - { n: 2, phrase: "at least 2 Super Bowls", short: "2+ Super Bowls" }
+    - { n: 3, phrase: "at least 3 Super Bowls", short: "3+ Super Bowls" }
+    - { n: 5, phrase: "at least 5 Super Bowls", short: "5+ Super Bowls" }
+answer_filter: "titles >= level.n"
+changes: ["02-01..02-15"]
+expect_events: "60"  # finals with a winner through this season
+# ?event: every final with a winner (coverage check); ?item/?titles only for
+# winners that roll up to a current franchise.
+query: |
+  SELECT ?event ?item ?titles WHERE {
+    ?event wdt:P31|wdt:P179|wdt:P3450 wd:Q32096 .
+    ?event wdt:P1346 ?w .
+    OPTIONAL {
+      VALUES (?w ?item) { {{franchises.NFL}} }
+      { SELECT ?item (COUNT(DISTINCT ?e) AS ?titles) WHERE {
+          VALUES (?w2 ?item) { {{franchises.NFL}} }
+          ?e wdt:P31|wdt:P179|wdt:P3450 wd:Q32096 .
+          ?e wdt:P1346 ?w2 .
+        } GROUP BY ?item }
+    }
+  }

@@ -1,0 +1,3696 @@
+{
+ "entities": [
+  {
+   "aliases": [
+    "Abudhabi",
+    "Abū Dhabi"
+   ],
+   "hint": null,
+   "id": "city-Q1519",
+   "name": "Abu Dhabi",
+   "popularity": 186,
+   "qid": "Q1519"
+  },
+  {
+   "aliases": [
+    "ABJ",
+    "ABV",
+    "FCT",
+    "Federal Capital Territory"
+   ],
+   "hint": null,
+   "id": "city-Q3787",
+   "name": "Abuja",
+   "popularity": 199,
+   "qid": "Q3787"
+  },
+  {
+   "aliases": [
+    "Akra"
+   ],
+   "hint": null,
+   "id": "city-Q3761",
+   "name": "Accra",
+   "popularity": 201,
+   "qid": "Q3761"
+  },
+  {
+   "aliases": [
+    "Addis Abeba",
+    "Addis Abäba",
+    "Finfinne"
+   ],
+   "hint": null,
+   "id": "city-Q3624",
+   "name": "Addis Ababa",
+   "popularity": 200,
+   "qid": "Q3624"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q131694",
+   "name": "Aden",
+   "popularity": 109,
+   "qid": "Q131694"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3561",
+   "name": "Algiers",
+   "popularity": 214,
+   "qid": "Q3561"
+  },
+  {
+   "aliases": [
+    "Aman",
+    "Amman, Jordan",
+    "Ammon",
+    "Mint of Philadelphia",
+    "Philadelphia",
+    "ʿAmmān"
+   ],
+   "hint": null,
+   "id": "city-Q3805",
+   "name": "Amman",
+   "popularity": 194,
+   "qid": "Q3805"
+  },
+  {
+   "aliases": [
+    "A'dam",
+    "Amsterdam, NL",
+    "Amsterdam, Netherlands",
+    "Amsterdam, North Holland",
+    "Mokum"
+   ],
+   "hint": null,
+   "id": "city-Q727",
+   "name": "Amsterdam",
+   "popularity": 285,
+   "qid": "Q727"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q1863",
+   "name": "Andorra la Vella",
+   "popularity": 193,
+   "qid": "Q1863"
+  },
+  {
+   "aliases": [
+    "Ancyra",
+    "Angora"
+   ],
+   "hint": null,
+   "id": "city-Q3640",
+   "name": "Ankara",
+   "popularity": 242,
+   "qid": "Q3640"
+  },
+  {
+   "aliases": [
+    "Analamanga",
+    "Iarivo",
+    "Tananarive"
+   ],
+   "hint": null,
+   "id": "city-Q3915",
+   "name": "Antananarivo",
+   "popularity": 164,
+   "qid": "Q3915"
+  },
+  {
+   "aliases": [
+    "Anvers",
+    "City of Antwerp"
+   ],
+   "hint": null,
+   "id": "city-Q12892",
+   "name": "Antwerp",
+   "popularity": 162,
+   "qid": "Q12892"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q36260",
+   "name": "Apia",
+   "popularity": 142,
+   "qid": "Q36260"
+  },
+  {
+   "aliases": [
+    "Arco della Pace"
+   ],
+   "hint": null,
+   "id": "city-Q776576",
+   "name": "Arch of Peace",
+   "popularity": 11,
+   "qid": "Q776576"
+  },
+  {
+   "aliases": [
+    "'Ishqabad",
+    "Ak-Gaudan",
+    "Aschchabad",
+    "Asgabat",
+    "Ashabad",
+    "Ashgabad",
+    "Ashkabad",
+    "Ashkabat",
+    "Ashkhabad",
+    "Ashqabad",
+    "Askabad",
+    "Askhabad",
+    "Aşgabat",
+    "Ašgabat",
+    "Ishqabad",
+    "Ishqabat",
+    "Konjikala",
+    "Poltoratsk",
+    "`Ishqabad",
+    "`Ishqábád",
+    "Ашхабад"
+   ],
+   "hint": null,
+   "id": "city-Q23438",
+   "name": "Ashgabat",
+   "popularity": 187,
+   "qid": "Q23438"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q903860",
+   "name": "Asim Ferhatović Hase Stadium",
+   "popularity": 34,
+   "qid": "Q903860"
+  },
+  {
+   "aliases": [
+    "Asmera"
+   ],
+   "hint": null,
+   "id": "city-Q3642",
+   "name": "Asmara",
+   "popularity": 165,
+   "qid": "Q3642"
+  },
+  {
+   "aliases": [
+    "Akmola",
+    "Akmolinsk",
+    "Aqmola",
+    "Nur-Sultan",
+    "Tselinograd"
+   ],
+   "hint": null,
+   "id": "city-Q1520",
+   "name": "Astana",
+   "popularity": 217,
+   "qid": "Q1520"
+  },
+  {
+   "aliases": [
+    "Assumption",
+    "Asu",
+    "Asuncion"
+   ],
+   "hint": null,
+   "id": "city-Q2933",
+   "name": "Asunción",
+   "popularity": 177,
+   "qid": "Q2933"
+  },
+  {
+   "aliases": [
+    "Athenae",
+    "Athens city"
+   ],
+   "hint": null,
+   "id": "city-Q1524",
+   "name": "Athens",
+   "popularity": 289,
+   "qid": "Q1524"
+  },
+  {
+   "aliases": [
+    "Atlanta, GA",
+    "Atlanta, Georgia",
+    "Hotlanta",
+    "Marthasville",
+    "Marthasville, Georgia",
+    "Terminus",
+    "The A",
+    "The ATL",
+    "The Big Peach"
+   ],
+   "hint": null,
+   "id": "city-Q23556",
+   "name": "Atlanta",
+   "popularity": 209,
+   "qid": "Q23556"
+  },
+  {
+   "aliases": [
+    "Bagdad",
+    "Bagdat",
+    "Baghdād"
+   ],
+   "hint": null,
+   "id": "city-Q1530",
+   "name": "Baghdad",
+   "popularity": 251,
+   "qid": "Q1530"
+  },
+  {
+   "aliases": [
+    "Baki",
+    "Baky",
+    "City of Winds"
+   ],
+   "hint": null,
+   "id": "city-Q9248",
+   "name": "Baku",
+   "popularity": 249,
+   "qid": "Q9248"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3703",
+   "name": "Bamako",
+   "popularity": 177,
+   "qid": "Q3703"
+  },
+  {
+   "aliases": [
+    "BSB",
+    "Bandar",
+    "Bandar Brunei",
+    "Brunei Town",
+    "Seri Begawan"
+   ],
+   "hint": null,
+   "id": "city-Q9279",
+   "name": "Bandar Seri Begawan",
+   "popularity": 162,
+   "qid": "Q9279"
+  },
+  {
+   "aliases": [
+    "Bangkok, Thailand",
+    "Krung Thep",
+    "Krung Thep Maha Nakhon",
+    "Sia-Yut'hia"
+   ],
+   "hint": null,
+   "id": "city-Q1861",
+   "name": "Bangkok",
+   "popularity": 263,
+   "qid": "Q1861"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3832",
+   "name": "Bangui",
+   "popularity": 158,
+   "qid": "Q3832"
+  },
+  {
+   "aliases": [
+    "Bathurst",
+    "City of Banjul"
+   ],
+   "hint": null,
+   "id": "city-Q3726",
+   "name": "Banjul",
+   "popularity": 162,
+   "qid": "Q3726"
+  },
+  {
+   "aliases": [
+    "B'na",
+    "BCN",
+    "Barcelona City",
+    "Barcelona, Catalonia",
+    "Barcelona, Spain",
+    "City of Barcelona"
+   ],
+   "hint": null,
+   "id": "city-Q1492",
+   "name": "Barcelona",
+   "popularity": 246,
+   "qid": "Q1492"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q9039",
+   "name": "Bardonecchia",
+   "popularity": 67,
+   "qid": "Q9039"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q41295",
+   "name": "Basseterre",
+   "popularity": 123,
+   "qid": "Q41295"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q612227",
+   "name": "BC Place",
+   "popularity": 53,
+   "qid": "Q612227"
+  },
+  {
+   "aliases": [
+    "BJ",
+    "Beeijing",
+    "Bei Jing Shi",
+    "Beijing Shi",
+    "Beiping",
+    "Bākgīng",
+    "Běijīng",
+    "Chi",
+    "Chi-ch'eng",
+    "Chi-cheng",
+    "Chi-ch’êng",
+    "Chung-tu",
+    "Chungtu",
+    "Ji",
+    "Jicheng",
+    "Khanbalik",
+    "Khanbaliq",
+    "Pak-kiann",
+    "Pe-king",
+    "Pei-ching",
+    "Pei-p'ing",
+    "Pei-ping",
+    "Peip'ing",
+    "Peiping",
+    "Pekin",
+    "Peking",
+    "Peking Shi",
+    "Poh-cin",
+    "Shun-t'ien",
+    "Shun-tien",
+    "Shuntian",
+    "Shuntian Fu",
+    "Shuntianfu",
+    "Yan-ching",
+    "Yanjing",
+    "Yanking",
+    "Zhongdu",
+    "京",
+    "北京"
+   ],
+   "hint": null,
+   "id": "city-Q956",
+   "name": "Beijing",
+   "popularity": 305,
+   "qid": "Q956"
+  },
+  {
+   "aliases": [
+    "Water Cube"
+   ],
+   "hint": null,
+   "id": "city-Q244877",
+   "name": "Beijing National Aquatics Center",
+   "popularity": 40,
+   "qid": "Q244877"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q1139142",
+   "name": "Beijing National Indoor Stadium",
+   "popularity": 31,
+   "qid": "Q1139142"
+  },
+  {
+   "aliases": [
+    "Bird's Nest"
+   ],
+   "hint": null,
+   "id": "city-Q133525",
+   "name": "Beijing National Stadium",
+   "popularity": 64,
+   "qid": "Q133525"
+  },
+  {
+   "aliases": [
+    "Beyrout"
+   ],
+   "hint": null,
+   "id": "city-Q3820",
+   "name": "Beirut",
+   "popularity": 213,
+   "qid": "Q3820"
+  },
+  {
+   "aliases": [
+    "Belgrade, Serbia",
+    "Beograd",
+    "City of Belgrade"
+   ],
+   "hint": null,
+   "id": "city-Q3711",
+   "name": "Belgrade",
+   "popularity": 230,
+   "qid": "Q3711"
+  },
+  {
+   "aliases": [
+    "City of Promise",
+    "The Garden City",
+    "The Planned City"
+   ],
+   "hint": null,
+   "id": "city-Q3043",
+   "name": "Belmopan",
+   "popularity": 147,
+   "qid": "Q3043"
+  },
+  {
+   "aliases": [
+    "Bergisel"
+   ],
+   "hint": null,
+   "id": "city-Q672833",
+   "name": "Bergiselschanze",
+   "popularity": 23,
+   "qid": "Q672833"
+  },
+  {
+   "aliases": [
+    "Berlin, Germany",
+    "DE-BE"
+   ],
+   "hint": null,
+   "id": "city-Q64",
+   "name": "Berlin",
+   "popularity": 334,
+   "qid": "Q64"
+  },
+  {
+   "aliases": [
+    "Berna",
+    "Berne",
+    "city of Bern"
+   ],
+   "hint": null,
+   "id": "city-Q70",
+   "name": "Bern",
+   "popularity": 207,
+   "qid": "Q70"
+  },
+  {
+   "aliases": [
+    "Frunze",
+    "Pishpek"
+   ],
+   "hint": null,
+   "id": "city-Q9361",
+   "name": "Bishkek",
+   "popularity": 186,
+   "qid": "Q9361"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q866409",
+   "name": "Bislett Stadion",
+   "popularity": 31,
+   "qid": "Q866409"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3739",
+   "name": "Bissau",
+   "popularity": 169,
+   "qid": "Q3739"
+  },
+  {
+   "aliases": [
+    "Mount Bjelašnica"
+   ],
+   "hint": null,
+   "id": "city-Q879414",
+   "name": "Bjelašnica",
+   "popularity": 32,
+   "qid": "Q879414"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q37701",
+   "name": "Bloemfontein",
+   "popularity": 143,
+   "qid": "Q37701"
+  },
+  {
+   "aliases": [
+    "Bogota",
+    "Bogota, Colombia",
+    "Bogotá, D.C.",
+    "Santa Fe de Bogotá",
+    "Santafé de Bogotá"
+   ],
+   "hint": null,
+   "id": "city-Q2841",
+   "name": "Bogotá",
+   "popularity": 281,
+   "qid": "Q2841"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q40516",
+   "name": "Bormio",
+   "popularity": 75,
+   "qid": "Q40516"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q2844",
+   "name": "Brasília",
+   "popularity": 226,
+   "qid": "Q2844"
+  },
+  {
+   "aliases": [
+    "Pozsony",
+    "Pressburg",
+    "Prešpurk"
+   ],
+   "hint": null,
+   "id": "city-Q1780",
+   "name": "Bratislava",
+   "popularity": 226,
+   "qid": "Q1780"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3844",
+   "name": "Brazzaville",
+   "popularity": 173,
+   "qid": "Q3844"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q36168",
+   "name": "Bridgetown",
+   "popularity": 145,
+   "qid": "Q36168"
+  },
+  {
+   "aliases": [
+    "Brussel",
+    "Brussels City",
+    "Bruxelles",
+    "City of Brussels"
+   ],
+   "hint": null,
+   "id": "city-Q239",
+   "name": "Brussels",
+   "popularity": 240,
+   "qid": "Q239"
+  },
+  {
+   "aliases": [
+    "Bucharest, Romania",
+    "Bucuresti",
+    "Bucureşti",
+    "București",
+    "Little Paris",
+    "Paris of the East"
+   ],
+   "hint": null,
+   "id": "city-Q19660",
+   "name": "Bucharest",
+   "popularity": 238,
+   "qid": "Q19660"
+  },
+  {
+   "aliases": [
+    "Alt-Ofen",
+    "Buda",
+    "Buda Pest",
+    "Buda-Pest",
+    "Buda-Pesth",
+    "Budapest, Hungary",
+    "Budapesta",
+    "Budapeszt",
+    "Budapešť",
+    "Budim",
+    "Budon",
+    "Budín",
+    "Ofen",
+    "Pest",
+    "Pešta",
+    "Pešť"
+   ],
+   "hint": null,
+   "id": "city-Q1781",
+   "name": "Budapest",
+   "popularity": 260,
+   "qid": "Q1781"
+  },
+  {
+   "aliases": [
+    "Buenos Ayres",
+    "Ciudad Autonoma de Buenos Aires",
+    "Ciudad Autónoma de Buenos Aires",
+    "Ciudad de Buenos Aires"
+   ],
+   "hint": null,
+   "id": "city-Q1486",
+   "name": "Buenos Aires",
+   "popularity": 276,
+   "qid": "Q1486"
+  },
+  {
+   "aliases": [
+    "MasterCard Center",
+    "Wukesong Arena",
+    "Wukesong Basketball Stadium"
+   ],
+   "hint": null,
+   "id": "city-Q1321458",
+   "name": "Cadillac Arena",
+   "popularity": 31,
+   "qid": "Q1321458"
+  },
+  {
+   "aliases": [
+    "Cairo, Egypt",
+    "Qahira",
+    "al-Qāhira",
+    "ghahere"
+   ],
+   "hint": null,
+   "id": "city-Q85",
+   "name": "Cairo",
+   "popularity": 262,
+   "qid": "Q85"
+  },
+  {
+   "aliases": [
+    "Calgary, AB",
+    "Calgary, Alberta",
+    "Calgary, Canada",
+    "City of Calgary"
+   ],
+   "hint": null,
+   "id": "city-Q36312",
+   "name": "Calgary",
+   "popularity": 146,
+   "qid": "Q36312"
+  },
+  {
+   "aliases": [
+    "Canberra, Australia",
+    "Canberra, Australian Capital Territory"
+   ],
+   "hint": null,
+   "id": "city-Q3114",
+   "name": "Canberra",
+   "popularity": 213,
+   "qid": "Q3114"
+  },
+  {
+   "aliases": [
+    "Cape",
+    "Cape Town, South Africa",
+    "Kaap",
+    "Kaapstad",
+    "Mother City",
+    "Tavern of the Seas",
+    "West side",
+    "iKapa"
+   ],
+   "hint": null,
+   "id": "city-Q5465",
+   "name": "Cape Town",
+   "popularity": 217,
+   "qid": "Q5465"
+  },
+  {
+   "aliases": [
+    "Capital Gymnasium",
+    "Capital Sports Hall"
+   ],
+   "hint": null,
+   "id": "city-Q1589654",
+   "name": "Capital Indoor Stadium",
+   "popularity": 22,
+   "qid": "Q1589654"
+  },
+  {
+   "aliases": [
+    "CCS",
+    "Carracas",
+    "Santiago de León de Caracas"
+   ],
+   "hint": null,
+   "id": "city-Q1533",
+   "name": "Caracas",
+   "popularity": 216,
+   "qid": "Q1533"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q41699",
+   "name": "Castries",
+   "popularity": 132,
+   "qid": "Q41699"
+  },
+  {
+   "aliases": [
+    "Hamar Olympic Amphitheatre",
+    "Nordlyshallen",
+    "The Northern Light Hall"
+   ],
+   "hint": null,
+   "id": "city-Q477911",
+   "name": "CC Amfi",
+   "popularity": 12,
+   "qid": "Q477911"
+  },
+  {
+   "aliases": [
+    "Atlanta Olympic Stadium",
+    "Olympic Stadium"
+   ],
+   "hint": null,
+   "id": "city-Q795345",
+   "name": "Centennial Olympic Stadium",
+   "popularity": 25,
+   "qid": "Q795345"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q1934014",
+   "name": "Cesana Pariol",
+   "popularity": 8,
+   "qid": "Q1934014"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q1992061",
+   "name": "Cesana San Sicario",
+   "popularity": 9,
+   "qid": "Q1992061"
+  },
+  {
+   "aliases": [
+    "Chamonix",
+    "Chamouni"
+   ],
+   "hint": null,
+   "id": "city-Q83236",
+   "name": "Chamonix-Mont-Blanc",
+   "popularity": 104,
+   "qid": "Q83236"
+  },
+  {
+   "aliases": [
+    "Chisinau",
+    "Chisnau",
+    "Chişinău",
+    "Keshenev",
+    "Keshinov",
+    "Khisinau",
+    "Kischinew",
+    "Kischiniov",
+    "Kiscinev",
+    "Kishinef",
+    "Kishinev",
+    "Kishinëv",
+    "Kiszyniów",
+    "Kişinev",
+    "Kišinìv",
+    "Kyshyniv"
+   ],
+   "hint": null,
+   "id": "city-Q21197",
+   "name": "Chișinău",
+   "popularity": 194,
+   "qid": "Q21197"
+  },
+  {
+   "aliases": [
+    "Oyala"
+   ],
+   "hint": null,
+   "id": "city-Q1140136",
+   "name": "Ciudad de la Paz",
+   "popularity": 66,
+   "qid": "Q1140136"
+  },
+  {
+   "aliases": [
+    "Koḷam̆ba"
+   ],
+   "hint": null,
+   "id": "city-Q35381",
+   "name": "Colombo",
+   "popularity": 153,
+   "qid": "Q35381"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3733",
+   "name": "Conakry",
+   "popularity": 163,
+   "qid": "Q3733"
+  },
+  {
+   "aliases": [
+    "CPH",
+    "Copenhagen, Denmark",
+    "Hafn",
+    "KBH",
+    "Kbh.",
+    "Kobenhavn",
+    "Kopenhagen",
+    "Köbenhavn",
+    "København"
+   ],
+   "hint": null,
+   "id": "city-Q1748",
+   "name": "Copenhagen",
+   "popularity": 246,
+   "qid": "Q1748"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q41158",
+   "name": "Cortina d'Ampezzo",
+   "popularity": 95,
+   "qid": "Q41158"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q1137200",
+   "name": "Cypress Mountain Ski Area",
+   "popularity": 19,
+   "qid": "Q1137200"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3718",
+   "name": "Dakar",
+   "popularity": 177,
+   "qid": "Q3718"
+  },
+  {
+   "aliases": [
+    "Jasmine city",
+    "Mint of Damascus",
+    "Sham city"
+   ],
+   "hint": null,
+   "id": "city-Q3766",
+   "name": "Damascus",
+   "popularity": 243,
+   "qid": "Q3766"
+  },
+  {
+   "aliases": [
+    "Deer Valley Resort"
+   ],
+   "hint": null,
+   "id": "city-Q3021172",
+   "name": "Deer Valley",
+   "popularity": 14,
+   "qid": "Q3021172"
+  },
+  {
+   "aliases": [
+    "Energy Solutions Arena",
+    "EnergySolutions Arena",
+    "Salt Lake Ice Center",
+    "Vivint Arena",
+    "Vivint Smart Home Arena"
+   ],
+   "hint": null,
+   "id": "city-Q82294",
+   "name": "Delta Center",
+   "popularity": 29,
+   "qid": "Q82294"
+  },
+  {
+   "aliases": [
+    "Dacca",
+    "Dhaka City"
+   ],
+   "hint": null,
+   "id": "city-Q1354",
+   "name": "Dhaka",
+   "popularity": 222,
+   "qid": "Q1354"
+  },
+  {
+   "aliases": [
+    "City of Dili"
+   ],
+   "hint": null,
+   "id": "city-Q9310",
+   "name": "Dili",
+   "popularity": 159,
+   "qid": "Q9310"
+  },
+  {
+   "aliases": [
+    "Djibouti City"
+   ],
+   "hint": null,
+   "id": "city-Q3604",
+   "name": "Djibouti",
+   "popularity": 149,
+   "qid": "Q3604"
+  },
+  {
+   "aliases": [
+    "Dodoma City"
+   ],
+   "hint": null,
+   "id": "city-Q3866",
+   "name": "Dodoma",
+   "popularity": 159,
+   "qid": "Q3866"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3861",
+   "name": "Doha",
+   "popularity": 187,
+   "qid": "Q3861"
+  },
+  {
+   "aliases": [
+    "Baile Átha Cliath",
+    "City of Dublin",
+    "Dublin city",
+    "Dublin, Ireland"
+   ],
+   "hint": null,
+   "id": "city-Q1761",
+   "name": "Dublin",
+   "popularity": 238,
+   "qid": "Q1761"
+  },
+  {
+   "aliases": [
+    "Dyushambe",
+    "Stalinabad"
+   ],
+   "hint": null,
+   "id": "city-Q9365",
+   "name": "Dushanbe",
+   "popularity": 179,
+   "qid": "Q9365"
+  },
+  {
+   "aliases": [
+    "Arab Jerusalem",
+    "Eastern Jerusalem"
+   ],
+   "hint": null,
+   "id": "city-Q212938",
+   "name": "East Jerusalem",
+   "popularity": 82,
+   "qid": "Q212938"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3780",
+   "name": "Freetown",
+   "popularity": 156,
+   "qid": "Q3780"
+  },
+  {
+   "aliases": [
+    "Funafuti Island"
+   ],
+   "hint": null,
+   "id": "city-Q34126",
+   "name": "Funafuti",
+   "popularity": 122,
+   "qid": "Q34126"
+  },
+  {
+   "aliases": [
+    "Gaberones",
+    "Gabs",
+    "Motse-Mshate"
+   ],
+   "hint": null,
+   "id": "city-Q3919",
+   "name": "Gaborone",
+   "popularity": 163,
+   "qid": "Q3919"
+  },
+  {
+   "aliases": [
+    "Garmisch"
+   ],
+   "hint": null,
+   "id": "city-Q127043",
+   "name": "Garmisch-Partenkirchen",
+   "popularity": 80,
+   "qid": "Q127043"
+  },
+  {
+   "aliases": [
+    "Garden City of the Caribbean",
+    "Georgetown, British Guiana"
+   ],
+   "hint": null,
+   "id": "city-Q10717",
+   "name": "Georgetown",
+   "popularity": 145,
+   "qid": "Q10717"
+  },
+  {
+   "aliases": [
+    "Kitega"
+   ],
+   "hint": null,
+   "id": "city-Q167551",
+   "name": "Gitega",
+   "popularity": 97,
+   "qid": "Q167551"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3353373",
+   "name": "Gjøvik Olympic Cavern Hall",
+   "popularity": 11,
+   "qid": "Q3353373"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q1289",
+   "name": "Grenoble",
+   "popularity": 144,
+   "qid": "Q1289"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q669932",
+   "name": "Große Olympiaschanze",
+   "popularity": 22,
+   "qid": "Q669932"
+  },
+  {
+   "aliases": [
+    "City of Guatemala",
+    "Ciudad de Guatemala",
+    "Guate",
+    "Guatemala",
+    "New Guatemala of Assumption",
+    "Nueva Guatemala de la Asunción"
+   ],
+   "hint": null,
+   "id": "city-Q1555",
+   "name": "Guatemala City",
+   "popularity": 155,
+   "qid": "Q1555"
+  },
+  {
+   "aliases": [
+    "Hafjell Alpine Center"
+   ],
+   "hint": null,
+   "id": "city-Q954639",
+   "name": "Hafjell",
+   "popularity": 13,
+   "qid": "Q954639"
+  },
+  {
+   "aliases": [
+    "Dong Do",
+    "Ha Noi",
+    "Hà Nội",
+    "Thang Long",
+    "Tonkin",
+    "Đại La"
+   ],
+   "hint": null,
+   "id": "city-Q1858",
+   "name": "Hanoi",
+   "popularity": 202,
+   "qid": "Q1858"
+  },
+  {
+   "aliases": [
+    "Fort Salisbury",
+    "Salisbury, Rhodesia",
+    "Salisbury, Zimbabwe"
+   ],
+   "hint": null,
+   "id": "city-Q3921",
+   "name": "Harare",
+   "popularity": 174,
+   "qid": "Q3921"
+  },
+  {
+   "aliases": [
+    "Habana",
+    "Havana, Cuba",
+    "La Habana"
+   ],
+   "hint": null,
+   "id": "city-Q1563",
+   "name": "Havana",
+   "popularity": 199,
+   "qid": "Q1563"
+  },
+  {
+   "aliases": [
+    "Helsingfors",
+    "Helsingia",
+    "Helsingin kaupunki",
+    "Hesa",
+    "Stadi"
+   ],
+   "hint": null,
+   "id": "city-Q1757",
+   "name": "Helsinki",
+   "popularity": 293,
+   "qid": "Q1757"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q40921",
+   "name": "Honiara",
+   "popularity": 127,
+   "qid": "Q40921"
+  },
+  {
+   "aliases": [
+    "Iasi",
+    "Iaşi",
+    "Jassy",
+    "Jaßenmarkt",
+    "Jászvásár"
+   ],
+   "hint": null,
+   "id": "city-Q46852",
+   "name": "Iași",
+   "popularity": 108,
+   "qid": "Q46852"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q1110607",
+   "name": "Igman",
+   "popularity": 31,
+   "qid": "Q1110607"
+  },
+  {
+   "aliases": [
+    "Malo Polje"
+   ],
+   "hint": null,
+   "id": "city-Q1657209",
+   "name": "Igman Olympic Jumps",
+   "popularity": 11,
+   "qid": "Q1657209"
+  },
+  {
+   "aliases": [
+    "Innsbruck Stadt",
+    "Landeshauptstadt Innsbruck"
+   ],
+   "hint": null,
+   "id": "city-Q1735",
+   "name": "Innsbruck",
+   "popularity": 150,
+   "qid": "Q1735"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q1362",
+   "name": "Islamabad",
+   "popularity": 195,
+   "qid": "Q1362"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q187944",
+   "name": "Jahorina",
+   "popularity": 38,
+   "qid": "Q187944"
+  },
+  {
+   "aliases": [
+    "DKI Jakarta",
+    "Djakarta",
+    "Dki Jakarta",
+    "Jakarta Province",
+    "Jakarta Specific Region",
+    "Jakarta, Indonesia",
+    "Specific Capital Region of Jakarta",
+    "Specific Region of Jakarta"
+   ],
+   "hint": null,
+   "id": "city-Q3630",
+   "name": "Jakarta",
+   "popularity": 252,
+   "qid": "Q3630"
+  },
+  {
+   "aliases": [
+    "Lake Placid Speedskating Oval"
+   ],
+   "hint": null,
+   "id": "city-Q2588112",
+   "name": "James B. Sheffield Olympic Skating Rink",
+   "popularity": 15,
+   "qid": "Q2588112"
+  },
+  {
+   "aliases": [
+    "Aelia Capitolina",
+    "Al-Quds",
+    "J'lem",
+    "Mint of Aelia Capitolina",
+    "Yerushalayim"
+   ],
+   "hint": null,
+   "id": "city-Q1218",
+   "name": "Jerusalem",
+   "popularity": 298,
+   "qid": "Q1218"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q1947",
+   "name": "Juba",
+   "popularity": 150,
+   "qid": "Q1947"
+  },
+  {
+   "aliases": [
+    "Cabool",
+    "Cabul",
+    "Caubul",
+    "Kabol",
+    "Kaboul"
+   ],
+   "hint": null,
+   "id": "city-Q5838",
+   "name": "Kabul",
+   "popularity": 223,
+   "qid": "Q5838"
+  },
+  {
+   "aliases": [
+    "uganda's Capital city"
+   ],
+   "hint": null,
+   "id": "city-Q3894",
+   "name": "Kampala",
+   "popularity": 183,
+   "qid": "Q3894"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q6365428",
+   "name": "Kanthaugen Freestyle Arena",
+   "popularity": 6,
+   "qid": "Q6365428"
+  },
+  {
+   "aliases": [
+    "Cadmendu",
+    "Catmandir",
+    "Catmeduour",
+    "City of Temples",
+    "Kadmendu",
+    "Kantipur",
+    "Kasthamandap",
+    "Kathmandu Metropolitan City",
+    "Kathmandu Valley",
+    "Katmandir",
+    "Katmandou",
+    "Katmandu",
+    "Khatmandu",
+    "Káthmándú",
+    "Yambu",
+    "Yen"
+   ],
+   "hint": null,
+   "id": "city-Q3037",
+   "name": "Kathmandu",
+   "popularity": 197,
+   "qid": "Q3037"
+  },
+  {
+   "aliases": [
+    "Khartum"
+   ],
+   "hint": null,
+   "id": "city-Q1963",
+   "name": "Khartoum",
+   "popularity": 183,
+   "qid": "Q1963"
+  },
+  {
+   "aliases": [
+    "City of Kigali",
+    "CoK",
+    "KGL",
+    "Kigali City"
+   ],
+   "hint": null,
+   "id": "city-Q3859",
+   "name": "Kigali",
+   "popularity": 164,
+   "qid": "Q3859"
+  },
+  {
+   "aliases": [
+    "Kingston, Jamaica",
+    "Kingston, Surrey"
+   ],
+   "hint": null,
+   "id": "city-Q34692",
+   "name": "Kingston",
+   "popularity": 159,
+   "qid": "Q34692"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q41474",
+   "name": "Kingstown",
+   "popularity": 118,
+   "qid": "Q41474"
+  },
+  {
+   "aliases": [
+    "Leopoldstad",
+    "Leopoldville",
+    "Léopoldville"
+   ],
+   "hint": null,
+   "id": "city-Q3838",
+   "name": "Kinshasa",
+   "popularity": 207,
+   "qid": "Q3838"
+  },
+  {
+   "aliases": [
+    "Cracovia",
+    "Cracovie",
+    "Cracow",
+    "Krakau",
+    "Krakiv",
+    "Krakkó",
+    "Krako",
+    "Krakov",
+    "Krakova",
+    "Krakow",
+    "Krakoy",
+    "Krakuv",
+    "Kroke",
+    "Royal Capital City of Kraków",
+    "Royal City of Kraków"
+   ],
+   "hint": null,
+   "id": "city-Q31487",
+   "name": "Kraków",
+   "popularity": 185,
+   "qid": "Q31487"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q266071",
+   "name": "Krasnaya Polyana",
+   "popularity": 52,
+   "qid": "Q266071"
+  },
+  {
+   "aliases": [
+    "Federal Territory of Kuala Lumpur",
+    "K.L.",
+    "KL"
+   ],
+   "hint": null,
+   "id": "city-Q1865",
+   "name": "Kuala Lumpur",
+   "popularity": 213,
+   "qid": "Q1865"
+  },
+  {
+   "aliases": [
+    "Al Kuwait",
+    "Kuwait",
+    "al-Kuwait"
+   ],
+   "hint": null,
+   "id": "city-Q35178",
+   "name": "Kuwait City",
+   "popularity": 169,
+   "qid": "Q35178"
+  },
+  {
+   "aliases": [
+    "National Biathlon Centre",
+    "Zhangjiakou National Biathlon Centre"
+   ],
+   "hint": null,
+   "id": "city-Q55640291",
+   "name": "Kuyangshu Nordic Center and Biathlon Center",
+   "popularity": 8,
+   "qid": "Q55640291"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q256064",
+   "name": "Kvitfjell",
+   "popularity": 20,
+   "qid": "Q256064"
+  },
+  {
+   "aliases": [
+    "Kief",
+    "Kieff",
+    "Kiev",
+    "Kiew",
+    "Kiof",
+    "Kioff",
+    "Kiou",
+    "Kiovia",
+    "Kiow",
+    "Kiowia",
+    "Kiyev",
+    "Kyiw",
+    "Kyjiv",
+    "Kyjiw",
+    "Kyyiv",
+    "Kyïv",
+    "Kyїv",
+    "Київ"
+   ],
+   "hint": null,
+   "id": "city-Q1899",
+   "name": "Kyiv",
+   "popularity": 277,
+   "qid": "Q1899"
+  },
+  {
+   "aliases": [
+    "Chuqi Yapu",
+    "Chuqiyapu",
+    "Nuestra Señora de La Paz"
+   ],
+   "hint": null,
+   "id": "city-Q1491",
+   "name": "La Paz",
+   "popularity": 158,
+   "qid": "Q1491"
+  },
+  {
+   "aliases": [
+    "Lake Placid, NY",
+    "Lake Placid, New York"
+   ],
+   "hint": null,
+   "id": "city-Q192700",
+   "name": "Lake Placid",
+   "popularity": 72,
+   "qid": "Q192700"
+  },
+  {
+   "aliases": [
+    "Libreville, Gabon"
+   ],
+   "hint": null,
+   "id": "city-Q3825",
+   "name": "Libreville",
+   "popularity": 161,
+   "qid": "Q3825"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3143296",
+   "name": "Lillehammer Olympic Bobsleigh and Luge Track",
+   "popularity": 5,
+   "qid": "Q3143296"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3876",
+   "name": "Lilongwe",
+   "popularity": 155,
+   "qid": "Q3876"
+  },
+  {
+   "aliases": [
+    "City of the Kings"
+   ],
+   "hint": null,
+   "id": "city-Q2868",
+   "name": "Lima",
+   "popularity": 219,
+   "qid": "Q2868"
+  },
+  {
+   "aliases": [
+    "Lisboa"
+   ],
+   "hint": null,
+   "id": "city-Q597",
+   "name": "Lisbon",
+   "popularity": 267,
+   "qid": "Q597"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q40871",
+   "name": "Livigno",
+   "popularity": 74,
+   "qid": "Q40871"
+  },
+  {
+   "aliases": [
+    "Aemona",
+    "Labacum",
+    "Laibach",
+    "Ljubljana, Slovenia",
+    "Lublana"
+   ],
+   "hint": null,
+   "id": "city-Q437",
+   "name": "Ljubljana",
+   "popularity": 206,
+   "qid": "Q437"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q101418",
+   "name": "Lobamba",
+   "popularity": 98,
+   "qid": "Q101418"
+  },
+  {
+   "aliases": [
+    "Lome",
+    "Lome, Togo",
+    "Lomé, Togo"
+   ],
+   "hint": null,
+   "id": "city-Q3792",
+   "name": "Lomé",
+   "popularity": 163,
+   "qid": "Q3792"
+  },
+  {
+   "aliases": [
+    "Augusta",
+    "Big Smoke",
+    "Kaerlud",
+    "Karelundein",
+    "LDN",
+    "Llan Dian",
+    "Llyn Dain",
+    "Lon.",
+    "Lond.",
+    "Londini",
+    "Londiniensium",
+    "Londinio",
+    "Londinion",
+    "Londinium",
+    "London U.K.",
+    "London UK",
+    "London, England",
+    "London, UK",
+    "London, United Kingdom",
+    "Loniniensi",
+    "Loñ",
+    "Loñ.",
+    "Lunden",
+    "Lundenburgh",
+    "Lundenburh",
+    "Lundenwic",
+    "Trinovantum",
+    "the Big Smoke"
+   ],
+   "hint": null,
+   "id": "city-Q84",
+   "name": "London",
+   "popularity": 357,
+   "qid": "Q84"
+  },
+  {
+   "aliases": [
+    "City of Angels",
+    "City of Los Angeles",
+    "Double Dubuque",
+    "L.A.",
+    "LA",
+    "LA, California",
+    "La La Land",
+    "Los Angeles, CA",
+    "Pink City",
+    "Tinsel Town"
+   ],
+   "hint": null,
+   "id": "city-Q65",
+   "name": "Los Angeles",
+   "popularity": 280,
+   "qid": "Q65"
+  },
+  {
+   "aliases": [
+    "LA Coliseum",
+    "Los Angeles Olympic Coliseum",
+    "Memorial Coliseum"
+   ],
+   "hint": null,
+   "id": "city-Q849784",
+   "name": "Los Angeles Memorial Coliseum",
+   "popularity": 37,
+   "qid": "Q849784"
+  },
+  {
+   "aliases": [
+    "Loanda",
+    "Loanda, Angola",
+    "Luanda, Angola",
+    "Saint Paul of Loanda",
+    "Saint Paul of Luanda",
+    "Sao Paulo de Loanda",
+    "Sao Paulo, Angola",
+    "St Paul of Loanda",
+    "St Paul of Luanda",
+    "St. Paul of Loanda",
+    "St. Paul of Luanda",
+    "São Paulo da Assunção de Loanda",
+    "São Paulo de Loanda",
+    "São Paulo, Angola"
+   ],
+   "hint": null,
+   "id": "city-Q3897",
+   "name": "Luanda",
+   "popularity": 186,
+   "qid": "Q3897"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3881",
+   "name": "Lusaka",
+   "popularity": 165,
+   "qid": "Q3881"
+  },
+  {
+   "aliases": [
+    "City of Luxembourg",
+    "Luxembourg City",
+    "Luxemburg"
+   ],
+   "hint": null,
+   "id": "city-Q1842",
+   "name": "Luxembourg",
+   "popularity": 175,
+   "qid": "Q1842"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q632041",
+   "name": "Lysgårdsbakken",
+   "popularity": 23,
+   "qid": "Q632041"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q2807",
+   "name": "Madrid",
+   "popularity": 306,
+   "qid": "Q2807"
+  },
+  {
+   "aliases": [
+    "Majuro, Marshall Islands",
+    "Mājro"
+   ],
+   "hint": null,
+   "id": "city-Q12919",
+   "name": "Majuro",
+   "popularity": 124,
+   "qid": "Q12919"
+  },
+  {
+   "aliases": [
+    "Makomanai Sekisui Heim Stadium"
+   ],
+   "hint": null,
+   "id": "city-Q673240",
+   "name": "Makomanai Open Stadium",
+   "popularity": 18,
+   "qid": "Q673240"
+  },
+  {
+   "aliases": [
+    "Malé City"
+   ],
+   "hint": null,
+   "id": "city-Q9347",
+   "name": "Malé",
+   "popularity": 155,
+   "qid": "Q9347"
+  },
+  {
+   "aliases": [
+    "City of Managua",
+    "Managua City",
+    "Santiago de Managua"
+   ],
+   "hint": null,
+   "id": "city-Q131546626",
+   "name": "Managua",
+   "popularity": 1,
+   "qid": "Q131546626"
+  },
+  {
+   "aliases": [
+    "al-Manāmah"
+   ],
+   "hint": null,
+   "id": "city-Q3882",
+   "name": "Manama",
+   "popularity": 169,
+   "qid": "Q3882"
+  },
+  {
+   "aliases": [
+    "City of Manila",
+    "Pearl of the Orient",
+    "Queen City of the Pacific and others"
+   ],
+   "hint": null,
+   "id": "city-Q1461",
+   "name": "Manila",
+   "popularity": 206,
+   "qid": "Q1461"
+  },
+  {
+   "aliases": [
+    "Cam Phumo",
+    "Lourenço Marques"
+   ],
+   "hint": null,
+   "id": "city-Q3889",
+   "name": "Maputo",
+   "popularity": 165,
+   "qid": "Q3889"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3909",
+   "name": "Maseru",
+   "popularity": 152,
+   "qid": "Q3909"
+  },
+  {
+   "aliases": [
+    "E Center"
+   ],
+   "hint": null,
+   "id": "city-Q1911946",
+   "name": "Maverik Center",
+   "popularity": 10,
+   "qid": "Q1911946"
+  },
+  {
+   "aliases": [
+    "Mbabané"
+   ],
+   "hint": null,
+   "id": "city-Q3904",
+   "name": "Mbabane",
+   "popularity": 143,
+   "qid": "Q3904"
+  },
+  {
+   "aliases": [
+    "Greater Melbourne",
+    "Melbourne, AUS",
+    "Melbourne, Australia",
+    "Melbourne, VIC",
+    "Melbourne, VIC, Australia",
+    "Melbourne, Victoria",
+    "Melbourne, Victoria, Australia",
+    "Melbs",
+    "Naarm",
+    "Narrm"
+   ],
+   "hint": null,
+   "id": "city-Q3141",
+   "name": "Melbourne",
+   "popularity": 209,
+   "qid": "Q3141"
+  },
+  {
+   "aliases": [
+    "CDMX",
+    "City of Mexico",
+    "Ciudad de México",
+    "Mexico",
+    "Mexico City, Mexico",
+    "Mexico D.F."
+   ],
+   "hint": null,
+   "id": "city-Q1489",
+   "name": "Mexico City",
+   "popularity": 260,
+   "qid": "Q1489"
+  },
+  {
+   "aliases": [
+    "Mailand",
+    "Milan, Italy",
+    "Milan, Lombardy",
+    "Milano",
+    "Milano, Italy"
+   ],
+   "hint": null,
+   "id": "city-Q490",
+   "name": "Milan",
+   "popularity": 226,
+   "qid": "Q490"
+  },
+  {
+   "aliases": [
+    "Mensk",
+    "Miensk",
+    "Minskas",
+    "Mińsk",
+    "Менск",
+    "Минск",
+    "Мінск"
+   ],
+   "hint": null,
+   "id": "city-Q2280",
+   "name": "Minsk",
+   "popularity": 232,
+   "qid": "Q2280"
+  },
+  {
+   "aliases": [
+    "Hamar",
+    "Maqadīshū",
+    "Mogadishu, Somalia",
+    "The Seat of the Shah",
+    "Xamar"
+   ],
+   "hint": null,
+   "id": "city-Q2449",
+   "name": "Mogadishu",
+   "popularity": 171,
+   "qid": "Q2449"
+  },
+  {
+   "aliases": [
+    "Fort-Hercule",
+    "MC",
+    "MCO",
+    "MON",
+    "Mùnegu",
+    "Principality and Diocese of Monaco",
+    "Principality of Monaco",
+    "Principato di Monaco",
+    "Principatu de Mu̍negu",
+    "Principauté de Monaco",
+    "Prinçipatu de Mùnegu",
+    "mc"
+   ],
+   "hint": null,
+   "id": "city-Q235",
+   "name": "Monaco",
+   "popularity": 321,
+   "qid": "Q235"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3748",
+   "name": "Monrovia",
+   "popularity": 162,
+   "qid": "Q3748"
+  },
+  {
+   "aliases": [
+    "Montevideo, Uruguay"
+   ],
+   "hint": null,
+   "id": "city-Q1335",
+   "name": "Montevideo",
+   "popularity": 205,
+   "qid": "Q1335"
+  },
+  {
+   "aliases": [
+    "City of Montreal",
+    "Montreal, Canada",
+    "Montreal, Quebec",
+    "Montreal/Tiohtia:ke",
+    "Montréal",
+    "Tiohtia:ke/Montreal",
+    "Ville de Montreal",
+    "Ville de Montréal"
+   ],
+   "hint": null,
+   "id": "city-Q340",
+   "name": "Montreal",
+   "popularity": 195,
+   "qid": "Q340"
+  },
+  {
+   "aliases": [
+    "Moroni, Comoros"
+   ],
+   "hint": null,
+   "id": "city-Q3901",
+   "name": "Moroni",
+   "popularity": 143,
+   "qid": "Q3901"
+  },
+  {
+   "aliases": [
+    "City of Moscow",
+    "Moscow, Russia",
+    "Moscow, Russian Federation",
+    "Moscow, Russian SFSR",
+    "Moscow, Soviet Union",
+    "Moscow, USSR",
+    "Moskovĭ",
+    "Moskva",
+    "Moskva Federal City, Russia",
+    "Moskva, Rossiya",
+    "Moskva, Russia",
+    "Moskve",
+    "Moskvi",
+    "Moskvë",
+    "Mosky",
+    "Москва"
+   ],
+   "hint": null,
+   "id": "city-Q649",
+   "name": "Moscow",
+   "popularity": 337,
+   "qid": "Q649"
+  },
+  {
+   "aliases": [
+    "Olympiastadion",
+    "Olympic Stadium in Munich"
+   ],
+   "hint": null,
+   "id": "city-Q131610",
+   "name": "Munich Olympic Stadium",
+   "popularity": 56,
+   "qid": "Q131610"
+  },
+  {
+   "aliases": [
+    "Maskat",
+    "Muskat"
+   ],
+   "hint": null,
+   "id": "city-Q3826",
+   "name": "Muscat",
+   "popularity": 159,
+   "qid": "Q3826"
+  },
+  {
+   "aliases": [
+    "N'Djaména",
+    "NDjamena"
+   ],
+   "hint": null,
+   "id": "city-Q3659",
+   "name": "N'Djamena",
+   "popularity": 164,
+   "qid": "Q3659"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q981819",
+   "name": "Nagano Olympic Stadium",
+   "popularity": 18,
+   "qid": "Q981819"
+  },
+  {
+   "aliases": [
+    "Kenya capital",
+    "Kenya capital city",
+    "Kenya's capital",
+    "Kenyan capital",
+    "Nairobi, Kenya"
+   ],
+   "hint": null,
+   "id": "city-Q3870",
+   "name": "Nairobi",
+   "popularity": 238,
+   "qid": "Q3870"
+  },
+  {
+   "aliases": [
+    "City of Nassau"
+   ],
+   "hint": null,
+   "id": "city-Q2467",
+   "name": "Nassau",
+   "popularity": 143,
+   "qid": "Q2467"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q20745708",
+   "name": "National Speed Skating Oval",
+   "popularity": 19,
+   "qid": "Q20745708"
+  },
+  {
+   "aliases": [
+    "Nay Pyi Taw",
+    "Naypyitaw"
+   ],
+   "hint": null,
+   "id": "city-Q37400",
+   "name": "Naypyidaw",
+   "popularity": 157,
+   "qid": "Q37400"
+  },
+  {
+   "aliases": [
+    "NDMC area",
+    "Nai Dilli",
+    "Nayi Dilli",
+    "New Delhi Municipal Council Area"
+   ],
+   "hint": null,
+   "id": "city-Q987",
+   "name": "New Delhi",
+   "popularity": 221,
+   "qid": "Q987"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q515229",
+   "name": "Ngerulmud",
+   "popularity": 88,
+   "qid": "Q515229"
+  },
+  {
+   "aliases": [
+    "Niamey Urban Community"
+   ],
+   "hint": null,
+   "id": "city-Q3674",
+   "name": "Niamey",
+   "popularity": 162,
+   "qid": "Q3674"
+  },
+  {
+   "aliases": [
+    "Ledra",
+    "Ledrae",
+    "Ledroi",
+    "Ledron",
+    "Lefkosa",
+    "Lefkosia",
+    "Lefkoşa",
+    "Leucopolis",
+    "Leucosia",
+    "Leucotheon",
+    "Leukoi Theoi",
+    "Leuteon",
+    "Nicosie"
+   ],
+   "hint": null,
+   "id": "city-Q3856",
+   "name": "Nicosia",
+   "popularity": 205,
+   "qid": "Q3856"
+  },
+  {
+   "aliases": [
+    "Capital of Mauritania",
+    "Nawakshut",
+    "Nawākshūṭ",
+    "Nouakchot",
+    "Nouakchott, Mauritania",
+    "Noukchott",
+    "Nuwākshūṭ"
+   ],
+   "hint": null,
+   "id": "city-Q3688",
+   "name": "Nouakchott",
+   "popularity": 155,
+   "qid": "Q3688"
+  },
+  {
+   "aliases": [
+    "Nuku'alofa"
+   ],
+   "hint": null,
+   "id": "city-Q38834",
+   "name": "Nukuʻalofa",
+   "popularity": 125,
+   "qid": "Q38834"
+  },
+  {
+   "aliases": [
+    "Montreal Olympic Stadium",
+    "Stade olympique de Montréal"
+   ],
+   "hint": null,
+   "id": "city-Q285467",
+   "name": "Olympic Stadium",
+   "popularity": 36,
+   "qid": "Q285467"
+  },
+  {
+   "aliases": [
+    "Athens Olympic Stadium",
+    "Spyros Louis Stadium"
+   ],
+   "hint": null,
+   "id": "city-Q189663",
+   "name": "Olympic Stadium in Athens",
+   "popularity": 52,
+   "qid": "Q189663"
+  },
+  {
+   "aliases": [
+    "Christiania",
+    "Kristiania",
+    "NOOSL",
+    "Oslo, Norway"
+   ],
+   "hint": null,
+   "id": "city-Q585",
+   "name": "Oslo",
+   "popularity": 245,
+   "qid": "Q585"
+  },
+  {
+   "aliases": [
+    "Farab",
+    "Otrartobe"
+   ],
+   "hint": null,
+   "id": "city-Q956911",
+   "name": "Otrar",
+   "popularity": 38,
+   "qid": "Q956911"
+  },
+  {
+   "aliases": [
+    "City of Ottawa",
+    "Ottawa, ON",
+    "Ottawa, Ontario"
+   ],
+   "hint": null,
+   "id": "city-Q1930",
+   "name": "Ottawa",
+   "popularity": 231,
+   "qid": "Q1930"
+  },
+  {
+   "aliases": [
+    "Kumbee-Tenga",
+    "Ouaga",
+    "Wagadugu"
+   ],
+   "hint": null,
+   "id": "city-Q3777",
+   "name": "Ouagadougou",
+   "popularity": 169,
+   "qid": "Q3777"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q978030",
+   "name": "Oval Lingotto",
+   "popularity": 18,
+   "qid": "Q978030"
+  },
+  {
+   "aliases": [
+    "Rink on Renfrew",
+    "The Rink on Renfrew"
+   ],
+   "hint": null,
+   "id": "city-Q832644",
+   "name": "Pacific Coliseum",
+   "popularity": 24,
+   "qid": "Q832644"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q42751",
+   "name": "Palikir",
+   "popularity": 120,
+   "qid": "Q42751"
+  },
+  {
+   "aliases": [
+    "Squaw Valley",
+    "Squaw Valley Alpine Meadows",
+    "Squaw Valley Ski Resort"
+   ],
+   "hint": null,
+   "id": "city-Q2182804",
+   "name": "Palisades Tahoe",
+   "popularity": 20,
+   "qid": "Q2182804"
+  },
+  {
+   "aliases": [
+    "Ciudad de Panama",
+    "Ciudad de Panamá",
+    "Panama",
+    "Panamá"
+   ],
+   "hint": null,
+   "id": "city-Q3306",
+   "name": "Panama City",
+   "popularity": 159,
+   "qid": "Q3306"
+  },
+  {
+   "aliases": [
+    "Parbo"
+   ],
+   "hint": null,
+   "id": "city-Q3001",
+   "name": "Paramaribo",
+   "popularity": 161,
+   "qid": "Q3001"
+  },
+  {
+   "aliases": [
+    "City of Light",
+    "City of Love",
+    "Lutetia"
+   ],
+   "hint": null,
+   "id": "city-Q90",
+   "name": "Paris",
+   "popularity": 366,
+   "qid": "Q90"
+  },
+  {
+   "aliases": [
+    "Park City, UT",
+    "Park City, Utah"
+   ],
+   "hint": null,
+   "id": "city-Q482993",
+   "name": "Park City",
+   "popularity": 48,
+   "qid": "Q482993"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3822288",
+   "name": "Peaks Ice Arena",
+   "popularity": 7,
+   "qid": "Q3822288"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q1850",
+   "name": "Phnom Penh",
+   "popularity": 180,
+   "qid": "Q1850"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q7195553",
+   "name": "Pinerolo Palaghiaccio",
+   "popularity": 3,
+   "qid": "Q7195553"
+  },
+  {
+   "aliases": [
+    "Burguriçe",
+    "Capital of Montenegro",
+    "Podgoritsa",
+    "Podgoritza",
+    "Podgorizza",
+    "Titograd",
+    "Titogrado"
+   ],
+   "hint": null,
+   "id": "city-Q23564",
+   "name": "Podgorica",
+   "popularity": 192,
+   "qid": "Q23564"
+  },
+  {
+   "aliases": [
+    "Polwi",
+    "Porlwi",
+    "Port-Louis"
+   ],
+   "hint": null,
+   "id": "city-Q3929",
+   "name": "Port Louis",
+   "popularity": 154,
+   "qid": "Q3929"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q36526",
+   "name": "Port Moresby",
+   "popularity": 153,
+   "qid": "Q36526"
+  },
+  {
+   "aliases": [
+    "Cumucurapo",
+    "Port-of-Spain",
+    "Puerto España"
+   ],
+   "hint": null,
+   "id": "city-Q39178",
+   "name": "Port of Spain",
+   "popularity": 140,
+   "qid": "Q39178"
+  },
+  {
+   "aliases": [
+    "Vila"
+   ],
+   "hint": null,
+   "id": "city-Q37806",
+   "name": "Port Vila",
+   "popularity": 135,
+   "qid": "Q37806"
+  },
+  {
+   "aliases": [
+    "Port au Prince",
+    "Pòtoprens"
+   ],
+   "hint": null,
+   "id": "city-Q34261",
+   "name": "Port-au-Prince",
+   "popularity": 157,
+   "qid": "Q34261"
+  },
+  {
+   "aliases": [
+    "Ajashe",
+    "Hogbonu"
+   ],
+   "hint": null,
+   "id": "city-Q3799",
+   "name": "Porto-Novo",
+   "popularity": 160,
+   "qid": "Q3799"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q10201",
+   "name": "Pragelato",
+   "popularity": 59,
+   "qid": "Q10201"
+  },
+  {
+   "aliases": [
+    "City of Prague",
+    "Hlavní město Praha",
+    "Prag",
+    "Praga",
+    "Praha"
+   ],
+   "hint": null,
+   "id": "city-Q1085",
+   "name": "Prague",
+   "popularity": 268,
+   "qid": "Q1085"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3751",
+   "name": "Praia",
+   "popularity": 158,
+   "qid": "Q3751"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q300010",
+   "name": "Predazzo",
+   "popularity": 61,
+   "qid": "Q300010"
+  },
+  {
+   "aliases": [
+    "Pretoria, Gauteng",
+    "Pretoria, Gauteng, South Africa",
+    "Pretoria, S Africa",
+    "Pretoria, S. Africa",
+    "Pretoria, South Africa",
+    "ePitoli"
+   ],
+   "hint": null,
+   "id": "city-Q3926",
+   "name": "Pretoria",
+   "popularity": 192,
+   "qid": "Q3926"
+  },
+  {
+   "aliases": [
+    "Prishtina",
+    "Prishtinë",
+    "Priştina",
+    "Priština"
+   ],
+   "hint": null,
+   "id": "city-Q25270",
+   "name": "Pristina",
+   "popularity": 158,
+   "qid": "Q25270"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q7089110",
+   "name": "Pyeongchang Olympic Stadium",
+   "popularity": 30,
+   "qid": "Q7089110"
+  },
+  {
+   "aliases": [
+    "Capital of Revolution",
+    "Pyeongyang",
+    "P’yŏng-yang",
+    "Ryugyong"
+   ],
+   "hint": null,
+   "id": "city-Q18808",
+   "name": "Pyongyang",
+   "popularity": 200,
+   "qid": "Q18808"
+  },
+  {
+   "aliases": [
+    "Kitu",
+    "Quito, Ecuador",
+    "San Francisco de Quito",
+    "UIO"
+   ],
+   "hint": null,
+   "id": "city-Q2900",
+   "name": "Quito",
+   "popularity": 180,
+   "qid": "Q2900"
+  },
+  {
+   "aliases": [
+    "Rabbat"
+   ],
+   "hint": null,
+   "id": "city-Q3551",
+   "name": "Rabat",
+   "popularity": 190,
+   "qid": "Q3551"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q158119",
+   "name": "Ramallah",
+   "popularity": 129,
+   "qid": "Q158119"
+  },
+  {
+   "aliases": [
+    "Rasen Antholz",
+    "Rasun Anterselva",
+    "Rasun-Anterselva"
+   ],
+   "hint": null,
+   "id": "city-Q193711",
+   "name": "Rasen-Antholz",
+   "popularity": 63,
+   "qid": "Q193711"
+  },
+  {
+   "aliases": [
+    "Reykjavik",
+    "Reykjavikurborg",
+    "Reykjavíkurborg"
+   ],
+   "hint": null,
+   "id": "city-Q1764",
+   "name": "Reykjavík",
+   "popularity": 217,
+   "qid": "Q1764"
+  },
+  {
+   "aliases": [
+    "Rice–Eccles Olympic Stadium",
+    "Salt Lake City Olympic Stadium",
+    "Salt Lake Olympic Stadium"
+   ],
+   "hint": null,
+   "id": "city-Q922761",
+   "name": "Rice–Eccles Stadium",
+   "popularity": 23,
+   "qid": "Q922761"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q744568",
+   "name": "Richmond Olympic Oval",
+   "popularity": 20,
+   "qid": "Q744568"
+  },
+  {
+   "aliases": [
+    "Rige",
+    "Riia",
+    "Rija",
+    "Ryga",
+    "Rīgõ"
+   ],
+   "hint": null,
+   "id": "city-Q1773",
+   "name": "Riga",
+   "popularity": 225,
+   "qid": "Q1773"
+  },
+  {
+   "aliases": [
+    "City of Río de Janeiro",
+    "Rio",
+    "Rio de Janeiro city",
+    "Río",
+    "Río de Janeiro City"
+   ],
+   "hint": null,
+   "id": "city-Q8678",
+   "name": "Rio de Janeiro",
+   "popularity": 303,
+   "qid": "Q8678"
+  },
+  {
+   "aliases": [
+    "Al Riyadh",
+    "Al-Riyadh",
+    "AlRiyadh",
+    "Ar-Riyadh",
+    "Reyadh"
+   ],
+   "hint": null,
+   "id": "city-Q3692",
+   "name": "Riyadh",
+   "popularity": 195,
+   "qid": "Q3692"
+  },
+  {
+   "aliases": [
+    "GM Place",
+    "General Motors Place"
+   ],
+   "hint": null,
+   "id": "city-Q517318",
+   "name": "Rogers Arena",
+   "popularity": 35,
+   "qid": "Q517318"
+  },
+  {
+   "aliases": [
+    "Capital of the World",
+    "City of Marble",
+    "City of Seven Hills",
+    "Eternal City",
+    "Roma",
+    "Rome, Italy",
+    "The Capital of the World",
+    "The City of Marble",
+    "The Eternal City"
+   ],
+   "hint": null,
+   "id": "city-Q220",
+   "name": "Rome",
+   "popularity": 344,
+   "qid": "Q220"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q36281",
+   "name": "Roseau",
+   "popularity": 125,
+   "qid": "Q36281"
+  },
+  {
+   "aliases": [
+    "Leningrad",
+    "Petersburg",
+    "Petrograd",
+    "Sankt-Peterburg",
+    "St Petersburg",
+    "St. Petersburg",
+    "St.Petersburg",
+    "Ленинград",
+    "Петроград"
+   ],
+   "hint": null,
+   "id": "city-Q656",
+   "name": "Saint Petersburg",
+   "popularity": 273,
+   "qid": "Q656"
+  },
+  {
+   "aliases": [
+    "San Jose",
+    "San José, Costa Rica"
+   ],
+   "hint": null,
+   "id": "city-Q3070",
+   "name": "San José",
+   "popularity": 150,
+   "qid": "Q3070"
+  },
+  {
+   "aliases": [
+    "City of San Marino"
+   ],
+   "hint": null,
+   "id": "city-Q1848",
+   "name": "San Marino",
+   "popularity": 143,
+   "qid": "Q1848"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3110",
+   "name": "San Salvador",
+   "popularity": 149,
+   "qid": "Q3110"
+  },
+  {
+   "aliases": [
+    "San'a'",
+    "Sana",
+    "Sana'a",
+    "صنعاء",
+    "Ṣanʻāʼ",
+    "Ṣanʿāʾ"
+   ],
+   "hint": null,
+   "id": "city-Q2471",
+   "name": "Sanaa",
+   "popularity": 173,
+   "qid": "Q2471"
+  },
+  {
+   "aliases": [
+    "Greater Santiago",
+    "Santiago de Chile",
+    "Santiago, Chile"
+   ],
+   "hint": null,
+   "id": "city-Q2887",
+   "name": "Santiago",
+   "popularity": 275,
+   "qid": "Q2887"
+  },
+  {
+   "aliases": [
+    "Ciudad Trujillo",
+    "San Domingo",
+    "Santo Domingo de Guzman",
+    "Santo Domingo de Guzmán",
+    "Santo Domingo, Dominican Republic"
+   ],
+   "hint": null,
+   "id": "city-Q34820",
+   "name": "Santo Domingo",
+   "popularity": 152,
+   "qid": "Q34820"
+  },
+  {
+   "aliases": [
+    "Bosna-Serai",
+    "City of Sarajevo"
+   ],
+   "hint": null,
+   "id": "city-Q11194",
+   "name": "Sarajevo",
+   "popularity": 218,
+   "qid": "Q11194"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q7422989",
+   "name": "Sarajevo Olympic Bobsleigh and Luge Track",
+   "popularity": 13,
+   "qid": "Q7422989"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q10295",
+   "name": "Sauze d'Oulx",
+   "popularity": 60,
+   "qid": "Q10295"
+  },
+  {
+   "aliases": [
+    "Gyeongseong",
+    "Hanseong",
+    "Hanyang",
+    "Keijou",
+    "Keijō",
+    "Namgyeong",
+    "Seoul Special City",
+    "Sŏul T'ŭkpyŏlsi",
+    "Wiryeseong"
+   ],
+   "hint": null,
+   "id": "city-Q8684",
+   "name": "Seoul",
+   "popularity": 260,
+   "qid": "Q8684"
+  },
+  {
+   "aliases": [
+    "Jamsil Olympic Stadium",
+    "Seoul Olympic Stadium"
+   ],
+   "hint": null,
+   "id": "city-Q392086",
+   "name": "Seoul Olympic Main Stadium",
+   "popularity": 33,
+   "qid": "Q392086"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q10302",
+   "name": "Sestriere",
+   "popularity": 68,
+   "qid": "Q10302"
+  },
+  {
+   "aliases": [
+    "Garden City",
+    "Lion City",
+    "Republic of Singapore",
+    "S'pore",
+    "SG",
+    "SGP",
+    "SIN",
+    "Singapore City",
+    "sg"
+   ],
+   "hint": null,
+   "id": "city-Q334",
+   "name": "Singapore",
+   "popularity": 333,
+   "qid": "Q334"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q1280411",
+   "name": "Skenderija",
+   "popularity": 19,
+   "qid": "Q1280411"
+  },
+  {
+   "aliases": [
+    "Escópia",
+    "Shkup",
+    "Shkupi",
+    "Skoplje",
+    "Üsküb"
+   ],
+   "hint": null,
+   "id": "city-Q384",
+   "name": "Skopje",
+   "popularity": 197,
+   "qid": "Q384"
+  },
+  {
+   "aliases": [
+    "Snowbasin Resort"
+   ],
+   "hint": null,
+   "id": "city-Q2665933",
+   "name": "Snowbasin",
+   "popularity": 10,
+   "qid": "Q2665933"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q39420",
+   "name": "Sochi",
+   "popularity": 181,
+   "qid": "Q39420"
+  },
+  {
+   "aliases": [
+    "Serdica",
+    "Sofija",
+    "Sredets",
+    "Sredez"
+   ],
+   "hint": null,
+   "id": "city-Q472",
+   "name": "Sofia",
+   "popularity": 228,
+   "qid": "Q472"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q1111563",
+   "name": "Soldier Hollow",
+   "popularity": 12,
+   "qid": "Q1111563"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q131233",
+   "name": "South Tarawa",
+   "popularity": 98,
+   "qid": "Q131233"
+  },
+  {
+   "aliases": [
+    "Kotte",
+    "Sri Jayawardenapura Kotte",
+    "Sri Jayawardenapura-Kotte"
+   ],
+   "hint": null,
+   "id": "city-Q41963",
+   "name": "Sri Jayawardenepura Kotte",
+   "popularity": 122,
+   "qid": "Q41963"
+  },
+  {
+   "aliases": [
+    "Saint George's",
+    "Saint George's, Grenada",
+    "Saint Georges",
+    "Saint Georges, Granada",
+    "St Georges, Granada",
+    "St. George's, Grenada"
+   ],
+   "hint": null,
+   "id": "city-Q41547",
+   "name": "St. George's",
+   "popularity": 130,
+   "qid": "Q41547"
+  },
+  {
+   "aliases": [
+    "Saint John's",
+    "Saint John's, Antigua and Barbuda",
+    "Sen Jaan",
+    "St John's",
+    "St. John's City"
+   ],
+   "hint": null,
+   "id": "city-Q36262",
+   "name": "St. John's",
+   "popularity": 136,
+   "qid": "Q36262"
+  },
+  {
+   "aliases": [
+    "City of St. Louis",
+    "STL",
+    "Saint Louis",
+    "Saint Louis, MO",
+    "Saint Louis, Missouri",
+    "St Louis",
+    "St. Louis City",
+    "St. Louis, MO",
+    "St. Louis, Missouri"
+   ],
+   "hint": null,
+   "id": "city-Q38022",
+   "name": "St. Louis",
+   "popularity": 138,
+   "qid": "Q38022"
+  },
+  {
+   "aliases": [
+    "San Murezzan",
+    "Sankt Moritz",
+    "St. Moritz GR"
+   ],
+   "hint": null,
+   "id": "city-Q68986",
+   "name": "St. Moritz",
+   "popularity": 83,
+   "qid": "Q68986"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q2455367",
+   "name": "St. Moritz Olympic Ice Rink",
+   "popularity": 17,
+   "qid": "Q2455367"
+  },
+  {
+   "aliases": [
+    "Cortina Olympic Stadium",
+    "Stadio Olimpico Cortina"
+   ],
+   "hint": null,
+   "id": "city-Q2022888",
+   "name": "Stadio Olimpico del Ghiaccio",
+   "popularity": 24,
+   "qid": "Q2022888"
+  },
+  {
+   "aliases": [
+    "Comunale Vittorio Pozzo Stadium",
+    "Grande Torino Olympic Stadium",
+    "Grande Torino Stadium",
+    "Olympic Stadium Grande Torino"
+   ],
+   "hint": null,
+   "id": "city-Q214629",
+   "name": "Stadio Olimpico Grande Torino",
+   "popularity": 47,
+   "qid": "Q214629"
+  },
+  {
+   "aliases": [
+    "STHLM",
+    "Sthlm"
+   ],
+   "hint": null,
+   "id": "city-Q1754",
+   "name": "Stockholm",
+   "popularity": 279,
+   "qid": "Q1754"
+  },
+  {
+   "aliases": [
+    "Charcas",
+    "Chuquisaca",
+    "La Plata",
+    "The Illustrious and Heroic Sucre"
+   ],
+   "hint": null,
+   "id": "city-Q2907",
+   "name": "Sucre",
+   "popularity": 152,
+   "qid": "Q2907"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q38807",
+   "name": "Suva",
+   "popularity": 139,
+   "qid": "Q38807"
+  },
+  {
+   "aliases": [
+    "Emerald City",
+    "Eora",
+    "Gadi",
+    "Gadigal",
+    "Greater Sydney",
+    "Harbour City",
+    "Port Jackson",
+    "Sydney, Australia",
+    "Sydney, N. S. W.",
+    "Sydney, N.S.W.",
+    "Sydney, NSW",
+    "Sydney, NSW, Australia",
+    "Sydney, New South Wales",
+    "Sydney, New South Wales, Australia",
+    "Warrane"
+   ],
+   "hint": null,
+   "id": "city-Q3130",
+   "name": "Sydney",
+   "popularity": 266,
+   "qid": "Q3130"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3932",
+   "name": "São Tomé",
+   "popularity": 140,
+   "qid": "Q3932"
+  },
+  {
+   "aliases": [
+    "City of Taipei",
+    "Tai Pei",
+    "Taibei",
+    "Taihoku",
+    "Taipak",
+    "Taipei City",
+    "Tanshoui",
+    "The City of Azaleas",
+    "Thoipet",
+    "Thòi-pet",
+    "Tâi-pak",
+    "北市",
+    "台北市",
+    "臺北"
+   ],
+   "hint": null,
+   "id": "city-Q1867",
+   "name": "Taipei",
+   "popularity": 197,
+   "qid": "Q1867"
+  },
+  {
+   "aliases": [
+    "Kolywan",
+    "Lindanäs",
+    "Lyndanisse",
+    "Reuel",
+    "Reval",
+    "Revel",
+    "Rewel",
+    "Tallinn, Estonia"
+   ],
+   "hint": null,
+   "id": "city-Q1770",
+   "name": "Tallinn",
+   "popularity": 230,
+   "qid": "Q1770"
+  },
+  {
+   "aliases": [
+    "Binkath",
+    "Chach",
+    "Choch",
+    "Shash",
+    "Shosh",
+    "Tashkand",
+    "Toshkent"
+   ],
+   "hint": null,
+   "id": "city-Q269",
+   "name": "Tashkent",
+   "popularity": 194,
+   "qid": "Q269"
+  },
+  {
+   "aliases": [
+    "Tbilisi, Georgia",
+    "Tbilissi",
+    "Tiflis",
+    "Tpilisi",
+    "Tpilissi"
+   ],
+   "hint": null,
+   "id": "city-Q994",
+   "name": "Tbilisi",
+   "popularity": 227,
+   "qid": "Q994"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3238",
+   "name": "Tegucigalpa",
+   "popularity": 158,
+   "qid": "Q3238"
+  },
+  {
+   "aliases": [
+    "Teheran",
+    "Ṭihrán"
+   ],
+   "hint": null,
+   "id": "city-Q3616",
+   "name": "Tehran",
+   "popularity": 240,
+   "qid": "Q3616"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q327161",
+   "name": "Tesero",
+   "popularity": 56,
+   "qid": "Q327161"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3821992",
+   "name": "The Ice Sheet at Ogden",
+   "popularity": 6,
+   "qid": "Q3821992"
+  },
+  {
+   "aliases": [
+    "Thimpu",
+    "ཐིམ་ཕུ་"
+   ],
+   "hint": null,
+   "id": "city-Q9270",
+   "name": "Thimphu",
+   "popularity": 170,
+   "qid": "Q9270"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q2698412",
+   "name": "Théâtre des Cérémonies",
+   "popularity": 14,
+   "qid": "Q2698412"
+  },
+  {
+   "aliases": [
+    "Tirane",
+    "Tiranë"
+   ],
+   "hint": null,
+   "id": "city-Q19689",
+   "name": "Tirana",
+   "popularity": 280,
+   "qid": "Q19689"
+  },
+  {
+   "aliases": [
+    "Edo",
+    "Jedo",
+    "Tokei",
+    "Tokio",
+    "Tokyo Metropolis",
+    "Tokyo Metropolitan prefecture",
+    "Tokyo Prefecture",
+    "Tokyo, Japan",
+    "Tokyo-to",
+    "Tôkyô",
+    "Tôkyô-to",
+    "Tōkyō",
+    "Tōkyō-to",
+    "Yedo"
+   ],
+   "hint": null,
+   "id": "city-Q1490",
+   "name": "Tokyo",
+   "popularity": 303,
+   "qid": "Q1490"
+  },
+  {
+   "aliases": [
+    "Inalpi Arena",
+    "PalaIsozaki",
+    "PalaOlimpico",
+    "Palasport Olimpico"
+   ],
+   "hint": null,
+   "id": "city-Q1393382",
+   "name": "Torino Palasport Olimpico",
+   "popularity": 29,
+   "qid": "Q1393382"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q241560",
+   "name": "Torino Palavela",
+   "popularity": 13,
+   "qid": "Q241560"
+  },
+  {
+   "aliases": [
+    "Tarabulus",
+    "Trablusgarp"
+   ],
+   "hint": null,
+   "id": "city-Q3579",
+   "name": "Tripoli",
+   "popularity": 187,
+   "qid": "Q3579"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3572",
+   "name": "Tunis",
+   "popularity": 183,
+   "qid": "Q3572"
+  },
+  {
+   "aliases": [
+    "East Hüree",
+    "Hüree",
+    "Ih Huree",
+    "Ikh Khüree",
+    "Khan of Urga",
+    "Khüree",
+    "Kulun",
+    "Niislel Hüree",
+    "Ulan Bator",
+    "Ulan-Bator",
+    "Ulanbator",
+    "Urga",
+    "Wulan Batuo",
+    "Örgöö"
+   ],
+   "hint": null,
+   "id": "city-Q23430",
+   "name": "Ulaanbaatar",
+   "popularity": 190,
+   "qid": "Q23430"
+  },
+  {
+   "aliases": [
+    "Estadio Olimpico Universitario",
+    "Estadio Olímpico Universitario",
+    "Estadio del México 68'",
+    "Mexico 68'",
+    "México 68'",
+    "Olimpico Universitario",
+    "Olímpico Universitario",
+    "Universitary Olympic"
+   ],
+   "hint": null,
+   "id": "city-Q767558",
+   "name": "Universitary Olympic Stadium",
+   "popularity": 32,
+   "qid": "Q767558"
+  },
+  {
+   "aliases": [
+    "Salt Lake City Olympic Oval",
+    "Salt Lake Olympic Oval"
+   ],
+   "hint": null,
+   "id": "city-Q1369595",
+   "name": "Utah Olympic Oval",
+   "popularity": 13,
+   "qid": "Q1369595"
+  },
+  {
+   "aliases": [
+    "Salt Lake City Olympic Park",
+    "Salt Lake Olympic Park"
+   ],
+   "hint": null,
+   "id": "city-Q2469941",
+   "name": "Utah Olympic Park",
+   "popularity": 10,
+   "qid": "Q2469941"
+  },
+  {
+   "aliases": [
+    "Vaduz, Liechtenstein"
+   ],
+   "hint": null,
+   "id": "city-Q1844",
+   "name": "Vaduz",
+   "popularity": 188,
+   "qid": "Q1844"
+  },
+  {
+   "aliases": [
+    "Capital of Malta",
+    "Citta Umilissima",
+    "Città Umilissima",
+    "Il-Belt Valletta",
+    "La Valleta",
+    "La Valletta",
+    "Valetta",
+    "Valleta"
+   ],
+   "hint": null,
+   "id": "city-Q23800",
+   "name": "Valletta",
+   "popularity": 181,
+   "qid": "Q23800"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q2010103",
+   "name": "Vancouver Olympic/Paralympic Centre",
+   "popularity": 15,
+   "qid": "Q2010103"
+  },
+  {
+   "aliases": [
+    "Città del Vaticano",
+    "Civitas Vaticana",
+    "Holy See",
+    "Papal State",
+    "State of Vatican City",
+    "Stato della Città del Vaticano",
+    "Status Civitatis Vaticanae",
+    "The Vatican",
+    "VA",
+    "VAT",
+    "Vatican",
+    "Vatican City State",
+    "va",
+    "vat"
+   ],
+   "hint": null,
+   "id": "city-Q237",
+   "name": "Vatican City",
+   "popularity": 343,
+   "qid": "Q237"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q2028",
+   "name": "Verona",
+   "popularity": 142,
+   "qid": "Q2028"
+  },
+  {
+   "aliases": [
+    "Port Victoria",
+    "Victoria, Seychelles"
+   ],
+   "hint": null,
+   "id": "city-Q3940",
+   "name": "Victoria",
+   "popularity": 146,
+   "qid": "Q3940"
+  },
+  {
+   "aliases": [
+    "Vienna, Austria",
+    "Wien"
+   ],
+   "hint": null,
+   "id": "city-Q1741",
+   "name": "Vienna",
+   "popularity": 294,
+   "qid": "Q1741"
+  },
+  {
+   "aliases": [
+    "Bientani",
+    "Nakhon Viangchan",
+    "Viang chan",
+    "Viangchan",
+    "Vien Chang",
+    "Vienchan",
+    "Vieng-Cæn",
+    "Viengchan",
+    "Vientane",
+    "Vieṅ Čan",
+    "Vieṅg-Čăn",
+    "Vyentyan",
+    "Wei-t'ien",
+    "Wiangcan",
+    "Wīangčhan",
+    "urban Vientiane"
+   ],
+   "hint": null,
+   "id": "city-Q9326",
+   "name": "Vientiane",
+   "popularity": 175,
+   "qid": "Q9326"
+  },
+  {
+   "aliases": [
+    "Hamar Olympic Hall"
+   ],
+   "hint": null,
+   "id": "city-Q1782828",
+   "name": "Vikingskipet",
+   "popularity": 18,
+   "qid": "Q1782828"
+  },
+  {
+   "aliases": [
+    "Vilna",
+    "Vilnia",
+    "Vilno",
+    "Vilnyus",
+    "Vilnė",
+    "Viĺnia",
+    "Viļņa",
+    "Wilna",
+    "Wilno",
+    "Вилнүс"
+   ],
+   "hint": null,
+   "id": "city-Q216",
+   "name": "Vilnius",
+   "popularity": 229,
+   "qid": "Q216"
+  },
+  {
+   "aliases": [
+    "Warszawa"
+   ],
+   "hint": null,
+   "id": "city-Q270",
+   "name": "Warsaw",
+   "popularity": 288,
+   "qid": "Q270"
+  },
+  {
+   "aliases": [
+    "City of Washington, D.C.",
+    "D. C.",
+    "D.C.",
+    "D.C. Washington",
+    "DC",
+    "District of Columbia",
+    "The District",
+    "US-DC",
+    "WDC",
+    "Washington City, D.C.",
+    "Washington, District of Columbia"
+   ],
+   "hint": null,
+   "id": "city-Q61",
+   "name": "Washington, D.C.",
+   "popularity": 299,
+   "qid": "Q61"
+  },
+  {
+   "aliases": [
+    "Port Nicholson",
+    "Port Nick",
+    "Pōneke",
+    "Te Whanga-nui-a-Tara",
+    "Te Whanganui-a-Tara",
+    "Wellington metropolitan area",
+    "Wellington, NZ",
+    "Wellington, New Zealand"
+   ],
+   "hint": null,
+   "id": "city-Q23661",
+   "name": "Wellington",
+   "popularity": 187,
+   "qid": "Q23661"
+  },
+  {
+   "aliases": [
+    "Whistler-Blackcomb"
+   ],
+   "hint": null,
+   "id": "city-Q1206060",
+   "name": "Whistler Blackcomb",
+   "popularity": 18,
+   "qid": "Q1206060"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q750571",
+   "name": "Whistler Olympic Park",
+   "popularity": 23,
+   "qid": "Q750571"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q909714",
+   "name": "Whistler Sliding Centre",
+   "popularity": 18,
+   "qid": "Q909714"
+  },
+  {
+   "aliases": [
+    "Otjomuise",
+    "Windhuk",
+    "Windhök",
+    "ǀAi-ǁGams"
+   ],
+   "hint": null,
+   "id": "city-Q3935",
+   "name": "Windhoek",
+   "popularity": 174,
+   "qid": "Q3935"
+  },
+  {
+   "aliases": [],
+   "hint": null,
+   "id": "city-Q3768",
+   "name": "Yamoussoukro",
+   "popularity": 156,
+   "qid": "Q3768"
+  },
+  {
+   "aliases": [
+    "Ongola",
+    "Yaounde",
+    "Yaounde, Cameroon",
+    "Yaoundé, Cameroon"
+   ],
+   "hint": null,
+   "id": "city-Q3808",
+   "name": "Yaoundé",
+   "popularity": 166,
+   "qid": "Q3808"
+  },
+  {
+   "aliases": [
+    "Makwa",
+    "Moqua",
+    "Yaren"
+   ],
+   "hint": null,
+   "id": "city-Q31026",
+   "name": "Yaren District",
+   "popularity": 114,
+   "qid": "Q31026"
+  },
+  {
+   "aliases": [
+    "Erevan",
+    "Erivan",
+    "Iravan",
+    "Irevan",
+    "Ravan",
+    "Revan",
+    "The Pink City"
+   ],
+   "hint": null,
+   "id": "city-Q1953",
+   "name": "Yerevan",
+   "popularity": 213,
+   "qid": "Q1953"
+  },
+  {
+   "aliases": [
+    "Agram",
+    "Agranum",
+    "Zagabria",
+    "Zágráb"
+   ],
+   "hint": null,
+   "id": "city-Q1435",
+   "name": "Zagreb",
+   "popularity": 218,
+   "qid": "Q1435"
+  },
+  {
+   "aliases": [
+    "Olimpijska Dvorana Zetra",
+    "Zetra Stadium"
+   ],
+   "hint": null,
+   "id": "city-Q8069772",
+   "name": "Zetra Ice Rink",
+   "popularity": 8,
+   "qid": "Q8069772"
+  },
+  {
+   "aliases": [
+    "Olympic Hall J. A. Samaranch",
+    "Olympic Hall Juan Antonio Samaranch"
+   ],
+   "hint": null,
+   "id": "city-Q1268862",
+   "name": "Zetra Olympic Hall",
+   "popularity": 20,
+   "qid": "Q1268862"
+  }
+ ],
+ "id": "cities",
+ "name": "Cities",
+ "prefix": "city"
+}

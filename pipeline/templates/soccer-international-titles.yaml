@@ -1,0 +1,23 @@
+id: soccer-international-titles
+league: SOCCER
+pool: countries
+text: "Name a country that has won the {{cup.name}}."
+short: "{{cup.short}} winner"
+note: "{{cup.note}}"
+params:
+  cup:
+    - { qid: Q19317, name: "men's FIFA World Cup", short: "World Cup", note: "West Germany's titles count for Germany." }
+    - { qid: Q260858, name: "men's European Championship", short: "Euro", note: "Includes the 1960 and 1964 European Nations' Cup." }
+    - { qid: Q178750, name: "Copa América", short: "Copa América", note: "Men's tournament, including the South American Championship era." }
+# The winner is the national team; its country-for-sport (England, not the UK) or country.
+needs_review_definition: true
+changes: ["06-10..07-20"]
+query: |
+  SELECT DISTINCT ?item ?event WHERE {
+    ?event wdt:P31|wdt:P179|wdt:P3450 wd:{{cup.qid}} .
+    ?event wdt:P1346 ?team .
+    OPTIONAL { ?team wdt:P1532 ?sportCountry }
+    OPTIONAL { ?team wdt:P17 ?country }
+    BIND(COALESCE(?sportCountry, ?country) AS ?item)
+    FILTER(BOUND(?item))
+  }

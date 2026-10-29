@@ -1,0 +1,18 @@
+id: nhl-played-for-both
+league: NHL
+pool: nhl-players
+text: "Name a player who played for both the {{teamA.label}} and the {{teamB.label}}."
+short: "{{teamA.label}} + {{teamB.label}}"
+note: "Franchise history counts (former cities and names). Any time on the roster counts."
+# Wikidata's "member of sports team" (P54). Mostly complete for notable players,
+# patchier for short stints: check the list for missing names before approving.
+warning: "Rosters (P54) miss some stints and include coaching ones (Phil Jackson): check every name"
+group_by: [teamA, teamB]
+max_candidates: 45
+query: |
+  SELECT DISTINCT ?item ?teamA ?teamB WHERE {
+    VALUES (?ta ?teamA) { {{franchises.NHL}} }
+    VALUES (?tb ?teamB) { {{franchises.NHL}} }
+    FILTER(STR(?teamA) < STR(?teamB))
+    ?item wdt:P54 ?ta , ?tb ; wdt:P31 wd:Q5 .
+  }

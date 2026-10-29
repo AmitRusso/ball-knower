@@ -1,0 +1,13 @@
+id: soccer-ballon-dor
+league: SOCCER
+pool: soccer-players
+text: "Name a winner of the men's Ballon d'Or."
+short: "Ballon d'Or"
+note: "Includes the FIFA Ballon d'Or years (2010–15)."
+changes: ["09-01..11-15"]
+expect_events: "69"  # 1956–2025, none in 2020
+query: |
+  SELECT ?item ?event WHERE {
+    VALUES ?award { wd:Q166177 wd:Q2291862 }
+    ?item p:P166 ?event . ?event ps:P166 ?award .
+  }

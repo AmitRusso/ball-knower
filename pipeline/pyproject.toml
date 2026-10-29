@@ -1,0 +1,15 @@
+[project]
+name = "ball-knower-pipeline"
+version = "0.1.0"
+description = "Ball Knower content pipeline: templates over open data -> reviewed prompts -> scheduled holes"
+requires-python = ">=3.12"
+dependencies = ["pyyaml>=6"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["bk"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

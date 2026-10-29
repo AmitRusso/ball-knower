@@ -7,9 +7,9 @@
 //
 // Runs on Node's built-in type stripping (Node 22.18+).
 
-import { spawnSync } from 'node:child_process';
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { normalize } from '../src/lib/match.ts';
+import { row, wrangler } from './d1.ts';
 
 interface SampleHole {
 	holeNo: number;
@@ -35,14 +35,6 @@ const date =
 if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) throw new Error(`Bad --date: ${date}`);
 
 const hole = JSON.parse(readFileSync('data/sample-hole.json', 'utf8')) as SampleHole;
-
-const q = (v: string | number | null | undefined) =>
-	v === null || v === undefined
-		? 'NULL'
-		: typeof v === 'number'
-			? String(v)
-			: `'${v.replaceAll("'", "''")}'`;
-const row = (...values: (string | number | null | undefined)[]) => `(${values.map(q).join(', ')})`;
 
 const sql: string[] = [
 	// Children first: D1 enforces foreign keys.
@@ -88,16 +80,6 @@ for (const p of hole.prompts) {
 
 mkdirSync('.wrangler', { recursive: true });
 writeFileSync('.wrangler/seed.sql', sql.join('\n') + '\n');
-
-function wrangler(...rest: string[]): string {
-	const res = spawnSync('pnpm', ['exec', 'wrangler', ...rest], {
-		shell: process.platform === 'win32',
-		encoding: 'utf8',
-		stdio: ['inherit', 'pipe', 'inherit']
-	});
-	if (res.status !== 0) throw new Error(`wrangler ${rest.join(' ')} failed:\n${res.stdout}`);
-	return res.stdout;
-}
 
 wrangler('d1', 'execute', 'ball-knower', target, '--file=.wrangler/seed.sql');
 

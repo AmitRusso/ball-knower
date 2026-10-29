@@ -20,3 +20,6 @@ src/lib/styles/tokens.css
 /data/
 /db/
 *.md
+
+# Content pipeline data (Python, generated JSON)
+/pipeline/

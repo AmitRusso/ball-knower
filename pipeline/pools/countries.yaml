@@ -1,0 +1,15 @@
+id: countries
+name: Countries
+prefix: ctry
+# Sovereign states, well-known former states (Soviet Union, West Germany,
+# Yugoslavia) and the UK's home nations, which play football on their own.
+query: |
+  SELECT DISTINCT ?item WHERE {
+    { ?item wdt:P31 wd:Q3624078 }
+    UNION { ?item wdt:P31 wd:Q3024240 ; wikibase:sitelinks ?links FILTER(?links >= 150) }
+    UNION { VALUES ?item { wd:Q21 wd:Q22 wd:Q25 wd:Q26 } }
+  }
+names:
+  Q30: United States
+  Q148: China
+  Q15180: Soviet Union

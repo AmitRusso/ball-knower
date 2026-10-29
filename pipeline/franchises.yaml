@@ -1,0 +1,82 @@
+# Current franchises per league, and the Wikidata items of their former
+# identities. Wikidata models many relocations as separate items (Oakland
+# Raiders, Seattle SuperSonics), so roster and title queries roll them up
+# through this map: {{franchises.NBA}} renders as SPARQL VALUES pairs
+# (?anyTeamItem ?currentFranchise). Defunct franchises with no successor are
+# left out on purpose; prompts say "franchise" and the note says history counts.
+
+NBA:
+  teams: [Q159893, Q131371, Q572134, Q163480, Q128109, Q162990, Q132893, Q162954, Q169661, Q157376,
+          Q161345, Q170329, Q976396, Q121783, Q165529, Q169138, Q169637, Q170558, Q172339, Q131364,
+          Q180950, Q161337, Q138089, Q164177, Q167253, Q166105, Q159729, Q132880, Q170649, Q169165]
+  former:
+    Q6016725: Q121783   # Minneapolis Lakers
+    Q18691677: Q157376  # Philadelphia Warriors
+    Q12811690: Q157376  # San Francisco Warriors
+    Q235326: Q180950    # Seattle SuperSonics
+    Q5397091: Q138089   # Syracuse Nationals
+    Q3307390: Q165529   # Vancouver Grizzlies
+    Q6018719: Q169165   # Washington Bullets
+    Q12870869: Q166105  # Cincinnati Royals
+    Q6020894: Q159893   # St. Louis Hawks
+    Q1100222: Q976396   # Buffalo Braves
+    Q115657357: Q572134 # New Jersey Nets
+
+NHL:
+  teams: [Q192751, Q194121, Q131206, Q194126, Q201857, Q209636, Q206297, Q207507, Q208652, Q194116,
+          Q205973, Q204623, Q203008, Q206357, Q188143, Q207980, Q192081, Q194369, Q188984, Q203013,
+          Q192083, Q193643, Q206381, Q59422166, Q207735, Q201864, Q203384, Q125520712, Q192890,
+          Q24725640, Q204627, Q472741]
+  former:
+    Q830968: Q201857    # Hartford Whalers
+    Q902512: Q208652    # Minnesota North Stars
+    Q530764: Q206297    # Quebec Nordiques
+    Q244039: Q472741    # Atlanta Thrashers
+    Q756173: Q194126    # Atlanta Flames
+    Q939098: Q192081    # Kansas City Scouts
+    Q868358: Q192081    # Colorado Rockies (NHL)
+    Q3502569: Q203384   # Toronto St. Patricks
+    Q11774669: Q194116  # Detroit Cougars
+    Q11774670: Q194116  # Detroit Falcons
+
+MLB:
+  teams: [Q670376, Q504339, Q461595, Q650816, Q213959, Q246782, Q335169, Q826751, Q642553, Q388858,
+          Q650855, Q848117, Q744530, Q743309, Q334634, Q652879, Q848103, Q604879, Q692417, Q213417,
+          Q650840, Q653772, Q721134, Q308966, Q466586, Q504309, Q650865, Q329816, Q650829, Q825838]
+  former:
+    Q1148233: Q825838   # Montreal Expos
+    Q15073684: Q652879  # Florida Marlins
+    Q131926583: Q504339 # Oakland Athletics
+    Q128565926: Q504339 # Kansas City Athletics
+    Q5870201: Q504339   # Philadelphia Athletics
+    Q127777377: Q461595 # Milwaukee Braves
+    Q5869139: Q461595   # Boston Braves
+    Q5869184: Q334634   # Brooklyn Dodgers
+    Q3024169: Q308966   # New York Giants (baseball)
+    Q17030254: Q604879  # Washington Senators (1901–60)
+    Q111678972: Q329816 # Washington Senators (1961–71)
+    Q11314813: Q650816  # St. Louis Browns
+    Q7442149: Q848103   # Seattle Pilots
+
+NFL:
+  teams: [Q224164, Q272059, Q276539, Q221626, Q330120, Q205033, Q223511, Q223527, Q204862, Q223507,
+          Q271880, Q213837, Q223514, Q193753, Q272223, Q223522, Q324523, Q272220, Q337377, Q223243,
+          Q221150, Q193390, Q172435, Q190618, Q219602, Q219714, Q191477, Q337758, Q221878, Q320476,
+          Q320484, Q212654]
+  former:
+    Q5870124: Q324523   # Oakland Raiders
+    Q3417643: Q324523   # Los Angeles Raiders
+    Q5870467: Q337377   # St. Louis Rams
+    Q3418611: Q337377   # Cleveland Rams
+    Q17015216: Q272220  # San Diego Chargers
+    Q1439096: Q320484   # Houston Oilers
+    Q2407943: Q212654   # Boston Redskins
+    Q20709553: Q271880  # Portsmouth Spartans
+    Q2984507: Q193753   # Baltimore Colts (1953–83)
+    Q2938063: Q224164   # St. Louis Cardinals (NFL)
+
+# Not a league: the clubs whose players make up the soccer-players pool and
+# the "played for both" soccer prompts.
+SOCCER:
+  teams: [Q8682, Q7156, Q18656, Q1130849, Q15789, Q1422, Q1543, Q631, Q9616, Q9617, Q483020,
+          Q50602, Q8701, Q41420, Q81888, Q18741]

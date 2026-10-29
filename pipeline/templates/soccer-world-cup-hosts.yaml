@@ -1,0 +1,13 @@
+id: soccer-world-cup-hosts
+league: SOCCER
+pool: countries
+wildcard: true
+text: "Name a country that has hosted the men's FIFA World Cup."
+short: "World Cup host"
+note: "Co-hosts count (2002, 2026). Only tournaments already played."
+query: |
+  SELECT DISTINCT ?item ?event WHERE {
+    ?event wdt:P31|wdt:P179|wdt:P3450 wd:Q19317 .
+    ?event wdt:P17 ?item ; wdt:P580 ?start .
+    FILTER(?start <= NOW())
+  }

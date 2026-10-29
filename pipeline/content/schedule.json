@@ -1,0 +1,338 @@
+{
+ "base": {
+  "date": "2026-10-28",
+  "hole_no": 214
+ },
+ "holes": [
+  {
+   "date": "2026-10-29",
+   "hole_no": 215,
+   "prompts": [
+    "mlb-played-for-both:Q650816+Q743309",
+    "nfl-played-for-both:Q276539+Q320484",
+    "nba-played-for-both:Q161345+Q180950",
+    "nfl-played-for-both:Q219602+Q221878",
+    "nhl-played-for-both:Q206297+Q206381"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "hole_no": 216,
+   "prompts": [
+    "nhl-played-for-both:Q192081+Q204627",
+    "mlb-played-for-both:Q213417+Q743309",
+    "nba-played-for-both:Q121783+Q131371",
+    "nfl-played-for-both:Q223514+Q224164",
+    "nhl-award-winners:Q752423"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "hole_no": 217,
+   "prompts": [
+    "nba-played-for-both:Q161345+Q572134",
+    "nba-played-for-both:Q121783+Q169637",
+    "nfl-played-for-both:Q204862+Q221626",
+    "mlb-played-for-both:Q213417+Q652879",
+    "nhl-played-for-both:Q206381+Q208652"
+   ]
+  },
+  {
+   "date": "2026-11-01",
+   "hole_no": 218,
+   "prompts": [
+    "nfl-played-for-both:Q213837+Q324523",
+    "nba-played-for-both:Q131371+Q169138",
+    "mlb-played-for-both:Q642553+Q743309",
+    "nhl-played-for-both:Q203008+Q205973",
+    "nhl-played-for-both:Q192081+Q193643"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "hole_no": 219,
+   "prompts": [
+    "nba-played-for-both:Q162990+Q164177",
+    "nfl-played-for-both:Q223527+Q330120",
+    "mlb-played-for-both:Q334634+Q826751",
+    "nba-played-for-both:Q138089+Q161345",
+    "nhl-played-for-both:Q188984+Q204627"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "hole_no": 220,
+   "prompts": [
+    "nba-played-for-both:Q128109+Q169661",
+    "mlb-played-for-both:Q692417+Q744530",
+    "nfl-played-for-both:Q190618+Q224164",
+    "nhl-played-for-both:Q206297+Q207980",
+    "nfl-played-for-both:Q219714+Q223507"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "hole_no": 221,
+   "prompts": [
+    "nfl-played-for-both:Q191477+Q219602",
+    "nba-played-for-both:Q161337+Q162990",
+    "nhl-played-for-both:Q131206+Q209636",
+    "mlb-played-for-both:Q650855+Q650865",
+    "nba-played-for-both:Q131364+Q161345"
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "hole_no": 222,
+   "prompts": [
+    "nhl-played-for-both:Q193643+Q206297",
+    "mlb-played-for-both:Q334634+Q466586",
+    "nba-played-for-both:Q128109+Q162990",
+    "mlb-played-for-both:Q504339+Q650865",
+    "nfl-played-for-both:Q219602+Q272059"
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "hole_no": 223,
+   "prompts": [
+    "nhl-played-for-both:Q194126+Q204623",
+    "nba-played-for-both:Q157376+Q164177",
+    "nhl-played-for-both:Q193643+Q204623",
+    "mlb-played-for-both:Q334634+Q650865",
+    "nfl-played-for-both:Q320484+Q324523"
+   ]
+  },
+  {
+   "date": "2026-11-07",
+   "hole_no": 224,
+   "prompts": [
+    "nhl-played-for-both:Q192083+Q204623",
+    "nfl-played-for-both:Q204862+Q221878",
+    "nhl-played-for-both:Q188984+Q192081",
+    "nba-played-for-both:Q161345+Q162954",
+    "mlb-played-for-both:Q466586+Q652879"
+   ]
+  },
+  {
+   "date": "2026-11-08",
+   "hole_no": 225,
+   "prompts": [
+    "nba-played-for-both:Q161345+Q164177",
+    "mlb-played-for-both:Q329816+Q743309",
+    "nfl-played-for-both:Q276539+Q337758",
+    "mlb-played-for-both:Q334634+Q692417",
+    "nhl-played-for-both:Q192081+Q194121"
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "hole_no": 226,
+   "prompts": [
+    "nhl-played-for-both:Q188984+Q204623",
+    "nfl-played-for-both:Q219602+Q330120",
+    "nfl-played-for-both:Q221150+Q320484",
+    "mlb-played-for-both:Q466586+Q670376",
+    "nba-played-for-both:Q121783+Q164177"
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "hole_no": 227,
+   "prompts": [
+    "mlb-played-for-both:Q335169+Q650865",
+    "nhl-played-for-both:Q192751+Q207735",
+    "nba-played-for-both:Q131371+Q164177",
+    "nfl-played-for-both:Q212654+Q276539",
+    "nfl-played-for-both:Q219602+Q337377"
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "hole_no": 228,
+   "prompts": [
+    "nba-played-for-both:Q121783+Q138089",
+    "nba-played-for-both:Q164177+Q572134",
+    "nhl-played-for-both:Q209636+Q472741",
+    "nfl-played-for-both:Q221878+Q324523",
+    "mlb-played-for-both:Q334634+Q670376"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "hole_no": 229,
+   "prompts": [
+    "nfl-played-for-both:Q221626+Q223511",
+    "nhl-played-for-both:Q204623+Q204627",
+    "mlb-played-for-both:Q334634+Q461595",
+    "nhl-played-for-both:Q192751+Q206381",
+    "nba-played-for-both:Q121783+Q128109"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "hole_no": 230,
+   "prompts": [
+    "nhl-played-for-both:Q188984+Q194126",
+    "mlb-played-for-both:Q642553+Q650865",
+    "mlb-played-for-both:Q334634+Q650855",
+    "nba-played-for-both:Q164177+Q169138",
+    "nfl-played-for-both:Q190618+Q272220"
+   ]
+  },
+  {
+   "date": "2026-11-14",
+   "hole_no": 231,
+   "prompts": [
+    "nba-played-for-both:Q138089+Q169138",
+    "mlb-played-for-both:Q334634+Q650829",
+    "nhl-played-for-both:Q204623+Q208652",
+    "nba-played-for-both:Q121783+Q132893",
+    "nfl-played-for-both:Q193753+Q337377"
+   ]
+  },
+  {
+   "date": "2026-11-15",
+   "hole_no": 232,
+   "prompts": [
+    "mlb-played-for-both:Q670376+Q848117",
+    "nba-played-for-both:Q128109+Q169165",
+    "nhl-played-for-both:Q194126+Q204627",
+    "nba-played-for-both:Q121783+Q161345",
+    "nfl-played-for-both:Q219714+Q324523"
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "hole_no": 233,
+   "prompts": [
+    "nba-played-for-both:Q132880+Q161345",
+    "mlb-played-for-both:Q504339+Q743309",
+    "nhl-played-for-both:Q203008+Q207735",
+    "nfl-played-for-both:Q221150+Q337758",
+    "nhl-played-for-both:Q194116+Q201857"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "hole_no": 234,
+   "prompts": [
+    "nfl-played-for-both:Q193390+Q193753",
+    "mlb-played-for-both:Q334634+Q743309",
+    "nba-played-for-both:Q159729+Q976396",
+    "nhl-played-for-both:Q194116+Q472741",
+    "mlb-played-for-both:Q329816+Q334634"
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "hole_no": 235,
+   "prompts": [
+    "nba-played-for-both:Q121783+Q161337",
+    "nfl-played-for-both:Q219714+Q320484",
+    "nfl-played-for-both:Q219714+Q221878",
+    "nhl-played-for-both:Q194121+Q194126",
+    "mlb-played-for-both:Q504309+Q743309"
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "hole_no": 236,
+   "prompts": [
+    "mlb-played-for-both:Q308966+Q670376",
+    "nhl-played-for-both:Q194121+Q204623",
+    "nfl-played-for-both:Q193753+Q272059",
+    "nfl-played-for-both:Q223522+Q337758",
+    "nba-played-for-both:Q121783+Q162990"
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "hole_no": 237,
+   "prompts": [
+    "nfl-played-for-both:Q224164+Q324523",
+    "nfl-played-for-both:Q223514+Q276539",
+    "mlb-played-for-both:Q334634+Q504309",
+    "nba-played-for-both:Q157376+Q180950",
+    "nhl-played-for-both:Q188143+Q206297"
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "hole_no": 238,
+   "prompts": [
+    "mlb-played-for-both:Q721134+Q743309",
+    "nba-played-for-both:Q161337+Q164177",
+    "nfl-played-for-both:Q191477+Q221878",
+    "nhl-played-for-both:Q192751+Q205973",
+    "nba-played-for-both:Q180950+Q976396"
+   ]
+  },
+  {
+   "date": "2026-11-22",
+   "hole_no": 239,
+   "prompts": [
+    "nba-played-for-both:Q162990+Q169138",
+    "mlb-played-for-both:Q334634+Q642553",
+    "nhl-played-for-both:Q205973+Q207735",
+    "nhl-played-for-both:Q192081+Q194116",
+    "nfl-played-for-both:Q221626+Q337758"
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "hole_no": 240,
+   "prompts": [
+    "nba-played-for-both:Q128109+Q159729",
+    "nba-played-for-both:Q138089+Q162990",
+    "nhl-played-for-both:Q194126+Q206297",
+    "mlb-played-for-both:Q743309+Q848117",
+    "nfl-played-for-both:Q193390+Q337758"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "hole_no": 241,
+   "prompts": [
+    "nfl-played-for-both:Q193753+Q223507",
+    "nhl-played-for-both:Q192081+Q194126",
+    "nhl-played-for-both:Q192083+Q208652",
+    "nfl-played-for-both:Q213837+Q224164",
+    "nba-played-for-both:Q121783+Q166105"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "hole_no": 242,
+   "prompts": [
+    "nhl-played-for-both:Q193643+Q194126",
+    "nba-played-for-both:Q157376+Q161345",
+    "nfl-played-for-both:Q320476+Q337758",
+    "nfl-played-for-both:Q191477+Q272220",
+    "nba-played-for-both:Q131371+Q161337"
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "hole_no": 243,
+   "prompts": [
+    "nfl-played-for-both:Q219602+Q223507",
+    "nba-played-for-both:Q131371+Q162990",
+    "nhl-played-for-both:Q192751+Q206297",
+    "nhl-played-for-both:Q192081+Q192083",
+    "nfl-played-for-both:Q272059+Q330120"
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "hole_no": 244,
+   "prompts": [
+    "nfl-played-for-both:Q221150+Q272223",
+    "nhl-played-for-both:Q192890+Q206381",
+    "nfl-played-for-both:Q221878+Q223507",
+    "nhl-played-for-both:Q192081+Q204623",
+    "nba-played-for-both:Q165529+Q169661"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,445 @@
+{
+ "entities": [
+  {
+   "aliases": [
+    "Arizona D-Backs",
+    "D-Backs",
+    "Diamond Backs",
+    "Diamondbacks"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q670376",
+   "name": "Arizona Diamondbacks",
+   "popularity": 35,
+   "qid": "Q670376"
+  },
+  {
+   "aliases": [
+    "A's",
+    "Kansas City Athletics",
+    "Las Vegas Athletics",
+    "Oakland Athletics",
+    "Philadelphia Athletics",
+    "The A's",
+    "The White Elephants"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q504339",
+   "name": "Athletics",
+   "popularity": 37,
+   "qid": "Q504339"
+  },
+  {
+   "aliases": [
+    "Beaneaters",
+    "Bees",
+    "Boston Beaneaters",
+    "Boston Bees",
+    "Boston Braves",
+    "Boston Doves",
+    "Boston Red Stockings",
+    "Boston Rustlers",
+    "Braves",
+    "Doves",
+    "Milwaukee Braves",
+    "Rustlers"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q461595",
+   "name": "Atlanta Braves",
+   "popularity": 41,
+   "qid": "Q461595"
+  },
+  {
+   "aliases": [
+    "Birds",
+    "O's",
+    "Orioles",
+    "St. Louis Browns",
+    "The O's"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q650816",
+   "name": "Baltimore Orioles",
+   "popularity": 41,
+   "qid": "Q650816"
+  },
+  {
+   "aliases": [
+    "BoSox",
+    "Boston Americans",
+    "Red Sox",
+    "RedSox",
+    "Redsox",
+    "Sox",
+    "redsox",
+    "redsoxs"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q213959",
+   "name": "Boston Red Sox",
+   "popularity": 55,
+   "qid": "Q213959"
+  },
+  {
+   "aliases": [
+    "Chicago Colts",
+    "Chicago Orphans",
+    "Chicago White Stockings",
+    "Chicago Whites",
+    "Colts",
+    "Cubbies",
+    "Cubs",
+    "North Siders",
+    "Orphans",
+    "Remnants"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q246782",
+   "name": "Chicago Cubs",
+   "popularity": 42,
+   "qid": "Q246782"
+  },
+  {
+   "aliases": [
+    "CHW",
+    "ChiSox",
+    "South Siders",
+    "White Sox"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q335169",
+   "name": "Chicago White Sox",
+   "popularity": 40,
+   "qid": "Q335169"
+  },
+  {
+   "aliases": [
+    "Cincinnati Red Stockings",
+    "Cincinnati Redlegs",
+    "Red Stockings",
+    "Redlegs",
+    "Reds"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q826751",
+   "name": "Cincinnati Reds",
+   "popularity": 36,
+   "qid": "Q826751"
+  },
+  {
+   "aliases": [
+    "Blues",
+    "Cleveland Bluebirds",
+    "Cleveland Blues",
+    "Cleveland Broncos",
+    "Cleveland Indians",
+    "Cleveland Lakeshores",
+    "Cleveland Naps",
+    "Guardians",
+    "Indians",
+    "Naps",
+    "The Tribe"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q642553",
+   "name": "Cleveland Guardians",
+   "popularity": 34,
+   "qid": "Q642553"
+  },
+  {
+   "aliases": [
+    "Rockies",
+    "Rox"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q388858",
+   "name": "Colorado Rockies",
+   "popularity": 34,
+   "qid": "Q388858"
+  },
+  {
+   "aliases": [
+    "Tigers"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q650855",
+   "name": "Detroit Tigers",
+   "popularity": 38,
+   "qid": "Q650855"
+  },
+  {
+   "aliases": [
+    "'Stros",
+    "Astros",
+    "Colt .45's",
+    "Houston Colt .45's"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q848117",
+   "name": "Houston Astros",
+   "popularity": 35,
+   "qid": "Q848117"
+  },
+  {
+   "aliases": [
+    "KC Royals",
+    "KCR",
+    "Royals"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q744530",
+   "name": "Kansas City Royals",
+   "popularity": 35,
+   "qid": "Q744530"
+  },
+  {
+   "aliases": [
+    "Anaheim Angels",
+    "Angels",
+    "California Angels",
+    "LA Angels",
+    "LAA",
+    "Los Angeles Angels of Anaheim"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q743309",
+   "name": "Los Angeles Angels",
+   "popularity": 38,
+   "qid": "Q743309"
+  },
+  {
+   "aliases": [
+    "Atlantics",
+    "Bridegrooms",
+    "Brooklyn Atlantics",
+    "Brooklyn Bridegrooms",
+    "Brooklyn Dodgers",
+    "Brooklyn Grays",
+    "Brooklyn Grooms",
+    "Brooklyn Robins",
+    "Brooklyn Superbas",
+    "Bums",
+    "Dodgers",
+    "Grays",
+    "Grooms",
+    "LA Dodgers",
+    "LAD",
+    "Robins",
+    "Superbas",
+    "Trolley Dodgers"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q334634",
+   "name": "Los Angeles Dodgers",
+   "popularity": 46,
+   "qid": "Q334634"
+  },
+  {
+   "aliases": [
+    "Florida Marlins",
+    "Marlins"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q652879",
+   "name": "Miami Marlins",
+   "popularity": 38,
+   "qid": "Q652879"
+  },
+  {
+   "aliases": [
+    "Brew Crew",
+    "Brewers",
+    "Pilots",
+    "Seattle Pilots"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q848103",
+   "name": "Milwaukee Brewers",
+   "popularity": 32,
+   "qid": "Q848103"
+  },
+  {
+   "aliases": [
+    "Senators",
+    "Twinkies",
+    "Twins",
+    "Washington Senators"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q604879",
+   "name": "Minnesota Twins",
+   "popularity": 34,
+   "qid": "Q604879"
+  },
+  {
+   "aliases": [
+    "Metropolitans",
+    "Mets",
+    "NYM"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q692417",
+   "name": "New York Mets",
+   "popularity": 40,
+   "qid": "Q692417"
+  },
+  {
+   "aliases": [
+    "Bombers",
+    "Bronx Bombers",
+    "Highlanders",
+    "NY Yankees",
+    "NYY",
+    "New York Highlanders",
+    "Yankees"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q213417",
+   "name": "New York Yankees",
+   "popularity": 61,
+   "qid": "Q213417"
+  },
+  {
+   "aliases": [
+    "Philadelphia Quakers",
+    "Phillies",
+    "Phils",
+    "Quakers"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q650840",
+   "name": "Philadelphia Phillies",
+   "popularity": 37,
+   "qid": "Q650840"
+  },
+  {
+   "aliases": [
+    "Alleghenys",
+    "Buccos",
+    "Bucs",
+    "Pirates",
+    "Pittsburg Pirates",
+    "Pittsburgh Alleghenys"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q653772",
+   "name": "Pittsburgh Pirates",
+   "popularity": 37,
+   "qid": "Q653772"
+  },
+  {
+   "aliases": [
+    "Padres",
+    "SDP"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q721134",
+   "name": "San Diego Padres",
+   "popularity": 38,
+   "qid": "Q721134"
+  },
+  {
+   "aliases": [
+    "Giants",
+    "Gothams",
+    "New York Giants",
+    "New York Gothams",
+    "SF Giants",
+    "SFG"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q308966",
+   "name": "San Francisco Giants",
+   "popularity": 39,
+   "qid": "Q308966"
+  },
+  {
+   "aliases": [
+    "M's",
+    "Mariners"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q466586",
+   "name": "Seattle Mariners",
+   "popularity": 38,
+   "qid": "Q466586"
+  },
+  {
+   "aliases": [
+    "Brown Stockings",
+    "Browns",
+    "Cardinals",
+    "Cards",
+    "Perfectos",
+    "Red Birds",
+    "Saint Louis Cardinals",
+    "St. Louis Brown Stockings",
+    "St. Louis Browns",
+    "St. Louis Perfectos"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q504309",
+   "name": "St. Louis Cardinals",
+   "popularity": 37,
+   "qid": "Q504309"
+  },
+  {
+   "aliases": [
+    "Devil Rays",
+    "Rays",
+    "TBR",
+    "Tampa Bay Devil Rays",
+    "Tampa Rays"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q650865",
+   "name": "Tampa Bay Rays",
+   "popularity": 36,
+   "qid": "Q650865"
+  },
+  {
+   "aliases": [
+    "Rangers",
+    "Senators",
+    "Washington Senators"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q329816",
+   "name": "Texas Rangers",
+   "popularity": 38,
+   "qid": "Q329816"
+  },
+  {
+   "aliases": [
+    "Blue Jays",
+    "Bluejays",
+    "Jays",
+    "TBJ",
+    "Toronto Bluejays",
+    "Toronto Jays"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q650829",
+   "name": "Toronto Blue Jays",
+   "popularity": 39,
+   "qid": "Q650829"
+  },
+  {
+   "aliases": [
+    "Montreal Expos",
+    "Nasty Nats",
+    "Nationals",
+    "Nats"
+   ],
+   "hint": "MLB",
+   "id": "mlbf-Q825838",
+   "name": "Washington Nationals",
+   "popularity": 36,
+   "qid": "Q825838"
+  }
+ ],
+ "id": "mlb-franchises",
+ "name": "MLB franchises",
+ "prefix": "mlbf"
+}

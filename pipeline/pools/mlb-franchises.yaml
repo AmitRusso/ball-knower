@@ -1,0 +1,10 @@
+id: mlb-franchises
+name: MLB franchises
+prefix: mlbf
+hint: MLB
+former_names_from: MLB
+# The current franchises; former names (franchises.yaml) become aliases.
+query: |
+  SELECT DISTINCT ?item WHERE {
+    VALUES (?team ?item) { {{franchises.MLB}} }
+  }
