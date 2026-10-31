@@ -41,7 +41,7 @@ Ball Knower is the sports version of Krillion/Farflung, with golf as the distanc
    | Out of Bounds | wrong answer, blank, or time ran out | 0 |
 
 4. **Sink it.** Five Ball Knower answers = 500 yards = ball in the cup.
-5. **One round per day.** The daily hole can be played once. **Driving Range** (unlimited mode) serves random past prompts and doesn't affect streaks or stats.
+5. **One round per day.** The daily hole can be played once. **Driving Range** (unlimited mode) serves random past prompts one ball at a time and doesn't affect streaks, stats or anyone's rarity: a range shot is scored against that hole's picks but never counted. The answers show after each ball.
 
 ### Why every correct answer scores
 
@@ -77,7 +77,7 @@ It still does **not** show pick percentages, the most-picked or rarest answers, 
 - Hole map: all five shot arcs, color-coded by tier, OB shot drawn hooking off the fairway
 - Scorecard rows: shot #, prompt, your answer, tier chip, yards
 - **Each row expands** to show *all* correct answers for that prompt, with yours highlighted. Wrong answers get a one-line explanation where useful.
-- Share block: `BALL KNOWER #214 · 325 YDS` plus five tier-colored squares (text + Web Share API)
+- Share block: `BALL KNOWER #214 · 325 YDS` plus five tier-colored squares and a link to the shared card (`/c/214/KBAOK`), whose preview image shows the card (text + Web Share API)
 - Countdown to the next hole, link to Driving Range
 
 ## Prompt design guidelines

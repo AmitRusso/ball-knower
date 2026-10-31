@@ -40,6 +40,7 @@ pnpm lint           # eslint + prettier --check
 pnpm format         # prettier --write
 pnpm test           # vitest (unit, *.spec.ts / *.test.ts under src/)
 pnpm test:e2e       # playwright (e2e/*.e2e.ts) against build + wrangler pages dev on :4173
+pnpm size           # first-load JS per page, gzipped; fails at 50 KB (run after pnpm build)
 pnpm preview        # wrangler pages dev on the built output (D1/KV bindings available)
 pnpm cf:types       # regenerate worker-configuration.d.ts after editing wrangler.jsonc
 pnpm run deploy     # build + wrangler pages deploy (needs `wrangler login`; bare `pnpm deploy` is a pnpm built-in)
@@ -48,7 +49,7 @@ pnpm run deploy     # build + wrangler pages deploy (needs `wrangler login`; bar
 ```bash
 pnpm db:migrate          # apply db/migrations/ to local D1
 pnpm db:migrate:remote   # same, on the deployed D1
-pnpm db:seed             # sample-hole.json as today's hole in local D1; WIPES plays + pick counts, clears KV
+pnpm db:seed             # sample-hole.json as today's (and yesterday's) hole in local D1; WIPES plays + pick counts, clears KV
 pnpm db:seed --remote    # same on the deployed D1 (wipes production plays)
 pnpm db:load             # pipeline/out/content.json (scheduled holes + pools) into local D1; never touches plays
 pnpm db:load --remote    # same on the deployed D1; skips holes dated today or earlier unless --force
@@ -91,4 +92,6 @@ Notes: SvelteKit 3 — Kit config lives in `vite.config.ts` (no `svelte.config.j
 
 M0–M2 done: the round runs against the API in `src/routes/api/` (D1 + KV, logic in `src/lib/server/`), with real rarity from pick counts. `src/lib/api.ts` is the fetch client; round state is in `src/lib/game.svelte.ts` (localStorage resume + streaks; the server owns the clock and the scores). Answers never reach the browser before the play is finished. Production D1 is migrated and seeded with the sample hole.
 
-M3 done: `pipeline/` generates candidates from Wikidata; 154 prompts are approved and holes 215–244 (2026-10-29 … 2026-11-27) are scheduled and loaded into production D1 with `pnpm db:load --remote`. Before 2026-11-27: generate/review more, then schedule → export → load. Decisions in D16. Next step: **Milestone 4** in `docs/05-roadmap.md`.
+M3 done: `pipeline/` generates candidates from Wikidata; 154 prompts are approved and holes 215–244 (2026-10-29 … 2026-11-27) are scheduled and loaded into production D1 with `pnpm db:load --remote`. Before 2026-11-27: generate/review more, then schedule → export → load. Decisions in D16.
+
+M4 done except Web Analytics (a dashboard toggle): Driving Range (`/range`, `src/lib/server/range.ts`), PWA (`static/manifest.webmanifest`, `src/service-worker/`; icons from `node scripts/icons.ts`), shared cards with OG images (`/c/:hole/:code`, `src/lib/server/og.ts`), axe in e2e, `pnpm size` + Lighthouse CI, error logging (`src/hooks.*.ts`, `/api/log`). Decisions in D17. Next step: **Milestone 5** in `docs/05-roadmap.md`.
