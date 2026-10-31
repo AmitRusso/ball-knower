@@ -15,6 +15,7 @@
 		"test": "vitest run",
 		"test:watch": "vitest",
 		"test:e2e": "playwright test",
+		"size": "node scripts/bundle-size.ts",
 		"cf:types": "wrangler types",
 		"db:migrate": "wrangler d1 migrations apply ball-knower --local",
 		"db:migrate:remote": "wrangler d1 migrations apply ball-knower --remote",

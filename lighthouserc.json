@@ -1,0 +1,38 @@
+{
+	"ci": {
+		"collect": {
+			"startServerCommand": "pnpm preview",
+			"startServerReadyPattern": "Ready on",
+			"startServerReadyTimeout": 60000,
+			"url": [
+				"http://localhost:4173/",
+				"http://localhost:4173/how-to-play",
+				"http://localhost:4173/play",
+				"http://localhost:4173/range"
+			],
+			"numberOfRuns": 3,
+			"settings": {
+				"onlyCategories": ["performance", "accessibility", "best-practices"]
+			}
+		},
+		"assert": {
+			"assertions": {
+				"largest-contentful-paint": [
+					"error",
+					{ "maxNumericValue": 1500, "aggregationMethod": "median" }
+				],
+				"total-blocking-time": ["error", { "maxNumericValue": 200, "aggregationMethod": "median" }],
+				"cumulative-layout-shift": [
+					"error",
+					{ "maxNumericValue": 0.1, "aggregationMethod": "median" }
+				],
+				"categories:accessibility": ["error", { "minScore": 1 }],
+				"categories:performance": ["warn", { "minScore": 0.9 }]
+			}
+		},
+		"upload": {
+			"target": "filesystem",
+			"outputDir": ".lighthouseci/reports"
+		}
+	}
+}

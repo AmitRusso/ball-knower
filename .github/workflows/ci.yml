@@ -19,6 +19,30 @@ jobs:
       - run: pnpm check
       - run: pnpm lint
       - run: pnpm test
+      - run: pnpm build
+      # First-load JS < 50 KB gzipped per page (CLAUDE.md, hard rule 5).
+      - run: pnpm size
+
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm build
+      # Local D1 for `pnpm preview`; no Cloudflare account needed.
+      - run: pnpm db:migrate && pnpm db:seed
+      # LCP < 1.5 s on Lighthouse's mobile profile, plus TBT, CLS and accessibility (lighthouserc.json).
+      - run: pnpm dlx @lhci/cli@0.15.1 autorun
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse
+          path: .lighthouseci/reports
 
   pipeline:
     runs-on: ubuntu-latest
