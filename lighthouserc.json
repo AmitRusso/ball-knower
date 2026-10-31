@@ -16,19 +16,84 @@
 			}
 		},
 		"assert": {
-			"assertions": {
-				"largest-contentful-paint": [
-					"error",
-					{ "maxNumericValue": 1500, "aggregationMethod": "median" }
-				],
-				"total-blocking-time": ["error", { "maxNumericValue": 200, "aggregationMethod": "median" }],
-				"cumulative-layout-shift": [
-					"error",
-					{ "maxNumericValue": 0.1, "aggregationMethod": "median" }
-				],
-				"categories:accessibility": ["error", { "minScore": 1 }],
-				"categories:performance": ["warn", { "minScore": 0.9 }]
-			}
+			"assertMatrix": [
+				{
+					"matchingUrlPattern": "^http://localhost:4173/(how-to-play)?$",
+					"assertions": {
+						"largest-contentful-paint": [
+							"error",
+							{
+								"maxNumericValue": 1500,
+								"aggregationMethod": "median"
+							}
+						],
+						"total-blocking-time": [
+							"error",
+							{
+								"maxNumericValue": 200,
+								"aggregationMethod": "median"
+							}
+						],
+						"cumulative-layout-shift": [
+							"error",
+							{
+								"maxNumericValue": 0.1,
+								"aggregationMethod": "median"
+							}
+						],
+						"categories:accessibility": [
+							"error",
+							{
+								"minScore": 1
+							}
+						],
+						"categories:performance": [
+							"warn",
+							{
+								"minScore": 0.9
+							}
+						]
+					}
+				},
+				{
+					"matchingUrlPattern": "^http://localhost:4173/(play|range)$",
+					"assertions": {
+						"largest-contentful-paint": [
+							"error",
+							{
+								"maxNumericValue": 2500,
+								"aggregationMethod": "median"
+							}
+						],
+						"total-blocking-time": [
+							"error",
+							{
+								"maxNumericValue": 200,
+								"aggregationMethod": "median"
+							}
+						],
+						"cumulative-layout-shift": [
+							"error",
+							{
+								"maxNumericValue": 0.1,
+								"aggregationMethod": "median"
+							}
+						],
+						"categories:accessibility": [
+							"error",
+							{
+								"minScore": 1
+							}
+						],
+						"categories:performance": [
+							"warn",
+							{
+								"minScore": 0.9
+							}
+						]
+					}
+				}
+			]
 		},
 		"upload": {
 			"target": "filesystem",

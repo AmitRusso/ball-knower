@@ -75,7 +75,7 @@ Notes: SvelteKit 3 — Kit config lives in `vite.config.ts` (no `svelte.config.j
 2. **Auto-correct matches against the whole entity pool** (every NBA franchise, every MLB pitcher), never against the correct answers only. Otherwise the suggestion reveals correctness.
 3. **A shot's tier is locked at swing time** and never recalculated for that player.
 4. **Answer lists come from data, not from an LLM.** An LLM may phrase prompts; it must not produce or "fill in" answer lists.
-5. **Performance budget:** first-load JS < 50 KB gzipped, LCP < 1.5 s on mid-range mobile, swing API < 100 ms p95. Check bundle size before adding any dependency.
+5. **Performance budget:** first-load JS < 50 KB gzipped, LCP < 1.5 s on mid-range mobile for the static pages (home, How to Play) and < 2.5 s for the client-rendered ones (`/play`, `/range`; D17), swing API < 100 ms p95. Check bundle size before adding any dependency.
 6. **Accessibility:** real `<button>`/`<a>`/`<input>`+`<label>`, visible focus, 4.5:1 text contrast, `prefers-reduced-motion` disables the ball flight (jump straight to the landing spot).
 7. No cookies, no third-party trackers. Player identity is a random UUID in localStorage.
 

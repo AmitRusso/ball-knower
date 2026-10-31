@@ -36,7 +36,7 @@ jobs:
       - run: pnpm build
       # Local D1 for `pnpm preview`; no Cloudflare account needed.
       - run: pnpm db:migrate && pnpm db:seed
-      # LCP < 1.5 s on Lighthouse's mobile profile, plus TBT, CLS and accessibility (lighthouserc.json).
+      # LCP (1.5 s static pages, 2.5 s /play and /range) on Lighthouse's mobile profile, plus TBT, CLS and accessibility (lighthouserc.json).
       - run: pnpm dlx @lhci/cli@0.15.1 autorun
       - if: always()
         uses: actions/upload-artifact@v4
