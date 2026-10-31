@@ -137,7 +137,7 @@
 
 			<div class="actions">
 				<button class="btn-primary share" type="button" onclick={share}>SHARE CARD</button>
-				<button class="btn-secondary" type="button" disabled>DRIVING RANGE · SOON</button>
+				<a class="btn-secondary" href={resolve('/range')}>DRIVING RANGE</a>
 			</div>
 			<p class="status mono-label" role="status">{shareStatus}</p>
 

@@ -6,6 +6,9 @@ import type {
 	Hole,
 	Pool,
 	PromptAnswers,
+	RangePrompt,
+	RangeSwingRequest,
+	RangeSwingResult,
 	StartRequest,
 	StartResult,
 	SwingRequest,
@@ -59,3 +62,11 @@ export const swing = (req: SwingRequest) =>
 
 /** GET /api/hole/:holeNo/answers — 403 until this player has finished the hole. */
 export const getAnswers = (holeNo: number) => call<PromptAnswers[]>(`/api/hole/${holeNo}/answers`);
+
+/** GET /api/range/prompt — a random prompt from a past hole, skipping `seen` prompt ids. */
+export const getRangePrompt = (seen: number[]) =>
+	call<RangePrompt>(`/api/range/prompt?seen=${seen.join(',')}`);
+
+/** POST /api/range/swing — scored, never counted; returns the prompt's answers. */
+export const rangeSwing = (req: RangeSwingRequest) =>
+	call<RangeSwingResult>('/api/range/swing', { method: 'POST', body: req });

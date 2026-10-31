@@ -21,6 +21,8 @@ export function writeJSON(key: string, value: unknown): void {
 export const playKey = (holeNo: number) => `bk:play:${holeNo}`;
 export const STATS_KEY = 'bk:stats';
 export const PLAYER_KEY = 'bk:player';
+/** Driving Range: recently seen prompt ids, and the session's balls and yards. */
+export const RANGE_KEY = 'bk:range';
 
 let sessionPlayer: string | undefined;
 

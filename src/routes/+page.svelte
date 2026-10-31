@@ -96,7 +96,7 @@
 
 		<div class="secondary">
 			<a class="btn-secondary" href={resolve('/how-to-play')}>HOW TO PLAY</a>
-			<button class="btn-secondary" type="button" disabled>DRIVING RANGE · SOON</button>
+			<a class="btn-secondary" href={resolve('/range')}>DRIVING RANGE</a>
 		</div>
 
 		{#if stats.played > 0}

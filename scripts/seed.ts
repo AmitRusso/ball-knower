@@ -1,5 +1,6 @@
-// Load data/sample-hole.json into D1 as today's hole, wiping every play and
-// pick count, then clear the HOLES KV cache.
+// Load data/sample-hole.json into D1 as today's hole (and again as yesterday's,
+// for the Driving Range), wiping every play and pick count, then clear the
+// HOLES KV cache.
 //
 //   pnpm db:seed                     local D1, hole dated today (UTC)
 //   pnpm db:seed --date=2026-10-25   local D1, a fixed date
@@ -65,16 +66,23 @@ for (const [poolId, pool] of Object.entries(hole.pools)) {
 	}
 }
 
-sql.push(`INSERT INTO holes (hole_no, date_utc, status) VALUES ${row(hole.holeNo, date, 'live')};`);
-for (const p of hole.prompts) {
-	const id = hole.holeNo * 10 + p.position;
-	sql.push(
-		`INSERT INTO prompts (id, hole_no, position, text, note, league, pool_id) VALUES ${row(id, hole.holeNo, p.position, p.text, p.note, p.league, p.poolId)};`
-	);
-	for (const a of p.answers) {
+// The same prompts again as yesterday's hole, so the Driving Range has past prompts to serve.
+const yesterday = new Date(Date.parse(date) - 86_400_000).toISOString().slice(0, 10);
+for (const [holeNo, day, status] of [
+	[hole.holeNo - 1, yesterday, 'past'],
+	[hole.holeNo, date, 'live']
+] as const) {
+	sql.push(`INSERT INTO holes (hole_no, date_utc, status) VALUES ${row(holeNo, day, status)};`);
+	for (const p of hole.prompts) {
+		const id = holeNo * 10 + p.position;
 		sql.push(
-			`INSERT INTO prompt_answers (prompt_id, entity_id, prior_share) VALUES ${row(id, a.entityId, a.priorShare)};`
+			`INSERT INTO prompts (id, hole_no, position, text, note, league, pool_id) VALUES ${row(id, holeNo, p.position, p.text, p.note, p.league, p.poolId)};`
 		);
+		for (const a of p.answers) {
+			sql.push(
+				`INSERT INTO prompt_answers (prompt_id, entity_id, prior_share) VALUES ${row(id, a.entityId, a.priorShare)};`
+			);
+		}
 	}
 }
 
