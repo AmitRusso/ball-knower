@@ -140,9 +140,17 @@
 			{/key}
 		{/if}
 	</main>
+{:else}
+	<main class="screen">
+		<p class="loading mono-label" role="status">TEEING UP THE HOLE…</p>
+	</main>
 {/if}
 
 <style>
+	.loading {
+		margin: auto;
+	}
+
 	.topbar {
 		display: flex;
 		justify-content: space-between;

@@ -23,6 +23,7 @@
 		"deploy": "pnpm build && wrangler pages deploy"
 	},
 	"devDependencies": {
+		"@axe-core/playwright": "4.14.0",
 		"@eslint/js": "^10.0.1",
 		"@playwright/test": "^1.60.0",
 		"@sveltejs/adapter-cloudflare": "^8.0.0",

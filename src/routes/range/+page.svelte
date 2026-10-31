@@ -76,7 +76,9 @@
 	</div>
 	<p class="tally mono-label">{tally} · NOTHING HERE COUNTS</p>
 
-	{#if status === 'closed' || status === 'offline'}
+	{#if status === 'loading'}
+		<p class="loading mono-label" role="status">TEEING UP A BALL…</p>
+	{:else if status === 'closed' || status === 'offline'}
 		<div class="empty">
 			<p>
 				{status === 'closed'
@@ -163,6 +165,10 @@
 	.tally {
 		margin: -8px 0 0;
 		text-align: center;
+	}
+
+	.loading {
+		margin: auto;
 	}
 
 	.from {

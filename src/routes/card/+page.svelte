@@ -145,9 +145,17 @@
 			<p class="next mono-label">NEXT HOLE IN {untilNextHole(now)}</p>
 		</main>
 	</div>
+{:else}
+	<main class="screen">
+		<p class="loading mono-label" role="status">FILLING IN THE CARD…</p>
+	</main>
 {/if}
 
 <style>
+	.loading {
+		margin: auto;
+	}
+
 	.paper {
 		max-width: var(--bk-column-max);
 		min-height: 100vh;
