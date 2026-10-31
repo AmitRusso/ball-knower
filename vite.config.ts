@@ -10,7 +10,10 @@ export default defineConfig({
 				runes: ({ filename }) =>
 					filename.split(/[/\\]/).includes('node_modules') ? undefined : true
 			},
-			adapter: adapter()
+			adapter: adapter(),
+			// Inline every stylesheet (all under 8 KB): on a slow phone connection each
+			// render-blocking CSS request costs a round trip before the first paint.
+			inlineStyleThreshold: 8192
 		})
 	],
 	test: {
