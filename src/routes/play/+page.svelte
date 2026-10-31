@@ -2,9 +2,9 @@
 	import { resolve } from '$app/paths';
 	import { goto } from '$app/navigation';
 	import { onMount, tick } from 'svelte';
-	import AutoCorrectCard from '#lib/components/AutoCorrectCard.svelte';
 	import FairwayTracker, { type TrackedShot } from '#lib/components/FairwayTracker.svelte';
 	import ShotClock from '#lib/components/ShotClock.svelte';
+	import PromptPanel from '#lib/components/PromptPanel.svelte';
 	import ShotPips from '#lib/components/ShotPips.svelte';
 	import ShotReveal from '#lib/components/ShotReveal.svelte';
 	import { Game } from '#lib/game.svelte.ts';
@@ -15,7 +15,6 @@
 	let ready = $state(false);
 	let settled = $state(false);
 	let teeUp = $state(0);
-	let input = $state<HTMLInputElement>();
 	let nextButton = $state<HTMLButtonElement>();
 
 	onMount(async () => {
@@ -43,10 +42,6 @@
 		return () => clearInterval(timer);
 	});
 
-	$effect(() => {
-		if (ready && game.phase === 'prompt' && !teeingUp) tick().then(() => input?.focus());
-	});
-
 	const tracked = $derived.by((): TrackedShot[] => {
 		const starts = shotStarts(game.play.shots);
 		return game.play.shots.map((s, i) => ({ start: starts[i], yards: s.yards, tier: s.tier }));
@@ -61,8 +56,7 @@
 	const promptCount = $derived(game.hole?.prompts.length ?? 0);
 	const isLast = $derived(game.index === promptCount - 1);
 
-	async function swing(event: SubmitEvent) {
-		event.preventDefault();
+	async function swing() {
 		settled = false;
 		await game.swing();
 	}
@@ -114,38 +108,16 @@
 					<FairwayTracker shots={tracked} mode="prompt" />
 				</div>
 				<div class="panel">
-					<section class="prompt-card" class:teeing={teeingUp} aria-labelledby="prompt-text">
-						<span class="league">{game.prompt.league}</span>
-						<h1 id="prompt-text">{game.prompt.text}</h1>
-						<p>{game.prompt.note} Spelling is forgiving.</p>
-					</section>
-
-					{#if teeingUp}
-						<div class="tee-up" role="status">
-							<span class="mono-label">TEEING UP · THE CLOCK STARTS IN</span>
-							{#key teeUp}<span class="count">{teeUp}</span>{/key}
-						</div>
-					{:else}
-						<form class="answer" onsubmit={swing}>
-							<label for="answer" class="mono-label">YOUR ANSWER</label>
-							<input
-								bind:this={input}
-								id="answer"
-								type="text"
-								autocomplete="off"
-								autocapitalize="words"
-								spellcheck="false"
-								enterkeyhint="go"
-								aria-describedby="autocorrect answer-help"
-								value={game.play.draft}
-								oninput={(e) => game.setDraft(e.currentTarget.value)}
-							/>
-							<AutoCorrectCard id="autocorrect" entity={game.suggestion} />
-							<p id="answer-help">Swing submits the corrected name. Keep typing to change it.</p>
-							<div class="spacer"></div>
-							<button class="btn-primary" type="submit" disabled={game.swinging}>SWING</button>
-						</form>
-					{/if}
+					<PromptPanel
+						prompt={game.prompt}
+						{teeingUp}
+						{teeUp}
+						draft={game.play.draft}
+						suggestion={game.suggestion}
+						swinging={game.swinging}
+						ondraft={(text) => game.setDraft(text)}
+						onswing={swing}
+					/>
 				</div>
 			</div>
 		{:else if lastShot}
@@ -168,9 +140,17 @@
 			{/key}
 		{/if}
 	</main>
+{:else}
+	<main class="screen">
+		<p class="loading mono-label" role="status">TEEING UP THE HOLE…</p>
+	</main>
 {/if}
 
 <style>
+	.loading {
+		margin: auto;
+	}
+
 	.topbar {
 		display: flex;
 		justify-content: space-between;
@@ -186,103 +166,6 @@
 	.clock-slot {
 		display: flex;
 		justify-content: flex-end;
-	}
-
-	.prompt-card {
-		padding: 18px 18px 16px;
-		background: var(--bk-cream);
-		color: var(--bk-ink);
-		border-radius: var(--bk-radius-card);
-		box-shadow: 0 5px 0 var(--bk-green-900);
-	}
-
-	.league {
-		display: inline-block;
-		padding: 4px 8px;
-		background: var(--bk-ink);
-		color: var(--bk-gold);
-		border-radius: var(--bk-radius-chip);
-		font-family: var(--bk-font-mono);
-		font-size: 11px;
-		font-weight: 700;
-		letter-spacing: var(--bk-tracking-label);
-	}
-
-	.prompt-card h1 {
-		margin: 12px 0 0;
-		font-size: 25px;
-		font-weight: 800;
-		line-height: 1.18;
-	}
-
-	.prompt-card p {
-		margin: 10px 0 0;
-		font-size: 13px;
-		color: var(--bk-ink-muted);
-	}
-
-	.answer {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		gap: 10px;
-	}
-
-	.answer label {
-		font-weight: 700;
-	}
-
-	input {
-		width: 100%;
-		height: 52px;
-		padding: 0 14px;
-		font: 600 18px var(--bk-font-body);
-		background: var(--bk-cream);
-		color: var(--bk-ink);
-		border: 3px solid var(--bk-gold);
-		border-radius: var(--bk-radius-card);
-	}
-
-	.answer p {
-		margin: 0;
-		font-size: 13px;
-		opacity: 0.85;
-	}
-
-	.tee-up {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 6px;
-		margin-top: 18px;
-		text-align: center;
-	}
-
-	.count {
-		font-family: var(--bk-font-display);
-		font-size: 64px;
-		line-height: 1;
-		color: var(--bk-gold);
-		text-shadow: 4px 4px 0 var(--bk-green-900);
-		animation: count-in 300ms ease-out;
-	}
-
-	@keyframes count-in {
-		from {
-			transform: scale(1.6);
-			opacity: 0;
-		}
-	}
-
-	.prompt-card.teeing {
-		animation: deal 350ms ease-out;
-	}
-
-	@keyframes deal {
-		from {
-			transform: translateY(24px);
-			opacity: 0;
-		}
 	}
 
 	/* Mobile: one column. Desktop: fairway stage left, prompt + answer panel right. */
@@ -313,19 +196,6 @@
 			column-gap: 40px;
 			align-items: start;
 			align-content: center;
-		}
-
-		/* SWING sits right under the answer, not at the bottom of the window. */
-		.answer .spacer {
-			display: none;
-		}
-
-		.answer .btn-primary {
-			margin-top: 8px;
-		}
-
-		.prompt-card h1 {
-			font-size: 28px;
 		}
 	}
 

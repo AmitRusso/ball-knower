@@ -54,12 +54,13 @@ Hard-code one hole from `data/sample-hole.json`; no server yet.
 
 ## M4 — Polish and performance
 
-- [ ] PWA manifest, icons, service worker (shell + fonts cached)
-- [ ] OG image per shared card
-- [ ] Driving Range (unlimited, random past prompts)
-- [ ] Accessibility pass (keyboard, screen reader, contrast, reduced motion)
-- [ ] Perf budget in CI: bundle-size check (< 50 KB gzipped JS), Lighthouse CI
-- [ ] Cloudflare Web Analytics; error logging
+- [x] PWA manifest, icons, service worker (shell + fonts cached)
+- [x] OG image per shared card (`/c/:hole/:code`, image drawn without dependencies; D17)
+- [x] Driving Range (unlimited, random past prompts)
+- [x] Accessibility pass (keyboard, screen reader, contrast, reduced motion): axe on every screen in e2e
+- [x] Perf budget in CI: bundle-size check (< 50 KB gzipped JS), Lighthouse CI
+- [x] Error logging (JSON lines in the Pages Functions logs)
+- [ ] Cloudflare Web Analytics: turn it on for the Pages project in the dashboard (no code; D17)
 
 ## M5 — Launch
 

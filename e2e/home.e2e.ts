@@ -16,3 +16,27 @@ test('fonts are self-hosted', async ({ page }) => {
 	await page.evaluate(() => document.fonts.ready);
 	expect(thirdParty).toEqual([]);
 });
+
+test('installable: manifest, icons, and a service worker that caches the shell', async ({
+	page,
+	request
+}) => {
+	await page.goto('/');
+	const href = await page.locator('link[rel="manifest"]').getAttribute('href');
+	const manifest = await (await request.get(href!)).json();
+	expect(manifest).toMatchObject({ name: 'Ball Knower', display: 'standalone', start_url: '/' });
+	for (const icon of manifest.icons as { src: string }[]) {
+		expect((await request.get(icon.src)).ok()).toBe(true);
+	}
+
+	const cached = await page.evaluate(async () => {
+		await navigator.serviceWorker.ready;
+		const cache = await caches.open((await caches.keys())[0]);
+		return (await cache.keys()).map((r) => new URL(r.url).pathname);
+	});
+	expect(cached).toEqual(
+		expect.arrayContaining(['/', '/play', '/fonts/graduate-latin-400-normal.woff2'])
+	);
+	// The API is never cached by the worker.
+	expect(cached.some((p) => p.startsWith('/api/'))).toBe(false);
+});

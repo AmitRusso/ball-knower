@@ -15,6 +15,7 @@
 		"test": "vitest run",
 		"test:watch": "vitest",
 		"test:e2e": "playwright test",
+		"size": "node scripts/bundle-size.ts",
 		"cf:types": "wrangler types",
 		"db:migrate": "wrangler d1 migrations apply ball-knower --local",
 		"db:migrate:remote": "wrangler d1 migrations apply ball-knower --remote",
@@ -23,6 +24,7 @@
 		"deploy": "pnpm build && wrangler pages deploy"
 	},
 	"devDependencies": {
+		"@axe-core/playwright": "4.14.0",
 		"@eslint/js": "^10.0.1",
 		"@playwright/test": "^1.60.0",
 		"@sveltejs/adapter-cloudflare": "^8.0.0",

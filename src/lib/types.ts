@@ -66,3 +66,31 @@ export interface PromptAnswers {
 	index: number;
 	answers: { entityId: string; name: string }[];
 }
+
+/** GET /api/range/prompt — a prompt from a past hole, for the Driving Range. */
+export interface RangePrompt {
+	promptId: number;
+	holeNo: number;
+	text: string;
+	note: string;
+	league: string;
+	poolId: string;
+	poolVersion: number;
+}
+
+/** POST /api/range/swing */
+export interface RangeSwingRequest {
+	promptId: number;
+	entityId: string | null;
+	rawText: string;
+}
+
+/** Scored like the hole was, but never counted. The answers are public once a hole is past. */
+export interface RangeSwingResult {
+	correct: boolean;
+	canonicalName: string;
+	entityId: string | null;
+	tier: ShotTierId;
+	yards: number;
+	answers: { entityId: string; name: string }[];
+}

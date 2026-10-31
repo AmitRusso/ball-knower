@@ -137,7 +137,7 @@
 
 			<div class="actions">
 				<button class="btn-primary share" type="button" onclick={share}>SHARE CARD</button>
-				<button class="btn-secondary" type="button" disabled>DRIVING RANGE · SOON</button>
+				<a class="btn-secondary" href={resolve('/range')}>DRIVING RANGE</a>
 			</div>
 			<p class="status mono-label" role="status">{shareStatus}</p>
 
@@ -145,9 +145,17 @@
 			<p class="next mono-label">NEXT HOLE IN {untilNextHole(now)}</p>
 		</main>
 	</div>
+{:else}
+	<main class="screen">
+		<p class="loading mono-label" role="status">FILLING IN THE CARD…</p>
+	</main>
 {/if}
 
 <style>
+	.loading {
+		margin: auto;
+	}
+
 	.paper {
 		max-width: var(--bk-column-max);
 		min-height: 100vh;

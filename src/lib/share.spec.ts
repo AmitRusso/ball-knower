@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { shareText, tiersLabel } from './share';
+import { cardCode, parseCardCode, shareText, tiersLabel } from './share';
 
 describe('shareText', () => {
 	it('matches the card block', () => {
@@ -21,5 +21,26 @@ describe('shareText', () => {
 describe('tiersLabel', () => {
 	it('names every tier for screen readers', () => {
 		expect(tiersLabel(['STARTER', 'OUT_OF_BOUNDS'])).toBe('Shot tiers: Starter, Out of Bounds');
+	});
+});
+
+describe('card codes', () => {
+	it('round-trips every tier', () => {
+		const tiers = [
+			'BALL_KNOWER',
+			'ALL_STAR',
+			'STARTER',
+			'ROLE_PLAYER',
+			'BENCH_WARMER',
+			'OUT_OF_BOUNDS'
+		] as const;
+		expect(cardCode([...tiers])).toBe('KASRBO');
+		expect(parseCardCode('kasrbo')).toEqual(tiers);
+	});
+
+	it('rejects anything else', () => {
+		expect(parseCardCode('')).toBeNull();
+		expect(parseCardCode('KXK')).toBeNull();
+		expect(parseCardCode('KKKKKKKKKK')).toBeNull();
 	});
 });

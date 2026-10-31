@@ -15,9 +15,10 @@ Goal: web-served, but feels like a native app — tiny first load, instant typin
 | Database | **Cloudflare D1** (SQLite) | Prompts, entities, answers, pick counts, plays |
 | Cache | **Workers KV** | Today's hole payload and entity pools (immutable, long TTL) |
 | Scheduler | Lazy publish on the first request of each UTC day | Pages Functions can't run Cron Triggers (D15). A separate cron Worker can warm KV later if needed |
-| PWA | Web manifest + service worker | Installable; instant shell on repeat visits |
-| Share | Web Share API, clipboard fallback; OG images rendered at the edge (e.g. `workers-og`/Satori) | Shared links show the card |
-| Analytics | Cloudflare Web Analytics | Cookie-free, no consent banner |
+| PWA | Web manifest + service worker (`src/service-worker/`) | Installable; instant shell on repeat visits. Caches built assets, static files and prerendered pages; never `/api/*` |
+| Share | Web Share API, clipboard fallback; OG image drawn at the edge by a small palette-PNG renderer (`src/lib/server/png.ts`, D17) | Shared links show the card |
+| Analytics | Cloudflare Web Analytics, enabled on the Pages project (edge-injected beacon) | Cookie-free, no consent banner |
+| Errors | `handleError` hooks + `POST /api/log` → JSON lines in the Pages Functions logs | No third-party service |
 | Tests | Vitest, Playwright | Unit logic; full five-shot flow |
 | CI/CD | GitHub Actions → `wrangler pages deploy` | Preview deploy per PR |
 | Content pipeline | Python 3.12+, Wikidata SPARQL, open stats datasets | See `04-content-pipeline.md` |
@@ -96,6 +97,29 @@ Idempotent per `(play, index)`: a second swing for the same shot returns the fir
 ### `GET /api/hole/:holeNo/answers`
 
 Returns every correct answer per prompt **only if this player's play for that hole is complete** (or the hole is in the past and no longer the current hole). Otherwise `403`.
+
+### `GET /api/range/prompt?seen=<ids>`
+
+Driving Range: a random prompt from a **past** hole (dated before today and no longer the current hole), skipping up to 50 recently seen prompt ids; once all are seen, repeats are allowed. Same fields as a hole prompt, plus `promptId` and `holeNo`. `404` before the first hole is past.
+
+### `POST /api/range/swing`
+
+```json
+// request
+{ "promptId": 2133, "entityId": null, "rawText": "finnland" }
+// response
+{ "correct": true, "canonicalName": "Finland", "entityId": "ctry-finland", "tier": "BALL_KNOWER", "yards": 100, "answers": [ { "entityId": "...", "name": "..." } ] }
+```
+
+Scored with the same blend against that hole's pick counts, but **never counted**: no play, no shot, no pick. Only past prompts are accepted (`404` otherwise), so the answers it returns are already public. No player id, no server clock.
+
+### `POST /api/log`
+
+Uncaught browser errors (`{ message, stack?, path? }`, sent with `sendBeacon`). Fields are clipped, 10 per minute per IP, logged as one JSON line; `204`.
+
+### Shared cards: `/c/:holeNo/:code` and `/og/:holeNo/:code.png`
+
+`code` is one letter per shot (`K` Ball Knower, `A` All-Star, `S` Starter, `R` Role Player, `B` Bench Warmer, `O` Out of Bounds); the tiers fix the yards. The page is server-rendered with Open Graph tags and a PLAY TODAY'S HOLE link; the PNG (1200×630) is drawn from the code alone and cached as immutable. Neither reads the database.
 
 ## Rarity scoring
 

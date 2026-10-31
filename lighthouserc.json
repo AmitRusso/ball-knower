@@ -1,0 +1,101 @@
+{
+	"ci": {
+		"collect": {
+			"url": [
+				"https://localhost:4443/",
+				"https://localhost:4443/how-to-play",
+				"https://localhost:4443/play",
+				"https://localhost:4443/range"
+			],
+			"numberOfRuns": 3,
+			"settings": {
+				"onlyCategories": ["performance", "accessibility", "best-practices"],
+				"chromeFlags": "--ignore-certificate-errors"
+			}
+		},
+		"assert": {
+			"assertMatrix": [
+				{
+					"matchingUrlPattern": "^https://localhost:4443/(how-to-play)?$",
+					"assertions": {
+						"largest-contentful-paint": [
+							"error",
+							{
+								"maxNumericValue": 1500,
+								"aggregationMethod": "median"
+							}
+						],
+						"total-blocking-time": [
+							"error",
+							{
+								"maxNumericValue": 200,
+								"aggregationMethod": "median"
+							}
+						],
+						"cumulative-layout-shift": [
+							"error",
+							{
+								"maxNumericValue": 0.1,
+								"aggregationMethod": "median"
+							}
+						],
+						"categories:accessibility": [
+							"error",
+							{
+								"minScore": 1
+							}
+						],
+						"categories:performance": [
+							"warn",
+							{
+								"minScore": 0.9
+							}
+						]
+					}
+				},
+				{
+					"matchingUrlPattern": "^https://localhost:4443/(play|range)$",
+					"assertions": {
+						"largest-contentful-paint": [
+							"error",
+							{
+								"maxNumericValue": 2500,
+								"aggregationMethod": "median"
+							}
+						],
+						"total-blocking-time": [
+							"error",
+							{
+								"maxNumericValue": 200,
+								"aggregationMethod": "median"
+							}
+						],
+						"cumulative-layout-shift": [
+							"error",
+							{
+								"maxNumericValue": 0.1,
+								"aggregationMethod": "median"
+							}
+						],
+						"categories:accessibility": [
+							"error",
+							{
+								"minScore": 1
+							}
+						],
+						"categories:performance": [
+							"warn",
+							{
+								"minScore": 0.9
+							}
+						]
+					}
+				}
+			]
+		},
+		"upload": {
+			"target": "filesystem",
+			"outputDir": ".lighthouseci/reports"
+		}
+	}
+}

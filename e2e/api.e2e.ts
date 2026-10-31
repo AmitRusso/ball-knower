@@ -119,3 +119,11 @@ test('rarity tiers follow real picks', async ({ request }) => {
 	expect(results.map((r) => r.tier)).toEqual(['BALL_KNOWER', 'BALL_KNOWER', 'ALL_STAR']);
 	expect(results[2]).toMatchObject({ correct: true, canonicalName: 'Finland', yards: 85 });
 });
+
+test('client error reports are accepted and validated', async ({ request }) => {
+	const ok = await request.post('/api/log', {
+		data: { message: 'TypeError: x is undefined', stack: 'at play', path: '/play' }
+	});
+	expect(ok.status()).toBe(204);
+	expect((await request.post('/api/log', { data: { stack: 'no message' } })).status()).toBe(400);
+});
