@@ -1,24 +1,22 @@
 {
 	"ci": {
 		"collect": {
-			"startServerCommand": "pnpm preview",
-			"startServerReadyPattern": "Ready on",
-			"startServerReadyTimeout": 60000,
 			"url": [
-				"http://localhost:4173/",
-				"http://localhost:4173/how-to-play",
-				"http://localhost:4173/play",
-				"http://localhost:4173/range"
+				"https://localhost:4443/",
+				"https://localhost:4443/how-to-play",
+				"https://localhost:4443/play",
+				"https://localhost:4443/range"
 			],
 			"numberOfRuns": 3,
 			"settings": {
-				"onlyCategories": ["performance", "accessibility", "best-practices"]
+				"onlyCategories": ["performance", "accessibility", "best-practices"],
+				"chromeFlags": "--ignore-certificate-errors"
 			}
 		},
 		"assert": {
 			"assertMatrix": [
 				{
-					"matchingUrlPattern": "^http://localhost:4173/(how-to-play)?$",
+					"matchingUrlPattern": "^https://localhost:4443/(how-to-play)?$",
 					"assertions": {
 						"largest-contentful-paint": [
 							"error",
@@ -56,7 +54,7 @@
 					}
 				},
 				{
-					"matchingUrlPattern": "^http://localhost:4173/(play|range)$",
+					"matchingUrlPattern": "^https://localhost:4443/(play|range)$",
 					"assertions": {
 						"largest-contentful-paint": [
 							"error",
